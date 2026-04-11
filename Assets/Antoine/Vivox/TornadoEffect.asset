@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7721d20997ee7f4e89056c0b1d8f428, type: 3}
+  m_Name: TornadoEffect
+  m_EditorClassIdentifier: Assembly-CSharp::VoiceEffectPreset
+  presetName: Tornado
+  enabledByDefault: 1
+  obstruction: 0.15
+  stormIntensity: 0.75
+  interference: 0.35
+  distancePenalty: 0.1
+  overrideVolumes: 1
+  outputVolume: -20
+  channelVolume: -22
+  simulateCrackles: 1
+  crackleCheckInterval: 0.2
+  crackleMuteDuration: 0.02
