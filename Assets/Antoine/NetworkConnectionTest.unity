@@ -1357,9 +1357,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1701248020}
-        m_TargetAssemblyTypeName: VoiceEffectEventSource, Assembly-CSharp
-        m_MethodName: ActivateTornado
+      - m_Target: {fileID: 1670756727}
+        m_TargetAssemblyTypeName: NetworkVoiceEffectEventSource, Assembly-CSharp
+        m_MethodName: ActivateEffect
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1623,9 +1623,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1701248020}
-        m_TargetAssemblyTypeName: VoiceEffectEventSource, Assembly-CSharp
-        m_MethodName: DeactivateTornado
+      - m_Target: {fileID: 1670756727}
+        m_TargetAssemblyTypeName: NetworkVoiceEffectEventSource, Assembly-CSharp
+        m_MethodName: DeactivateEffect
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2122,6 +2122,80 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1627069558}
   m_CullTransparentMesh: 1
+--- !u!1 &1670756723
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1670756725}
+  - component: {fileID: 1670756726}
+  - component: {fileID: 1670756727}
+  m_Layer: 0
+  m_Name: Tornado
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1670756725
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670756723}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1670756726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670756723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Netcode.Runtime::Unity.Netcode.NetworkObject
+  GlobalObjectIdHash: 1989720402
+  InScenePlacedSourceGlobalObjectIdHash: 0
+  DeferredDespawnTick: 0
+  Ownership: 1
+  AlwaysReplicateAsRoot: 0
+  SynchronizeTransform: 1
+  ActiveSceneSynchronization: 0
+  SceneMigrationSynchronization: 0
+  SpawnWithObservers: 1
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1
+  SyncOwnerTransformWhenParented: 1
+  AllowOwnerToParent: 0
+--- !u!114 &1670756727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670756723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30152656c91ea684181315bf21c1c9c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NetworkVoiceEffectEventSource
+  ShowTopMostFoldoutHeaderGroup: 1
+  voiceEffects: {fileID: 1701248019}
+  preset: {fileID: 11400000, guid: 23d5cff4a05d7f14bbaa53d34f1e1229, type: 2}
+  verboseLogs: 1
 --- !u!1 &1701248013
 GameObject:
   m_ObjectHideFlags: 0
@@ -2135,6 +2209,7 @@ GameObject:
   - component: {fileID: 1701248018}
   - component: {fileID: 1701248019}
   - component: {fileID: 1701248020}
+  - component: {fileID: 1701248021}
   m_Layer: 0
   m_Name: VivoxSystem
   m_TagString: Untagged
@@ -2183,11 +2258,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::VivoxVoiceSettings
   applyOnStart: 1
-  applyContinuouslyInEditor: 1
-  reapplyWhenChannelChanges: 1
+  enableKeyboardMuteToggle: 1
+  muteToggleKey: 105
+  debugKeyLogs: 1
   inputDeviceVolume: 0
-  outputDeviceVolume: 0
-  currentChannelVolume: -20
   muteMicrophone: 0
   verboseLogs: 1
 --- !u!114 &1701248019
@@ -2204,15 +2278,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::VivoxVoiceEffectsController
   autoApply: 1
   verboseLogs: 1
-  baseOutputVolume: -15
-  baseChannelVolume: -15
-  state:
-    obstruction: 0
-    stormIntensity: 0
-    interference: 0
-    distancePenalty: 0
-  activePreset: {fileID: 0}
-  volumeLossCurve:
+  baseOutputVolume: 0
+  baseChannelVolume: 0
+  noisePlayer: {fileID: 1701248021}
+  stormNoiseCurve:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
@@ -2236,7 +2305,31 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  crackleChanceCurve:
+  interferenceNoiseCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  obstructionNoiseCurve:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
@@ -2260,7 +2353,146 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1701248020
+  distanceNoiseCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0.15
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allowCrackles: 1
+  defaultCrackleCheckInterval: 0.2
+  defaultCrackleMuteDuration: 0.02
+  cracklesAlsoDipVoice: 1
+  crackleDipChannelVolume: -10
+  currentMixedState:
+    obstruction: 0
+    stormIntensity: 0
+    interference: 0
+    distancePenalty: 0
+    overrideVolumes: 0
+    outputVolume: 0
+    channelVolume: 0
+    simulateCrackles: 0
+    crackleCheckInterval: 0
+    crackleMuteDuration: 0
+  activePresetCount: 0
+  currentNoiseIntensity: 0
+--- !u!82 &1701248020
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1701248013}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &1701248021
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2269,11 +2501,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1701248013}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01128b4541184334e8a7feac187bfce7, type: 3}
+  m_Script: {fileID: 11500000, guid: 0e081e3eb605eb449aea0564e64bdcd5, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::VoiceEffectEventSource
-  voiceEffects: {fileID: 1701248019}
-  preset: {fileID: 11400000, guid: 0d38d2b2129af3b4889844fe65fc15e9, type: 2}
+  m_EditorClassIdentifier: Assembly-CSharp::VoiceEffectNoisePlayer
+  noiseSource: {fileID: 1701248020}
 --- !u!1 &1785084701
 GameObject:
   m_ObjectHideFlags: 0
@@ -2884,3 +3115,4 @@ SceneRoots:
   - {fileID: 1333609655}
   - {fileID: 1701248016}
   - {fileID: 1791476232}
+  - {fileID: 1670756725}

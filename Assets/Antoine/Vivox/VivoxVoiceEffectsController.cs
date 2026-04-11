@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using Unity.Services.Vivox;
 
@@ -5,52 +6,101 @@ using Unity.Services.Vivox;
 public class VivoxVoiceEffectsController : MonoBehaviour
 {
     [System.Serializable]
-    public class VoiceDegradationState
+    public class MixedVoiceState
     {
-        [Range(0f, 1f)] public float obstruction = 0f;
-        [Range(0f, 1f)] public float stormIntensity = 0f;
-        [Range(0f, 1f)] public float interference = 0f;
-        [Range(0f, 1f)] public float distancePenalty = 0f;
+        [Range(0f, 1f)] public float obstruction;
+        [Range(0f, 1f)] public float stormIntensity;
+        [Range(0f, 1f)] public float interference;
+        [Range(0f, 1f)] public float distancePenalty;
+
+        public bool overrideVolumes;
+        public int outputVolume;
+        public int channelVolume;
+
+        public bool simulateCrackles;
+        public float crackleCheckInterval;
+        public float crackleMuteDuration;
+
+        public void Clear()
+        {
+            obstruction = 0f;
+            stormIntensity = 0f;
+            interference = 0f;
+            distancePenalty = 0f;
+
+            overrideVolumes = false;
+            outputVolume = 0;
+            channelVolume = 0;
+
+            simulateCrackles = false;
+            crackleCheckInterval = 0f;
+            crackleMuteDuration = 0f;
+        }
     }
 
-    [Header("Activation")]
+    private class ActivePresetEntry
+    {
+        public Object source;
+        public VoiceEffectPreset preset;
+    }
+
+    [Header("Controller")]
     [SerializeField] private bool autoApply = true;
     [SerializeField] private bool verboseLogs = false;
 
-    [Header("Fallback Base Values")]
+    [Header("Base Voice Volumes")]
     [Range(-50, 50)]
-    [SerializeField] private int baseOutputVolume = -15;
+    [SerializeField] private int baseOutputVolume = 0;
 
     [Range(-50, 50)]
-    [SerializeField] private int baseChannelVolume = -15;
+    [SerializeField] private int baseChannelVolume = 0;
 
-    [Header("Current State")]
-    [SerializeField] private VoiceDegradationState state = new VoiceDegradationState();
+    [Header("Noise")]
+    [SerializeField] private VoiceEffectNoisePlayer noisePlayer;
 
-    [Header("Current Preset")]
-    [SerializeField] private VoiceEffectPreset activePreset;
-
-    [Header("Curves")]
+    [Header("Noise Intensity Curves")]
     [SerializeField]
-    private AnimationCurve obstructionCurve =
-        new AnimationCurve(new Keyframe(0f, 0f), new Keyframe(1f, 0.4f));
-
-    [SerializeField]
-    private AnimationCurve stormCurve =
+    private AnimationCurve stormNoiseCurve =
         new AnimationCurve(new Keyframe(0f, 0f), new Keyframe(1f, 1f));
 
     [SerializeField]
-    private AnimationCurve interferenceCurve =
+    private AnimationCurve interferenceNoiseCurve =
         new AnimationCurve(new Keyframe(0f, 0f), new Keyframe(1f, 1f));
 
     [SerializeField]
-    private AnimationCurve distanceCurve =
-        new AnimationCurve(new Keyframe(0f, 0f), new Keyframe(1f, 0.7f));
+    private AnimationCurve obstructionNoiseCurve =
+        new AnimationCurve(new Keyframe(0f, 0f), new Keyframe(1f, 0.35f));
 
-    [Header("Crackle Simulation")]
+    [SerializeField]
+    private AnimationCurve distanceNoiseCurve =
+        new AnimationCurve(new Keyframe(0f, 0f), new Keyframe(1f, 0.15f));
+
+    [Header("Storm Flutter")]
+    [SerializeField] private bool stormAddsStaticFlutter = true;
+    [SerializeField] private float stormFlutterSpeed = 22f;
+    [SerializeField] private float stormFlutterVolumeAmount = 0.35f;
+    [SerializeField] private float stormFlutterPitchAmount = 0.20f;
+
+    [Header("Interference Flutter")]
+    [SerializeField] private bool interferenceAddsRadioFlutter = true;
+    [SerializeField] private float interferenceFlutterSpeed = 38f;
+    [SerializeField] private float interferenceFlutterVolumeAmount = 0.55f;
+    [SerializeField] private float interferenceFlutterPitchAmount = 0.30f;
+    [SerializeField] private float interferenceHardGateAmount = 0.35f;
+
+    [Header("Crackles")]
     [SerializeField] private bool allowCrackles = true;
-    [SerializeField] private float baseCrackleCheckInterval = 0.20f;
-    [SerializeField] private float baseCrackleMuteDuration = 0.02f;
+    [SerializeField] private bool cracklesAlsoDipVoice = true;
+    [SerializeField] private int crackleDipChannelVolume = -8;
+    [SerializeField] private float defaultCrackleCheckInterval = 0.20f;
+    [SerializeField] private float defaultCrackleMuteDuration = 0.02f;
+
+    [Header("Runtime Debug")]
+    [SerializeField] private MixedVoiceState currentMixedState = new MixedVoiceState();
+    [SerializeField] private int activePresetCount = 0;
+    [SerializeField, Range(0f, 1f)] private float currentNoiseIntensity = 0f;
+
+    private readonly List<ActivePresetEntry> _activePresets = new List<ActivePresetEntry>();
 
     private float _crackleTimer;
     private float _temporaryMuteTimer;
@@ -59,18 +109,148 @@ public class VivoxVoiceEffectsController : MonoBehaviour
     private int _lastAppliedChannelVolume = int.MinValue;
     private string _lastAppliedChannelName;
 
-    public VoiceEffectPreset ActivePreset => activePreset;
-
     private void Update()
     {
         if (!autoApply || VivoxManager.Instance == null)
             return;
 
+        RebuildMixedState();
         ApplyComputedVoiceState();
         UpdateCrackleSimulation();
     }
 
-    [ContextMenu("Apply Computed Voice State")]
+    public void AddPreset(Object source, VoiceEffectPreset preset)
+    {
+        if (source == null || preset == null)
+            return;
+
+        int existingIndex = FindEntryIndexBySource(source);
+        if (existingIndex >= 0)
+        {
+            _activePresets[existingIndex].preset = preset;
+        }
+        else
+        {
+            _activePresets.Add(new ActivePresetEntry
+            {
+                source = source,
+                preset = preset
+            });
+        }
+
+        activePresetCount = _activePresets.Count;
+
+        if (verboseLogs || preset.verbose)
+            Debug.Log($"[VoiceEffects] Preset ajouté : {preset.presetName}");
+
+        RebuildMixedState();
+        ApplyComputedVoiceState();
+    }
+
+    public void RemovePreset(Object source)
+    {
+        if (source == null)
+            return;
+
+        int index = FindEntryIndexBySource(source);
+        if (index < 0)
+            return;
+
+        _activePresets.RemoveAt(index);
+        activePresetCount = _activePresets.Count;
+
+        RebuildMixedState();
+        ApplyComputedVoiceState();
+    }
+
+    public void ClearAllPresets()
+    {
+        _activePresets.Clear();
+        activePresetCount = 0;
+        currentMixedState.Clear();
+        currentNoiseIntensity = 0f;
+
+        ResetToBaseValues();
+
+        if (noisePlayer != null)
+            noisePlayer.StopNoise();
+    }
+
+    public void RebuildMixedState()
+    {
+        currentMixedState.Clear();
+        activePresetCount = _activePresets.Count;
+
+        if (_activePresets.Count == 0)
+            return;
+
+        float totalWeight = 0f;
+
+        VoiceEffectPreset highestPriorityVolumePreset = null;
+        float shortestCrackleInterval = float.MaxValue;
+        float longestCrackleDuration = 0f;
+        bool anyCrackles = false;
+
+        for (int i = 0; i < _activePresets.Count; i++)
+        {
+            VoiceEffectPreset preset = _activePresets[i].preset;
+            if (preset == null)
+                continue;
+
+            float w = Mathf.Clamp01(preset.weight);
+            totalWeight += w;
+
+            currentMixedState.obstruction += preset.obstruction * w;
+            currentMixedState.stormIntensity += preset.stormIntensity * w;
+            currentMixedState.interference += preset.interference * w;
+            currentMixedState.distancePenalty += preset.distancePenalty * w;
+
+            if (preset.overrideVolumes)
+            {
+                if (highestPriorityVolumePreset == null || preset.priority > highestPriorityVolumePreset.priority)
+                    highestPriorityVolumePreset = preset;
+            }
+
+            if (preset.simulateCrackles)
+            {
+                anyCrackles = true;
+                shortestCrackleInterval = Mathf.Min(shortestCrackleInterval, preset.crackleCheckInterval);
+                longestCrackleDuration = Mathf.Max(longestCrackleDuration, preset.crackleMuteDuration);
+            }
+        }
+
+        if (totalWeight > 0f)
+        {
+            currentMixedState.obstruction = Mathf.Clamp01(currentMixedState.obstruction / totalWeight);
+            currentMixedState.stormIntensity = Mathf.Clamp01(currentMixedState.stormIntensity / totalWeight);
+            currentMixedState.interference = Mathf.Clamp01(currentMixedState.interference / totalWeight);
+            currentMixedState.distancePenalty = Mathf.Clamp01(currentMixedState.distancePenalty / totalWeight);
+        }
+
+        if (highestPriorityVolumePreset != null)
+        {
+            currentMixedState.overrideVolumes = true;
+            currentMixedState.outputVolume = highestPriorityVolumePreset.outputVolume;
+            currentMixedState.channelVolume = highestPriorityVolumePreset.channelVolume;
+        }
+
+        if (anyCrackles)
+        {
+            currentMixedState.simulateCrackles = true;
+            currentMixedState.crackleCheckInterval = shortestCrackleInterval == float.MaxValue
+                ? defaultCrackleCheckInterval
+                : shortestCrackleInterval;
+            currentMixedState.crackleMuteDuration = Mathf.Max(longestCrackleDuration, defaultCrackleMuteDuration);
+        }
+
+        if (verboseLogs)
+        {
+            Debug.Log(
+                $"[VoiceEffects] Mixed -> count={activePresetCount} " +
+                $"storm={currentMixedState.stormIntensity:F2} interf={currentMixedState.interference:F2}");
+        }
+    }
+
     public void ApplyComputedVoiceState()
     {
         if (VivoxManager.Instance == null)
@@ -80,37 +260,13 @@ public class VivoxVoiceEffectsController : MonoBehaviour
         if (string.IsNullOrWhiteSpace(channelName))
             return;
 
-        int outputVolume = baseOutputVolume;
-        int channelVolume = baseChannelVolume;
+        int outputVolume = currentMixedState.overrideVolumes
+            ? currentMixedState.outputVolume
+            : baseOutputVolume;
 
-        if (activePreset != null && activePreset.overrideVolumes)
-        {
-            outputVolume = activePreset.outputVolume;
-            channelVolume = activePreset.channelVolume;
-        }
-
-        // Chaque paramètre agit différemment
-        float obstructionLoss = Mathf.Clamp01(obstructionCurve.Evaluate(state.obstruction));
-        float stormLoss = Mathf.Clamp01(stormCurve.Evaluate(state.stormIntensity));
-        float interferenceLoss = Mathf.Clamp01(interferenceCurve.Evaluate(state.interference));
-        float distanceLoss = Mathf.Clamp01(distanceCurve.Evaluate(state.distancePenalty));
-
-        // Obstruction : baisse douce du channel
-        int obstructionChannelPenalty = Mathf.RoundToInt(Mathf.Lerp(0f, -10f, obstructionLoss));
-
-        // Storm : baisse forte du channel et un peu de sortie
-        int stormChannelPenalty = Mathf.RoundToInt(Mathf.Lerp(0f, -18f, stormLoss));
-        int stormOutputPenalty = Mathf.RoundToInt(Mathf.Lerp(0f, -8f, stormLoss));
-
-        // Interference : légère baisse générale
-        int interferenceChannelPenalty = Mathf.RoundToInt(Mathf.Lerp(0f, -7f, interferenceLoss));
-        int interferenceOutputPenalty = Mathf.RoundToInt(Mathf.Lerp(0f, -5f, interferenceLoss));
-
-        // Distance : agit surtout sur la sortie
-        int distanceOutputPenalty = Mathf.RoundToInt(Mathf.Lerp(0f, -12f, distanceLoss));
-
-        outputVolume += stormOutputPenalty + interferenceOutputPenalty + distanceOutputPenalty;
-        channelVolume += obstructionChannelPenalty + stormChannelPenalty + interferenceChannelPenalty;
+        int channelVolume = currentMixedState.overrideVolumes
+            ? currentMixedState.channelVolume
+            : baseChannelVolume;
 
         outputVolume = Mathf.Clamp(outputVolume, -50, 50);
         channelVolume = Mathf.Clamp(channelVolume, -50, 50);
@@ -128,17 +284,110 @@ public class VivoxVoiceEffectsController : MonoBehaviour
             _lastAppliedChannelName = channelName;
         }
 
+        ApplyNoiseLayer();
+
         if (verboseLogs)
         {
-            Debug.Log(
-                $"[VoiceEffects] preset={(activePreset ? activePreset.presetName : "None")} " +
-                $"obs={state.obstruction:F2} storm={state.stormIntensity:F2} " +
-                $"interf={state.interference:F2} dist={state.distancePenalty:F2} " +
-                $"output={outputVolume} channel={channelVolume}");
+            Debug.Log($"[VoiceEffects] Applied -> output={outputVolume} channel={channelVolume} noise={currentNoiseIntensity:F2}");
         }
     }
 
-    [ContextMenu("Reset To Base Values")]
+    private void ApplyNoiseLayer()
+    {
+        if (noisePlayer == null)
+            return;
+
+        VoiceEffectPreset topNoisePreset = GetHighestPriorityNoisePreset();
+
+        if (topNoisePreset == null || !topNoisePreset.playNoise || topNoisePreset.noiseClip == null)
+        {
+            currentNoiseIntensity = 0f;
+            noisePlayer.StopNoise();
+            return;
+        }
+
+        float stormNoise = stormNoiseCurve.Evaluate(currentMixedState.stormIntensity);
+        float interferenceNoise = interferenceNoiseCurve.Evaluate(currentMixedState.interference);
+        float obstructionNoise = obstructionNoiseCurve.Evaluate(currentMixedState.obstruction);
+        float distanceNoise = distanceNoiseCurve.Evaluate(currentMixedState.distancePenalty);
+
+        float combinedNoise =
+            stormNoise * 0.45f +
+            interferenceNoise * 0.40f +
+            obstructionNoise * 0.10f +
+            distanceNoise * 0.05f;
+
+        currentNoiseIntensity = Mathf.Clamp01(combinedNoise);
+
+        float finalNoiseVolume = Mathf.Clamp01(topNoisePreset.noiseVolume * currentNoiseIntensity);
+        float noisePitch = 1f;
+
+        if (stormAddsStaticFlutter)
+        {
+            float stormStrength = currentMixedState.stormIntensity;
+            float t = Time.time * stormFlutterSpeed;
+
+            float stormA = Mathf.PerlinNoise(t, 0f);
+            float stormB = Mathf.PerlinNoise(0f, t * 0.73f);
+            float stormFlutter = ((stormA + stormB) * 0.5f - 0.5f) * 2f;
+
+            float volumeFlutter = 1f + (stormFlutter * stormFlutterVolumeAmount * stormStrength);
+            finalNoiseVolume *= Mathf.Clamp(volumeFlutter, 0.65f, 1.35f);
+
+            noisePitch += stormFlutter * stormFlutterPitchAmount * stormStrength;
+        }
+
+        if (interferenceAddsRadioFlutter)
+        {
+            float interferenceStrength = currentMixedState.interference;
+            float t = Time.time * interferenceFlutterSpeed;
+
+            float radioA = Mathf.PerlinNoise(t * 1.37f, 3.17f);
+            float radioB = Mathf.PerlinNoise(5.91f, t * 0.83f);
+            float radioFlutter = ((radioA + radioB) * 0.5f - 0.5f) * 2f;
+
+            float hardGate = Mathf.PerlinNoise(t * 2.7f, 9.1f);
+            float gateFactor = Mathf.Lerp(1f, Mathf.Lerp(1f - interferenceHardGateAmount, 1f, hardGate), interferenceStrength);
+
+            finalNoiseVolume *= Mathf.Clamp01(1f + (radioFlutter * interferenceFlutterVolumeAmount * interferenceStrength));
+            finalNoiseVolume *= gateFactor;
+
+            noisePitch += radioFlutter * interferenceFlutterPitchAmount * interferenceStrength;
+        }
+
+        finalNoiseVolume = Mathf.Clamp01(finalNoiseVolume);
+
+        if (finalNoiseVolume <= 0.001f)
+        {
+            noisePlayer.StopNoise();
+            return;
+        }
+
+        noisePlayer.PlayNoise(
+            topNoisePreset.noiseClip,
+            finalNoiseVolume,
+            topNoisePreset.loopNoise,
+            noisePitch
+        );
+    }
+
+    private VoiceEffectPreset GetHighestPriorityNoisePreset()
+    {
+        VoiceEffectPreset best = null;
+
+        for (int i = 0; i < _activePresets.Count; i++)
+        {
+            VoiceEffectPreset preset = _activePresets[i].preset;
+            if (preset == null || !preset.playNoise || preset.noiseClip == null)
+                continue;
+
+            if (best == null || preset.priority > best.priority)
+                best = preset;
+        }
+
+        return best;
+    }
+
     public void ResetToBaseValues()
     {
         if (VivoxManager.Instance == null)
@@ -158,50 +407,15 @@ public class VivoxVoiceEffectsController : MonoBehaviour
         _lastAppliedChannelVolume = channel;
         _lastAppliedChannelName = channelName;
 
-        if (verboseLogs)
-            Debug.Log($"[VoiceEffects] Reset base values -> output={output}, channel={channel}");
-    }
+        if (noisePlayer != null)
+            noisePlayer.StopNoise();
 
-    public void ApplyPreset(VoiceEffectPreset preset)
-    {
-        activePreset = preset;
-
-        if (preset == null)
-        {
-            ClearAllEffects();
-            return;
-        }
-
-        state.obstruction = Mathf.Clamp01(preset.obstruction);
-        state.stormIntensity = Mathf.Clamp01(preset.stormIntensity);
-        state.interference = Mathf.Clamp01(preset.interference);
-        state.distancePenalty = Mathf.Clamp01(preset.distancePenalty);
-
-        if (verboseLogs)
-            Debug.Log("[VoiceEffects] Preset appliqué : " + preset.presetName);
-
-        ApplyComputedVoiceState();
-    }
-
-    public void ClearPreset()
-    {
-        activePreset = null;
-        ClearAllEffects();
-    }
-
-    public void ClearAllEffects()
-    {
-        state.obstruction = 0f;
-        state.stormIntensity = 0f;
-        state.interference = 0f;
-        state.distancePenalty = 0f;
-
-        ResetToBaseValues();
+        currentNoiseIntensity = 0f;
     }
 
     private void UpdateCrackleSimulation()
     {
-        if (!allowCrackles || activePreset == null || !activePreset.simulateCrackles)
+        if (!allowCrackles || !currentMixedState.simulateCrackles)
             return;
 
         _crackleTimer += Time.deltaTime;
@@ -214,45 +428,46 @@ public class VivoxVoiceEffectsController : MonoBehaviour
                 ApplyComputedVoiceState();
         }
 
-        float interval = activePreset.crackleCheckInterval > 0f
-            ? activePreset.crackleCheckInterval
-            : baseCrackleCheckInterval;
-
-        if (_crackleTimer < interval)
+        if (_crackleTimer < currentMixedState.crackleCheckInterval)
             return;
 
         _crackleTimer = 0f;
 
-        // Ici l’interference et la storm influencent davantage les coupures
         float crackleChance =
-            state.interference * 0.65f +
-            state.stormIntensity * 0.35f;
+            currentMixedState.stormIntensity * 0.65f +
+            currentMixedState.interference * 0.35f;
 
         crackleChance = Mathf.Clamp01(crackleChance);
 
         if (Random.value <= crackleChance)
-        {
-            float duration = activePreset.crackleMuteDuration > 0f
-                ? activePreset.crackleMuteDuration
-                : baseCrackleMuteDuration;
-
-            TriggerShortCrackle(duration);
-        }
+            TriggerShortCrackle(currentMixedState.crackleMuteDuration);
     }
 
     private void TriggerShortCrackle(float duration)
     {
-        if (VivoxManager.Instance == null)
+        _temporaryMuteTimer = duration;
+
+        if (!cracklesAlsoDipVoice || VivoxManager.Instance == null)
             return;
 
         string channelName = VivoxManager.Instance.CurrentChannelName;
         if (string.IsNullOrWhiteSpace(channelName))
             return;
 
-        VivoxService.Instance.SetChannelVolumeAsync(channelName, -50);
-        _temporaryMuteTimer = duration;
+        VivoxService.Instance.SetChannelVolumeAsync(channelName, crackleDipChannelVolume);
 
         if (verboseLogs)
             Debug.Log("[VoiceEffects] Crackle simulé.");
+    }
+
+    private int FindEntryIndexBySource(Object source)
+    {
+        for (int i = 0; i < _activePresets.Count; i++)
+        {
+            if (_activePresets[i].source == source)
+                return i;
+        }
+
+        return -1;
     }
 }

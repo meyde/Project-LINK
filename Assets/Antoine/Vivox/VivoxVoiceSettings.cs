@@ -7,22 +7,15 @@ public class VivoxVoiceSettings : MonoBehaviour
 {
     [Header("Auto Apply")]
     [SerializeField] private bool applyOnStart = true;
-    [SerializeField] private bool applyContinuouslyInEditor = true;
-    [SerializeField] private bool reapplyWhenChannelChanges = true;
 
-    [Header("Device")]
-    [Tooltip("-50 à 50. 0 = volume normal Vivox pour l'entrée.")]
-    [Range(-50, 50)]
-    [SerializeField] private int inputDeviceVolume = -10;
+    [Header("Keyboard Mute")]
+    [SerializeField] private bool enableKeyboardMuteToggle = true;
+    [SerializeField] private KeyCode muteToggleKey = KeyCode.K;
+    [SerializeField] private bool debugKeyLogs = true;
 
-    [Tooltip("-50 à 50. 0 = volume normal Vivox pour la sortie.")]
+    [Header("Input Device Only")]
     [Range(-50, 50)]
-    [SerializeField] private int outputDeviceVolume = -15;
-
-    [Header("Channel")]
-    [Tooltip("-50 à 50. 0 = normal. Affecte le channel courant.")]
-    [Range(-50, 50)]
-    [SerializeField] private int currentChannelVolume = -15;
+    [SerializeField] private int inputDeviceVolume = 0;
 
     [Header("Micro")]
     [SerializeField] private bool muteMicrophone = false;
@@ -30,34 +23,28 @@ public class VivoxVoiceSettings : MonoBehaviour
     [Header("Debug")]
     [SerializeField] private bool verboseLogs = true;
 
-    private int _lastInputDeviceVolume;
-    private int _lastOutputDeviceVolume;
-    private int _lastCurrentChannelVolume;
-    private bool _lastMuteMicrophone;
-    private string _lastChannelName;
+    public bool IsMicrophoneMuted => muteMicrophone;
 
     private async void Start()
     {
+        Debug.Log("[VoiceSettings] Start OK");
+
         if (applyOnStart)
             await ApplyAllAsync();
     }
 
-    private async void Update()
+    private void Update()
     {
-#if UNITY_EDITOR
-        if (!Application.isPlaying || !applyContinuouslyInEditor)
+        if (!enableKeyboardMuteToggle)
             return;
 
-        bool valuesChanged = HasValuesChanged();
-        bool channelChanged = false;
+        if (!Input.GetKeyDown(muteToggleKey))
+            return;
 
-        string currentChannel = GetCurrentChannelName();
-        if (reapplyWhenChannelChanges && currentChannel != _lastChannelName)
-            channelChanged = true;
+        if (debugKeyLogs)
+            Debug.Log("[VoiceSettings] Touche détectée : " + muteToggleKey);
 
-        if (valuesChanged || channelChanged)
-            await ApplyAllAsync();
-#endif
+        ToggleMuteImmediate();
     }
 
     [ContextMenu("Apply Voice Settings")]
@@ -71,20 +58,14 @@ public class VivoxVoiceSettings : MonoBehaviour
         if (VivoxManager.Instance == null)
         {
             Log("[VoiceSettings] Aucun VivoxManager dans la scène.");
-            CacheCurrentValues();
             return;
         }
 
-        string channelName = GetCurrentChannelName();
-
-        // Volumes device
+        // ON GARDE seulement le volume d'entrée ici
         VivoxService.Instance.SetInputDeviceVolume(inputDeviceVolume);
         Log("[VoiceSettings] Volume entrée appliqué : " + inputDeviceVolume);
 
-        VivoxService.Instance.SetOutputDeviceVolume(outputDeviceVolume);
-        Log("[VoiceSettings] Volume sortie appliqué : " + outputDeviceVolume);
-
-        // Mute micro
+        // ON GARDE seulement le mute micro ici
         if (muteMicrophone)
         {
             VivoxService.Instance.MuteInputDevice();
@@ -96,37 +77,23 @@ public class VivoxVoiceSettings : MonoBehaviour
             Log("[VoiceSettings] Micro activé.");
         }
 
-        // Volume channel
-        if (!string.IsNullOrWhiteSpace(channelName))
+        await Task.CompletedTask;
+    }
+
+    public void ToggleMuteImmediate()
+    {
+        muteMicrophone = !muteMicrophone;
+
+        if (muteMicrophone)
         {
-            await VivoxService.Instance.SetChannelVolumeAsync(channelName, currentChannelVolume);
-            Log("[VoiceSettings] Volume du channel appliqué : " + currentChannelVolume + " sur " + channelName);
+            VivoxService.Instance.MuteInputDevice();
+            Debug.Log("[VoiceSettings] ToggleMuteImmediate -> MUTED");
         }
         else
         {
-            Log("[VoiceSettings] Aucun channel Vivox courant, volume de channel non appliqué.");
+            VivoxService.Instance.UnmuteInputDevice();
+            Debug.Log("[VoiceSettings] ToggleMuteImmediate -> UNMUTED");
         }
-
-        CacheCurrentValues();
-        _lastChannelName = channelName;
-    }
-
-    public async void SetInputVolume(int value)
-    {
-        inputDeviceVolume = Mathf.Clamp(value, -50, 50);
-        await ApplyAllAsync();
-    }
-
-    public async void SetOutputVolume(int value)
-    {
-        outputDeviceVolume = Mathf.Clamp(value, -50, 50);
-        await ApplyAllAsync();
-    }
-
-    public async void SetChannelVolume(int value)
-    {
-        currentChannelVolume = Mathf.Clamp(value, -50, 50);
-        await ApplyAllAsync();
     }
 
     public async void SetMute(bool value)
@@ -135,25 +102,10 @@ public class VivoxVoiceSettings : MonoBehaviour
         await ApplyAllAsync();
     }
 
-    private string GetCurrentChannelName()
+    public async void SetInputVolume(int value)
     {
-        return VivoxManager.Instance != null ? VivoxManager.Instance.CurrentChannelName : null;
-    }
-
-    private bool HasValuesChanged()
-    {
-        return _lastInputDeviceVolume != inputDeviceVolume
-            || _lastOutputDeviceVolume != outputDeviceVolume
-            || _lastCurrentChannelVolume != currentChannelVolume
-            || _lastMuteMicrophone != muteMicrophone;
-    }
-
-    private void CacheCurrentValues()
-    {
-        _lastInputDeviceVolume = inputDeviceVolume;
-        _lastOutputDeviceVolume = outputDeviceVolume;
-        _lastCurrentChannelVolume = currentChannelVolume;
-        _lastMuteMicrophone = muteMicrophone;
+        inputDeviceVolume = Mathf.Clamp(value, -50, 50);
+        await ApplyAllAsync();
     }
 
     private void Log(string message)

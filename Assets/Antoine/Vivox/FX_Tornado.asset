@@ -10,17 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d7721d20997ee7f4e89056c0b1d8f428, type: 3}
-  m_Name: TornadoEffect
+  m_Name: FX_Tornado
   m_EditorClassIdentifier: Assembly-CSharp::VoiceEffectPreset
   presetName: Tornado
-  enabledByDefault: 1
-  obstruction: 0.15
-  stormIntensity: 0.75
-  interference: 0.35
-  distancePenalty: 0.1
-  overrideVolumes: 1
-  outputVolume: -20
-  channelVolume: -22
+  priority: 1
+  weight: 1
+  obstruction: 0.1
+  stormIntensity: 0.94
+  interference: 0.2
+  distancePenalty: 0
+  overrideVolumes: 0
+  outputVolume: 0
+  channelVolume: 0
   simulateCrackles: 1
-  crackleCheckInterval: 0.2
-  crackleMuteDuration: 0.02
+  crackleCheckInterval: 0.12
+  crackleMuteDuration: 0.03
+  playNoise: 1
+  noiseClip: {fileID: 8300000, guid: fa563113463e63541ae6f674b459c7a0, type: 3}
+  noiseVolume: 0.3
+  loopNoise: 1
+  verbose: 0
