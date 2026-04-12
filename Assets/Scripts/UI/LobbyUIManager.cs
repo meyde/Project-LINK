@@ -1,5 +1,6 @@
 using UnityEngine;
 using Unity.Netcode;
+using UnityEngine.SceneManagement;
 
 public class LobbyUIManager : MonoBehaviour
 {
@@ -7,6 +8,8 @@ public class LobbyUIManager : MonoBehaviour
 
     public TMPro.TextMeshProUGUI playerListText;
     public GameObject startButton;
+
+    [SerializeField] private string gameplaySceneName = "CharacterChoice";
 
     private PlayerLobbyData localPlayer;
 
@@ -55,9 +58,9 @@ public class LobbyUIManager : MonoBehaviour
 
     public void OnStartGameClicked()
     {
-        if (NetworkManager.Singleton.IsHost)
-        {
-            print("Start!");
-        }
+        if (!NetworkManager.Singleton.IsHost)
+            return;
+        
+        NetworkManager.Singleton.SceneManager.LoadScene(gameplaySceneName, LoadSceneMode.Single);
     }
 }

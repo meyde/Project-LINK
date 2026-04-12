@@ -1,15 +1,17 @@
 using TMPro;
-using Unity.Netcode;
 using UnityEngine;
 
-[GenerateSerializationForTypeAttribute(typeof(System.String))]
 public class PseudoInput : MonoBehaviour
 {
-    [SerializeField] private SharedText pseudoLocation;
     [SerializeField] private TMP_InputField pseudoInput;
 
-    public void writing()
+    public void OnValidatePseudo()
     {
-        pseudoLocation.UpdateText(pseudoInput.text.Trim());
+        string newPseudo = pseudoInput.text.Trim();
+
+        if (string.IsNullOrEmpty(newPseudo)) return;
+
+        // Envoie au serveur via PlayerLobbyData
+        LobbyUIManager.Instance.OnPseudoChanged(newPseudo);
     }
 }
