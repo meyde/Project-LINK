@@ -3,21 +3,21 @@ using UnityEngine;
 
 public class ChooseRole : NetworkBehaviour
 {
-    public NetworkVariable<PlayerRole> Role =
-        new NetworkVariable<PlayerRole>(
-            PlayerRole.None,
-            NetworkVariableReadPermission.Everyone,
-            NetworkVariableWritePermission.Server
-        );
+    public NetworkVariable<PlayerRole> Role = new NetworkVariable<PlayerRole>(
+        PlayerRole.None,
+        NetworkVariableReadPermission.Everyone,
+        NetworkVariableWritePermission.Server
+    );
 
     public override void OnNetworkSpawn()
     {
+        Role.OnValueChanged += OnRoleChanged;
+
         if (IsServer)
         {
-            AssignRoleFromLobby();
+            SyncRoleFromLobby();
         }
 
-        Role.OnValueChanged += OnRoleChanged;
         OnRoleChanged(Role.Value, Role.Value);
     }
 
@@ -26,7 +26,7 @@ public class ChooseRole : NetworkBehaviour
         Role.OnValueChanged -= OnRoleChanged;
     }
 
-    private void AssignRoleFromLobby()
+    private void SyncRoleFromLobby()
     {
         PlayerLobbyData[] players = FindObjectsByType<PlayerLobbyData>(
             FindObjectsInactive.Include,
@@ -38,17 +38,22 @@ public class ChooseRole : NetworkBehaviour
             if (player.OwnerClientId == OwnerClientId)
             {
                 Role.Value = player.SelectedRole.Value;
-                Debug.Log($"Rôle récupéré pour client {OwnerClientId} : {Role.Value}");
+                Debug.Log($"[ChooseRole] Client {OwnerClientId} -> rôle synchronisé : {Role.Value}");
                 return;
             }
         }
 
-        Debug.LogWarning($"Aucun PlayerLobbyData trouvé pour le client {OwnerClientId}");
+        Debug.LogWarning($"[ChooseRole] Aucun PlayerLobbyData trouvé pour client {OwnerClientId}");
     }
 
     private void OnRoleChanged(PlayerRole oldRole, PlayerRole newRole)
     {
-        Debug.Log($"Client {OwnerClientId} -> rôle : {newRole}");
+        Debug.Log($"[ChooseRole] Client {OwnerClientId} -> rôle : {newRole}");
+    }
+
+    public bool HasRole(PlayerRole role)
+    {
+        return Role.Value == role;
     }
 
     public bool IsSpace()
