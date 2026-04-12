@@ -1,6 +1,8 @@
+using System.Threading.Tasks;
 using Unity.Collections;
 using Unity.Netcode;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerLobbyData : NetworkBehaviour
 {
@@ -18,6 +20,14 @@ public class PlayerLobbyData : NetworkBehaviour
             NetworkVariableWritePermission.Server
         );
 
+
+    public void OnStartGame()
+    {
+        Debug.Log("Change Value");
+        Pseudo.OnValueChanged -= (_, __) => LobbyUIManager.Instance.RefreshPlayerList();
+        IsReady.OnValueChanged -= (_, __) => LobbyUIManager.Instance.RefreshPlayerList();
+    }
+
     public override void OnNetworkSpawn()
     {
         if (IsOwner)
@@ -27,9 +37,6 @@ public class PlayerLobbyData : NetworkBehaviour
 
         Pseudo.OnValueChanged += (_, __) => LobbyUIManager.Instance.RefreshPlayerList();
         IsReady.OnValueChanged += (_, __) => LobbyUIManager.Instance.RefreshPlayerList();
-        SelectedRole.OnValueChanged += (_, __) => LobbyUIManager.Instance.RefreshPlayerList();
-
-        LobbyUIManager.Instance.RefreshPlayerList();
     }
 
     [ServerRpc]
