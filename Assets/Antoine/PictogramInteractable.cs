@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(SpriteRenderer))]
 public class PictogramInteractable : MonoBehaviour, MouseInteractionManager.IInteractable

@@ -1,6 +1,7 @@
 using System.Threading.Tasks;
 using UnityEngine;
 using Unity.Services.Vivox;
+using UnityEngine.InputSystem;
 
 [DisallowMultipleComponent]
 public class VivoxVoiceSettings : MonoBehaviour
@@ -9,8 +10,6 @@ public class VivoxVoiceSettings : MonoBehaviour
     [SerializeField] private bool applyOnStart = true;
 
     [Header("Keyboard Mute")]
-    [SerializeField] private bool enableKeyboardMuteToggle = true;
-    [SerializeField] private KeyCode muteToggleKey = KeyCode.K;
     [SerializeField] private bool debugKeyLogs = true;
 
     [Header("Input Device Only")]
@@ -33,17 +32,8 @@ public class VivoxVoiceSettings : MonoBehaviour
             await ApplyAllAsync();
     }
 
-    private void Update()
+    public void OnToggleMute()
     {
-        if (!enableKeyboardMuteToggle)
-            return;
-
-        if (!Input.GetKeyDown(muteToggleKey))
-            return;
-
-        if (debugKeyLogs)
-            Debug.Log("[VoiceSettings] Touche détectée : " + muteToggleKey);
-
         ToggleMuteImmediate();
     }
 
