@@ -58,6 +58,13 @@ public class LobbyUIManager : MonoBehaviour
 
     public void OnStartGameClicked()
     {
+        var players = FindObjectsByType<PlayerLobbyData>(FindObjectsInactive.Include, FindObjectsSortMode.None);
+
+        foreach (var p in players)
+        {
+            p.OnStartGame();
+        }
+
         if (!NetworkManager.Singleton.IsHost)
             return;
         
