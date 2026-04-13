@@ -9,9 +9,6 @@ public class VivoxVoiceSettings : MonoBehaviour
     [Header("Auto Apply")]
     [SerializeField] private bool applyOnStart = true;
 
-    [Header("Keyboard Mute")]
-    [SerializeField] private bool debugKeyLogs = true;
-
     [Header("Input Device Only")]
     [Range(-50, 50)]
     [SerializeField] private int inputDeviceVolume = 0;
