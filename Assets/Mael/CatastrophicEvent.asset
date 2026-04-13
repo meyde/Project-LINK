@@ -12,11 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eecf7534233f00546a14b86367e1e280, type: 3}
   m_Name: CatastrophicEvent
   m_EditorClassIdentifier: Assembly-CSharp::CatastrophicEvent
-  eventName: avalanche_neige_nepal
-  localisation: nepal
-  type: Avalanche
-  modules: 010000000200000000000000
-  moduleState: 080000000500000006000000
+  eventName: Test Levier
+  localisation: NA
+  type: NA
+  modules: 00000000
+  moduleState: 01000000
   eventCategoryLevel: 1
   eventDuration: 0
+  Captor1Info: 0
+  Captor2Info: 0
+  Captor3Info: 0
+  Captor4Info: 0
+  Captor5Info: 0
+  Captor6Info: 0
   state: 0

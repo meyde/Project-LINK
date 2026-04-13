@@ -16,6 +16,11 @@ public class GameManagerProto : MonoBehaviour
         currentEvent = evnt;
         evnt.state = 1;
     }
+    private void Main()
+    {
+        CreateLevel1Event();
+
+    }
     private bool isEventFixed()
     {
         return (modulesDone ==currentEvent.modules && modulesSolutions== currentEvent.moduleState);
