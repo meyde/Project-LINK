@@ -15,8 +15,6 @@ public class GameManagerNetwork : NetworkBehaviour
     [SerializeField] private int randomisationTime = 30;
     [SerializeField] private int requiredSuccesses = 4;
     [SerializeField] private float timeBeforeStart = 30f;
-    [SerializeField] private int minIdLvl2 = 5;
-    [SerializeField] private int minIdLvl3 = 8;
     private int gameLevel;
     private bool gameStarted;
     public NetworkList<int> eventDataIds = new();
