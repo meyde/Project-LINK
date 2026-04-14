@@ -100,7 +100,7 @@ public class HeatModuleManager : Module
             }
         }
 
-        gm.EndModuleCheck(false, 0);
+        gm.EndModuleCheck(2,false, 0);
 
 
         
