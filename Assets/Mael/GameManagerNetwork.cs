@@ -7,6 +7,8 @@ using Unity.Collections;
 public class GameManagerNetwork : NetworkBehaviour
 {
     [Header("Events")]
+
+    public CatastrophicEvent[] allEvents;
     [SerializeField] private CatastrophicEvent[] level1Events;
     [SerializeField] private CatastrophicEvent[] level2Events;
     [SerializeField] private CatastrophicEvent[] level3Events;
@@ -20,15 +22,14 @@ public class GameManagerNetwork : NetworkBehaviour
     public NetworkList<int> eventDataIds = new();
     public NetworkList<int> eventLives = new();
     public NetworkList<int> eventModulesDone = new();
-    public NetworkVariable<int> health = new(3);
-    public NetworkVariable<int> successes = new(0);
     public NetworkList<int> eventCurrentLevel = new();
     public NetworkList<int> eventStates = new();
     public NetworkList<FixedList64Bytes<int>> eventModule1Option = new();
-
     public NetworkList<FixedList64Bytes<int>> eventModule2Option = new();
-
     public NetworkList<FixedList64Bytes<int>> eventModule3Option = new();
+
+    public NetworkVariable<int> health = new(3);
+    public NetworkVariable<int> successes = new(0);
 
     private Coroutine eventCoroutine;
 
@@ -72,6 +73,18 @@ public class GameManagerNetwork : NetworkBehaviour
         eventDataIds.Add(id);
         eventLives.Add(eventList[id].baseLife);
         eventModulesDone.Add(0);
+        eventCurrentLevel.Add(1);
+        eventStates.Add(0);
+        FixedList64Bytes<int> module1Options = new();
+        FixedList64Bytes<int> module2Options = new();
+        FixedList64Bytes<int> module3Options = new();
+        for (int i = 0; i < eventList[id].modules1.Count() ;i++ ) { module1Options.Add(0); }
+        for (int i = 0; i < eventList[id].modules2.Count(); i++) { module2Options.Add(0); }
+        for (int i = 0; i < eventList[id].modules3.Count(); i++) { module3Options.Add(0); }
+        eventModule1Option.Add(module1Options);
+        eventModule2Option.Add(module2Options);
+        eventModule3Option.Add(module3Options);
+        
     }
     public IEnumerator EventGenerationRepeating()
     {
@@ -113,6 +126,11 @@ public class GameManagerNetwork : NetworkBehaviour
         eventDataIds.RemoveAt(eventId);
         eventLives.RemoveAt(eventId);
         eventModulesDone.RemoveAt(eventId);
+        eventModule1Option.RemoveAt(eventId);
+        eventModule2Option.RemoveAt(eventId);
+        eventModule3Option.RemoveAt(eventId);
+        eventStates.RemoveAt(eventId);
+        eventCurrentLevel.RemoveAt(eventId);
         Invoke("EventGeneration", Random.Range(5f, 10f));
         if (health.Value < 1) 
         {
@@ -127,6 +145,11 @@ public class GameManagerNetwork : NetworkBehaviour
         eventDataIds.RemoveAt(eventId);
         eventLives.RemoveAt(eventId);
         eventModulesDone.RemoveAt(eventId);
+        eventModule1Option.RemoveAt(eventId);
+        eventModule2Option.RemoveAt(eventId);
+        eventModule3Option.RemoveAt(eventId);
+        eventStates.RemoveAt(eventId);
+        eventCurrentLevel.RemoveAt(eventId);
         Invoke("EventGeneration", Random.Range(5f, 10f));
         if (successes.Value >= requiredSuccesses)
         {
@@ -134,9 +157,81 @@ public class GameManagerNetwork : NetworkBehaviour
         }
     }
     [Rpc(SendTo.Server, InvokePermission = RpcInvokePermission.Everyone)]
-    public void OnIncrementRpc(int eventId)
+    public void OnIncrementRpc(int eventInd, int moduleId)
     {
-        eventModulesDone[eventId]++;
+        eventModulesDone[eventInd]++;
+        CatastrophicEvent cEvent = allEvents[eventDataIds[eventInd]];
+        switch (eventCurrentLevel[eventInd])
+        {
+            case 1:
+                for (int i = 0; i < cEvent.modules1.Count(); i++)
+                {
+                    if (cEvent.modules1[i] == moduleId)
+                    {
+                        var curList = eventModule1Option[eventInd];
+                        curList[i] = Random.Range(0, 3);
+                        eventModule1Option[eventInd] = curList;
+                    }
+                }
+                if (eventModulesDone[eventInd] == cEvent.modules1.Count())
+                {
+                    if ( cEvent.eventCategoryLevel == 1)
+                    {
+                         OnSuccessRpc(eventInd);
+                    }
+                    else
+                    {
+                        eventCurrentLevel[eventInd]++;
+                    }
+                }
+                break;
+            case 2:
+                for (int i = 0; i < cEvent.modules2.Count(); i++)
+                {
+                    if (cEvent.modules2[i] == moduleId)
+                    {
+                        var curList = eventModule2Option[eventInd];
+                        curList[i] = Random.Range(0, 3);
+                        eventModule1Option[eventInd] = curList;
+                    }
+                }
+                if (eventModulesDone[eventInd] == cEvent.modules1.Count() + cEvent.modules2.Count()) 
+                {
+                    if (cEvent.eventCategoryLevel == 2)
+                    {
+                        OnSuccessRpc(eventInd);
+                    }
+                    else
+                    {
+                        eventCurrentLevel[eventInd]++;
+                    }
+                }
+                break;
+            case 3:
+                for (int i = 0; i < cEvent.modules3.Count(); i++)
+                {
+                    if (cEvent.modules2[i] == moduleId)
+                    {
+                        var curList = eventModule3Option[eventInd];
+                        curList[i] = Random.Range(0, 3);
+                        eventModule1Option[eventInd] = curList;
+                    }
+                }
+                if (eventModulesDone[eventInd] == cEvent.modulesCount ) 
+                {
+                    if (cEvent.eventCategoryLevel == 3)
+                    {
+                        OnSuccessRpc(eventInd);
+                    }
+                    else
+                    {
+                        Debug.Log("Not supposed to happen");
+                        eventCurrentLevel[eventInd]++;
+                    }
+                }
+                break;
+
+        }
 
     }
 }
