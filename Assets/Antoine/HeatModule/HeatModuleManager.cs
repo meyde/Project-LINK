@@ -51,14 +51,6 @@ public class HeatModuleManager : Module
     {
         UpdateVisuals();
         hasValidated = false;
-
-        // Choisis UNE des 2 lignes selon ce que tu veux :
-
-        // 1) Si tu veux remettre en blanc quand on modifie :
-        // SetNeutralState();
-
-        // 2) Si tu veux ne rien changer visuellement tant qu'on n'a pas revalidé :
-        // ne rien faire
     }
 
     private void UpdateVisuals()

@@ -14,14 +14,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CatastrophicEvent
   eventId: 1
   eventName: event2
-  localisation: 
   type: 
-  modules: 00000000
-  moduleState: 01000000
+  region: 0
+  module1: 
+  module2: 
+  module3: 
+  moduleState1: 
+  moduleState2: 
+  moduleState3: 
   eventCategoryLevel: 0
   eventDuration: 60
   baseLife: 2
-  Captor1Info: 0
-  Captor2Info: 0
-  Captor3Info: 0
-  Captor4Info: 0
+  WindSpeed: 0
+  Temperature: 40
+  Intensity: 2
+  OxygenLevel: 0
