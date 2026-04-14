@@ -89,6 +89,34 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "Writing",
+            "id": "fafc37ba-d6c3-48a4-9960-833248b8b194",
+            "actions": [
+                {
+                    "name": "writing",
+                    "type": "Button",
+                    "id": "c3290155-e9cd-4ca1-9def-c1b84e947dab",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "cffe7c03-6bea-4f5b-a77b-89f4b781ccdf",
+                    "path": "<Keyboard>/anyKey",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "writing",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": []
