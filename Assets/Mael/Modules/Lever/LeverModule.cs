@@ -8,7 +8,8 @@ using UnityEngine.InputSystem;
 public class LeverModule : MonoBehaviour, MouseInteractionManager.IInteractable
 {
     [Header("Data")]
-    [SerializeField] private LeverCodes currentCode;
+    [SerializeField] private LeverCodes[] codes;
+    [SerializeField] private int moduleId =0;
 
     [Header("Lever Settings")]
     [SerializeField] private int minValue = 0;
@@ -16,19 +17,22 @@ public class LeverModule : MonoBehaviour, MouseInteractionManager.IInteractable
     [SerializeField] private int startValue = 10;
     [SerializeField] private float dragStepThreshold = 1f;
     [SerializeField] private float startPosY;
-    [SerializeField] private int value;
-    [SerializeField] private float accumulatedY = 0f;
+    private int value;
+    private float accumulatedY = 0f;
     private int previousStep = 0;
-    private int[] code;
+    private int[] code=new int[3];
     private int currentIndex;
+    private int optionColor;
+    private int codeDone = -1;
     private WaitForFixedUpdate WaitForFixedUpdate = new();
+    private GameManagerLocal gm;
 
 
     private void Awake()
     {
         value = startValue;
         startPosY= gameObject.transform.position.y;
-        code = currentCode.values;
+        gm = FindFirstObjectByType<GameManagerLocal>();
     }
 
     public void OnClick()
@@ -44,52 +48,47 @@ public class LeverModule : MonoBehaviour, MouseInteractionManager.IInteractable
     {
     }
 
-    public void Success()
+    public void ModuleEnd()
     {
-        Debug.Log("Success!");
+        foreach (LeverCodes levercode in codes)
+        {
+            if (code==levercode.values)
+            {
+                codeDone = levercode.id;
+            }
+        }
+        optionColor = Random.Range(0, 3);
+        gm.EndModuleCheck(moduleId, codeDone, optionColor);
     }
 
-    public void Failure()
-    {
-        Debug.Log("Failure!");
-    }
     public IEnumerator Dragging()
     {
+        currentIndex = 0;
         while (Mouse.current != null && Mouse.current.leftButton.isPressed)
         {
             float deltaY = Mouse.current.delta.ReadValue().y;
             accumulatedY += deltaY;
-            int currentStep = (int)Mathf.Sign(accumulatedY);
-            if ((currentStep * previousStep) != 0 && currentStep != previousStep)
-            {
-                if (currentIndex != currentCode.codeSize - 1)
-                {
-                    if (value != code[currentIndex])
-                    {
-                        Failure();
-                    }
-                    currentIndex++;
-                }
-                accumulatedY = 0f;
-            }
-            previousStep = currentStep;
+            
+            
             while (Mathf.Abs(accumulatedY) > dragStepThreshold)
             {
                 int step = (int)Mathf.Sign(accumulatedY);
-                value = Mathf.Clamp(value + step, minValue, maxValue);
+                if ((step * previousStep) != 0 && step != previousStep)
+                {
+                    code[currentIndex] = value;
+                    accumulatedY = 0f;
+                    currentIndex++;
+                }
+                
+                value = Mathf.Clamp(value - step, minValue, maxValue);
                 accumulatedY -= step*dragStepThreshold;
+                previousStep = step;
             }
-            gameObject.transform.position = new Vector3(gameObject.transform.position.x,(0.4f*value-4)+startPosY , 0);
+            gameObject.transform.position = new Vector3(gameObject.transform.position.x,(-0.4f*value+4)+startPosY , 0);
 
             yield return WaitForFixedUpdate;
         }
-        if (value == code[currentIndex])
-        {
-            Success();
-        }
-        else
-        {
-            Failure();
-        }
+        code[currentIndex] = value;
+        ModuleEnd();
     }
 }
