@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Collections.Generic;
 
-public class LeverModule : MonoBehaviour, MouseInteractionManager.IInteractable
+public class LeverModule : Module, MouseInteractionManager.IInteractable
 {
     [Header("Data")]
     [SerializeField] private LeverCodes[] codes;

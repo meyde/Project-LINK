@@ -37,6 +37,8 @@ public class ZoomableModule : MonoBehaviour, MouseInteractionManager.IInteractab
 
     [SerializeField] private CanvasGroup blurBackground;
 
+    [SerializeField] private Module moduleToStart;
+
     [Header("Input System")]
 
     [SerializeField] private InputActionReference closeAction;
@@ -166,7 +168,7 @@ public class ZoomableModule : MonoBehaviour, MouseInteractionManager.IInteractab
         // Si un autre module est déjà ouvert, on ne fait rien
         if (AnyModuleOpen)
             return;
-
+        moduleToStart.OnStarted();
         StartCoroutine(OpenModuleRoutine());
     }
 

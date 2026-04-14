@@ -4,7 +4,8 @@ using TMPro;
 public class HeatModuleManager : MonoBehaviour
 {
     [Header("Recette à résoudre")]
-    public HeatModuleRecipe currentRecipe;
+    private HeatModuleRecipe currentRecipe;
+    public HeatModuleRecipe[] allRecipes;
 
     [Header("Podomètres")]
     public HeatDial dialL;
@@ -26,6 +27,13 @@ public class HeatModuleManager : MonoBehaviour
     public bool isSolved;
 
     private bool hasValidated = false;
+
+    private GameManagerLocal gm;
+
+    private void Awake()
+    {
+        gm = FindFirstObjectByType<GameManagerLocal>();
+    }
 
     private void Start()
     {
@@ -81,40 +89,21 @@ public class HeatModuleManager : MonoBehaviour
         if (!hasValidated)
             return;
 
-        bool correct =
-            dialL.CurrentValue == currentRecipe.targetL &&
-            dialH.CurrentValue == currentRecipe.targetH &&
-            dialI.CurrentValue == currentRecipe.targetI;
-
-        isSolved = correct;
-
-        if (correct)
+        int returnState = -1;
+        foreach (HeatModuleRecipe r in allRecipes)
         {
-            SetSuccessState();
-            Debug.Log("Module chaleur résolu !");
+            if (dialL.CurrentValue == r.targetL &&
+            dialH.CurrentValue == r.targetH &&
+            dialI.CurrentValue == r.targetI)
+            {
+                returnState = r.reciepeId;
+            }
         }
-        else
-        {
-            SetFailureState();
-        }
-    }
 
-    private void SetNeutralState()
-    {
-        if (statusLight != null)
-            statusLight.color = neutralColor;
-    }
+        gm.EndModuleCheck(2, returnState, Random.Range(0, 3));
 
-    private void SetSuccessState()
-    {
-        if (statusLight != null)
-            statusLight.color = successColor;
-    }
 
-    private void SetFailureState()
-    {
-        if (statusLight != null)
-            statusLight.color = failureColor;
+        
     }
 
     public Vector3 GetCurrentHeatValues()

@@ -8,8 +8,4 @@ public class CloudWaveSignalSO : ScriptableObject
 
     [Header("Affichage")]
     public Sprite signalSprite;
-
-    [Header("Code des leviers")]
-    [Tooltip("True = levier activé, False = levier désactivé")]
-    public bool[] leverCode;
 }

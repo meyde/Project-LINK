@@ -4,6 +4,7 @@ using UnityEngine;
 public class HeatModuleRecipe : ScriptableObject
 {
     [Header("Valeurs cibles (0 à 3)")]
+    public int reciepeId;
     [Range(0, 3)] public int targetL;
     [Range(0, 3)] public int targetH;
     [Range(0, 3)] public int targetI;

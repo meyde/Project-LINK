@@ -7,7 +7,7 @@ using UnityEngine.Rendering;
 
 public class GameManagerLocal : MonoBehaviour
 {
-    private GameManagerNetwork gmn;
+    public GameManagerNetwork gmn;
     public List<CatastrophicEvent> currentEvents;
     [SerializeField] private CatastrophicEvent[] allEvents;
     private void Awake()
@@ -41,19 +41,18 @@ public class GameManagerLocal : MonoBehaviour
     }
     private int IsRightModule(int module, int state)
     {
-        int RightEvent = -1;
         for (int i=0; i < gmn.eventDataIds.Count; i++) 
         {
             CatastrophicEvent events = currentEvents[i];
 
             if (events.modules[gmn.eventLastModules[i]+1] == module && events.moduleState[gmn.eventLastModules[i] + 1] == state)
             {
-                RightEvent = i;
+                return i;
             }
             ; 
 
         }
-        return RightEvent;
+        return -1;
     }
     private int EventOfModule(int module)
     {
