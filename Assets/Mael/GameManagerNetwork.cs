@@ -44,6 +44,10 @@ public class GameManagerNetwork : NetworkBehaviour
         eventCoroutine = StartCoroutine(EventGeneration());
     }
 
+    public void Start()
+    {
+        OnStartGame();
+    }
     private void OnGameLoss()
     {
         Debug.Log("Game Lost");
@@ -76,7 +80,7 @@ public class GameManagerNetwork : NetworkBehaviour
         if (eventIndex < 0 ) 
         {
             eventLives[0]--;
-            if (eventLives[0]<=0) { OnFailureRpc(0); }
+            if (eventLives[0]<=0) {  OnFailureRpc(0); }
         }
         else
         {

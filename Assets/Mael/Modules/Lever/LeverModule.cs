@@ -1,9 +1,7 @@
-using NUnit.Framework;
 using System.Collections;
-using TMPro;
-using Unity.Netcode;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using System.Collections.Generic;
 
 public class LeverModule : MonoBehaviour, MouseInteractionManager.IInteractable
 {
@@ -20,8 +18,7 @@ public class LeverModule : MonoBehaviour, MouseInteractionManager.IInteractable
     private int value;
     private float accumulatedY = 0f;
     private int previousStep = 0;
-    private int[] code=new int[3];
-    private int currentIndex;
+    private List<int> code=new();
     private int optionColor;
     private int codeDone = -1;
     private WaitForFixedUpdate WaitForFixedUpdate = new();
@@ -63,7 +60,6 @@ public class LeverModule : MonoBehaviour, MouseInteractionManager.IInteractable
 
     public IEnumerator Dragging()
     {
-        currentIndex = 0;
         while (Mouse.current != null && Mouse.current.leftButton.isPressed)
         {
             float deltaY = Mouse.current.delta.ReadValue().y;
@@ -75,9 +71,8 @@ public class LeverModule : MonoBehaviour, MouseInteractionManager.IInteractable
                 int step = (int)Mathf.Sign(accumulatedY);
                 if ((step * previousStep) != 0 && step != previousStep)
                 {
-                    code[currentIndex] = value;
+                    code.Add(value);
                     accumulatedY = 0f;
-                    currentIndex++;
                 }
                 
                 value = Mathf.Clamp(value - step, minValue, maxValue);
@@ -88,7 +83,7 @@ public class LeverModule : MonoBehaviour, MouseInteractionManager.IInteractable
 
             yield return WaitForFixedUpdate;
         }
-        code[currentIndex] = value;
+        code.Add(value);
         ModuleEnd();
     }
 }

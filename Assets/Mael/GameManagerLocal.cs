@@ -10,7 +10,7 @@ public class GameManagerLocal : MonoBehaviour
     private GameManagerNetwork gmn;
     public List<CatastrophicEvent> currentEvents;
     [SerializeField] private CatastrophicEvent[] allEvents;
-    private void Start()
+    private void Awake()
     {
         gmn = FindFirstObjectByType<GameManagerNetwork>();
 
@@ -81,8 +81,9 @@ public class GameManagerLocal : MonoBehaviour
         }
         if (pos == -1)
             yield break;
-        if (gmn.eventStates[pos] != 2)
+        if (gmn.eventStates[pos] != 2 )
         {
+            Debug.Log("gml:ligne 86");
             gmn.OnFailureRpc(pos);
         }
         

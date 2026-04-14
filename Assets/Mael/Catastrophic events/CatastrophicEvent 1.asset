@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eecf7534233f00546a14b86367e1e280, type: 3}
+  m_Name: CatastrophicEvent 1
+  m_EditorClassIdentifier: Assembly-CSharp::CatastrophicEvent
+  eventId: 1
+  eventName: event2
+  localisation: 
+  type: 
+  modules: 00000000
+  moduleState: 01000000
+  eventCategoryLevel: 0
+  eventDuration: 60
+  baseLife: 2
+  Captor1Info: 0
+  Captor2Info: 0
+  Captor3Info: 0
+  Captor4Info: 0
