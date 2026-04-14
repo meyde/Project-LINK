@@ -57,21 +57,14 @@ public class GameManagerLocal : MonoBehaviour
         }
         
     }
-    public void EndModuleCheck ( bool state, int eventPos)
+    public void EndModuleCheck ( int moduleId, bool state, int eventPos)
     {
         if (eventPos > -1)
         {
             CatastrophicEvent cEvent = allEvents[gmn.eventDataIds[eventPos]];
             if (state)
             {
-                //if (gmn.eventModulesDone[eventPos] == cEvent.modules.Count() - 1)
-                //{
-                //    gmn.OnSuccessRpc(eventPos);
-                //}
-                //else
-                //{
-                //    gmn.OnIncrementRpc(eventPos);
-                //}
+                gmn.OnIncrementRpc(eventPos, moduleId);
             }
             else
             {

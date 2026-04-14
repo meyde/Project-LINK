@@ -1,7 +1,7 @@
 using UnityEngine;
 using TMPro;
 
-public class HeatModuleManager : MonoBehaviour
+public class HeatModuleManager : Module
 {
     [Header("Recette à résoudre")]
     private HeatModuleRecipe currentRecipe;
