@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using TMPro;
 
 /// <summary>
 /// Résumé de ce que fait se script pour que tu comprends comment ca fonctionne.
@@ -12,12 +13,16 @@ using UnityEngine.InputSystem;
 // - il grossit
 // - un fond flou apparaît
 // - les scripts interactables des enfants s'activent
+// - les SpriteRenderer du module et de ses enfants apparaissent progressivement
+// - les TextMeshPro du module et de ses enfants apparaissent progressivement
 //
 // Quand on le ferme :
 // - il retourne à sa position d'origine
 // - il reprend son échelle d'origine
 // - le fond flou disparaît
 // - les scripts interactables des enfants se désactivent
+// - les SpriteRenderer du module et de ses enfants disparaissent progressivement
+// - les TextMeshPro du module et de ses enfants disparaissent progressivement
 //
 // La fermeture peut se faire :
 // - via la touche Escape / l'Input Action assignée
@@ -49,7 +54,15 @@ public class ZoomableModule : MonoBehaviour, MouseInteractionManager.IInteractab
 
     [SerializeField] private bool autoFindChildInteractables = true;
 
+    [Header("Visuel")]
+
+    [SerializeField] private bool hideVisualsWhenClosed = true;
+
     private readonly List<MonoBehaviour> childScriptsToEnable = new();
+
+    private readonly List<SpriteRenderer> cachedSpriteRenderers = new();
+
+    private readonly List<TMP_Text> cachedTmpTexts = new();
 
     private Vector3 startPosition;
 
@@ -84,8 +97,15 @@ public class ZoomableModule : MonoBehaviour, MouseInteractionManager.IInteractab
         if (autoFindChildInteractables)
             CacheChildInteractables();
 
+        // Recherche automatiquement tous les éléments visuels du module et de ses enfants
+        CacheVisualComponents();
+
         // Au démarrage, désactive les scripts interactables des enfants pour qu'ils ne puissent pas être utilisés tant que le module n'est pas ouvert
         SetChildScriptsState(false);
+
+        // Au démarrage, rend le module invisible visuellement tout en gardant ses colliders actifs
+        if (hideVisualsWhenClosed)
+            SetVisualAlpha(0f);
 
         if (blurBackground != null)
         {
@@ -202,6 +222,10 @@ public class ZoomableModule : MonoBehaviour, MouseInteractionManager.IInteractab
 
         float elapsed = 0f;
 
+        // S'assure que le module est bien invisible au tout début de l'ouverture
+        if (hideVisualsWhenClosed)
+            SetVisualAlpha(0f);
+
         // Animation progressive
         while (elapsed < zoomDuration)
         {
@@ -217,8 +241,13 @@ public class ZoomableModule : MonoBehaviour, MouseInteractionManager.IInteractab
             transform.localScale = Vector3.Lerp(fromScale, toScale, t);
             transform.rotation = Quaternion.Slerp(fromRot, toRot, t);
 
+            // Fade progressif du fond flou
             if (blurBackground != null)
                 blurBackground.alpha = Mathf.Lerp(0f, 1f, t);
+
+            // Fade progressif du module et de ses enfants
+            if (hideVisualsWhenClosed)
+                SetVisualAlpha(Mathf.Lerp(0f, 1f, t));
 
             yield return null;
         }
@@ -233,6 +262,9 @@ public class ZoomableModule : MonoBehaviour, MouseInteractionManager.IInteractab
             blurBackground.interactable = false;
             blurBackground.blocksRaycasts = false;
         }
+
+        if (hideVisualsWhenClosed)
+            SetVisualAlpha(1f);
 
         SetChildScriptsState(true);
 
@@ -268,6 +300,10 @@ public class ZoomableModule : MonoBehaviour, MouseInteractionManager.IInteractab
             if (blurBackground != null)
                 blurBackground.alpha = Mathf.Lerp(1f, 0f, t);
 
+            // Fade progressif du module et de ses enfants vers l'invisible
+            if (hideVisualsWhenClosed)
+                SetVisualAlpha(Mathf.Lerp(1f, 0f, t));
+
             yield return null;
         }
 
@@ -281,6 +317,9 @@ public class ZoomableModule : MonoBehaviour, MouseInteractionManager.IInteractab
             blurBackground.interactable = false;
             blurBackground.blocksRaycasts = false;
         }
+
+        if (hideVisualsWhenClosed)
+            SetVisualAlpha(0f);
 
         isOpen = false;
         isAnimating = false;
@@ -325,6 +364,58 @@ public class ZoomableModule : MonoBehaviour, MouseInteractionManager.IInteractab
             }
 
             CacheChildInteractablesRecursive(child);
+        }
+    }
+
+    private void CacheVisualComponents()
+    {
+        cachedSpriteRenderers.Clear();
+        cachedTmpTexts.Clear();
+
+        CacheVisualComponentsRecursive(transform);
+    }
+
+    private void CacheVisualComponentsRecursive(Transform current)
+    {
+        if (current == null)
+            return;
+
+        SpriteRenderer spriteRenderer = current.GetComponent<SpriteRenderer>();
+        if (spriteRenderer != null && !cachedSpriteRenderers.Contains(spriteRenderer))
+            cachedSpriteRenderers.Add(spriteRenderer);
+
+        TMP_Text tmpText = current.GetComponent<TMP_Text>();
+        if (tmpText != null && !cachedTmpTexts.Contains(tmpText))
+            cachedTmpTexts.Add(tmpText);
+
+        for (int i = 0; i < current.childCount; i++)
+        {
+            CacheVisualComponentsRecursive(current.GetChild(i));
+        }
+    }
+
+    private void SetVisualAlpha(float alpha)
+    {
+        alpha = Mathf.Clamp01(alpha);
+
+        for (int i = 0; i < cachedSpriteRenderers.Count; i++)
+        {
+            if (cachedSpriteRenderers[i] == null)
+                continue;
+
+            Color color = cachedSpriteRenderers[i].color;
+            color.a = alpha;
+            cachedSpriteRenderers[i].color = color;
+        }
+
+        for (int i = 0; i < cachedTmpTexts.Count; i++)
+        {
+            if (cachedTmpTexts[i] == null)
+                continue;
+
+            Color color = cachedTmpTexts[i].color;
+            color.a = alpha;
+            cachedTmpTexts[i].color = color;
         }
     }
 
