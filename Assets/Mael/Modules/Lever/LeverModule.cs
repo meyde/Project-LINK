@@ -2,12 +2,14 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Collections.Generic;
+using System.Linq;
 
 public class LeverModule : Module, MouseInteractionManager.IInteractable
 {
     [Header("Data")]
     [SerializeField] private LeverCodes[] codes;
-    [SerializeField] private int moduleId =0;
+    [SerializeField] private int moduleId = 0;
+    [SerializeField] private int moduleLvl = 0;
 
     [Header("Lever Settings")]
     [SerializeField] private int minValue = 0;
@@ -55,7 +57,46 @@ public class LeverModule : Module, MouseInteractionManager.IInteractable
             }
         }
         optionColor = Random.Range(0, 3);
-        gm.EndModuleCheck(moduleId, codeDone, optionColor);
+        int index = 0;
+        List<int> falseInd = new();
+        bool hasSucceeded = false;
+        foreach ( int eventId in gm.gmn.eventDataIds)
+        {
+            CatastrophicEvent cEvent = gm.allEvents[eventId];
+            for (int i=0; i < cEvent.modules.Length; i++)
+            {
+                if (cEvent.modules[i]==moduleId)
+                {
+                    if ( cEvent.moduleState[i] == codeDone)
+                    { 
+                        hasSucceeded = true;
+                        gm.EndModuleCheck(true, index);
+                    }
+                    else
+                    {
+                        falseInd.Add(i);
+                    }
+                }
+            }
+            index++;
+        }
+        if (!hasSucceeded)
+        {
+            if (falseInd.Count > 0)
+            {
+                gm.EndModuleCheck(false, falseInd[0]);
+            }
+            else
+            {
+                if (gm.gmn.eventDataIds.Count > 0)
+                {
+                    gm.EndModuleCheck(false, 0);
+                }
+            }
+        }
+
+
+
     }
 
     public IEnumerator Dragging()

@@ -9,15 +9,19 @@ public class CatastrophicEvent : ScriptableObject
 {
     public int eventId;
     public string eventName;
-    public string localisation;
     public string type;
-    public int[] modules; //in order of completion
-    public int[] moduleState; //in order of completion.
+    public int region;
+    public int[] module1; 
+    public int[] module2;
+    public int[] module3;
+    public int[] moduleState1;
+    public int[] moduleState2;
+    public int[] moduleState3;
     public int eventCategoryLevel;
     public int eventDuration;
     public int baseLife = 2;
-    public int Captor1Info;
-    public int Captor2Info;
-    public int Captor3Info;
-    public int Captor4Info;
+    public int WindSpeed;
+    public int Temperature;
+    public int Intensity;
+    public int OxygenLevel;
 }

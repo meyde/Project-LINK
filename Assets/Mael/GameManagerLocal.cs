@@ -8,8 +8,7 @@ using UnityEngine.Rendering;
 public class GameManagerLocal : MonoBehaviour
 {
     public GameManagerNetwork gmn;
-    public List<CatastrophicEvent> currentEvents;
-    [SerializeField] private CatastrophicEvent[] allEvents;
+    public CatastrophicEvent[] allEvents;
     private void Awake()
     {
         gmn = FindFirstObjectByType<GameManagerNetwork>();
@@ -34,37 +33,9 @@ public class GameManagerLocal : MonoBehaviour
 
             CatastrophicEvent evnt = allEvents[id];
 
-            currentEvents.Add(evnt);
 
             OnNewEvent(evnt);
         }
-    }
-    private int IsRightModule(int module, int state)
-    {
-        for (int i=0; i < gmn.eventDataIds.Count; i++) 
-        {
-            CatastrophicEvent events = currentEvents[i];
-
-            if (events.modules[gmn.eventLastModules[i]+1] == module && events.moduleState[gmn.eventLastModules[i] + 1] == state)
-            {
-                return i;
-            }
-            ; 
-
-        }
-        return -1;
-    }
-    private int EventOfModule(int module)
-    {
-        for (int i = 0; i < gmn.eventDataIds.Count; i++)
-        {
-            CatastrophicEvent events = currentEvents[i];
-            if (events.modules[gmn.eventLastModules[i] + 1] == module)
-            {
-                return i;
-            }
-        }
-        return -1;
     }
     public void OnNewEvent (CatastrophicEvent cEvent)
     {
@@ -82,37 +53,34 @@ public class GameManagerLocal : MonoBehaviour
             yield break;
         if (gmn.eventStates[pos] != 2 )
         {
-            Debug.Log("gml:ligne 86");
             gmn.OnFailureRpc(pos);
         }
         
     }
-    public void EndModuleCheck (int module, int state, int option)
+    public void EndModuleCheck ( bool state, int eventPos)
     {
-        int index = IsRightModule(module, state);
-        
-        if (index>-1)
+        if (eventPos > -1)
         {
-            CatastrophicEvent eventDone = currentEvents[index];
-            if (gmn.eventLastModules[index] == eventDone.modules.Count()-1)
+            CatastrophicEvent cEvent = allEvents[gmn.eventDataIds[eventPos]];
+            if (state)
             {
-                gmn.eventStates[index] = 2;
-                gmn.OnSuccessRpc(index);
+                if (gmn.eventModulesDone[eventPos] == cEvent.modules.Count() - 1)
+                {
+                    gmn.OnSuccessRpc(eventPos);
+                }
+                else
+                {
+                    gmn.OnIncrementRpc(eventPos);
+                }
             }
             else
             {
-
-                gmn.eventModuleOption[index] += option;
-                gmn.eventLastModules[index]++;
-                
+                gmn.EventLoseLifeServerRpc(eventPos);
             }
-
-
         }
         else
         {
-            int eventInd = EventOfModule(module);
-            gmn.EventLoseLifeServerRpc(eventInd);
+            gmn.EventLoseLifeServerRpc(eventPos);
         }
     }
 

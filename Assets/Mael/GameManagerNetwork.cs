@@ -15,15 +15,17 @@ public class GameManagerNetwork : NetworkBehaviour
     [SerializeField] private int randomisationTime = 30;
     [SerializeField] private int requiredSuccesses = 4;
     [SerializeField] private float timeBeforeStart = 30f;
+    [SerializeField] private int minIdLvl2 = 5;
+    [SerializeField] private int minIdLvl3 = 8;
     private int gameLevel;
     private bool gameStarted;
     public NetworkList<int> eventDataIds = new();
     public NetworkList<int> eventLives = new();
-    public NetworkList<int> eventLastModules = new();
+    public NetworkList<int> eventModulesDone = new();
     public NetworkList<int> eventStates = new();
     public NetworkVariable<int> health = new(3);
     public NetworkVariable<int> successes = new(0);
-    public NetworkList<int> eventModuleOption = new();
+    public NetworkList<FixedList64Bytes<int>> eventModuleOption = new();
 
     private Coroutine eventCoroutine;
 
@@ -66,7 +68,7 @@ public class GameManagerNetwork : NetworkBehaviour
         int id = Random.Range(0, eventList.Length);
         eventDataIds.Add(id);
         eventLives.Add(eventList[id].baseLife);
-        eventLastModules.Add(-1);
+        eventModulesDone.Add(0);
         eventStates.Add(0);
         eventModuleOption.Add(0);
     }
@@ -109,7 +111,7 @@ public class GameManagerNetwork : NetworkBehaviour
         health.Value--;
         eventDataIds.RemoveAt(eventId);
         eventLives.RemoveAt(eventId);
-        eventLastModules.RemoveAt(eventId);
+        eventModulesDone.RemoveAt(eventId);
         eventStates.RemoveAt(eventId);
         eventModuleOption.RemoveAt(eventId);
         Invoke("EventGeneration", Random.Range(5f, 10f));
@@ -125,7 +127,7 @@ public class GameManagerNetwork : NetworkBehaviour
         successes.Value++;
         eventDataIds.RemoveAt(eventId);
         eventLives.RemoveAt(eventId);
-        eventLastModules.RemoveAt(eventId);
+        eventModulesDone.RemoveAt(eventId);
         eventStates.RemoveAt(eventId);
         eventModuleOption.RemoveAt(eventId);
         Invoke("EventGeneration", Random.Range(5f, 10f));
@@ -133,5 +135,12 @@ public class GameManagerNetwork : NetworkBehaviour
         {
             OnGameWin();
         }
+    }
+    [Rpc(SendTo.Server, InvokePermission = RpcInvokePermission.Everyone)]
+    public void OnIncrementRpc(int eventId)
+    {
+        eventModulesDone[eventId]++;
+        eventModuleOption[eventId]
+
     }
 }
