@@ -23,22 +23,18 @@ public class MouseInteractionManager : MonoBehaviour
     {
         Vector2 mouseWorldPos = cam.ScreenToWorldPoint(Mouse.current.position.ReadValue());
 
-        RaycastHit2D hit = Physics2D.Raycast(mouseWorldPos, Vector2.zero, Mathf.Infinity, interactableLayer);
+        IInteractable interactable = GetClosestInteractableAtPoint(mouseWorldPos);
 
-        if (hit.collider != null)
+        if (IsInteractableUsable(interactable))
         {
-            IInteractable interactable = hit.collider.GetComponent<IInteractable>();
-
-            if (IsInteractableUsable(interactable))
+            if (currentHover != interactable)
             {
-                if (currentHover != interactable)
-                {
-                    currentHover?.OnHoverExit();
-                    currentHover = interactable;
-                    currentHover.OnHoverEnter();
-                }
-                return;
+                currentHover?.OnHoverExit();
+                currentHover = interactable;
+                currentHover.OnHoverEnter();
             }
+
+            return;
         }
 
         if (currentHover != null)
@@ -54,25 +50,28 @@ public class MouseInteractionManager : MonoBehaviour
 
         Vector2 mouseWorldPos = cam.ScreenToWorldPoint(Mouse.current.position.ReadValue());
 
-        RaycastHit2D hit = Physics2D.Raycast(mouseWorldPos, Vector2.zero, Mathf.Infinity, interactableLayer);
+        Collider2D clickedCollider = GetClosestColliderAtPoint(mouseWorldPos);
+        IInteractable clickedInteractable = GetClosestInteractableAtPoint(mouseWorldPos);
 
         // CAS 1 : un module est déjà ouvert
         if (ZoomableModule.CurrentOpenModule != null)
         {
             // Si on clique sur le module ouvert ou un de ses enfants, on ne ferme pas
-            if (hit.collider != null)
+            if (clickedCollider != null)
             {
-                Transform clickedTransform = hit.collider.transform;
+                Transform clickedTransform = clickedCollider.transform;
 
                 if (clickedTransform == ZoomableModule.CurrentOpenModule.transform ||
                     clickedTransform.IsChildOf(ZoomableModule.CurrentOpenModule.transform))
                 {
-                    IInteractable clickedInteractable = hit.collider.GetComponent<IInteractable>();
-
                     if (IsInteractableUsable(clickedInteractable))
                     {
                         Debug.Log("Clic sur le module ouvert ou un enfant interactable");
                         clickedInteractable.OnClick();
+                    }
+                    else
+                    {
+                        Debug.Log("Clic dans le module ouvert, sans interactable enfant prioritaire");
                     }
 
                     return;
@@ -86,16 +85,84 @@ public class MouseInteractionManager : MonoBehaviour
         }
 
         // CAS 2 : aucun module ouvert => comportement normal
-        if (hit.collider != null)
+        if (IsInteractableUsable(clickedInteractable))
         {
-            IInteractable interactable = hit.collider.GetComponent<IInteractable>();
+            Debug.Log("Objet cliqué");
+            clickedInteractable.OnClick();
+        }
+    }
 
-            if (IsInteractableUsable(interactable))
+    private Collider2D GetClosestColliderAtPoint(Vector2 worldPoint)
+    {
+        Collider2D[] hits = Physics2D.OverlapPointAll(worldPoint, interactableLayer);
+
+        if (hits == null || hits.Length == 0)
+            return null;
+
+        Collider2D closest = null;
+        float bestDistance = float.MaxValue;
+
+        for (int i = 0; i < hits.Length; i++)
+        {
+            Collider2D hit = hits[i];
+
+            if (hit == null)
+                continue;
+
+            Vector2 closestPoint = hit.ClosestPoint(worldPoint);
+            float sqrDistance = (closestPoint - worldPoint).sqrMagnitude;
+
+            if (closest == null || sqrDistance < bestDistance)
             {
-                Debug.Log("objet cliqué");
-                interactable.OnClick();
+                closest = hit;
+                bestDistance = sqrDistance;
             }
         }
+
+        return closest;
+    }
+
+    private IInteractable GetClosestInteractableAtPoint(Vector2 worldPoint)
+    {
+        Collider2D[] hits = Physics2D.OverlapPointAll(worldPoint, interactableLayer);
+
+        if (hits == null || hits.Length == 0)
+            return null;
+
+        IInteractable closestInteractable = null;
+        float bestDistance = float.MaxValue;
+
+        for (int i = 0; i < hits.Length; i++)
+        {
+            Collider2D hit = hits[i];
+
+            if (hit == null)
+                continue;
+
+            IInteractable interactable = hit.GetComponentInParent<IInteractable>();
+
+            if (!IsInteractableUsable(interactable))
+                continue;
+
+            // Si un module est déjà ouvert, on ignore le ZoomableModule de ce module pour laisser ses enfants (autres Interactables) être choisis à la place.
+            if (ZoomableModule.CurrentOpenModule != null &&
+                interactable is ZoomableModule zoomable &&
+                zoomable == ZoomableModule.CurrentOpenModule)
+            {
+                continue;
+            }
+
+            Vector2 closestPoint = hit.ClosestPoint(worldPoint);
+            float sqrDistance = (closestPoint - worldPoint).sqrMagnitude;
+
+            if (closestInteractable == null || sqrDistance < bestDistance)
+            {
+                closestInteractable = interactable;
+                bestDistance = sqrDistance;
+            }
+        }
+
+        return closestInteractable;
     }
 
     private bool IsInteractableUsable(IInteractable interactable)

@@ -51,20 +51,30 @@ public class VivoxVoiceSettings : MonoBehaviour
             return;
         }
 
-        // ON GARDE seulement le volume d'entrée ici
         VivoxService.Instance.SetInputDeviceVolume(inputDeviceVolume);
         Log("[VoiceSettings] Volume entrée appliqué : " + inputDeviceVolume);
 
-        // ON GARDE seulement le mute micro ici
-        if (muteMicrophone)
+        // Si on veut unmute, on demande d'abord l'autorisation au limiter
+        if (!muteMicrophone && VoiceTimeLimiter.LocalInstance != null)
         {
-            VivoxService.Instance.MuteInputDevice();
-            Log("[VoiceSettings] Micro coupé.");
+            bool allowed = VoiceTimeLimiter.LocalInstance.TrySetMuteState(false);
+            muteMicrophone = !allowed;
+
+            if (!allowed)
+                Log("[VoiceSettings] Unmute refusé par VoiceTimeLimiter.");
         }
         else
         {
-            VivoxService.Instance.UnmuteInputDevice();
-            Log("[VoiceSettings] Micro activé.");
+            if (muteMicrophone)
+            {
+                VivoxService.Instance.MuteInputDevice();
+                Log("[VoiceSettings] Micro coupé.");
+            }
+            else
+            {
+                VivoxService.Instance.UnmuteInputDevice();
+                Log("[VoiceSettings] Micro activé.");
+            }
         }
 
         await Task.CompletedTask;
@@ -72,22 +82,48 @@ public class VivoxVoiceSettings : MonoBehaviour
 
     public void ToggleMuteImmediate()
     {
-        muteMicrophone = !muteMicrophone;
+        bool targetMutedState = !muteMicrophone;
 
-        if (muteMicrophone)
+        if (VoiceTimeLimiter.LocalInstance != null)
         {
-            VivoxService.Instance.MuteInputDevice();
-            Debug.Log("[VoiceSettings] ToggleMuteImmediate -> MUTED");
+            bool success = VoiceTimeLimiter.LocalInstance.TrySetMuteState(targetMutedState);
+
+            if (!success && !targetMutedState)
+            {
+                muteMicrophone = true;
+                Debug.Log("[VoiceSettings] ToggleMuteImmediate -> UNMUTE REFUSÉ");
+                return;
+            }
         }
         else
         {
-            VivoxService.Instance.UnmuteInputDevice();
-            Debug.Log("[VoiceSettings] ToggleMuteImmediate -> UNMUTED");
+            if (targetMutedState)
+                VivoxService.Instance.MuteInputDevice();
+            else
+                VivoxService.Instance.UnmuteInputDevice();
         }
+
+        muteMicrophone = targetMutedState;
+
+        if (muteMicrophone)
+            Debug.Log("[VoiceSettings] ToggleMuteImmediate -> MUTED");
+        else
+            Debug.Log("[VoiceSettings] ToggleMuteImmediate -> UNMUTED");
     }
 
     public async void SetMute(bool value)
     {
+        if (VoiceTimeLimiter.LocalInstance != null)
+        {
+            bool success = VoiceTimeLimiter.LocalInstance.TrySetMuteState(value);
+
+            if (!success && !value)
+            {
+                muteMicrophone = true;
+                return;
+            }
+        }
+
         muteMicrophone = value;
         await ApplyAllAsync();
     }

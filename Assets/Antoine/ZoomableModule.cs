@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+
 /// <summary>
 /// Résumé de ce que fait se script pour que tu comprends comment ca fonctionne.
 /// </summary>
@@ -151,12 +152,12 @@ public class ZoomableModule : MonoBehaviour, MouseInteractionManager.IInteractab
 
     public void OnHoverEnter()
     {
-        
+
     }
 
     public void OnHoverExit()
     {
-        
+
     }
 
     public void CloseModule()
@@ -294,21 +295,36 @@ public class ZoomableModule : MonoBehaviour, MouseInteractionManager.IInteractab
         // On vide d'abord la liste au cas où cette méthode est relancée
         childScriptsToEnable.Clear();
 
-        // On récupère tous les MonoBehaviour présents dans les enfants, même s'ils sont désactivés (sinon ils sont toujours interactable)
-        MonoBehaviour[] allMonoBehaviours = GetComponentsInChildren<MonoBehaviour>(true);
+        // On lance une vraie recherche récursive
+        CacheChildInteractablesRecursive(transform);
+    }
 
-        for (int i = 0; i < allMonoBehaviours.Length; i++)
+    private void CacheChildInteractablesRecursive(Transform current)
+    {
+        for (int i = 0; i < current.childCount; i++)
         {
-            MonoBehaviour mb = allMonoBehaviours[i];
+            Transform child = current.GetChild(i);
 
-            if (mb == null)
+            if (child == null)
                 continue;
 
-            if (mb.gameObject == gameObject)
-                continue;
+            MonoBehaviour[] behavioursOnChild = child.GetComponents<MonoBehaviour>();
 
-            if (mb is MouseInteractionManager.IInteractable)
-                childScriptsToEnable.Add(mb);
+            for (int j = 0; j < behavioursOnChild.Length; j++)
+            {
+                MonoBehaviour mb = behavioursOnChild[j];
+
+                if (mb == null)
+                    continue;
+
+                if (mb is MouseInteractionManager.IInteractable)
+                {
+                    if (!childScriptsToEnable.Contains(mb))
+                        childScriptsToEnable.Add(mb);
+                }
+            }
+
+            CacheChildInteractablesRecursive(child);
         }
     }
 
@@ -319,14 +335,12 @@ public class ZoomableModule : MonoBehaviour, MouseInteractionManager.IInteractab
 
         Vector3 targetPos;
 
-        // Si un point cible explicite est donné, on l'utilise
         if (zoomTarget != null)
         {
             targetPos = zoomTarget.position;
         }
         else
         {
-            // Sinon on calcule le centre de l'écran en coordonnées monde
             float distanceFromCamera = Mathf.Abs(transform.position.z - targetCamera.transform.position.z);
 
             Vector3 screenCenter = new Vector3(
@@ -338,7 +352,6 @@ public class ZoomableModule : MonoBehaviour, MouseInteractionManager.IInteractab
             targetPos = targetCamera.ScreenToWorldPoint(screenCenter);
         }
 
-        // Rapproche le module de la caméra quand il est ouvert pour qu'il soit devant le fond UI
         targetPos.z = targetCamera.transform.position.z + openedZOffsetFromCamera;
 
         return targetPos;
@@ -346,7 +359,6 @@ public class ZoomableModule : MonoBehaviour, MouseInteractionManager.IInteractab
 
     private void SetChildScriptsState(bool state)
     {
-        // Active ou désactive tous les scripts interactables trouvés dans les enfants
         for (int i = 0; i < childScriptsToEnable.Count; i++)
         {
             if (childScriptsToEnable[i] != null)
