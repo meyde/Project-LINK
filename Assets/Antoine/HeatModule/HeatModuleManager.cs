@@ -51,14 +51,6 @@ public class HeatModuleManager : Module
     {
         UpdateVisuals();
         hasValidated = false;
-
-        // Choisis UNE des 2 lignes selon ce que tu veux :
-
-        // 1) Si tu veux remettre en blanc quand on modifie :
-        // SetNeutralState();
-
-        // 2) Si tu veux ne rien changer visuellement tant qu'on n'a pas revalidé :
-        // ne rien faire
     }
 
     private void UpdateVisuals()
@@ -75,32 +67,35 @@ public class HeatModuleManager : Module
     public void Validate()
     {
         hasValidated = true;
-        CheckSolution();
+        int r=CheckSolution();
+
     }
 
-    public void CheckSolution()
+    public int CheckSolution()
     {
         if (currentRecipe == null)
         {
             Debug.LogWarning("Aucune recette assignée.");
-            return;
+            return -1;
         }
 
         if (!hasValidated)
-            return;
+            return -1;
 
-        int returnState = -1;
+        
         foreach (HeatModuleRecipe r in allRecipes)
         {
             if (dialL.CurrentValue == r.targetL &&
             dialH.CurrentValue == r.targetH &&
             dialI.CurrentValue == r.targetI)
             {
-                returnState = r.reciepeId;
+                return r.reciepeId;
             }
+            
         }
+        return -1;
 
-        gm.EndModuleCheck(2,false, 0);
+        
 
 
         
