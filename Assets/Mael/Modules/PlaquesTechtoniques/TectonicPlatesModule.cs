@@ -6,7 +6,7 @@ using Random = UnityEngine.Random;
 
 public class TectonicPlatesModule : MonoBehaviour
 {
-    private int state = -1;
+    //private int state = -1;
     public int colorState = 0;// 0 pour vert, 1 pour bleu, 2 pour rose
     [Header("Keyboard Reading")] 
     [SerializeField] private InputAction writing;

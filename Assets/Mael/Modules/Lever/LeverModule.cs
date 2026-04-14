@@ -8,7 +8,6 @@ public class LeverModule : Module, MouseInteractionManager.IInteractable
     [Header("Data")]
     [SerializeField] private LeverCodes[] codes;
     [SerializeField] private int moduleId = 0;
-    [SerializeField] private int moduleLvl = 0;
 
     [Header("Lever Settings")]
     [SerializeField] private int minValue = 0;
@@ -55,7 +54,6 @@ public class LeverModule : Module, MouseInteractionManager.IInteractable
                 codeDone = levercode.id;
             }
         }
-        optionColor = Random.Range(0, 3);
         int index = 0;
         List<int> falseInd = new();
         bool hasSucceeded = false;

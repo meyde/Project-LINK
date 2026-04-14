@@ -21,8 +21,12 @@ public class CatastrophicEvent : ScriptableObject
     public int eventCategoryLevel;
     public int eventDuration;
     public int baseLife = 2;
-    public int WindSpeed;
-    public int Temperature;
-    public int Intensity;
-    public int OxygenLevel;
+    public int windSpeed;
+    public int windVariation;
+    public int temperature;
+    public int tempVariation;
+    public int intensity;
+    public int intesityVariation;
+    public int oxygenLevel;
+    public int oxygenVariation;
 }
