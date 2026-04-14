@@ -17,8 +17,6 @@ public class GameManagerNetwork : NetworkBehaviour
     [SerializeField] private int randomisationTime = 30;
     [SerializeField] private int requiredSuccesses = 4;
     [SerializeField] private float timeBeforeStart = 30f;
-    [SerializeField] private int minIdLvl2 = 5;
-    [SerializeField] private int minIdLvl3 = 8;
     private int gameLevel;
     private bool gameStarted;
     public NetworkList<int> eventDataIds = new();
@@ -26,6 +24,7 @@ public class GameManagerNetwork : NetworkBehaviour
     public NetworkList<int> eventModulesDone = new();
     public NetworkList<int> eventCurrentLevel = new();
     public NetworkList<int> eventStates = new();
+    public NetworkList<int> eventRegions = new();
     public NetworkList<FixedList64Bytes<int>> eventModule1Option = new();
     public NetworkList<FixedList64Bytes<int>> eventModule2Option = new();
     public NetworkList<FixedList64Bytes<int>> eventModule3Option = new();
@@ -86,6 +85,7 @@ public class GameManagerNetwork : NetworkBehaviour
         eventModule1Option.Add(module1Options);
         eventModule2Option.Add(module2Options);
         eventModule3Option.Add(module3Options);
+        eventRegions.Add(eventList[id].region);
         
     }
     public IEnumerator EventGenerationRepeating()
@@ -133,6 +133,7 @@ public class GameManagerNetwork : NetworkBehaviour
         eventModule3Option.RemoveAt(eventId);
         eventStates.RemoveAt(eventId);
         eventCurrentLevel.RemoveAt(eventId);
+        eventRegions.RemoveAt(eventId);
         Invoke("EventGeneration", Random.Range(5f, 10f));
         if (health.Value < 1) 
         {
@@ -152,6 +153,7 @@ public class GameManagerNetwork : NetworkBehaviour
         eventModule3Option.RemoveAt(eventId);
         eventStates.RemoveAt(eventId);
         eventCurrentLevel.RemoveAt(eventId);
+        eventRegions.RemoveAt(eventId);
         Invoke("EventGeneration", Random.Range(5f, 10f));
         if (successes.Value >= requiredSuccesses)
         {
@@ -186,7 +188,7 @@ public class GameManagerNetwork : NetworkBehaviour
                         eventCurrentLevel[eventInd]++;
                     }
                 }
-                break;
+                    break;
             case 2:
                 for (int i = 0; i < cEvent.modules2.Count(); i++)
                 {

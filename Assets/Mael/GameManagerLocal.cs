@@ -9,6 +9,7 @@ public class GameManagerLocal : MonoBehaviour
 {
     public GameManagerNetwork gmn;
     public CatastrophicEvent[] allEvents;
+    public int currentRegion;  
     private void Awake()
     {
         gmn = FindFirstObjectByType<GameManagerNetwork>();
@@ -23,6 +24,11 @@ public class GameManagerLocal : MonoBehaviour
     {
         if (gmn != null)
             gmn.eventDataIds.OnListChanged -= OnEventsChanged;
+    }
+
+    public void ChangeRegion(int regionSelected)
+    {
+        currentRegion = regionSelected;
     }
 
     private void OnEventsChanged(NetworkListEvent<int> change)
@@ -61,7 +67,6 @@ public class GameManagerLocal : MonoBehaviour
     {
         if (eventPos > -1)
         {
-            CatastrophicEvent cEvent = allEvents[gmn.eventDataIds[eventPos]];
             if (state)
             {
                 gmn.OnIncrementRpc(eventPos, moduleId);
