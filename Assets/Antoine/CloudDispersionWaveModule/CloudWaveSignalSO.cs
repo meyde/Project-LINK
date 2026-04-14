@@ -4,7 +4,7 @@ using UnityEngine;
 public class CloudWaveSignalSO : ScriptableObject
 {
     [Header("Identifiant")]
-    public string id;
+    public int id;
 
     [Header("Affichage")]
     public Sprite signalSprite;

@@ -23,6 +23,7 @@ public class CloudWaveModuleManager : MonoBehaviour
     public Color failureColor = Color.red;
 
     [Header("Etat")]
+    public int moduleId = 1;
     public bool isSolved;
 
     private void Start()

@@ -14,8 +14,9 @@ public class GameManagerNetwork : NetworkBehaviour
     [SerializeField] private int approximateTimeForEvents = 45;
     [SerializeField] private int randomisationTime = 30;
     [SerializeField] private int requiredSuccesses = 4;
+    [SerializeField] private float timeBeforeStart = 30f;
     private int gameLevel;
-
+    private bool gameStarted;
     public NetworkList<int> eventDataIds = new();
     public NetworkList<int> eventLives = new();
     public NetworkList<int> eventLastModules = new();
@@ -41,7 +42,7 @@ public class GameManagerNetwork : NetworkBehaviour
     public void OnStartGame()
     {
         if (!IsServer) return;
-        eventCoroutine = StartCoroutine(EventGeneration());
+        eventCoroutine = StartCoroutine(EventGenerationRepeating());
     }
 
     public void Start()
@@ -58,25 +59,37 @@ public class GameManagerNetwork : NetworkBehaviour
         Debug.Log("Game Won");
         if (eventCoroutine != null) { StopCoroutine(eventCoroutine); }
     }
-    public IEnumerator EventGeneration()
+
+    private void EventGeneration()
     {
+        var eventList = GetEventsLevel();
+        int id = Random.Range(0, eventList.Length);
+        eventDataIds.Add(id);
+        eventLives.Add(eventList[id].baseLife);
+        eventLastModules.Add(-1);
+        eventStates.Add(0);
+        eventModuleOption.Add(0);
+    }
+    public IEnumerator EventGenerationRepeating()
+    {
+        if (!gameStarted)
+        {
+            gameStarted = true;
+            yield return new WaitForSeconds(timeBeforeStart);
+        }
         while (true)
         {
-            var eventList = GetEventsLevel();
-            int id = Random.Range(0, eventList.Length);
-            eventDataIds.Add(id);
-            eventLives.Add(eventList[id].baseLife);
-            eventLastModules.Add(-1);
-            eventStates.Add(0);
-            eventModuleOption.Add(0);
-            
+            EventGeneration();
             yield return new WaitForSeconds(Random.Range(0, randomisationTime) + approximateTimeForEvents);
         }
     }
     [Rpc(SendTo.Server, InvokePermission = RpcInvokePermission.Everyone)]
     public void EventLoseLifeServerRpc(int eventIndex)
     {
-
+        if (eventDataIds.Count == 0)
+        {
+            return;
+        }
         if (eventIndex < 0 ) 
         {
             eventLives[0]--;
@@ -99,6 +112,7 @@ public class GameManagerNetwork : NetworkBehaviour
         eventLastModules.RemoveAt(eventId);
         eventStates.RemoveAt(eventId);
         eventModuleOption.RemoveAt(eventId);
+        Invoke("EventGeneration", Random.Range(5f, 10f));
         if (health.Value < 1) 
         {
             OnGameLoss(); 
@@ -114,6 +128,7 @@ public class GameManagerNetwork : NetworkBehaviour
         eventLastModules.RemoveAt(eventId);
         eventStates.RemoveAt(eventId);
         eventModuleOption.RemoveAt(eventId);
+        Invoke("EventGeneration", Random.Range(5f, 10f));
         if (successes.Value >= requiredSuccesses)
         {
             OnGameWin();
