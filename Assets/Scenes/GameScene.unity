@@ -787,7 +787,6 @@ MonoBehaviour:
   targetCamera: {fileID: 2121139982}
   zoomTarget: {fileID: 2121139983}
   blurBackground: {fileID: 61525289}
-  moduleCollider: {fileID: 0}
   closeAction: {fileID: -2327764098668319088, guid: 09b8835e42c66f24fa09ccf871344871, type: 3}
   zoomDuration: 0.35
   zoomScaleMultiplier: 2
@@ -2493,7 +2492,6 @@ MonoBehaviour:
   targetCamera: {fileID: 2121139982}
   zoomTarget: {fileID: 2121139983}
   blurBackground: {fileID: 61525289}
-  moduleCollider: {fileID: 0}
   closeAction: {fileID: -2327764098668319088, guid: 09b8835e42c66f24fa09ccf871344871, type: 3}
   zoomDuration: 0.35
   zoomScaleMultiplier: 2
@@ -2654,7 +2652,7 @@ Transform:
   m_GameObject: {fileID: 290468212}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 39.12, y: -1.34, z: 0}
+  m_LocalPosition: {x: 33.5, y: -0.45, z: 0}
   m_LocalScale: {x: 5.6190844, y: 3.6467927, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -12070,7 +12068,6 @@ MonoBehaviour:
   targetCamera: {fileID: 1181832232}
   zoomTarget: {fileID: 1181832233}
   blurBackground: {fileID: 61525289}
-  moduleCollider: {fileID: 0}
   closeAction: {fileID: -2327764098668319088, guid: 09b8835e42c66f24fa09ccf871344871, type: 3}
   zoomDuration: 0.35
   zoomScaleMultiplier: 1.75
@@ -14401,7 +14398,6 @@ MonoBehaviour:
   targetCamera: {fileID: 2121139982}
   zoomTarget: {fileID: 2121139983}
   blurBackground: {fileID: 61525289}
-  moduleCollider: {fileID: 0}
   closeAction: {fileID: -2327764098668319088, guid: 09b8835e42c66f24fa09ccf871344871, type: 3}
   zoomDuration: 0.35
   zoomScaleMultiplier: 1.75
@@ -15669,8 +15665,8 @@ Transform:
   m_GameObject: {fileID: 2011750793}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 26.14, y: 5.32, z: 0}
-  m_LocalScale: {x: 3.3688948, y: 3.2911253, z: 1}
+  m_LocalPosition: {x: 26.07, y: 5.22, z: 0}
+  m_LocalScale: {x: 2.7310317, y: 2.6679869, z: 0.810661}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 454671332}
@@ -15774,7 +15770,6 @@ MonoBehaviour:
   targetCamera: {fileID: 2121139982}
   zoomTarget: {fileID: 2121139983}
   blurBackground: {fileID: 61525289}
-  moduleCollider: {fileID: 0}
   closeAction: {fileID: -2327764098668319088, guid: 09b8835e42c66f24fa09ccf871344871, type: 3}
   zoomDuration: 0.35
   zoomScaleMultiplier: 2
