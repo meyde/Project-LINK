@@ -100,7 +100,7 @@ public class HeatModuleManager : MonoBehaviour
             }
         }
 
-        gm.EndModuleCheck(2, returnState, Random.Range(0, 3));
+        gm.EndModuleCheck(false, 0);
 
 
         

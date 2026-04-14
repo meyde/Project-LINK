@@ -60,26 +60,26 @@ public class LeverModule : Module, MouseInteractionManager.IInteractable
         int index = 0;
         List<int> falseInd = new();
         bool hasSucceeded = false;
-        foreach ( int eventId in gm.gmn.eventDataIds)
-        {
-            CatastrophicEvent cEvent = gm.allEvents[eventId];
-            for (int i=0; i < cEvent.modules.Length; i++)
-            {
-                if (cEvent.modules[i]==moduleId)
-                {
-                    if ( cEvent.moduleState[i] == codeDone)
-                    { 
-                        hasSucceeded = true;
-                        gm.EndModuleCheck(true, index);
-                    }
-                    else
-                    {
-                        falseInd.Add(i);
-                    }
-                }
-            }
-            index++;
-        }
+        //foreach ( int eventId in gm.gmn.eventDataIds)
+        //{
+        //    CatastrophicEvent cEvent = gm.allEvents[eventId];
+        //    for (int i=0; i < cEvent.modules.Length; i++)
+        //    {
+        //        if (cEvent.modules[i]==moduleId)
+        //        {
+        //            if ( cEvent.moduleState[i] == codeDone)
+        //            { 
+        //                hasSucceeded = true;
+        //                gm.EndModuleCheck(true, index);
+        //            }
+        //            else
+        //            {
+        //                falseInd.Add(i);
+        //            }
+        //        }
+        //    }
+        //    index++;
+        //}
         if (!hasSucceeded)
         {
             if (falseInd.Count > 0)

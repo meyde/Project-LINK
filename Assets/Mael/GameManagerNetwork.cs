@@ -22,10 +22,15 @@ public class GameManagerNetwork : NetworkBehaviour
     public NetworkList<int> eventDataIds = new();
     public NetworkList<int> eventLives = new();
     public NetworkList<int> eventModulesDone = new();
-    public NetworkList<int> eventStates = new();
     public NetworkVariable<int> health = new(3);
     public NetworkVariable<int> successes = new(0);
-    public NetworkList<FixedList64Bytes<int>> eventModuleOption = new();
+    public NetworkList<int> eventCurrentLevel = new();
+    public NetworkList<int> eventStates = new();
+    public NetworkList<FixedList64Bytes<int>> eventModule1Option = new();
+
+    public NetworkList<FixedList64Bytes<int>> eventModule2Option = new();
+
+    public NetworkList<FixedList64Bytes<int>> eventModule3Option = new();
 
     private Coroutine eventCoroutine;
 
@@ -69,8 +74,6 @@ public class GameManagerNetwork : NetworkBehaviour
         eventDataIds.Add(id);
         eventLives.Add(eventList[id].baseLife);
         eventModulesDone.Add(0);
-        eventStates.Add(0);
-        eventModuleOption.Add(0);
     }
     public IEnumerator EventGenerationRepeating()
     {
@@ -112,8 +115,6 @@ public class GameManagerNetwork : NetworkBehaviour
         eventDataIds.RemoveAt(eventId);
         eventLives.RemoveAt(eventId);
         eventModulesDone.RemoveAt(eventId);
-        eventStates.RemoveAt(eventId);
-        eventModuleOption.RemoveAt(eventId);
         Invoke("EventGeneration", Random.Range(5f, 10f));
         if (health.Value < 1) 
         {
@@ -128,8 +129,6 @@ public class GameManagerNetwork : NetworkBehaviour
         eventDataIds.RemoveAt(eventId);
         eventLives.RemoveAt(eventId);
         eventModulesDone.RemoveAt(eventId);
-        eventStates.RemoveAt(eventId);
-        eventModuleOption.RemoveAt(eventId);
         Invoke("EventGeneration", Random.Range(5f, 10f));
         if (successes.Value >= requiredSuccesses)
         {
@@ -140,7 +139,6 @@ public class GameManagerNetwork : NetworkBehaviour
     public void OnIncrementRpc(int eventId)
     {
         eventModulesDone[eventId]++;
-        eventModuleOption[eventId]
 
     }
 }

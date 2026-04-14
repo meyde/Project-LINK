@@ -176,7 +176,6 @@ public class CloudWaveModuleManager : Module
         isSolved = true;
         SetSuccessState();
         Debug.Log($"Module onde résolu ! Signal : {currentSignal.id}");
-        gm.EndModuleCheck(moduleId, 1,Random.Range(0,2));
     }
 
     public void ResetLevers(bool notifyManager = true)

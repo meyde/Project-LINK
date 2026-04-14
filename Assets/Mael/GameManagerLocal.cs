@@ -64,14 +64,14 @@ public class GameManagerLocal : MonoBehaviour
             CatastrophicEvent cEvent = allEvents[gmn.eventDataIds[eventPos]];
             if (state)
             {
-                if (gmn.eventModulesDone[eventPos] == cEvent.modules.Count() - 1)
-                {
-                    gmn.OnSuccessRpc(eventPos);
-                }
-                else
-                {
-                    gmn.OnIncrementRpc(eventPos);
-                }
+                //if (gmn.eventModulesDone[eventPos] == cEvent.modules.Count() - 1)
+                //{
+                //    gmn.OnSuccessRpc(eventPos);
+                //}
+                //else
+                //{
+                //    gmn.OnIncrementRpc(eventPos);
+                //}
             }
             else
             {
