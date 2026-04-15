@@ -74,10 +74,10 @@ public class CatastrophicEventStateModule : MonoBehaviour
         if (ev == null)
             return;
 
-        windText.text = $"Vent : {ev.WindSpeed}";
-        temperatureText.text = $"Température : {ev.Temperature}";
-        intensityText.text = $"Intensité : {ev.Intensity}";
-        oxygenText.text = $"Oxygène : {ev.OxygenLevel}";
+        windText.text = $"Vent : {ev.windSpeed}";
+        temperatureText.text = $"Température : {ev.temperature}";
+        intensityText.text = $"Intensité : {ev.intensity}";
+        oxygenText.text = $"Oxygène : {ev.oxygenLevel}";
     }
 
     private void ClearTexts()

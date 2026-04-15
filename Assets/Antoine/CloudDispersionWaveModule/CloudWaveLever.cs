@@ -6,7 +6,7 @@ public class CloudWaveLever : MonoBehaviour, MouseInteractionManager.IInteractab
     public CloudWaveModuleManager moduleManager;
 
     [Header("Etat")]
-    [SerializeField] private bool isOn = false;
+    public bool isOn = false;
 
     [Header("Visuel rotation")]
     public Transform leverVisual;
@@ -23,7 +23,6 @@ public class CloudWaveLever : MonoBehaviour, MouseInteractionManager.IInteractab
     public Color normalColor = Color.white;
     public Color hoverColor = Color.yellow;
 
-    public bool IsOn => isOn;
 
     private void Start()
     {
@@ -54,20 +53,12 @@ public class CloudWaveLever : MonoBehaviour, MouseInteractionManager.IInteractab
         Debug.Log($"Etat levier {gameObject.name} -> {(isOn ? "ON" : "OFF")}");
 
         RefreshVisual();
-
-        if (moduleManager != null)
-            moduleManager.OnLeverStateChanged();
-        else
-            Debug.LogWarning($"Aucun moduleManager assigné sur {gameObject.name}");
     }
 
-    public void SetState(bool newState, bool notifyManager = false)
+    public void SetState(bool newState)
     {
         isOn = newState;
         RefreshVisual();
-
-        if (notifyManager && moduleManager != null)
-            moduleManager.OnLeverStateChanged();
     }
 
     private void RefreshVisual()

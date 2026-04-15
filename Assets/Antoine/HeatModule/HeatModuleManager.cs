@@ -1,5 +1,6 @@
-using UnityEngine;
+using System.Collections.Generic;
 using TMPro;
+using UnityEngine;
 
 public class HeatModuleManager : Module
 {
@@ -30,6 +31,7 @@ public class HeatModuleManager : Module
 
     private GameManagerLocal gm;
 
+    private int moduleId = 2;
     private void Awake()
     {
         gm = FindFirstObjectByType<GameManagerLocal>();
@@ -68,6 +70,44 @@ public class HeatModuleManager : Module
     {
         hasValidated = true;
         int r=CheckSolution();
+        int index = 0;
+        List<int> falseInd = new();
+        bool hasSucceeded = false;
+        foreach (int eventId in gm.gmn.eventDataIds)
+        {
+            CatastrophicEvent cEvent = gm.allEvents[eventId];
+            for (int i = 0; i < cEvent.modules1.Length; i++)
+            {
+                if (cEvent.modules1[i] == moduleId)
+                {
+                    if (cEvent.modulesState1[i] == r)
+                    {
+                        hasSucceeded = true;
+                        gm.EndModuleCheck(moduleId, true, index);
+                    }
+                    else
+                    {
+                        falseInd.Add(i);
+                    }
+                }
+            }
+            index++;
+        }
+        if (!hasSucceeded)
+        {
+            if (falseInd.Count > 0)
+            {
+                gm.EndModuleCheck(moduleId, false, falseInd[0]);
+            }
+            else
+            {
+                if (gm.gmn.eventDataIds.Count > 0)
+                {
+                    gm.EndModuleCheck(moduleId, false, 0);
+                }
+            }
+        }
+
 
     }
 

@@ -12,11 +12,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eecf7534233f00546a14b86367e1e280, type: 3}
   m_Name: CatastrophicEvent 1
   m_EditorClassIdentifier: Assembly-CSharp::CatastrophicEvent
+  eventId: 0
   eventName: Eruption_eau_yellowstone
-  localisation: Yellowstone
   type: Eau
-  modules: 020000000000000001000000
-  moduleState: 040000000100000002000000
+  region: 0
+  modulesCount: 0
+  modules1: 
+  modules2: 
+  modules3: 
+  modulesState1: 
+  modulesState2: 
+  modulesState3: 
   eventCategoryLevel: 1
   eventDuration: 0
-  state: 0
+  baseLife: 2
+  windSpeed: 0
+  windVariation: 0
+  temperature: 40
+  tempVariation: 20
+  intensity: 0
+  intesityVariation: 0
+  oxygenLevel: 0
+  oxygenVariation: 0

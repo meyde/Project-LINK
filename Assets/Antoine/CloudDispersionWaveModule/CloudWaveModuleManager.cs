@@ -27,34 +27,27 @@ public class CloudWaveModuleManager : Module
 
     [Header("Etat")]
     public int moduleId = 1;
-    public bool isSolved;
 
 
     private GameManagerLocal gm;
-    private List<CloudWaveCodeSO> possibleCodes;
 
     private void Awake()
     {
         gm = FindFirstObjectByType<GameManagerLocal>();
+        AssignManagerToLevers();
     }
     public override void  OnStarted()
     {
-        AssignManagerToLevers();
         PickRandomSignal();
-        SetNeutralState();
-        int signalId = currentSignal.id;
-        foreach (CloudWaveCodeSO code in availableCodes)
-        {
-            for(int i=0; i< gm.gmn.eventDataIds.Count;i++)
-            {
-                if (gm.gmn.eventDataIds[i] == code.eventId && signalId == code.signalId)
-                {
-                    possibleCodes.Add(code);
-                }
-            }
-        }
-        
+        Reset();
+    }
 
+    private void Reset()
+    {
+        foreach (CloudWaveLever lever in levers)
+        {
+            lever.SetState(false);
+        }
     }
     private void AssignManagerToLevers()
     {
@@ -80,74 +73,77 @@ public class CloudWaveModuleManager : Module
 
         Debug.Log($"Signal choisi : {currentSignal.id}");
 
-        ApplyCurrentSignalVisual();
-        ResetLevers(false);
-        isSolved = false;
-        SetNeutralState();
-    }
-
-    private void ApplyCurrentSignalVisual()
-    {
-        if (currentSignal == null)
-        {
-            Debug.LogWarning("Aucun signal à afficher.");
-            return;
-        }
-
-        // Affichage du sprite central
-        if (signalDisplay != null)
-        {
-            signalDisplay.sprite = currentSignal.signalSprite;
-        }
-        else
-        {
-            Debug.LogWarning("SignalDisplay non assigné !");
-        }
-
-        // Affichage ID (optionnel)
-        if (idText != null)
-        {
-            idText.text = currentSignal.id.ToString();
-        }
-    }
-
-    public void OnLeverStateChanged()
-    {
-        // Quand un levier change, on remet juste la light en neutre.
-        // La vraie validation se fait uniquement avec le bouton.
-        SetNeutralState();
-        isSolved = false;
     }
 
     // À appeler depuis le bouton de validation
     public void ValidateLevers()
     {
         Debug.Log("Validation demandée");
-        foreach(CloudWaveCodeSO code in possibleCodes)
+        int index = 0;
+        List<int> falseInd = new();
+        bool hasSucceeded = false;
+        foreach (int eventId in gm.gmn.eventDataIds)
         {
-            CheckSolution(code);
+            CatastrophicEvent cEvent = gm.allEvents[eventId];
+            for (int i = 0; i < cEvent.modules1.Length; i++)
+            {
+                if (cEvent.modules1[i] == moduleId)
+                {
+                    List<CloudWaveCodeSO> codeList = new();
+                    foreach (CloudWaveCodeSO code in availableCodes)
+                    {
+                        if (code.eventId == eventId && code.signalId == currentSignal.id)
+                        {
+                            if (CheckSolution(code))
+                            {
+                                hasSucceeded = true;
+                                gm.EndModuleCheck(moduleId, true, index);
+                            }
+                            else
+                            {
+                                falseInd.Add(code.eventId);
+                            }
+                        }
+                    }
+                }
+            }
+            index++;
         }
-        
+        if (!hasSucceeded)
+        {
+            if (falseInd.Count > 0)
+            {
+                gm.EndModuleCheck(moduleId, false, falseInd[0]);
+            }
+            else
+            {
+                if (gm.gmn.eventDataIds.Count > 0)
+                {
+                    gm.EndModuleCheck(moduleId, false, 0);
+                }
+            }
+        }
+
     }
 
-    public void CheckSolution(CloudWaveCodeSO codeSo)
+    public bool CheckSolution(CloudWaveCodeSO codeSo)
     {
         if (currentSignal == null)
         {
             Debug.LogWarning("Aucun signal courant.");
-            return;
+            return false;
         }
 
         if (codeSo.leverCode == null || codeSo.leverCode.Length == 0)
         {
             Debug.LogWarning($"Le signal {currentSignal.name} n'a pas de code.");
-            return;
+            return false;
         }
 
         if (levers == null || levers.Length == 0)
         {
             Debug.LogWarning("Aucun levier assigné.");
-            return;
+            return false;
         }
 
         if (codeSo.leverCode.Length != levers.Length)
@@ -157,59 +153,22 @@ public class CloudWaveModuleManager : Module
                 $"mais il y a {levers.Length} leviers."
             );
 
-            isSolved = false;
-            return;
+            return false;
         }
 
         for (int i = 0; i < levers.Length; i++)
         {
             bool expected = codeSo.leverCode[i];
-            bool current = levers[i] != null && levers[i].IsOn;
+            bool current = levers[i] != null && levers[i].isOn;
 
             if (current != expected)
             {
-                isSolved = false;
-                return;
+                return false;
             }
         }
 
-        isSolved = true;
-        SetSuccessState();
         Debug.Log($"Module onde résolu ! Signal : {currentSignal.id}");
+        return true;
     }
 
-    public void ResetLevers(bool notifyManager = true)
-    {
-        if (levers == null)
-            return;
-
-        for (int i = 0; i < levers.Length; i++)
-        {
-            if (levers[i] != null)
-                levers[i].SetState(false, false);
-        }
-
-        isSolved = false;
-
-        if (notifyManager)
-            OnLeverStateChanged();
     }
-
-    private void SetNeutralState()
-    {
-        if (statusLight != null)
-            statusLight.color = neutralColor;
-    }
-
-    private void SetSuccessState()
-    {
-        if (statusLight != null)
-            statusLight.color = successColor;
-    }
-
-    private void SetFailureState()
-    {
-        if (statusLight != null)
-            statusLight.color = failureColor;
-    }
-}
