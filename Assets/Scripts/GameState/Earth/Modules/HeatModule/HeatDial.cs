@@ -39,9 +39,7 @@ public class HeatDial : MonoBehaviour, MouseInteractionManager.IInteractable
 
     public void OnClick()
     {
-        currentValue++;
-        if (currentValue > 3)
-            currentValue = 0;
+        currentValue = (currentValue + 1) % 3;
 
         if (audioSource != null && clickSound != null)
             audioSource.PlayOneShot(clickSound);
@@ -76,7 +74,7 @@ public class HeatDial : MonoBehaviour, MouseInteractionManager.IInteractable
 
         if (rotatingVisual != null)
         {
-            rotatingVisual.localRotation = Quaternion.Euler(0f, 0f, -currentValue * rotationStep);
+            rotatingVisual.localRotation = Quaternion.Euler(0f, 0f,180 +( -currentValue * rotationStep));
         }
     }
 
