@@ -34,6 +34,10 @@ public class MouseEdgeCameraPan : MonoBehaviour
 
     private void Update()
     {
+        // Bloque la caméra si un module est ouvert
+        if (ZoomableModule.AnyModuleOpen)
+            return;
+
         if (Mouse.current == null)
             return;
 

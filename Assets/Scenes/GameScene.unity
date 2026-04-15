@@ -534,9 +534,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PictogramInteractable
   pictogramSystem: {fileID: 19428201}
   spriteRenderer: {fileID: 0}
-  audioSource: {fileID: 0}
-  clickSound: {fileID: 0}
-  hoverSound: {fileID: 0}
+  audioSource: {fileID: 1583072585}
+  clickSound: {fileID: 8300000, guid: 9de702d89f4684c4081f925a46b83806, type: 3}
+  hoverSound: {fileID: 8300000, guid: c442fc481d6df0a44a28cc6e145047ac, type: 3}
 --- !u!1 &37820942
 GameObject:
   m_ObjectHideFlags: 0
@@ -1338,6 +1338,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93db1d6daf6cc924bb8f73dae88aa283, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ZoomableModule
+  diode: {fileID: 0}
+  DiodeSprites: []
   targetCamera: {fileID: 2121139982}
   zoomTarget: {fileID: 2121139983}
   blurBackground: {fileID: 61525289}
@@ -1360,6 +1362,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f84b83e9e9797c4d92ad3692259e411, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CloudWaveModuleManager
+  diode: {fileID: 0}
+  DiodeSprites: []
   availableSignals:
   - {fileID: 11400000, guid: 4221fa5962e267d4e8bf26cffd482418, type: 2}
   - {fileID: 11400000, guid: c694f1311c478954cb2f2f70c6b7740e, type: 2}
@@ -1390,7 +1394,6 @@ MonoBehaviour:
   successColor: {r: 0, g: 1, b: 0, a: 1}
   failureColor: {r: 1, g: 0, b: 0, a: 1}
   moduleId: 1
-  isSolved: 0
 --- !u!61 &290468215
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2056,6 +2059,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc276b8d95f442041aa2a887d1dcd468, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CatastrophicEventStateModule
+  diode: {fileID: 0}
+  DiodeSprites: []
   gameManagerLocal: {fileID: 1583072583}
   windText: {fileID: 544354076}
   temperatureText: {fileID: 1313817879}
@@ -5306,8 +5311,8 @@ MonoBehaviour:
   normalColor: {r: 1, g: 1, b: 1, a: 1}
   hoverColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   audioSource: {fileID: 1583072585}
-  clickSound: {fileID: 8300000, guid: c442fc481d6df0a44a28cc6e145047ac, type: 3}
-  hoverSound: {fileID: 8300000, guid: 9de702d89f4684c4081f925a46b83806, type: 3}
+  clickSound: {fileID: 8300000, guid: 9de702d89f4684c4081f925a46b83806, type: 3}
+  hoverSound: {fileID: 8300000, guid: c442fc481d6df0a44a28cc6e145047ac, type: 3}
 --- !u!212 &959433211
 SpriteRenderer:
   serializedVersion: 2
@@ -6886,10 +6891,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93db1d6daf6cc924bb8f73dae88aa283, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ZoomableModule
+  diode: {fileID: 0}
+  DiodeSprites: []
   targetCamera: {fileID: 1181832232}
   zoomTarget: {fileID: 1181832233}
   blurBackground: {fileID: 61525289}
-  moduleToStart: {fileID: 0}
+  moduleToStart: {fileID: 1188985605}
   closeAction: {fileID: -2327764098668319088, guid: 09b8835e42c66f24fa09ccf871344871, type: 3}
   zoomDuration: 0.35
   zoomScaleMultiplier: 2
@@ -8149,9 +8156,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PictogramInteractable
   pictogramSystem: {fileID: 19428201}
   spriteRenderer: {fileID: 0}
-  audioSource: {fileID: 0}
-  clickSound: {fileID: 0}
-  hoverSound: {fileID: 0}
+  audioSource: {fileID: 1583072585}
+  clickSound: {fileID: 8300000, guid: 9de702d89f4684c4081f925a46b83806, type: 3}
+  hoverSound: {fileID: 8300000, guid: c442fc481d6df0a44a28cc6e145047ac, type: 3}
 --- !u!212 &1343642164
 SpriteRenderer:
   serializedVersion: 2
@@ -8690,6 +8697,9 @@ MonoBehaviour:
   iconSprite: {fileID: 0}
   normalColor: {r: 1, g: 1, b: 1, a: 1}
   hoverColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  audioSource: {fileID: 1583072585}
+  clickSound: {fileID: 8300000, guid: 9de702d89f4684c4081f925a46b83806, type: 3}
+  hoverSound: {fileID: 8300000, guid: c442fc481d6df0a44a28cc6e145047ac, type: 3}
 --- !u!1 &1526578372
 GameObject:
   m_ObjectHideFlags: 0
@@ -8737,6 +8747,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93db1d6daf6cc924bb8f73dae88aa283, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ZoomableModule
+  diode: {fileID: 0}
+  DiodeSprites: []
   targetCamera: {fileID: 2121139982}
   zoomTarget: {fileID: 2121139983}
   blurBackground: {fileID: 61525289}
@@ -9045,6 +9057,9 @@ MonoBehaviour:
   buttonSprite: {fileID: 0}
   normalColor: {r: 0.9960785, g: 0.35686275, b: 0.35686275, a: 1}
   hoverColor: {r: 1, g: 0, b: 0, a: 1}
+  audioSource: {fileID: 1583072585}
+  clickSound: {fileID: 8300000, guid: 9de702d89f4684c4081f925a46b83806, type: 3}
+  hoverSound: {fileID: 8300000, guid: c442fc481d6df0a44a28cc6e145047ac, type: 3}
 --- !u!212 &1541643809
 SpriteRenderer:
   serializedVersion: 2
@@ -9441,6 +9456,8 @@ GameObject:
   - component: {fileID: 1639179910}
   - component: {fileID: 1639179909}
   - component: {fileID: 1639179912}
+  - component: {fileID: 1639179913}
+  - component: {fileID: 1639179914}
   - component: {fileID: 1639179911}
   m_Layer: 0
   m_Name: PictogramModule
@@ -9585,16 +9602,63 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93db1d6daf6cc924bb8f73dae88aa283, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ZoomableModule
+  diode: {fileID: 0}
+  DiodeSprites: []
   targetCamera: {fileID: 1181832232}
   zoomTarget: {fileID: 1181832233}
   blurBackground: {fileID: 61525289}
-  moduleToStart: {fileID: 0}
+  moduleToStart: {fileID: 1639179912}
   closeAction: {fileID: -2327764098668319088, guid: 09b8835e42c66f24fa09ccf871344871, type: 3}
   zoomDuration: 0.35
   zoomScaleMultiplier: 1.75
   openedZOffsetFromCamera: 1
   autoFindChildInteractables: 1
   hideVisualsWhenClosed: 0
+--- !u!114 &1639179913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1639179908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Netcode.Runtime::Unity.Netcode.NetworkObject
+  GlobalObjectIdHash: 2656937965
+  InScenePlacedSourceGlobalObjectIdHash: 0
+  DeferredDespawnTick: 0
+  Ownership: 1
+  AlwaysReplicateAsRoot: 0
+  SynchronizeTransform: 1
+  ActiveSceneSynchronization: 0
+  SceneMigrationSynchronization: 0
+  SpawnWithObservers: 1
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1
+  SyncOwnerTransformWhenParented: 1
+  AllowOwnerToParent: 0
+--- !u!114 &1639179914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1639179908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e42e09f33d23fac49b63075c67f9b9f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PictogramSystem
+  ShowTopMostFoldoutHeaderGroup: 1
+  pictogramPairs:
+  - spaceRenderer: {fileID: 30442367}
+    earthRenderer: {fileID: 480546977}
+  - spaceRenderer: {fileID: 1943121036}
+    earthRenderer: {fileID: 332985826}
+  - spaceRenderer: {fileID: 1343642164}
+    earthRenderer: {fileID: 1462389750}
 --- !u!1 &1651089514
 GameObject:
   m_ObjectHideFlags: 0
@@ -11239,7 +11303,7 @@ MonoBehaviour:
   rotationStep: 60
   audioSource: {fileID: 1583072585}
   clickSound: {fileID: 8300000, guid: d1d0cb3d0a951bc48baff93ca85ea886, type: 3}
-  hoverSound: {fileID: 8300000, guid: 9de702d89f4684c4081f925a46b83806, type: 3}
+  hoverSound: {fileID: 8300000, guid: c442fc481d6df0a44a28cc6e145047ac, type: 3}
   sr: {fileID: 0}
   normalColor: {r: 0.27058825, g: 0.27058825, b: 0.27058825, a: 1}
   hoverColor: {r: 0.3490566, g: 0.3490566, b: 0.3490566, a: 1}
@@ -11440,8 +11504,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1876264308}
   - component: {fileID: 1876264311}
-  - component: {fileID: 1876264310}
-  - component: {fileID: 1876264309}
   m_Layer: 0
   m_Name: PictogramModule
   m_TagString: Untagged
@@ -11468,74 +11530,6 @@ Transform:
   - {fileID: 1462389749}
   m_Father: {fileID: 1988535891}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1876264309
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1876264307}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
---- !u!114 &1876264310
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1876264307}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93db1d6daf6cc924bb8f73dae88aa283, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ZoomableModule
-  targetCamera: {fileID: 2121139982}
-  zoomTarget: {fileID: 2121139983}
-  blurBackground: {fileID: 61525289}
-  moduleToStart: {fileID: 1876264310}
-  closeAction: {fileID: -2327764098668319088, guid: 09b8835e42c66f24fa09ccf871344871, type: 3}
-  zoomDuration: 0.35
-  zoomScaleMultiplier: 1.75
-  openedZOffsetFromCamera: 1
-  autoFindChildInteractables: 1
-  hideVisualsWhenClosed: 0
 --- !u!212 &1876264311
 SpriteRenderer:
   serializedVersion: 2
@@ -11814,9 +11808,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PictogramInteractable
   pictogramSystem: {fileID: 19428201}
   spriteRenderer: {fileID: 0}
-  audioSource: {fileID: 0}
-  clickSound: {fileID: 0}
-  hoverSound: {fileID: 0}
+  audioSource: {fileID: 1583072585}
+  clickSound: {fileID: 8300000, guid: 9de702d89f4684c4081f925a46b83806, type: 3}
+  hoverSound: {fileID: 8300000, guid: c442fc481d6df0a44a28cc6e145047ac, type: 3}
 --- !u!4 &1943121039
 Transform:
   m_ObjectHideFlags: 0
@@ -12090,6 +12084,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f86ed63aac2897141bbc95a952e4cf55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LeverModule
+  diode: {fileID: 0}
+  DiodeSprites: []
   codes:
   - {fileID: 11400000, guid: 25a3ed7c2656e3b429fe0b0295b4d96e, type: 2}
   - {fileID: 11400000, guid: 76e78adc96c87f84aba573b99a6011d0, type: 2}
@@ -12478,7 +12474,7 @@ MonoBehaviour:
   rotationStep: 60
   audioSource: {fileID: 1583072585}
   clickSound: {fileID: 8300000, guid: d1d0cb3d0a951bc48baff93ca85ea886, type: 3}
-  hoverSound: {fileID: 8300000, guid: 9de702d89f4684c4081f925a46b83806, type: 3}
+  hoverSound: {fileID: 8300000, guid: c442fc481d6df0a44a28cc6e145047ac, type: 3}
   sr: {fileID: 0}
   normalColor: {r: 0.27058825, g: 0.27058825, b: 0.27058825, a: 1}
   hoverColor: {r: 0.3490566, g: 0.3490566, b: 0.3490566, a: 1}
@@ -12627,6 +12623,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca7ff5d1a85e30f4ea90f816a68bc01c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HeatModuleManager
+  diode: {fileID: 0}
+  DiodeSprites: []
   allRecipes: []
   dialL: {fileID: 2143201295}
   dialH: {fileID: 1838989868}
@@ -12708,6 +12706,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93db1d6daf6cc924bb8f73dae88aa283, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ZoomableModule
+  diode: {fileID: 0}
+  DiodeSprites: []
   targetCamera: {fileID: 2121139982}
   zoomTarget: {fileID: 2121139983}
   blurBackground: {fileID: 61525289}
@@ -13253,7 +13253,7 @@ MonoBehaviour:
   rotationStep: 60
   audioSource: {fileID: 1583072585}
   clickSound: {fileID: 8300000, guid: d1d0cb3d0a951bc48baff93ca85ea886, type: 3}
-  hoverSound: {fileID: 8300000, guid: 9de702d89f4684c4081f925a46b83806, type: 3}
+  hoverSound: {fileID: 8300000, guid: c442fc481d6df0a44a28cc6e145047ac, type: 3}
   sr: {fileID: 0}
   normalColor: {r: 0.27058825, g: 0.27058825, b: 0.27058825, a: 1}
   hoverColor: {r: 0.3529412, g: 0.3529412, b: 0.3529412, a: 1}

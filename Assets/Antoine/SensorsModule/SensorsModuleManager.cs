@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class CatastrophicEventStateModule : Module
 {
-    [Header("R�f�rences")]
+    [Header("Références")]
     [SerializeField] private GameManagerLocal gameManagerLocal;
 
     [Header("Capteurs (TextMeshPro 3D)")]
@@ -105,9 +105,9 @@ public class CatastrophicEventStateModule : Module
         int oxygenValue = GetRandomSensorValue(regionEvent.oxygenLevel, regionEvent.oxygenLevelMax);
 
         windText.text = $"Vent : {windValue}";
-        temperatureText.text = $"Temp�rature : {temperatureValue}";
-        intensityText.text = $"Intensit� : {intensityValue}";
-        oxygenText.text = $"Oxyg�ne : {oxygenValue}";
+        temperatureText.text = $"Température : {temperatureValue}";
+        intensityText.text = $"Intensité : {intensityValue}";
+        oxygenText.text = $"Oxygène : {oxygenValue}";
     }
 
     private CatastrophicEvent GetActiveEventForCurrentRegion()
@@ -147,16 +147,16 @@ public class CatastrophicEventStateModule : Module
     private void ShowNoSignal()
     {
         windText.text = "Vent : --";
-        temperatureText.text = "Temp�rature : --";
-        intensityText.text = "Intensit� : --";
-        oxygenText.text = "Oxyg�ne : --";
+        temperatureText.text = "Température : --";
+        intensityText.text = "Intensité : --";
+        oxygenText.text = "Oxygène : --";
     }
 
     private void ClearTexts()
     {
         windText.text = "Vent : --";
-        temperatureText.text = "Temp�rature : --";
-        intensityText.text = "Intensit� : --";
-        oxygenText.text = "Oxyg�ne : --";
+        temperatureText.text = "Température : --";
+        intensityText.text = "Intensité : --";
+        oxygenText.text = "Oxygène : --";
     }
 }

@@ -133,14 +133,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::VoiceTimeLimiter
   ShowTopMostFoldoutHeaderGroup: 1
-  maxVoiceDuration: 60
+  maxVoiceDuration: 20
   rechargeAmount: 1
-  rechargeDuration: 10
+  rechargeDuration: 1
   targetSceneName: GameScene
   barPrefab: {fileID: 4662251950546569501, guid: cc9ec813a49c1e84191cd8fb1205c136, type: 3}
   audioSource: {fileID: 0}
   warningSound: {fileID: 8300000, guid: a47a4dd7dd98db343b7eb3462bdbf906, type: 3}
   triggerTime: 10
+  warningVolume: 0.5
+  blinkSpeed: 8
+  blinkMinAlpha: 0.3
+  blinkMaxAlpha: 1
   viewportPosition: {x: 0.5, y: 0.9}
   cameraDistance: 10
   verboseLogs: 1
