@@ -22,11 +22,11 @@ public class CatastrophicEvent : ScriptableObject
     public int eventDuration;
     public int baseLife = 2;
     public int windSpeed;
-    public int windVariation;
+    public int windSpeedMax;
     public int temperature;
-    public int tempVariation;
+    public int temperatureMax;
     public int intensity;
-    public int intesityVariation;
+    public int intensityMax;
     public int oxygenLevel;
-    public int oxygenVariation;
+    public int oxygenLevelMax;
 }

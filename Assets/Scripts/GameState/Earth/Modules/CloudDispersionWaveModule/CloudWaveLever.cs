@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class CloudWaveLever : MonoBehaviour, MouseInteractionManager.IInteractable
 {
@@ -12,6 +13,11 @@ public class CloudWaveLever : MonoBehaviour, MouseInteractionManager.IInteractab
     public Transform leverVisual;
     public float onAngle = -35f;
     public float offAngle = 35f;
+
+    [Header("Audio")]
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip clickSound;
+    [SerializeField] private AudioClip hoverSound;
 
     [Header("Visuel sprite (optionnel)")]
     public SpriteRenderer leverSpriteRenderer;
@@ -32,6 +38,10 @@ public class CloudWaveLever : MonoBehaviour, MouseInteractionManager.IInteractab
     public void OnClick()
     {
         Debug.Log("Levier cliqué : " + gameObject.name);
+
+        if (audioSource != null && clickSound != null)
+            audioSource.PlayOneShot(clickSound);
+
         ToggleLever();
     }
 
@@ -39,6 +49,9 @@ public class CloudWaveLever : MonoBehaviour, MouseInteractionManager.IInteractab
     {
         if (sr != null)
             sr.color = hoverColor;
+
+        if (audioSource != null && hoverSound != null)
+            audioSource.PlayOneShot(hoverSound);
     }
 
     public void OnHoverExit()

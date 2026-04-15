@@ -1,5 +1,6 @@
-using UnityEngine;
 using TMPro;
+using UnityEngine;
+using UnityEngine.Audio;
 
 public class HeatDial : MonoBehaviour, MouseInteractionManager.IInteractable
 {
@@ -14,6 +15,11 @@ public class HeatDial : MonoBehaviour, MouseInteractionManager.IInteractable
     public TextMeshPro valueText;
     public Transform rotatingVisual;
     public float rotationStep = 90f;
+
+    [Header("Audio")]
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip clickSound;
+    [SerializeField] private AudioClip hoverSound;
 
     [Header("Hover")]
     public SpriteRenderer sr;
@@ -37,6 +43,9 @@ public class HeatDial : MonoBehaviour, MouseInteractionManager.IInteractable
         if (currentValue > 3)
             currentValue = 0;
 
+        if (audioSource != null && clickSound != null)
+            audioSource.PlayOneShot(clickSound);
+
         RefreshVisual();
 
         Debug.Log($"Podomètre {dialId} -> valeur {currentValue}");
@@ -49,6 +58,9 @@ public class HeatDial : MonoBehaviour, MouseInteractionManager.IInteractable
     {
         if (sr != null)
             sr.color = hoverColor;
+
+        if (audioSource != null && hoverSound != null)
+            audioSource.PlayOneShot(hoverSound);
     }
 
     public void OnHoverExit()

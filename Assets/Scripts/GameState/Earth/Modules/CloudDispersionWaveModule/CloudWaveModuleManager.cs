@@ -3,7 +3,7 @@ using TMPro;
 using NUnit.Framework;
 using System.Collections.Generic;
 
-public class CloudWaveModuleManager : Module 
+public class CloudWaveModuleManager : Module
 {
     [Header("Base de signaux")]
     public CloudWaveSignalSO[] availableSignals;
@@ -19,7 +19,7 @@ public class CloudWaveModuleManager : Module
     [Header("Leviers")]
     public CloudWaveLever[] levers;
 
-    [Header("Lumière d'état")]
+    [Header("Lumiï¿½re d'ï¿½tat")]
     public SpriteRenderer statusLight;
     public Color neutralColor = Color.white;
     public Color successColor = Color.green;
@@ -36,7 +36,7 @@ public class CloudWaveModuleManager : Module
         gm = FindFirstObjectByType<GameManagerLocal>();
         AssignManagerToLevers();
     }
-    public override void  OnStarted()
+    public override void OnStarted()
     {
         PickRandomSignal();
         Reset();
@@ -65,7 +65,7 @@ public class CloudWaveModuleManager : Module
     {
         if (availableSignals == null || availableSignals.Length == 0)
         {
-            Debug.LogWarning("Aucun CloudWaveSignalSO assigné au module.");
+            Debug.LogWarning("Aucun CloudWaveSignalSO assignï¿½ au module.");
             return;
         }
 
@@ -75,10 +75,10 @@ public class CloudWaveModuleManager : Module
 
     }
 
-    // À appeler depuis le bouton de validation
+    // ï¿½ appeler depuis le bouton de validation
     public void ValidateLevers()
     {
-        Debug.Log("Validation demandée");
+        Debug.Log("Validation demandï¿½e");
         int index = 0;
         List<int> falseInd = new();
         bool hasSucceeded = false;
@@ -142,14 +142,14 @@ public class CloudWaveModuleManager : Module
 
         if (levers == null || levers.Length == 0)
         {
-            Debug.LogWarning("Aucun levier assigné.");
+            Debug.LogWarning("Aucun levier assignï¿½.");
             return false;
         }
 
         if (codeSo.leverCode.Length != levers.Length)
         {
             Debug.LogWarning(
-                $"Le signal {currentSignal.name} contient {codeSo.leverCode.Length} états, " +
+                $"Le signal {currentSignal.name} contient {codeSo.leverCode.Length} ï¿½tats, " +
                 $"mais il y a {levers.Length} leviers."
             );
 
@@ -167,8 +167,8 @@ public class CloudWaveModuleManager : Module
             }
         }
 
-        Debug.Log($"Module onde résolu ! Signal : {currentSignal.id}");
+        Debug.Log($"Module onde rï¿½solu ! Signal : {currentSignal.id}");
         return true;
     }
 
-    }
+}
