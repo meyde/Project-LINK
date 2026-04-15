@@ -3,7 +3,7 @@ using TMPro;
 using NUnit.Framework;
 using System.Collections.Generic;
 
-public class CloudWaveModuleManager : Module 
+public class CloudWaveModuleManager : Module
 {
     [Header("Base de signaux")]
     public CloudWaveSignalSO[] availableSignals;
@@ -36,7 +36,7 @@ public class CloudWaveModuleManager : Module
         gm = FindFirstObjectByType<GameManagerLocal>();
         AssignManagerToLevers();
     }
-    public override void  OnStarted()
+    public override void OnStarted()
     {
         PickRandomSignal();
         Reset();
@@ -73,41 +73,6 @@ public class CloudWaveModuleManager : Module
 
         Debug.Log($"Signal choisi : {currentSignal.id}");
 
-        ApplyCurrentSignalVisual();
-        ResetLevers(false);
-        isSolved = false;
-        SetNeutralState();
-    }
-
-    private void ApplyCurrentSignalVisual()
-    {
-        if (currentSignal == null)
-        {
-            Debug.LogWarning("Aucun signal � afficher.");
-            return;
-        }
-
-        // Affichage du sprite central
-        if (signalDisplay != null)
-        {
-            signalDisplay.sprite = currentSignal.signalSprite;
-        }
-        else
-        {
-            Debug.LogWarning("SignalDisplay non assign� !");
-        }
-
-        // Affichage ID (optionnel)
-        if (idText != null)
-        {
-            idText.text = currentSignal.id.ToString();
-        }
-    }
-
-    public void OnLeverStateChanged()
-    {
-        SetNeutralState();
-        isSolved = false;
     }
 
     // � appeler depuis le bouton de validation
@@ -206,4 +171,4 @@ public class CloudWaveModuleManager : Module
         return true;
     }
 
-    }
+}
