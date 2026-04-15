@@ -53,7 +53,7 @@ public class RelayManager : MonoBehaviour
     {
         try
         {
-            int maxConnections = 3; // 3 clients + le host = 4 joueurs au total
+            int maxConnections = 1; // 1 client + le host = 2 joueurs au total
 
             Allocation allocation = await RelayService.Instance.CreateAllocationAsync(maxConnections);
             string joinCode = await RelayService.Instance.GetJoinCodeAsync(allocation.AllocationId);
@@ -77,7 +77,7 @@ public class RelayManager : MonoBehaviour
             }
 
             if (joinCodeText != null)
-                joinCodeText.text = "Code : " + joinCode;
+                joinCodeText.text = joinCode;
 
             Debug.Log("[Relay] Partie créée. Code : " + joinCode);
 

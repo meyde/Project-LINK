@@ -1,0 +1,687 @@
+fileFormatVersion: 2
+guid: 9a3ea71757702c043aee4ee46105b726
+importerOverride:
+  nativeImporterType: 2089858483
+  scriptedImporterType:
+    serializedVersion: 2
+    Hash: b10b55a1aa6a1aa32521bc0cab59632e
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 6c0020d2bf9892942aae8a9b106320c1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  multiSpriteImportData: []
+  layeredSpriteImportData:
+  - name: Lorem Ipsum
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 2044
+      y: 2129
+      width: 0
+      height: 0
+    spriteID: 0a8097e0561053c4e9c506d7facb6e32
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1979, y: 2129}
+    spritePosition: {x: 1350, y: 0}
+  - name: Ready
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 949
+      y: 2129
+      width: 290
+      height: 87
+    spriteID: 87979bbff38d56341be4ec0d8397dab1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 949, y: 2129}
+    spritePosition: {x: 836, y: 170}
+  - name: Lorem Ipsum
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 2044
+      y: 2137
+      width: 0
+      height: 0
+    spriteID: 652a8275fcfd34d47a1de718697cff55
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1992, y: 2137}
+    spritePosition: {x: 1920, y: 0}
+  - name: Ligne lobby Code
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 1673
+      y: 2129
+      width: 363
+      height: 9
+    spriteID: 44415f9d51694de46a4df7442f12fec1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1671, y: 2128}
+    spritePosition: {x: 136, y: 795}
+  - name: Ligne lobby Code
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 1673
+      y: 2146
+      width: 313
+      height: 9
+    spriteID: 7cf5166899f978846b88102a829f949f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1672, y: 2145}
+    spritePosition: {x: 824, y: 523}
+  - name: rond
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 1624
+      y: 2175
+      width: 25
+      height: 27
+    spriteID: 77fc4b74dbc3a414d9d2d6f6e4937f3b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1622, y: 2173}
+    spritePosition: {x: 100, y: 804}
+  - name: rond
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 1657
+      y: 2175
+      width: 25
+      height: 27
+    spriteID: 2b49e47c48f962e49b941d144ed78d3a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1655, y: 2173}
+    spritePosition: {x: 799, y: 536}
+  - name: "fl\xEAche"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 1546
+      y: 2175
+      width: 70
+      height: 49
+    spriteID: 01cfc471da4306848b538567a39f59fb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1544, y: 2173}
+    spritePosition: {x: 946, y: 847}
+  - name: Players currently in your lobby
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2129
+      width: 444
+      height: 109
+    spriteID: 77f2d4114179d1448b9db128062ee037
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2129}
+    spritePosition: {x: 1342, y: 798}
+  - name: 'Choose Your Name '
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 1247
+      y: 2129
+      width: 418
+      height: 38
+    spriteID: d2fd252b60df95c4cb8fa8e7e3c57478
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1247, y: 2129}
+    spritePosition: {x: 114, y: 865}
+  - name: ' Lobby Code'
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 1247
+      y: 2175
+      width: 291
+      height: 53
+    spriteID: 85a4393706d118c4e82124e64b3f0030
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1247, y: 2175}
+    spritePosition: {x: 836, y: 586}
+  - name: Lobby creation
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 456
+      y: 2129
+      width: 485
+      height: 69
+    spriteID: 5d94af1378c80ab458e18261090fc138
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 456, y: 2129}
+    spritePosition: {x: 744, y: 931}
+  - name: fond transparent
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1092
+      width: 1852
+      height: 1029
+    spriteID: 6e1f2c523306a55439e9d5ec76f5fd38
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2, y: 1091}
+    spritePosition: {x: 36, y: 24}
+  - name: "fond de l'\xE9cran d'accueil"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 1920
+      height: 1080
+    spriteID: f3ed5a80cbbb96e47b7469b9fcb7c6dc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 0, y: 0}
+  spriteImportData: []
+  rigSpriteImportData: []
+  sharedRigSpriteImportData: []
+  mosaicSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: iPhone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  generateTileAssets: 0
+  tilePaletteCellLayout: 0
+  tilePaletteHexagonLayout: 0
+  tilePaletteCellSize: {x: 1, y: 1, z: 0}
+  tilePaletteCellSizing: 0
+  transparencySortMode: 0
+  transparencySortAxis: {x: 0, y: 0, z: 1}
+  tileTemplate: {instanceID: 0}
+  padding: 4
+  spriteSizeExpand: 0
+  skeletonAssetReferenceID: 
+  pipeline: {instanceID: 0}
+  pipelineVersion: 
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  pSDLayerImportSetting: []
+  psdLayers:
+  - name: Join button
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 9b7f84855d43b5848852c413177f8ada
+    layerID: 25
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Calque 15
+    spriteName: 
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 833ed8aea8ccfd74e987db0be87dab3f
+    layerID: 41
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Lorem Ipsum
+    spriteName: Lorem Ipsum
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 0a8097e0561053c4e9c506d7facb6e32
+    layerID: 40
+    mosaicPosition: {x: 2044, y: 2129}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Ready
+    spriteName: Ready
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 87979bbff38d56341be4ec0d8397dab1
+    layerID: 20
+    mosaicPosition: {x: 949, y: 2129}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Lorem Ipsum
+    spriteName: Lorem Ipsum
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 652a8275fcfd34d47a1de718697cff55
+    layerID: 36
+    mosaicPosition: {x: 2044, y: 2137}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Calque 12
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: fc20981a0be6adf4c9fda149188a466a
+    layerID: 18
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Ligne lobby Code
+    spriteName: Ligne lobby Code
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 44415f9d51694de46a4df7442f12fec1
+    layerID: 33
+    mosaicPosition: {x: 1673, y: 2129}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Ligne lobby Code
+    spriteName: Ligne lobby Code
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7cf5166899f978846b88102a829f949f
+    layerID: 17
+    mosaicPosition: {x: 1673, y: 2146}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: rond
+    spriteName: rond
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 77fc4b74dbc3a414d9d2d6f6e4937f3b
+    layerID: 34
+    mosaicPosition: {x: 1624, y: 2175}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: rond
+    spriteName: rond
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 2b49e47c48f962e49b941d144ed78d3a
+    layerID: 15
+    mosaicPosition: {x: 1657, y: 2175}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: "fl\xEAche"
+    spriteName: "fl\xEAche"
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 01cfc471da4306848b538567a39f59fb
+    layerID: 11
+    mosaicPosition: {x: 1546, y: 2175}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Players currently in your lobby
+    spriteName: Players currently in your lobby
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 77f2d4114179d1448b9db128062ee037
+    layerID: 35
+    mosaicPosition: {x: 4, y: 2129}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: 'Choose Your Name '
+    spriteName: 'Choose Your Name '
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d2fd252b60df95c4cb8fa8e7e3c57478
+    layerID: 32
+    mosaicPosition: {x: 1247, y: 2129}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: ' Lobby Code'
+    spriteName: ' Lobby Code'
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 85a4393706d118c4e82124e64b3f0030
+    layerID: 14
+    mosaicPosition: {x: 1247, y: 2175}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Lobby creation
+    spriteName: Lobby creation
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5d94af1378c80ab458e18261090fc138
+    layerID: 10
+    mosaicPosition: {x: 456, y: 2129}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: fond transparent
+    spriteName: fond transparent
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6e1f2c523306a55439e9d5ec76f5fd38
+    layerID: 5
+    mosaicPosition: {x: 4, y: 1092}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: "fond de l'\xE9cran d'accueil"
+    spriteName: "fond de l'\xE9cran d'accueil"
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f3ed5a80cbbb96e47b7469b9fcb7c6dc
+    layerID: 3
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  mosaicPSDLayers: []
+  rigPSDLayers: []
+  sharedRigPSDLayers: []
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 639118783506396357
+  spriteSizeExpandChanged: 0
+  generateGOHierarchy: 0
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []
