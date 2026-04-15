@@ -15,6 +15,8 @@ public class HeatModuleManager : Module
 
     [Header("Feedback visuel")]
     public TextMeshPro stateText;
+    [SerializeField] SpriteRenderer sr;
+    [SerializeField] Sprite[] sprites;
 
     [Tooltip("Unique lumière d'état du module")]
     public SpriteRenderer statusLight;
@@ -57,13 +59,151 @@ public class HeatModuleManager : Module
 
     private void UpdateVisuals()
     {
-        if (stateText == null)
-            return;
 
-        stateText.text =
-            $"L : {dialL.CurrentValue}/3\n" +
-            $"H : {dialH.CurrentValue}/3\n" +
-            $"I : {dialI.CurrentValue}/3";
+        if(dialL.CurrentValue == 0)
+        {
+            if (dialH.CurrentValue == 0)
+            {
+                if (dialI.CurrentValue == 0)
+                {
+                    sr.sprite = sprites[0];
+                }
+                else if (dialI.CurrentValue == 1)
+                {
+                    sr.sprite = sprites[1];
+                }
+                else
+                {
+                    sr.sprite = sprites[2];
+                }
+            }
+            else if (dialH.CurrentValue == 1)
+            {
+                if (dialI.CurrentValue == 0)
+                {
+                    sr.sprite = sprites[3];
+                }
+                else if (dialI.CurrentValue == 1)
+                {
+                    sr.sprite = sprites[4];
+                }
+                else
+                {
+                    sr.sprite = sprites[5];
+                }
+            }
+            else
+            {
+                if (dialI.CurrentValue == 0)
+                {
+                    sr.sprite = sprites[6];
+                }
+                else if (dialI.CurrentValue == 1)
+                {
+                    sr.sprite = sprites[7];
+                }
+                else
+                {
+                    sr.sprite = sprites[8];
+                }
+            }
+        }
+        else if (dialL.CurrentValue ==1)
+        {
+            if (dialH.CurrentValue == 0)
+            {
+                if (dialI.CurrentValue == 0)
+                {
+                    sr.sprite = sprites[9];
+                }
+                else if (dialI.CurrentValue == 1)
+                {
+                    sr.sprite = sprites[10];
+                }
+                else
+                {
+                    sr.sprite = sprites[11];
+                }
+            }
+            else if (dialH.CurrentValue == 1)
+            {
+                if (dialI.CurrentValue == 0)
+                {
+                    sr.sprite = sprites[12];
+                }
+                else if (dialI.CurrentValue == 1)
+                {
+                    sr.sprite = sprites[13];
+                }
+                else
+                {
+                    sr.sprite = sprites[14];
+                }
+            }
+            else
+            {
+                if (dialI.CurrentValue == 0)
+                {
+                    sr.sprite = sprites[15];
+                }
+                else if (dialI.CurrentValue == 1)
+                {
+                    sr.sprite = sprites[16];
+                }
+                else
+                {
+                    sr.sprite = sprites[17];
+                }
+            }
+        }
+        else
+        {
+            if (dialH.CurrentValue == 0)
+            {
+                if (dialI.CurrentValue == 0)
+                {
+                    sr.sprite = sprites[18];
+                }
+                else if (dialI.CurrentValue == 1)
+                {
+                    sr.sprite = sprites[19];
+                }
+                else
+                {
+                    sr.sprite = sprites[20];
+                }
+            }
+            else if (dialH.CurrentValue == 1)
+            {
+                if (dialI.CurrentValue == 0)
+                {
+                    sr.sprite = sprites[21];
+                }
+                else if (dialI.CurrentValue == 1)
+                {
+                    sr.sprite = sprites[22];
+                }
+                else
+                {
+                    sr.sprite = sprites[23];
+                }
+            }
+            else
+            {
+                if (dialI.CurrentValue == 0)
+                {
+                    sr.sprite = sprites[24];
+                }
+                else if (dialI.CurrentValue == 1)
+                {
+                    sr.sprite = sprites[25];
+                }
+                else
+                {
+                    sr.sprite = sprites[26];
+                }
+            }
+        }
     }
 
     public void Validate()

@@ -91,7 +91,8 @@ public class LeverModule : Module, MouseInteractionManager.IInteractable
             }
         }
 
-
+        value = 10;
+        gameObject.transform.localPosition = new Vector3(gameObject.transform.localPosition.x, yArray[value], 0);
 
     }
 
