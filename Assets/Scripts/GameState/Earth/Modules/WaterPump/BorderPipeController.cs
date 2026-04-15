@@ -13,7 +13,7 @@ public class BorderPipeController : MonoBehaviour, MouseInteractionManager.IInte
     }
     public void OnClick()
     {
-        state = state + 1 % 3;
+        state = (state + 1) % 3;
         sr.sprite = srList[state];
     }
     public void OnHoverEnter()

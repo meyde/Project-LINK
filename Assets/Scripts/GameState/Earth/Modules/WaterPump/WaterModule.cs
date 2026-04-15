@@ -10,8 +10,9 @@ public class WaterModule : Module
     [SerializeField] private WaterCodeSO[] codeList;
     [SerializeField] private SpriteRenderer waterSprite;
     [SerializeField] private Sprite[] sprites;
-    private int waterState;
+    private int waterState=0;
     private GameManagerLocal gm;
+    private List<int> availableStates;
 
     private void Awake()
     {
@@ -21,7 +22,19 @@ public class WaterModule : Module
 
     public override void OnStarted()
     {
-        waterState = Random.Range(0, 8);
+        foreach (int eventId in gm.gmn.eventDataIds)
+        {
+            CatastrophicEvent cEvent = gm.allEvents[eventId];
+            for (int i = 0; i < cEvent.modules1.Length; i++)
+            {
+                if (cEvent.modules1[i] == moduleId)
+                {
+                    availableStates.Add(codeList[cEvent.modulesState1[i]].waterStateId);
+                }
+            }
+
+        }
+        waterState = availableStates[Random.Range(0, availableStates.Count)];
         waterSprite.sprite = sprites[waterState];
     }
 
