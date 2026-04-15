@@ -19,7 +19,7 @@ public class CloudWaveModuleManager : Module
     [Header("Leviers")]
     public CloudWaveLever[] levers;
 
-    [Header("Lumière d'état")]
+    [Header("Lumiï¿½re d'ï¿½tat")]
     public SpriteRenderer statusLight;
     public Color neutralColor = Color.white;
     public Color successColor = Color.green;
@@ -65,7 +65,7 @@ public class CloudWaveModuleManager : Module
     {
         if (availableSignals == null || availableSignals.Length == 0)
         {
-            Debug.LogWarning("Aucun CloudWaveSignalSO assigné au module.");
+            Debug.LogWarning("Aucun CloudWaveSignalSO assignï¿½ au module.");
             return;
         }
 
@@ -73,12 +73,47 @@ public class CloudWaveModuleManager : Module
 
         Debug.Log($"Signal choisi : {currentSignal.id}");
 
+        ApplyCurrentSignalVisual();
+        ResetLevers(false);
+        isSolved = false;
+        SetNeutralState();
     }
 
-    // À appeler depuis le bouton de validation
+    private void ApplyCurrentSignalVisual()
+    {
+        if (currentSignal == null)
+        {
+            Debug.LogWarning("Aucun signal ï¿½ afficher.");
+            return;
+        }
+
+        // Affichage du sprite central
+        if (signalDisplay != null)
+        {
+            signalDisplay.sprite = currentSignal.signalSprite;
+        }
+        else
+        {
+            Debug.LogWarning("SignalDisplay non assignï¿½ !");
+        }
+
+        // Affichage ID (optionnel)
+        if (idText != null)
+        {
+            idText.text = currentSignal.id.ToString();
+        }
+    }
+
+    public void OnLeverStateChanged()
+    {
+        SetNeutralState();
+        isSolved = false;
+    }
+
+    // ï¿½ appeler depuis le bouton de validation
     public void ValidateLevers()
     {
-        Debug.Log("Validation demandée");
+        Debug.Log("Validation demandï¿½e");
         int index = 0;
         List<int> falseInd = new();
         bool hasSucceeded = false;
@@ -142,14 +177,14 @@ public class CloudWaveModuleManager : Module
 
         if (levers == null || levers.Length == 0)
         {
-            Debug.LogWarning("Aucun levier assigné.");
+            Debug.LogWarning("Aucun levier assignï¿½.");
             return false;
         }
 
         if (codeSo.leverCode.Length != levers.Length)
         {
             Debug.LogWarning(
-                $"Le signal {currentSignal.name} contient {codeSo.leverCode.Length} états, " +
+                $"Le signal {currentSignal.name} contient {codeSo.leverCode.Length} ï¿½tats, " +
                 $"mais il y a {levers.Length} leviers."
             );
 
@@ -167,7 +202,7 @@ public class CloudWaveModuleManager : Module
             }
         }
 
-        Debug.Log($"Module onde résolu ! Signal : {currentSignal.id}");
+        Debug.Log($"Module onde rï¿½solu ! Signal : {currentSignal.id}");
         return true;
     }
 

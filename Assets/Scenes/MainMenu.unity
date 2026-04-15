@@ -2806,7 +2806,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::VivoxVoiceSettings
   applyOnStart: 1
-  debugKeyLogs: 1
   inputDeviceVolume: 0
   muteMicrophone: 0
   verboseLogs: 1
