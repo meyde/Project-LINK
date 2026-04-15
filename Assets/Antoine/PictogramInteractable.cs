@@ -8,6 +8,11 @@ public class PictogramInteractable : MonoBehaviour, MouseInteractionManager.IInt
     [SerializeField] private PictogramSystem pictogramSystem;
     [SerializeField] private SpriteRenderer spriteRenderer;
 
+    [Header("Audio")]
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip clickSound;
+    [SerializeField] private AudioClip hoverSound;
+
     private void Awake()
     {
         if (spriteRenderer == null)
@@ -31,12 +36,17 @@ public class PictogramInteractable : MonoBehaviour, MouseInteractionManager.IInt
             return;
         }
 
+        if (audioSource != null && clickSound != null)
+            audioSource.PlayOneShot(clickSound);
+
         Debug.Log($"[PictogramInteractable] Click sur {gameObject.name}");
         pictogramSystem.TrySendPictogram(spriteRenderer);
     }
 
     public void OnHoverEnter()
     {
+        if (audioSource != null && hoverSound != null)
+            audioSource.PlayOneShot(hoverSound);
     }
 
     public void OnHoverExit()

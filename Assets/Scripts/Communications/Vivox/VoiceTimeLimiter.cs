@@ -10,11 +10,22 @@ public class VoiceTimeLimiter : NetworkBehaviour
     [Header("Voice Time")]
     [SerializeField] private float maxVoiceDuration = 60f;
 
+    [Header("Recharge")]
+    [SerializeField] private float rechargeAmount = 10f;
+    [SerializeField] private float rechargeDuration = 5f;
+
     [Header("Scene Restriction")]
     [SerializeField] private string targetSceneName = "GameScene";
 
     [Header("Bar Prefab")]
     [SerializeField] private GameObject barPrefab;
+
+    [Header("Audio Warning")]
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip warningSound;
+    [SerializeField] private float triggerTime = 10f;
+
+    private bool warningPlayed = false;
 
     [Header("Bar Position In Camera View")]
     [SerializeField] private Vector2 viewportPosition = new Vector2(0.5f, 0.9f);
@@ -39,6 +50,18 @@ public class VoiceTimeLimiter : NetworkBehaviour
     public bool IsTimerRunning => timerRunning;
     public bool IsVoiceLocked => voiceLocked;
     public bool CanUnmute => !voiceLocked && remainingVoiceTime > 0f;
+
+    // Recharge par seconde calculée à partir de : "recharger X batterie sur Y secondes"
+    private float RechargePerSecond
+    {
+        get
+        {
+            if (rechargeDuration <= 0f)
+                return 0f;
+
+            return rechargeAmount / rechargeDuration;
+        }
+    }
 
     public override void OnNetworkSpawn()
     {
@@ -98,7 +121,7 @@ public class VoiceTimeLimiter : NetworkBehaviour
         ForceMicrophoneState(false);
         timerRunning = true;
 
-        StartCoroutine(VoiceCountdownRoutine());
+        StartCoroutine(VoiceRoutine());
     }
 
     private IEnumerator WaitForLocalLobbyData()
@@ -124,13 +147,25 @@ public class VoiceTimeLimiter : NetworkBehaviour
         }
     }
 
-    private IEnumerator VoiceCountdownRoutine()
+    private IEnumerator VoiceRoutine()
     {
-        while (!voiceLocked)
+        while (true)
         {
-            if (timerRunning)
+            // Si le micro est ouvert, on consomme la batterie de voix
+            if (timerRunning && !voiceLocked)
             {
                 remainingVoiceTime -= Time.deltaTime;
+
+                if (!warningPlayed && remainingVoiceTime <= triggerTime)
+                {
+                    warningPlayed = true;
+
+                    if (audioSource != null && warningSound != null)
+                        audioSource.PlayOneShot(warningSound);
+
+                    if (verboseLogs)
+                        Debug.Log($"[VoiceLimiter] Warning sonore déclenché à {triggerTime}s restantes.");
+                }
 
                 if (remainingVoiceTime <= 0f)
                 {
@@ -142,12 +177,29 @@ public class VoiceTimeLimiter : NetworkBehaviour
                     UpdateBar();
 
                     if (verboseLogs)
-                        Debug.Log("[VoiceLimiter] Temps écoulé -> parole verrouillée.");
+                        Debug.Log("[VoiceLimiter] Temps écoulé -> parole verrouillée et batterie vide.");
 
-                    yield break;
+                    yield return null;
+                    continue;
                 }
 
                 UpdateBar();
+            }
+            // Si le micro est coupé manuellement, on recharge mais uniquement si la batterie n'est pas vide
+            else if (!timerRunning && !voiceLocked && remainingVoiceTime > 0f)
+            {
+                float rechargeRate = RechargePerSecond;
+
+                if (rechargeRate > 0f && remainingVoiceTime < maxVoiceDuration)
+                {
+                    remainingVoiceTime += rechargeRate * Time.deltaTime;
+                    remainingVoiceTime = Mathf.Min(remainingVoiceTime, maxVoiceDuration);
+
+                    if (remainingVoiceTime > triggerTime)
+                        warningPlayed = false;
+
+                    UpdateBar();
+                }
             }
 
             yield return null;
@@ -165,7 +217,7 @@ public class VoiceTimeLimiter : NetworkBehaviour
             ForceMicrophoneState(true);
 
             if (verboseLogs)
-                Debug.Log("[VoiceLimiter] Mute manuel -> timer en pause.");
+                Debug.Log("[VoiceLimiter] Mute manuel -> consommation stoppée, recharge autorisée si batterie non vide.");
 
             return true;
         }
@@ -184,7 +236,7 @@ public class VoiceTimeLimiter : NetworkBehaviour
         timerRunning = true;
 
         if (verboseLogs)
-            Debug.Log("[VoiceLimiter] Unmute autorisé -> timer reprend.");
+            Debug.Log("[VoiceLimiter] Unmute autorisé -> consommation reprend.");
 
         return true;
     }

@@ -113,8 +113,6 @@ public class CloudWaveModuleManager : Module
 
     public void OnLeverStateChanged()
     {
-        // Quand un levier change, on remet juste la light en neutre.
-        // La vraie validation se fait uniquement avec le bouton.
         SetNeutralState();
         isSolved = false;
     }
