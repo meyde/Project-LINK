@@ -6,6 +6,8 @@ using System.Collections;
 using Unity.Collections;
 public class GameManagerNetwork : NetworkBehaviour
 {
+    public static GameManagerNetwork Instance { get; private set; }
+
     [Header("Events")]
 
     public CatastrophicEvent[] allEvents;
@@ -31,6 +33,13 @@ public class GameManagerNetwork : NetworkBehaviour
 
     public NetworkVariable<int> health = new(3);
     public NetworkVariable<int> successes = new(0);
+    public int RequiredSuccesses => requiredSuccesses;
+
+    [SerializeField] private float gameDuration = 300f; // durée totale de la partie en secondes
+    public NetworkVariable<float> remainingGameTime = new(0f);
+
+    private Coroutine gameTimerCoroutine;
+    private bool gameEnded;
 
     private Coroutine eventCoroutine;
 
@@ -48,27 +57,55 @@ public class GameManagerNetwork : NetworkBehaviour
 
     public void OnStartGame()
     {
-        if (!IsServer) return;
+        if (!IsServer || gameStarted) return;
+
+        gameStarted = true;
+        gameEnded = false;
+        successes.Value = 0;
+        health.Value = 3;
+        remainingGameTime.Value = gameDuration;
+
         eventCoroutine = StartCoroutine(EventGenerationRepeating());
+        gameTimerCoroutine = StartCoroutine(GameTimerCoroutine());
     }
 
     public void Start()
     {
+        if (Instance == null)
+            Instance = this;
+
         OnStartGame();
     }
     private void OnGameLoss()
     {
+        if (gameEnded) return;
+        gameEnded = true;
+
         Debug.Log("Game Lost");
-        if (eventCoroutine != null) { StopCoroutine(eventCoroutine); }
+
+        if (eventCoroutine != null)
+            StopCoroutine(eventCoroutine);
+
+        if (gameTimerCoroutine != null)
+            StopCoroutine(gameTimerCoroutine);
     }
     private void OnGameWin()
     {
+        if (gameEnded) return;
+        gameEnded = true;
+
         Debug.Log("Game Won");
-        if (eventCoroutine != null) { StopCoroutine(eventCoroutine); }
+
+        if (eventCoroutine != null)
+            StopCoroutine(eventCoroutine);
+
+        if (gameTimerCoroutine != null)
+            StopCoroutine(gameTimerCoroutine);
     }
 
     private void EventGeneration()
     {
+        if (gameEnded) return;
         var eventList = GetEventsLevel();
         int id = Random.Range(0, eventList.Length);
         eventDataIds.Add(id);
@@ -88,13 +125,27 @@ public class GameManagerNetwork : NetworkBehaviour
         eventRegions.Add(eventList[id].region);
         
     }
+    private IEnumerator GameTimerCoroutine()
+    {
+        while (remainingGameTime.Value > 0f && !gameEnded)
+        {
+            yield return null;
+            remainingGameTime.Value -= Time.deltaTime;
+        }
+
+        if (gameEnded) yield break;
+
+        remainingGameTime.Value = 0f;
+
+        if (successes.Value >= requiredSuccesses)
+            OnGameWin();
+        else
+            OnGameLoss();
+    }
     public IEnumerator EventGenerationRepeating()
     {
-        if (!gameStarted)
-        {
-            gameStarted = true;
-            yield return new WaitForSeconds(timeBeforeStart);
-        }
+        yield return new WaitForSeconds(timeBeforeStart);
+
         while (true)
         {
             EventGeneration();
@@ -124,6 +175,7 @@ public class GameManagerNetwork : NetworkBehaviour
     [Rpc(SendTo.Server, InvokePermission = RpcInvokePermission.Everyone)]
     public void OnFailureRpc(int eventId)
     {
+        if (gameEnded) return;
         health.Value--;
         eventDataIds.RemoveAt(eventId);
         eventLives.RemoveAt(eventId);
@@ -144,6 +196,7 @@ public class GameManagerNetwork : NetworkBehaviour
     [Rpc(SendTo.Server, InvokePermission = RpcInvokePermission.Everyone)]
     public void OnSuccessRpc(int eventId)
     {
+        if (gameEnded) return;
         successes.Value++;
         eventDataIds.RemoveAt(eventId);
         eventLives.RemoveAt(eventId);
