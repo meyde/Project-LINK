@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class DesktopWindowCloser : MonoBehaviour, MouseInteractionManager.IInteractable
 {
@@ -9,6 +10,11 @@ public class DesktopWindowCloser : MonoBehaviour, MouseInteractionManager.IInter
     [SerializeField] private SpriteRenderer buttonSprite;
     [SerializeField] private Color normalColor = Color.white;
     [SerializeField] private Color hoverColor = Color.red;
+
+    [Header("Audio")]
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip clickSound;
+    [SerializeField] private AudioClip hoverSound;
 
     private void Awake()
     {
@@ -23,12 +29,18 @@ public class DesktopWindowCloser : MonoBehaviour, MouseInteractionManager.IInter
     {
         if (targetWindow != null)
             targetWindow.SetActive(false);
+
+        if (audioSource != null && clickSound != null)
+            audioSource.PlayOneShot(clickSound);
     }
 
     public void OnHoverEnter()
     {
         if (buttonSprite != null)
             buttonSprite.color = hoverColor;
+
+        if (audioSource != null && hoverSound != null)
+            audioSource.PlayOneShot(hoverSound);
     }
 
     public void OnHoverExit()

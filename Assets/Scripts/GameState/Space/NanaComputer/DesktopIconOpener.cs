@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class DesktopIconOpener : MonoBehaviour, MouseInteractionManager.IInteractable
 {
@@ -9,6 +10,11 @@ public class DesktopIconOpener : MonoBehaviour, MouseInteractionManager.IInterac
     [SerializeField] private SpriteRenderer iconSprite;
     [SerializeField] private Color normalColor = Color.white;
     [SerializeField] private Color hoverColor = Color.yellow;
+
+    [Header("Audio")]
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip clickSound;
+    [SerializeField] private AudioClip hoverSound;
 
     private void Awake()
     {
@@ -23,12 +29,18 @@ public class DesktopIconOpener : MonoBehaviour, MouseInteractionManager.IInterac
     {
         if (targetWindow != null)
             targetWindow.SetActive(true);
+
+        if (audioSource != null && clickSound != null)
+            audioSource.PlayOneShot(clickSound);
     }
 
     public void OnHoverEnter()
     {
         if (iconSprite != null)
             iconSprite.color = hoverColor;
+
+        if (audioSource != null && hoverSound != null)
+            audioSource.PlayOneShot(hoverSound);
     }
 
     public void OnHoverExit()
