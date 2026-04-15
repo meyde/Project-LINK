@@ -23,6 +23,12 @@ public class RelayManager : MonoBehaviour
     [SerializeField] private Button hostButton;
     [SerializeField] private Button joinButton;
 
+    private bool isCreatingGame = false;
+    private bool isLeavingGame = false;
+
+    private string currentJoinCode = "";
+    private bool hostSessionActive = false;
+
     private async void Start()
     {
         await InitializeUnityServices();
@@ -49,8 +55,58 @@ public class RelayManager : MonoBehaviour
         Debug.Log("[Relay] Unity Services initialisés et connexion anonyme OK");
     }
 
+    public async void CloseHostWindow()
+    {
+        // Quitter le channel vocal sans fermer la partie host
+        if (VivoxManager.Instance != null)
+            await VivoxManager.Instance.LeaveVoiceAsync();
+
+        if (joinCodeText != null)
+            joinCodeText.text = currentJoinCode;
+    }
+
     public async void CreateGame()
     {
+        if (isCreatingGame || isLeavingGame)
+            return;
+
+        if (networkManager == null || unityTransport == null)
+        {
+            Debug.LogError("[Relay] NetworkManager ou UnityTransport manquant.");
+            return;
+        }
+
+        // Si on est déjà host, on ne recrée pas la partie, on réaffiche juste le code existant.
+        if (networkManager.IsHost && networkManager.IsListening && hostSessionActive)
+        {
+            if (joinCodeText != null)
+                joinCodeText.text = currentJoinCode;
+
+            if (UIManager.Instance != null)
+                UIManager.Instance.ShowScreen(MenuSync.ScreenType.HostLobby);
+
+            Debug.Log("[Relay] Partie host déjà active, réouverture avec le code : " + currentJoinCode);
+
+            //Vérifier que le VivoxManager est présent avant de tenter de rejoindre le channel vocal
+            if (VivoxManager.Instance == null)
+            {
+                Debug.LogError("[Relay] Aucun VivoxManager trouvé dans la scène.");
+                return;
+            }
+
+            // Rejoindre le channel vocal avec le même code que la partie
+            await VivoxManager.Instance.JoinVoiceFromCodeAsync(currentJoinCode);
+            return;
+        }
+
+        if (networkManager.IsListening)
+        {
+            Debug.LogWarning("[Relay] Une session réseau est déjà active.");
+            return;
+        }
+
+        isCreatingGame = true;
+
         try
         {
             int maxConnections = 1; // 1 client + le host = 2 joueurs au total
@@ -76,6 +132,20 @@ public class RelayManager : MonoBehaviour
                 return;
             }
 
+            currentJoinCode = joinCode;
+            hostSessionActive = true;
+
+            var players = FindObjectsByType<PlayerLobbyData>(FindObjectsInactive.Include, FindObjectsSortMode.None);
+
+            foreach (var p in players)
+            {
+                if (p.OwnerClientId == NetworkManager.Singleton.LocalClientId)
+                {
+                    p.LobbyCode.Value = joinCode;
+                    break;
+                }
+            }
+
             if (joinCodeText != null)
                 joinCodeText.text = joinCode;
 
@@ -95,10 +165,25 @@ public class RelayManager : MonoBehaviour
         {
             Debug.LogError("[Relay] Erreur Relay CreateGame : " + e);
         }
+        finally
+        {
+            isCreatingGame = false;
+        }
     }
 
     public async void JoinGame()
     {
+        if (isCreatingGame || isLeavingGame)
+            return;
+
+        if (networkManager == null || unityTransport == null)
+        {
+            Debug.LogError("[Relay] NetworkManager ou UnityTransport manquant.");
+            return;
+        }
+
+        isCreatingGame = true;
+
         try
         {
             string joinCode = joinCodeInput != null
@@ -109,6 +194,16 @@ public class RelayManager : MonoBehaviour
             {
                 Debug.LogWarning("[Relay] Aucun code entré");
                 return;
+            }
+
+            // Si on a déjà une session active (host/client), on la ferme complètement avant de rejoindre une autre partie.
+            if (networkManager.IsListening)
+            {
+                Debug.Log("[Relay] Une session est déjà active, fermeture avant la reconnexion...");
+                LeaveGame();
+
+                while (isLeavingGame)
+                    await Task.Yield();
             }
 
             // Rejoindre l'allocation Relay avec le code entré
@@ -132,6 +227,9 @@ public class RelayManager : MonoBehaviour
                 return;
             }
 
+            hostSessionActive = false;
+            currentJoinCode = "";
+
             Debug.Log("[Relay] Connexion à la partie avec le code : " + joinCode);
 
             if (VivoxManager.Instance == null)
@@ -146,19 +244,58 @@ public class RelayManager : MonoBehaviour
         {
             Debug.LogError("[Relay] Erreur Relay JoinGame : " + e);
         }
+        finally
+        {
+            isCreatingGame = false;
+        }
     }
 
     public async void LeaveGame()
     {
-        // Quitter le channel vocal avant de fermer la partie
-        if (VivoxManager.Instance != null)
-            await VivoxManager.Instance.LeaveVoiceAsync();
+        if (isLeavingGame)
+            return;
 
-        if (networkManager != null && networkManager.IsListening)
+        isLeavingGame = true;
+
+        try
         {
-            // Arrêter le réseau et fermer la partie
-            networkManager.Shutdown();
-            Debug.Log("[Relay] Partie fermée.");
+            // Quitter le channel vocal avant de fermer la partie
+            if (VivoxManager.Instance != null)
+                await VivoxManager.Instance.LeaveVoiceAsync();
+
+            if (networkManager != null && networkManager.IsListening)
+            {
+                // Vider le code côté réseau AVANT le shutdown
+                var players = FindObjectsByType<PlayerLobbyData>(FindObjectsInactive.Include, FindObjectsSortMode.None);
+
+                foreach (var p in players)
+                {
+                    if (p.OwnerClientId == NetworkManager.Singleton.LocalClientId)
+                    {
+                        p.LobbyCode.Value = "";
+                        break;
+                    }
+                }
+
+                // Arrêter le réseau et fermer la partie
+                networkManager.Shutdown();
+                Debug.Log("[Relay] Partie fermée.");
+            }
+
+            await Task.Yield();
+
+            currentJoinCode = "";
+            hostSessionActive = false;
+
+            if (joinCodeText != null)
+                joinCodeText.text = "";
+
+            if (joinCodeInput != null)
+                joinCodeInput.text = "";
+        }
+        finally
+        {
+            isLeavingGame = false;
         }
     }
 }

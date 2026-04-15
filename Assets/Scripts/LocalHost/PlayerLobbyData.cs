@@ -10,6 +10,13 @@ public class PlayerLobbyData : NetworkBehaviour
     public NetworkVariable<FixedString32Bytes> Pseudo =
         new NetworkVariable<FixedString32Bytes>("Player");
 
+    public NetworkVariable<FixedString64Bytes> LobbyCode =
+    new NetworkVariable<FixedString64Bytes>(
+        "",
+        NetworkVariableReadPermission.Everyone,
+        NetworkVariableWritePermission.Server
+    );
+
     public NetworkVariable<bool> IsReady =
         new NetworkVariable<bool>(false);
 
@@ -24,8 +31,9 @@ public class PlayerLobbyData : NetworkBehaviour
     public void OnStartGame()
     {
         Debug.Log("Change Value");
-        Pseudo.OnValueChanged -= (_, __) => LobbyUIManager.Instance.RefreshPlayerList();
-        IsReady.OnValueChanged -= (_, __) => LobbyUIManager.Instance.RefreshPlayerList();
+        Pseudo.OnValueChanged -= OnPseudoChanged;
+        LobbyCode.OnValueChanged -= OnLobbyCodeChanged;
+        IsReady.OnValueChanged -= OnReadyChanged;
     }
 
     public override void OnNetworkSpawn()
@@ -35,8 +43,40 @@ public class PlayerLobbyData : NetworkBehaviour
             LobbyUIManager.Instance.BindLocalPlayer(this);
         }
 
-        Pseudo.OnValueChanged += (_, __) => LobbyUIManager.Instance.RefreshPlayerList();
-        IsReady.OnValueChanged += (_, __) => LobbyUIManager.Instance.RefreshPlayerList();
+        Pseudo.OnValueChanged += OnPseudoChanged;
+        LobbyCode.OnValueChanged -= OnLobbyCodeChanged;
+        IsReady.OnValueChanged += OnReadyChanged;
+
+        if (LobbyUIManager.Instance != null)
+            LobbyUIManager.Instance.RefreshPlayerList();
+    }
+
+    public override void OnNetworkDespawn()
+    {
+        Pseudo.OnValueChanged -= OnPseudoChanged;
+        LobbyCode.OnValueChanged -= OnLobbyCodeChanged;
+        IsReady.OnValueChanged -= OnReadyChanged;
+
+        if (LobbyUIManager.Instance != null)
+            LobbyUIManager.Instance.RefreshPlayerList();
+    }
+
+    private void OnPseudoChanged(FixedString32Bytes oldValue, FixedString32Bytes newValue)
+    {
+        if (LobbyUIManager.Instance != null)
+            LobbyUIManager.Instance.RefreshPlayerList();
+    }
+
+    private void OnLobbyCodeChanged(FixedString64Bytes oldValue, FixedString64Bytes newValue)
+    {
+        if (LobbyUIManager.Instance != null)
+            LobbyUIManager.Instance.RefreshPlayerList();
+    }
+
+    private void OnReadyChanged(bool oldValue, bool newValue)
+    {
+        if (LobbyUIManager.Instance != null)
+            LobbyUIManager.Instance.RefreshPlayerList();
     }
 
     [ServerRpc]
