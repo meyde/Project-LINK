@@ -1,15 +1,12 @@
 using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
 using Unity.Netcode;
 using UnityEngine;
-using UnityEngine.Rendering;
 
 public class GameManagerLocal : MonoBehaviour
 {
     public GameManagerNetwork gmn;
     public CatastrophicEvent[] allEvents;
-    public int currentRegion;  
+    public int currentRegion;
     private void Awake()
     {
         gmn = FindFirstObjectByType<GameManagerNetwork>();
@@ -29,6 +26,7 @@ public class GameManagerLocal : MonoBehaviour
     public void ChangeRegion(int regionSelected)
     {
         currentRegion = regionSelected;
+
     }
 
     private void OnEventsChanged(NetworkListEvent<int> change)

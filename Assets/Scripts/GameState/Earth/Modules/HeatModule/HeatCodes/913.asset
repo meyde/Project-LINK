@@ -9,9 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5da3c3cec65e4f444bb4c5aae36f697a, type: 3}
-  m_Name: LeverCodes 1
-  m_EditorClassIdentifier: Assembly-CSharp::LeverCodes
-  id: 1
-  codeSize: 3
-  values: 0e0000000600000008000000
+  m_Script: {fileID: 11500000, guid: 014242f5e6d3fd5428a512b4cbcc209a, type: 3}
+  m_Name: 913
+  m_EditorClassIdentifier: Assembly-CSharp::HeatModuleRecipe
+  reciepeId: 5
+  targetL: 1
+  targetH: 1
+  targetI: 2
+  recipeName: 

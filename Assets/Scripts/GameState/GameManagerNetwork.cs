@@ -107,7 +107,11 @@ public class GameManagerNetwork : NetworkBehaviour
     {
         if (gameEnded) return;
         var eventList = GetEventsLevel();
-        int id = Random.Range(0, eventList.Length);
+        int id = eventList[Random.Range(0, eventList.Length)].eventId;
+        while (eventRegions.Contains(allEvents[id].region))
+        {
+             id = eventList[Random.Range(0, eventList.Length)].eventId;
+        }
         eventDataIds.Add(id);
         eventLives.Add(eventList[id].baseLife);
         eventModulesDone.Add(0);
