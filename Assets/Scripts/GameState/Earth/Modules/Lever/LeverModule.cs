@@ -8,13 +8,13 @@ public class LeverModule : Module, MouseInteractionManager.IInteractable
     [Header("Data")]
     [SerializeField] private LeverCodes[] codes;
     [SerializeField] private int moduleId = 0;
+    [SerializeField] private int[] yArray;
 
     [Header("Lever Settings")]
     [SerializeField] private int minValue = 0;
     [SerializeField] private int maxValue = 20;
     [SerializeField] private int startValue = 10;
     [SerializeField] private float dragStepThreshold = 1f;
-    [SerializeField] private float startPosY;
     private int value;
     private float accumulatedY = 0f;
     private int previousStep = 0;
@@ -28,7 +28,6 @@ public class LeverModule : Module, MouseInteractionManager.IInteractable
     private void Awake()
     {
         value = startValue;
-        startPosY= gameObject.transform.position.y;
         gm = FindFirstObjectByType<GameManagerLocal>();
     }
 
@@ -117,7 +116,7 @@ public class LeverModule : Module, MouseInteractionManager.IInteractable
                 accumulatedY -= step*dragStepThreshold;
                 previousStep = step;
             }
-            gameObject.transform.position = new Vector3(gameObject.transform.position.x,(-0.4f*value+4)+startPosY , 0);
+            gameObject.transform.position = new Vector3(gameObject.transform.position.x, yArray[value] , 0);
 
             yield return WaitForFixedUpdate;
         }
