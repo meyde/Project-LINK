@@ -12,6 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e17314df438c9914299385efd5d81c81, type: 3}
   m_Name: CloudWaveSignal2
   m_EditorClassIdentifier: Assembly-CSharp::CloudWaveSignalSO
-  id: Signal_B
-  signalSprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
-  leverCode: 01000001000001000001010100010100
+  id: 1
+  signalSprite: {fileID: -5468985988734645757, guid: c75603f9f45eab446ac3b6153b463aa3, type: 3}

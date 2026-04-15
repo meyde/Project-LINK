@@ -45,8 +45,6 @@ public class HeatModuleManager : Module
         if (dialH != null) dialH.Initialize(this, "H");
         if (dialI != null) dialI.Initialize(this, "I");
 
-        if (statusLight == null)
-            Debug.LogError("StatusLight non assigné dans l'inspecteur.");
 
         UpdateVisuals();
     }

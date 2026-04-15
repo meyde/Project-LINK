@@ -9,10 +9,6 @@ public class CloudWaveLever : MonoBehaviour, MouseInteractionManager.IInteractab
     [Header("Etat")]
     public bool isOn = false;
 
-    [Header("Visuel rotation")]
-    public Transform leverVisual;
-    public float onAngle = -35f;
-    public float offAngle = 35f;
 
     [Header("Audio")]
     [SerializeField] private AudioSource audioSource;
@@ -30,9 +26,11 @@ public class CloudWaveLever : MonoBehaviour, MouseInteractionManager.IInteractab
     public Color hoverColor = Color.yellow;
 
 
-    private void Start()
+    private void Awake()
     {
+        leverSpriteRenderer = GetComponent<SpriteRenderer>();
         RefreshVisual();
+        
     }
 
     public void OnClick()
@@ -76,22 +74,13 @@ public class CloudWaveLever : MonoBehaviour, MouseInteractionManager.IInteractab
 
     private void RefreshVisual()
     {
-        if (leverVisual != null)
+        if (isOn)
         {
-            float z = isOn ? onAngle : offAngle;
-            leverVisual.localRotation = Quaternion.Euler(0f, 0f, z);
+            leverSpriteRenderer.flipY = false;
         }
         else
         {
-            Debug.LogWarning($"leverVisual non assigné sur {gameObject.name}");
-        }
-
-        if (leverSpriteRenderer != null)
-        {
-            if (isOn && onSprite != null)
-                leverSpriteRenderer.sprite = onSprite;
-            else if (!isOn && offSprite != null)
-                leverSpriteRenderer.sprite = offSprite;
+            leverSpriteRenderer.flipY = true;
         }
     }
 }

@@ -10,10 +10,8 @@ public class CatastrophicEventStateModule : Module
     [SerializeField] private GameManagerLocal gameManagerLocal;
 
     [Header("Capteurs (TextMeshPro 3D)")]
-    [SerializeField] private TextMeshPro windText;
-    [SerializeField] private TextMeshPro temperatureText;
-    [SerializeField] private TextMeshPro intensityText;
-    [SerializeField] private TextMeshPro oxygenText;
+    [SerializeField] private int captorId;
+    [SerializeField] private TextMeshPro captorText;
 
     [Header("Affichage")]
     [SerializeField] private float displayDuration = 5f;
@@ -99,15 +97,34 @@ public class CatastrophicEventStateModule : Module
             return;
         }
 
-        int windValue = GetRandomSensorValue(regionEvent.windSpeed, regionEvent.windSpeedMax);
-        int temperatureValue = GetRandomSensorValue(regionEvent.temperature, regionEvent.temperatureMax);
-        int intensityValue = GetRandomSensorValue(regionEvent.intensity, regionEvent.intensityMax);
-        int oxygenValue = GetRandomSensorValue(regionEvent.oxygenLevel, regionEvent.oxygenLevelMax);
+        switch (captorId)
+        {
+            case 0:
+                int windValue = GetRandomSensorValue(regionEvent.windSpeed, regionEvent.windSpeedMax);
+                captorText.text = $"Vent : {windValue}";
+                break;
+            case 1:
+                int temperatureValue = GetRandomSensorValue(regionEvent.temperature, regionEvent.temperatureMax);
+                captorText.text = $"Température : {temperatureValue}";
+                break;
+            case 2:
+                int intensityValue = GetRandomSensorValue(regionEvent.intensity, regionEvent.intensityMax);
+                captorText.text = $"Intensité : {intensityValue}";
+                break;
+            case 3:
+                int oxygenValue = GetRandomSensorValue(regionEvent.oxygenLevel, regionEvent.oxygenLevelMax);
+                captorText.text = $"Oxygène : {oxygenValue}";
+                break;
 
-        windText.text = $"Vent : {windValue}";
-        temperatureText.text = $"Température : {temperatureValue}";
-        intensityText.text = $"Intensité : {intensityValue}";
-        oxygenText.text = $"Oxygène : {oxygenValue}";
+        }
+        
+        
+        
+
+        
+        
+        
+        
     }
 
     private CatastrophicEvent GetActiveEventForCurrentRegion()
@@ -146,17 +163,11 @@ public class CatastrophicEventStateModule : Module
 
     private void ShowNoSignal()
     {
-        windText.text = "Vent : --";
-        temperatureText.text = "Température : --";
-        intensityText.text = "Intensité : --";
-        oxygenText.text = "Oxygène : --";
+        captorText.text = "------";
     }
 
     private void ClearTexts()
     {
-        windText.text = "Vent : --";
-        temperatureText.text = "Température : --";
-        intensityText.text = "Intensité : --";
-        oxygenText.text = "Oxygène : --";
+        captorText.text = "------";
     }
 }
