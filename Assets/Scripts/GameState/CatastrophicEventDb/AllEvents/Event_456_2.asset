@@ -20,7 +20,7 @@ MonoBehaviour:
   modules1: 03000000
   modules2: 
   modules3: 
-  modulesState1: 11000000
+  modulesState1: 00000000
   modulesState2: 
   modulesState3: 
   eventCategoryLevel: 1

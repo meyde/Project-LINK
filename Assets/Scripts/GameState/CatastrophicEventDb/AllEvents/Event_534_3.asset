@@ -20,7 +20,7 @@ MonoBehaviour:
   modules1: 03000000
   modules2: 
   modules3: 
-  modulesState1: 10000000
+  modulesState1: 01000000
   modulesState2: 
   modulesState3: 
   eventCategoryLevel: 1
@@ -28,8 +28,8 @@ MonoBehaviour:
   baseLife: 2
   windSpeed: 10
   windSpeedMax: 20
-  temperature: 30
-  temperatureMax: 44
+  temperature: 56
+  temperatureMax: 75
   intensity: 0
   intensityMax: 0
   oxygenLevel: 5

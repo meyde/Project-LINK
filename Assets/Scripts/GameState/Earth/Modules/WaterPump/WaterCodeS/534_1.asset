@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d29f334517f83b4e83273f3ab6c59d9, type: 3}
   m_Name: 534_1
   m_EditorClassIdentifier: Assembly-CSharp::WaterCodeSO
-  waterCodeId: 0
+  waterCodeId: 1
   eventId: 16
   waterStateId: 2
   pipeOrientations: 020000000000000000000000010000000000000003000000020000000000000000000000

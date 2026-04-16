@@ -14,7 +14,7 @@ public class GameManagerLocal : MonoBehaviour
     private void Awake()
     {
         gmn = FindFirstObjectByType<GameManagerNetwork>();
-
+        allEvents= gmn.allEvents;
         if (gmn != null)
         {
             gmn.eventDataIds.OnListChanged += OnEventsChanged;

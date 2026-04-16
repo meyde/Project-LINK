@@ -1,9 +1,11 @@
-using UnityEngine;
-using Unity.Netcode;
-using System.Linq;
-using System.Collections.Generic;
+using System;
 using System.Collections;
+using System.Linq;
 using Unity.Collections;
+using Unity.Netcode;
+using UnityEngine;
+using Random = UnityEngine.Random;
+
 public class GameManagerNetwork : NetworkBehaviour
 {
     public static GameManagerNetwork Instance { get; private set; }
@@ -27,13 +29,12 @@ public class GameManagerNetwork : NetworkBehaviour
     public NetworkList<int> eventCurrentLevel = new();
     public NetworkList<int> eventStates = new();
     public NetworkList<int> eventRegions = new();
-    public NetworkList<FixedList64Bytes<int>> eventModule1Option = new();
-    public NetworkList<FixedList64Bytes<int>> eventModule2Option = new();
-    public NetworkList<FixedList64Bytes<int>> eventModule3Option = new();
+    //public NetworkList<FixedList64Bytes<int>> eventModule1Option = new();
+    //public NetworkList<FixedList64Bytes<int>> eventModule2Option = new();
+    //public NetworkList<FixedList64Bytes<int>> eventModule3Option = new();
 
     public NetworkVariable<int> health = new(3);
     public NetworkVariable<int> successes = new(0);
-
 
     public NetworkList<int> pictoSpritesCurrent = new();
     [SerializeField] private Sprite[] pictoIcons;
@@ -140,9 +141,9 @@ public class GameManagerNetwork : NetworkBehaviour
         for (int i = 0; i < eventList[id].modules1.Count() ;i++ ) { module1Options.Add(0); }
         for (int i = 0; i < eventList[id].modules2.Count(); i++) { module2Options.Add(0); }
         for (int i = 0; i < eventList[id].modules3.Count(); i++) { module3Options.Add(0); }
-        eventModule1Option.Add(module1Options);
-        eventModule2Option.Add(module2Options);
-        eventModule3Option.Add(module3Options);
+        //eventModule1Option.Add(module1Options);
+        //eventModule2Option.Add(module2Options);
+        //eventModule3Option.Add(module3Options);
         eventRegions.Add(eventList[id].region);
         
     }
@@ -176,6 +177,7 @@ public class GameManagerNetwork : NetworkBehaviour
     [Rpc(SendTo.Server, InvokePermission = RpcInvokePermission.Everyone)]
     public void EventLoseLifeServerRpc(int eventIndex)
     {
+        Debug.Log("Module 2choué");
         if (eventDataIds.Count == 0)
         {
             return;
@@ -196,14 +198,15 @@ public class GameManagerNetwork : NetworkBehaviour
     [Rpc(SendTo.Server, InvokePermission = RpcInvokePermission.Everyone)]
     public void OnFailureRpc(int eventId)
     {
+        Debug.Log("EventEchoué");
         if (gameEnded) return;
         health.Value--;
         eventDataIds.RemoveAt(eventId);
         eventLives.RemoveAt(eventId);
         eventModulesDone.RemoveAt(eventId);
-        eventModule1Option.RemoveAt(eventId);
-        eventModule2Option.RemoveAt(eventId);
-        eventModule3Option.RemoveAt(eventId);
+        //eventModule1Option.RemoveAt(eventId);
+        //eventModule2Option.RemoveAt(eventId);
+        //eventModule3Option.RemoveAt(eventId);
         eventStates.RemoveAt(eventId);
         eventCurrentLevel.RemoveAt(eventId);
         eventRegions.RemoveAt(eventId);
@@ -217,14 +220,15 @@ public class GameManagerNetwork : NetworkBehaviour
     [Rpc(SendTo.Server, InvokePermission = RpcInvokePermission.Everyone)]
     public void OnSuccessRpc(int eventId)
     {
+        Debug.Log("Event Reussi");
         if (gameEnded) return;
         successes.Value++;
         eventDataIds.RemoveAt(eventId);
         eventLives.RemoveAt(eventId);
         eventModulesDone.RemoveAt(eventId);
-        eventModule1Option.RemoveAt(eventId);
-        eventModule2Option.RemoveAt(eventId);
-        eventModule3Option.RemoveAt(eventId);
+        //eventModule1Option.RemoveAt(eventId);
+        //eventModule2Option.RemoveAt(eventId);
+        //eventModule3Option.RemoveAt(eventId);
         eventStates.RemoveAt(eventId);
         eventCurrentLevel.RemoveAt(eventId);
         eventRegions.RemoveAt(eventId);
@@ -237,20 +241,21 @@ public class GameManagerNetwork : NetworkBehaviour
     [Rpc(SendTo.Server, InvokePermission = RpcInvokePermission.Everyone)]
     public void OnIncrementRpc(int eventInd, int moduleId)
     {
+        Debug.Log("Module Reussi");
         eventModulesDone[eventInd]++;
         CatastrophicEvent cEvent = allEvents[eventDataIds[eventInd]];
         switch (eventCurrentLevel[eventInd])
         {
             case 1:
-                for (int i = 0; i < cEvent.modules1.Count(); i++)
-                {
-                    if (cEvent.modules1[i] == moduleId)
-                    {
-                        var curList = eventModule1Option[eventInd];
-                        curList[i] = Random.Range(0, 3);
-                        eventModule1Option[eventInd] = curList;
-                    }
-                }
+                //for (int i = 0; i < cEvent.modules1.Count(); i++)
+                //{
+                //    if (cEvent.modules1[i] == moduleId)
+                //    {
+                //        var curList = eventModule1Option[eventInd];
+                //        curList[i] = Random.Range(0, 3);
+                //        eventModule1Option[eventInd] = curList;
+                //    }
+                //}
                 if (eventModulesDone[eventInd] == cEvent.modules1.Count())
                 {
                     if ( cEvent.eventCategoryLevel == 1)
@@ -264,15 +269,15 @@ public class GameManagerNetwork : NetworkBehaviour
                 }
                     break;
             case 2:
-                for (int i = 0; i < cEvent.modules2.Count(); i++)
-                {
-                    if (cEvent.modules2[i] == moduleId)
-                    {
-                        var curList = eventModule2Option[eventInd];
-                        curList[i] = Random.Range(0, 3);
-                        eventModule1Option[eventInd] = curList;
-                    }
-                }
+                //for (int i = 0; i < cEvent.modules2.Count(); i++)
+                //{
+                //    if (cEvent.modules2[i] == moduleId)
+                //    {
+                //        var curList = eventModule2Option[eventInd];
+                //        curList[i] = Random.Range(0, 3);
+                //        eventModule1Option[eventInd] = curList;
+                //    }
+                //}
                 if (eventModulesDone[eventInd] == cEvent.modules1.Count() + cEvent.modules2.Count()) 
                 {
                     if (cEvent.eventCategoryLevel == 2)
@@ -286,15 +291,15 @@ public class GameManagerNetwork : NetworkBehaviour
                 }
                 break;
             case 3:
-                for (int i = 0; i < cEvent.modules3.Count(); i++)
-                {
-                    if (cEvent.modules2[i] == moduleId)
-                    {
-                        var curList = eventModule3Option[eventInd];
-                        curList[i] = Random.Range(0, 3);
-                        eventModule1Option[eventInd] = curList;
-                    }
-                }
+                //for (int i = 0; i < cEvent.modules3.Count(); i++)
+                //{
+                //    if (cEvent.modules2[i] == moduleId)
+                //    {
+                //        var curList = eventModule3Option[eventInd];
+                //        curList[i] = Random.Range(0, 3);
+                //        eventModule1Option[eventInd] = curList;
+                //    }
+                //}
                 if (eventModulesDone[eventInd] == cEvent.modulesCount ) 
                 {
                     if (cEvent.eventCategoryLevel == 3)

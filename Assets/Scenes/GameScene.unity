@@ -1401,7 +1401,7 @@ Transform:
   m_GameObject: {fileID: 90010789}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 20.499, y: -1.521, z: 0}
+  m_LocalPosition: {x: 22.07, y: -1.52, z: 0}
   m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3240,13 +3240,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 337954968}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.03732937, y: 0.25184125, z: -0.010449625, w: 0.9669919}
+  m_LocalRotation: {x: -0.04055041, y: 0.2513427, z: -0.02282831, w: 0.9667789}
   m_LocalPosition: {x: 45.36, y: -1.46, z: -0.03}
   m_LocalScale: {x: 0.12584145, y: 0.12584145, z: 0.12584145}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: -3.838, y: 29.271, z: -2.241}
+  m_LocalEulerAnglesHint: {x: -3.838, y: 29.271, z: -3.708}
 --- !u!1 &392936320
 GameObject:
   m_ObjectHideFlags: 0
@@ -7462,7 +7462,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 60
+  m_SortingOrder: 61
   m_MaskInteraction: 0
   m_Sprite: {fileID: -6193708857431047624, guid: 8635b94c0daeecb468918179b4c7caa2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -9304,16 +9304,62 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManagerNetwork
   ShowTopMostFoldoutHeaderGroup: 1
-  allEvents: []
+  allEvents:
+  - {fileID: 11400000, guid: bb6f8e21beaa6704b89d9ff2fcd8ca21, type: 2}
+  - {fileID: 11400000, guid: bdd7dec4217991948951f351366857de, type: 2}
+  - {fileID: 11400000, guid: 17773f45aed4a99449f34a69971fa561, type: 2}
+  - {fileID: 11400000, guid: 6294e43114c3bcf4b817a96499e895d0, type: 2}
+  - {fileID: 11400000, guid: 7e1bff63721850c4098d1a337cdc6ef7, type: 2}
+  - {fileID: 11400000, guid: 36bfee5f29490a84cadaf7a760f4f3af, type: 2}
+  - {fileID: 11400000, guid: ec62566157429064e8d28d070eb5b294, type: 2}
+  - {fileID: 11400000, guid: 25ba573f9b012524c9e8a7e174d43d9f, type: 2}
+  - {fileID: 11400000, guid: 49208c9282049dd4283c698747ca9a48, type: 2}
+  - {fileID: 11400000, guid: dfca5ccc10f01a8448bd9964cea72bf9, type: 2}
+  - {fileID: 11400000, guid: e4da301a5a199564388b4cb0243bdc9c, type: 2}
+  - {fileID: 11400000, guid: 5061e477ac93e2b4c89fc436b2b1f8dd, type: 2}
+  - {fileID: 11400000, guid: 8a4367aa2e937584c836f621b94c19a1, type: 2}
+  - {fileID: 11400000, guid: c6bf5986e24e60d40a45fb61e690afe3, type: 2}
+  - {fileID: 11400000, guid: 05b583549d558b14cb8bd129667273d3, type: 2}
+  - {fileID: 11400000, guid: 95311449012c8e04aa0c0f7ecb71677c, type: 2}
+  - {fileID: 11400000, guid: 7fd47823540ae2c4484a02479b2feb68, type: 2}
+  - {fileID: 11400000, guid: df71aafcf3f498e44906b1f647aaf75a, type: 2}
+  - {fileID: 11400000, guid: ea02b4251fa28d4489fdb4be95697729, type: 2}
+  - {fileID: 11400000, guid: f9b58d5bd64c14a4daa578e04eb0eef1, type: 2}
+  - {fileID: 11400000, guid: 70b499e50c479274c93701682180f0cb, type: 2}
+  - {fileID: 11400000, guid: 3441f2a7cb8e8fd4dbfaa1d55f2a8a50, type: 2}
+  - {fileID: 11400000, guid: 010f9103332903448bdbb1324c22b7d3, type: 2}
+  - {fileID: 11400000, guid: 28d37818090faa046996569a58f187a5, type: 2}
   level1Events:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: bb6f8e21beaa6704b89d9ff2fcd8ca21, type: 2}
+  - {fileID: 11400000, guid: bdd7dec4217991948951f351366857de, type: 2}
+  - {fileID: 11400000, guid: 17773f45aed4a99449f34a69971fa561, type: 2}
+  - {fileID: 11400000, guid: 6294e43114c3bcf4b817a96499e895d0, type: 2}
+  - {fileID: 11400000, guid: 7e1bff63721850c4098d1a337cdc6ef7, type: 2}
+  - {fileID: 11400000, guid: 36bfee5f29490a84cadaf7a760f4f3af, type: 2}
+  - {fileID: 11400000, guid: ec62566157429064e8d28d070eb5b294, type: 2}
+  - {fileID: 11400000, guid: 25ba573f9b012524c9e8a7e174d43d9f, type: 2}
+  - {fileID: 11400000, guid: 49208c9282049dd4283c698747ca9a48, type: 2}
+  - {fileID: 11400000, guid: dfca5ccc10f01a8448bd9964cea72bf9, type: 2}
+  - {fileID: 11400000, guid: e4da301a5a199564388b4cb0243bdc9c, type: 2}
+  - {fileID: 11400000, guid: 5061e477ac93e2b4c89fc436b2b1f8dd, type: 2}
+  - {fileID: 11400000, guid: 8a4367aa2e937584c836f621b94c19a1, type: 2}
+  - {fileID: 11400000, guid: c6bf5986e24e60d40a45fb61e690afe3, type: 2}
+  - {fileID: 11400000, guid: 05b583549d558b14cb8bd129667273d3, type: 2}
+  - {fileID: 11400000, guid: 95311449012c8e04aa0c0f7ecb71677c, type: 2}
+  - {fileID: 11400000, guid: 7fd47823540ae2c4484a02479b2feb68, type: 2}
+  - {fileID: 11400000, guid: df71aafcf3f498e44906b1f647aaf75a, type: 2}
+  - {fileID: 11400000, guid: ea02b4251fa28d4489fdb4be95697729, type: 2}
+  - {fileID: 11400000, guid: f9b58d5bd64c14a4daa578e04eb0eef1, type: 2}
+  - {fileID: 11400000, guid: 70b499e50c479274c93701682180f0cb, type: 2}
+  - {fileID: 11400000, guid: 3441f2a7cb8e8fd4dbfaa1d55f2a8a50, type: 2}
+  - {fileID: 11400000, guid: 010f9103332903448bdbb1324c22b7d3, type: 2}
+  - {fileID: 11400000, guid: 28d37818090faa046996569a58f187a5, type: 2}
   level2Events: []
   level3Events: []
-  approximateTimeForEvents: 45
+  approximateTimeForEvents: 150
   randomisationTime: 30
   requiredSuccesses: 4
-  timeBeforeStart: 30
+  timeBeforeStart: 10
   eventDataIds:
     UpdateTraits:
       MinSecondsBetweenUpdates: 0
@@ -9338,18 +9384,6 @@ MonoBehaviour:
     UpdateTraits:
       MinSecondsBetweenUpdates: 0
       MaxSecondsBetweenUpdates: 0
-  eventModule1Option:
-    UpdateTraits:
-      MinSecondsBetweenUpdates: 0
-      MaxSecondsBetweenUpdates: 0
-  eventModule2Option:
-    UpdateTraits:
-      MinSecondsBetweenUpdates: 0
-      MaxSecondsBetweenUpdates: 0
-  eventModule3Option:
-    UpdateTraits:
-      MinSecondsBetweenUpdates: 0
-      MaxSecondsBetweenUpdates: 0
   health:
     UpdateTraits:
       MinSecondsBetweenUpdates: 0
@@ -9367,7 +9401,7 @@ MonoBehaviour:
   pictoIcons: []
   pictoColors: []
   pictoNmbers: []
-  gameDuration: 20
+  gameDuration: 300
   remainingGameTime:
     UpdateTraits:
       MinSecondsBetweenUpdates: 0
@@ -15505,7 +15539,7 @@ Transform:
   m_GameObject: {fileID: 1860243278}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 21.991, y: -1.492, z: 0}
+  m_LocalPosition: {x: 20.57, y: -1.492, z: 0}
   m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
   m_ConstrainProportionsScale: 0
   m_Children:

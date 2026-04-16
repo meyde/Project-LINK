@@ -29,7 +29,13 @@ public class WaterModule : Module
             {
                 if (cEvent.modules1[i] == moduleId)
                 {
-                    availableStates.Add(codeList[cEvent.modulesState1[i]].waterStateId);
+                    foreach (WaterCodeSO codeSo in codeList)
+                    {
+                        if (cEvent.modulesState1[i] == codeSo.waterStateId)
+                        {
+                            availableStates.Add(codeSo.waterStateId);
+                        }
+                    }
                 }
             }
 
@@ -58,7 +64,6 @@ public class WaterModule : Module
             {
                 if (cEvent.modules1[i] == moduleId)
                 {
-                    List<WaterCodeSO> codeList = new();
                     foreach (WaterCodeSO code in codeList)
                     {
                         if (code.eventId == eventId && code.waterStateId == waterState)

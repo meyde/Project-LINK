@@ -2,6 +2,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Collections.Generic;
+using NUnit.Framework;
 
 public class LeverModule : Module, MouseInteractionManager.IInteractable
 {
@@ -44,15 +45,33 @@ public class LeverModule : Module, MouseInteractionManager.IInteractable
     {
     }
 
+
+
+
+
     public void ModuleEnd()
     {
+
         foreach (LeverCodes levercode in codes)
         {
-            if (code==levercode.values)
+            var tempInd = levercode.id;
+            int ind = 0;
+            foreach (int i in levercode.values)
             {
-                codeDone = levercode.id;
+                if (i != code[ind])
+                {
+                    tempInd = -1;
+                }
+                ind++;
+                if (tempInd != -1)
+                {
+                    codeDone = tempInd;
+                    break;
+                }
+
             }
         }
+
         int index = 0;
         List<int> falseInd = new();
         bool hasSucceeded = false;

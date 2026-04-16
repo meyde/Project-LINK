@@ -14,7 +14,7 @@ public class PipeController : MonoBehaviour, MouseInteractionManager.IInteractab
     public void OnClick()
     {
         orientation = (orientation + 1) % orientationLimit;
-        sr.transform.Rotate(new Vector3(0, 0, 90));
+        sr.transform.localRotation= Quaternion.Euler(0, 0, -orientation*90);
     }
     public void OnHoverEnter()
     {
