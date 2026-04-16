@@ -85,7 +85,6 @@ public class GameManagerNetwork : NetworkBehaviour
     }
     public override void OnNetworkSpawn()
     {
-        pictoSpritesCurrent.OnListChanged += PictoUpdate ;
     }
 
     public override void OnNetworkDespawn()
@@ -93,10 +92,6 @@ public class GameManagerNetwork : NetworkBehaviour
         
     }
 
-    public void PictoUpdate(NetworkListEvent<int> change)
-    {
-        if (change.Type== NetworkListEvent<int>.EventType.Value) 
-    }
 
     private void OnGameLoss()
     {
