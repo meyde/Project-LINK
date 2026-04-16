@@ -181,7 +181,7 @@ public class GameManagerNetwork : NetworkBehaviour
     [Rpc(SendTo.Server, InvokePermission = RpcInvokePermission.Everyone)]
     public void EventLoseLifeServerRpc(int eventIndex)
     {
-        Debug.Log("Module 2chou�");
+        Debug.Log("Module échoué");
         if (eventDataIds.Count == 0)
         {
             return;

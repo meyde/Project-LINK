@@ -24,7 +24,7 @@ MonoBehaviour:
   modulesState2: 
   modulesState3: 
   eventCategoryLevel: 1
-  eventDuration: 60
+  eventDuration: 150
   baseLife: 2
   windSpeed: 10
   windSpeedMax: 20

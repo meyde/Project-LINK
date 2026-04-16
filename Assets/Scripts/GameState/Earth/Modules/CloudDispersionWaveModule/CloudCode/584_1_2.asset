@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 51b270e899b19a64e8dcec53c6f367e5, type: 3}
-  m_Name: 584_1
+  m_Name: 584_1_2
   m_EditorClassIdentifier: Assembly-CSharp::CloudWaveCodeSO
-  eventId: 7
-  signalId: 0
-  leverCode: 00010100000100010100010100010100
+  eventId: 11
+  signalId: 1
+  leverCode: 01010000010101000101010001000100

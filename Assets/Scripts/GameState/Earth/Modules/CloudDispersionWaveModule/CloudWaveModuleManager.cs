@@ -37,10 +37,12 @@ public class CloudWaveModuleManager : Module
         gm = FindFirstObjectByType<GameManagerLocal>();
         zm = gameObject.GetComponent<ZoomableModule>(); 
         AssignManagerToLevers();
+        
     }
     public override void OnStarted()
     {
         PickRandomSignal();
+        signalDisplay.sprite = currentSignal.signalSprite;
         Reset();
     }
 
@@ -75,6 +77,7 @@ public class CloudWaveModuleManager : Module
 
         Debug.Log($"Signal choisi : {currentSignal.id}");
 
+
     }
 
     // � appeler depuis le bouton de validation
@@ -84,14 +87,17 @@ public class CloudWaveModuleManager : Module
         int index = 0;
         List<int> falseInd = new();
         bool hasSucceeded = false;
-        foreach (int eventId in gm.gmn.eventDataIds)
+        int[] tempIds = new int[5] { 0, 1, 2, 3, 4 };
+        //foreach (int eventId in gm.gmn.eventDataIds)
+        foreach (int eventId in tempIds) 
         {
             CatastrophicEvent cEvent = gm.allEvents[eventId];
+            Debug.Log("event:");
+            Debug.Log(eventId.ToString());
             for (int i = 0; i < cEvent.modules1.Length; i++)
             {
                 if (cEvent.modules1[i] == moduleId)
                 {
-                    List<CloudWaveCodeSO> codeList = new();
                     foreach (CloudWaveCodeSO code in availableCodes)
                     {
                         if (code.eventId == eventId && code.signalId == currentSignal.id)
@@ -101,6 +107,7 @@ public class CloudWaveModuleManager : Module
                                 hasSucceeded = true;
                                 gm.EndModuleCheck(moduleId, true, index);
                                 zm.CloseModule();
+                                break;
                             }
                             else
                             {
@@ -162,7 +169,9 @@ public class CloudWaveModuleManager : Module
         for (int i = 0; i < levers.Length; i++)
         {
             bool expected = codeSo.leverCode[i];
+            Debug.Log("expected "+expected.ToString());
             bool current = levers[i] != null && levers[i].isOn;
+            Debug.Log("got"+current.ToString());
 
             if (current != expected)
             {
