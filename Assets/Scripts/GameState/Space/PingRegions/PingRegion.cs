@@ -19,10 +19,21 @@ public class PingRegion : MonoBehaviour
     [SerializeField] private bool pulseScale = false;
     [SerializeField] private float scalePulseAmount = 0.08f;
 
+    [Header("Audio Pulse")]
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip pulseSound;
+    [SerializeField] private bool playSoundOnPulse = true;
+    [SerializeField] private bool playFirstPulseImmediately = false;
+    [Range(0f, 1f)]
+    [SerializeField] private float pulseSoundVolume = 1f;
+    [SerializeField] private float pulseTriggerThreshold = 0.9f;
+
     private bool isRegionActive = false;
     private Color baseColor;
     private Vector3 baseScale;
     private bool isInitialized = false;
+
+    private bool pulseSoundArmed = true;
 
     private void Awake()
     {
@@ -33,6 +44,9 @@ public class PingRegion : MonoBehaviour
     {
         if (targetRenderer == null)
             targetRenderer = GetComponent<SpriteRenderer>();
+
+        if (audioSource == null)
+            audioSource = GetComponent<AudioSource>();
     }
 
     private void Update()
@@ -51,6 +65,8 @@ public class PingRegion : MonoBehaviour
             float scaleFactor = 1f + (t * scalePulseAmount);
             transform.localScale = baseScale * scaleFactor;
         }
+
+        HandlePulseSound(t);
     }
 
     public void SetRegionActive(bool active)
@@ -66,10 +82,16 @@ public class PingRegion : MonoBehaviour
         if (isRegionActive)
         {
             ApplyAlpha(activeMaxAlpha);
+
+            pulseSoundArmed = !playFirstPulseImmediately;
+
+            if (playFirstPulseImmediately)
+                PlayPulseSound();
         }
         else
         {
             ApplyInactiveVisual();
+            pulseSoundArmed = true;
         }
     }
 
@@ -77,6 +99,9 @@ public class PingRegion : MonoBehaviour
     {
         if (targetRenderer == null)
             targetRenderer = GetComponent<SpriteRenderer>();
+
+        if (audioSource == null)
+            audioSource = GetComponent<AudioSource>();
 
         if (targetRenderer == null)
         {
@@ -90,6 +115,33 @@ public class PingRegion : MonoBehaviour
         isInitialized = true;
 
         ApplyInactiveVisual();
+    }
+
+    private void HandlePulseSound(float t)
+    {
+        if (!playSoundOnPulse || audioSource == null || pulseSound == null)
+            return;
+
+        // On joue une seule fois quand le pulse arrive proche de son maximum
+        if (t >= pulseTriggerThreshold && pulseSoundArmed)
+        {
+            PlayPulseSound();
+            pulseSoundArmed = false;
+        }
+
+        // On réarme quand le pulse redescend suffisamment
+        if (t <= 0.25f)
+        {
+            pulseSoundArmed = true;
+        }
+    }
+
+    private void PlayPulseSound()
+    {
+        if (audioSource == null || pulseSound == null)
+            return;
+
+        audioSource.PlayOneShot(pulseSound, pulseSoundVolume);
     }
 
     private void ApplyInactiveVisual()
