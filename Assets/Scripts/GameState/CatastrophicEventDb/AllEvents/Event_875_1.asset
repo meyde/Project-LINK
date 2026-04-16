@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eecf7534233f00546a14b86367e1e280, type: 3}
   m_Name: Event_875_1
   m_EditorClassIdentifier: Assembly-CSharp::CatastrophicEvent
-  eventId: 8751
+  eventId: 17
   eventName: "Tornade sans d\xE9bris rapide"
   type: tornade
-  region: 0
+  region: 12
   modulesCount: 1
   modules1: 00000000
   modules2: 

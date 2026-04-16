@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eecf7534233f00546a14b86367e1e280, type: 3}
   m_Name: Event_789
   m_EditorClassIdentifier: Assembly-CSharp::CatastrophicEvent
-  eventId: 789
+  eventId: 16
   eventName: Blizzard glace rapide
   type: Blizzard
-  region: 0
+  region: 1
   modulesCount: 1
   modules1: 02000000
   modules2: 
