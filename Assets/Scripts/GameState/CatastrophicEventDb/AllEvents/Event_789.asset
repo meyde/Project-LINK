@@ -15,6 +15,7 @@ MonoBehaviour:
   eventId: 16
   eventName: Blizzard glace rapide
   type: Blizzard
+  fxType: 3
   region: 1
   modulesCount: 1
   modules1: 02000000

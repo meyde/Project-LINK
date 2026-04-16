@@ -44,7 +44,7 @@ public class GameManagerLocal : MonoBehaviour
     public void ChangeRegion(int regionSelected)
     {
         currentRegion = regionSelected;
-        string eventFx = "base";
+        int eventFx = -1;
         if (regionBiomeDatabase != null)
         {
             currentBiome = regionBiomeDatabase.GetBiome(currentRegion);
@@ -53,7 +53,7 @@ public class GameManagerLocal : MonoBehaviour
                 CatastrophicEvent cEvent = allEvents[eventInd];
                 if (cEvent.region == currentRegion)
                 {
-                    eventFx = cEvent.type;
+                    eventFx = cEvent.fxType;
                 }
             }
             bsc.SetBiome(currentBiome, eventFx);
@@ -139,7 +139,7 @@ public class GameManagerLocal : MonoBehaviour
     public IEnumerator CountDown(CatastrophicEvent cEvent)
     {
         yield return new WaitForSeconds(cEvent.eventDuration);
-
+        Debug.Log("Event timer out");
         int pos = -1;
 
         for (int i = 0; i < gmn.eventDataIds.Count; i++)
@@ -149,9 +149,14 @@ public class GameManagerLocal : MonoBehaviour
         }
 
         if (pos == -1)
+        {
+            Debug.Log("Event Not occuring");
             yield break;
+        }
+
 
         if (gmn.eventStates[pos] != 2)
+            Debug.Log("event failed");
             gmn.OnFailureRpc(pos);
     }
 
@@ -160,12 +165,28 @@ public class GameManagerLocal : MonoBehaviour
         if (eventPos > -1)
         {
             if (state && currentRegion == gmn.eventRegions[eventPos])
+
+            {
+                Debug.Log("GoodModule");
                 gmn.OnIncrementRpc(eventPos, moduleId);
+            }
             else
+            {
+                if (currentRegion != gmn.eventRegions[eventPos])
+                {
+                    Debug.Log("WrongRegion");
+                }
+                if (!state)
+                {
+                    Debug.Log("WrongModulestate");
+                }
+
                 gmn.EventLoseLifeServerRpc(eventPos);
+            }
         }
         else
         {
+            Debug.Log("no event found");
             gmn.EventLoseLifeServerRpc(eventPos);
         }
     }

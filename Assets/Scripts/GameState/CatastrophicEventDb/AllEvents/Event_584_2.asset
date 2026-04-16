@@ -15,6 +15,7 @@ MonoBehaviour:
   eventId: 12
   eventName: Cloud Verte Double
   type: Cloud
+  fxType: 6
   region: 14
   modulesCount: 1
   modules1: 01000000

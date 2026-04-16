@@ -15,6 +15,7 @@ MonoBehaviour:
   eventId: 19
   eventName: Blizzard glace normal
   type: Blizzard
+  fxType: 3
   region: 19
   modulesCount: 1
   modules1: 02000000

@@ -15,6 +15,7 @@ MonoBehaviour:
   eventId: 18
   eventName: "Tornade avec d\xE9bris moyenne"
   type: tornade
+  fxType: 1
   region: 13
   modulesCount: 1
   modules1: 00000000

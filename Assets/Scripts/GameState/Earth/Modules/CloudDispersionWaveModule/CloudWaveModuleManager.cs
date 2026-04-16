@@ -88,8 +88,7 @@ public class CloudWaveModuleManager : Module
         List<int> falseInd = new();
         bool hasSucceeded = false;
         int[] tempIds = new int[5] { 0, 1, 2, 3, 4 };
-        //foreach (int eventId in gm.gmn.eventDataIds)
-        foreach (int eventId in tempIds) 
+        foreach (int eventId in gm.gmn.eventDataIds)
         {
             CatastrophicEvent cEvent = gm.allEvents[eventId];
             Debug.Log("event:");

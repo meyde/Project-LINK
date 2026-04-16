@@ -15,6 +15,7 @@ MonoBehaviour:
   eventId: 15
   eventName: "Tornade avec d\xE9bris rapide"
   type: tornade
+  fxType: 1
   region: 6
   modulesCount: 1
   modules1: 00000000

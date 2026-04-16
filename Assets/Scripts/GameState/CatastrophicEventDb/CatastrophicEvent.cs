@@ -7,6 +7,7 @@ public class CatastrophicEvent : ScriptableObject
     public int eventId;
     public string eventName;
     public string type;
+    public int fxType;
     public int region;
     public int modulesCount;
     public int[] modules1; 

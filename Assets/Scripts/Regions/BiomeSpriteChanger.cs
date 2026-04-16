@@ -8,6 +8,7 @@ public class BiomeSpriteChanger : MonoBehaviour
     [Header("Sprites par biome (index = biomeId)")]
     [SerializeField] private Sprite[] biomeSprites;
     [SerializeField] private string[] fxTypes;
+    [SerializeField] private GameObject[] AbsoluteCinema;
 
 [Header("Biome actuel")]
     [SerializeField] private int currentBiomeId;
@@ -24,20 +25,17 @@ public class BiomeSpriteChanger : MonoBehaviour
         ApplyBiome(currentBiomeId);
     }
 
-    public void SetBiome(int biomeId, string eventFx)
+    public void SetBiome(int biomeId, int eventFx)
     {
         currentBiomeId = biomeId;
         ApplyBiome(currentBiomeId);
-        int fxInd = -1;
-
-        int ind = 0;
-        foreach (string  fxType in fxTypes)
+        foreach (GameObject go in AbsoluteCinema)
         {
-            if (fxType == eventFx)
-            {
-                fxInd = ind;
-            }
-            ind++;
+            go.SetActive(false);
+        }
+        if (eventFx > -1)
+        {
+            AbsoluteCinema[eventFx].SetActive(true);
         }
 
 
