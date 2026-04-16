@@ -93,6 +93,10 @@ public class GameManagerNetwork : NetworkBehaviour
         
     }
 
+    private void Update()
+    {
+        
+    }
 
     private void OnGameLoss()
     {
@@ -242,8 +246,12 @@ public class GameManagerNetwork : NetworkBehaviour
     public void OnIncrementRpc(int eventInd, int moduleId)
     {
         Debug.Log("Module Reussi");
+        Debug.Log(eventInd.ToString());
+        Debug.Log(moduleId.ToString());
         eventModulesDone[eventInd]++;
+        Debug.Log("eventModulesDone atteind");
         CatastrophicEvent cEvent = allEvents[eventDataIds[eventInd]];
+        Debug.Log("allEvents[eventDataIds[eventId] atteind");
         switch (eventCurrentLevel[eventInd])
         {
             case 1:
@@ -260,6 +268,7 @@ public class GameManagerNetwork : NetworkBehaviour
                 {
                     if ( cEvent.eventCategoryLevel == 1)
                     {
+                        Debug.Log("SuccessRPC essayé");
                          OnSuccessRpc(eventInd);
                     }
                     else
@@ -282,6 +291,7 @@ public class GameManagerNetwork : NetworkBehaviour
                 {
                     if (cEvent.eventCategoryLevel == 2)
                     {
+                        Debug.Log("trying successRPC");
                         OnSuccessRpc(eventInd);
                     }
                     else
