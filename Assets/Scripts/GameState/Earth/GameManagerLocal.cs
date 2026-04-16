@@ -6,7 +6,10 @@ public class GameManagerLocal : MonoBehaviour
 {
     public GameManagerNetwork gmn;
     public CatastrophicEvent[] allEvents;
+    [Header("Region / Biome")]
+    [SerializeField] private RegionBiomeDatabase regionBiomeDatabase;
     public int currentRegion;
+    public int currentBiome;
     private void Awake()
     {
         gmn = FindFirstObjectByType<GameManagerNetwork>();
@@ -27,6 +30,12 @@ public class GameManagerLocal : MonoBehaviour
     {
         currentRegion = regionSelected;
 
+        if (regionBiomeDatabase != null)
+        {
+            currentBiome = regionBiomeDatabase.GetBiome(currentRegion);
+        }
+
+        Debug.Log($"Région: {currentRegion} | Biome: {currentBiome}");
     }
 
     private void OnEventsChanged(NetworkListEvent<int> change)

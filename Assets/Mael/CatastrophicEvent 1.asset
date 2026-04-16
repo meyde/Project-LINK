@@ -15,7 +15,7 @@ MonoBehaviour:
   eventId: 0
   eventName: Eruption_eau_yellowstone
   type: Eau
-  region: 0
+  region: 1
   modulesCount: 0
   modules1: 
   modules2: 
@@ -27,10 +27,10 @@ MonoBehaviour:
   eventDuration: 0
   baseLife: 2
   windSpeed: 0
-  windVariation: 0
+  windSpeedMax: 0
   temperature: 40
-  tempVariation: 20
+  temperatureMax: 0
   intensity: 0
-  intesityVariation: 0
+  intensityMax: 0
   oxygenLevel: 0
-  oxygenVariation: 0
+  oxygenLevelMax: 0
