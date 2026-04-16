@@ -43,7 +43,7 @@ public class GameManagerNetwork : NetworkBehaviour
 
     public int RequiredSuccesses => requiredSuccesses;
 
-    [SerializeField] private float gameDuration = 300f; // durée totale de la partie en secondes
+    [SerializeField] private float gameDuration = 300f; // durï¿½e totale de la partie en secondes
     public NetworkVariable<float> remainingGameTime = new(0f);
 
     private Coroutine gameTimerCoroutine;
@@ -177,7 +177,7 @@ public class GameManagerNetwork : NetworkBehaviour
     [Rpc(SendTo.Server, InvokePermission = RpcInvokePermission.Everyone)]
     public void EventLoseLifeServerRpc(int eventIndex)
     {
-        Debug.Log("Module 2choué");
+        Debug.Log("Module 2chouï¿½");
         if (eventDataIds.Count == 0)
         {
             return;
@@ -198,7 +198,7 @@ public class GameManagerNetwork : NetworkBehaviour
     [Rpc(SendTo.Server, InvokePermission = RpcInvokePermission.Everyone)]
     public void OnFailureRpc(int eventId)
     {
-        Debug.Log("EventEchoué");
+        Debug.Log("EventEchouï¿½");
         if (gameEnded) return;
         health.Value--;
         eventDataIds.RemoveAt(eventId);
