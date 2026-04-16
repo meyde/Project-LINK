@@ -32,11 +32,13 @@ public class HeatModuleManager : Module
     private bool hasValidated = false;
 
     private GameManagerLocal gm;
+    private ZoomableModule zm;
 
     private int moduleId = 2;
     private void Awake()
     {
         gm = FindFirstObjectByType<GameManagerLocal>();
+        zm= gameObject.GetComponent<ZoomableModule>();
     }
 
     private void Start()
@@ -222,6 +224,7 @@ public class HeatModuleManager : Module
                     {
                         hasSucceeded = true;
                         gm.EndModuleCheck(moduleId, true, index);
+                        zm.CloseModule();
                     }
                     else
                     {
@@ -251,11 +254,6 @@ public class HeatModuleManager : Module
 
     public int CheckSolution()
     {
-        if (currentRecipe == null)
-        {
-            Debug.LogWarning("Aucune recette assignée.");
-            return -1;
-        }
 
         if (!hasValidated)
             return -1;

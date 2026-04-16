@@ -44,11 +44,19 @@ public class GameManagerLocal : MonoBehaviour
     public void ChangeRegion(int regionSelected)
     {
         currentRegion = regionSelected;
-
+        string eventFx = "base";
         if (regionBiomeDatabase != null)
         {
             currentBiome = regionBiomeDatabase.GetBiome(currentRegion);
-            bsc.SetBiome(currentBiome);
+            foreach (int eventInd in gmn.eventDataIds)
+            {
+                CatastrophicEvent cEvent = allEvents[eventInd];
+                if (cEvent.region == currentRegion)
+                {
+                    eventFx = cEvent.type;
+                }
+            }
+            bsc.SetBiome(currentBiome, eventFx);
         }
 
         Debug.Log($"R�gion: {currentRegion} | Biome: {currentBiome}");
@@ -151,7 +159,7 @@ public class GameManagerLocal : MonoBehaviour
     {
         if (eventPos > -1)
         {
-            if (state)
+            if (state && currentRegion == gmn.eventRegions[eventPos])
                 gmn.OnIncrementRpc(eventPos, moduleId);
             else
                 gmn.EventLoseLifeServerRpc(eventPos);

@@ -7,9 +7,11 @@ public class BiomeSpriteChanger : MonoBehaviour
 
     [Header("Sprites par biome (index = biomeId)")]
     [SerializeField] private Sprite[] biomeSprites;
+    [SerializeField] private string[] fxTypes;
 
-    [Header("Biome actuel")]
+[Header("Biome actuel")]
     [SerializeField] private int currentBiomeId;
+
 
     private void Awake()
     {
@@ -22,10 +24,23 @@ public class BiomeSpriteChanger : MonoBehaviour
         ApplyBiome(currentBiomeId);
     }
 
-    public void SetBiome(int biomeId)
+    public void SetBiome(int biomeId, string eventFx)
     {
         currentBiomeId = biomeId;
         ApplyBiome(currentBiomeId);
+        int fxInd = -1;
+
+        int ind = 0;
+        foreach (string  fxType in fxTypes)
+        {
+            if (fxType == eventFx)
+            {
+                fxInd = ind;
+            }
+            ind++;
+        }
+
+
     }
 
     private void ApplyBiome(int biomeId)

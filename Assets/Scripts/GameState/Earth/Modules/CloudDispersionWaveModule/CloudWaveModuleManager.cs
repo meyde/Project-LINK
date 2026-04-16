@@ -30,10 +30,12 @@ public class CloudWaveModuleManager : Module
 
 
     private GameManagerLocal gm;
+    private ZoomableModule zm;
 
     private void Awake()
     {
         gm = FindFirstObjectByType<GameManagerLocal>();
+        zm = gameObject.GetComponent<ZoomableModule>(); 
         AssignManagerToLevers();
     }
     public override void OnStarted()
@@ -98,6 +100,7 @@ public class CloudWaveModuleManager : Module
                             {
                                 hasSucceeded = true;
                                 gm.EndModuleCheck(moduleId, true, index);
+                                zm.CloseModule();
                             }
                             else
                             {

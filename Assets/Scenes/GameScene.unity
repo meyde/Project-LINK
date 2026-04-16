@@ -1723,7 +1723,16 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 4221fa5962e267d4e8bf26cffd482418, type: 2}
   - {fileID: 11400000, guid: c694f1311c478954cb2f2f70c6b7740e, type: 2}
   - {fileID: 11400000, guid: 0fa4f0bbcd2d924499d2a19e3dcc12d2, type: 2}
-  availableCodes: []
+  availableCodes:
+  - {fileID: 11400000, guid: 88dc5c2bce524dd4a8864187291022dd, type: 2}
+  - {fileID: 11400000, guid: 3d250e0e9631bbd47b20433e3dd80325, type: 2}
+  - {fileID: 11400000, guid: f42bea4b4fb5a8045ae2c4aa61e7c1ab, type: 2}
+  - {fileID: 11400000, guid: ccfcfad1ae044e84fadc018b3f6d5678, type: 2}
+  - {fileID: 11400000, guid: 4010a0e44f72b9e4488ae4a27258a689, type: 2}
+  - {fileID: 11400000, guid: 56e5fffe0483ec147b8e1a3252f0c497, type: 2}
+  - {fileID: 11400000, guid: dac6232809e35394b93fbb9f41eb1c77, type: 2}
+  - {fileID: 11400000, guid: 14cbc7cc8a7ff814eb4115046a27c278, type: 2}
+  - {fileID: 11400000, guid: bc5181a9fab8a7443ac8716687558212, type: 2}
   currentSignal: {fileID: 0}
   signalDisplay: {fileID: 781906455}
   idText: {fileID: 0}
@@ -15552,6 +15561,7 @@ MonoBehaviour:
   - {fileID: -8722902840782431698, guid: 504dd70854a745a4f9e669f30d40d664, type: 3}
   - {fileID: 7283985745834771546, guid: 6308d5adfcd83cc48b4accd4360d3437, type: 3}
   - {fileID: 1964522029085628639, guid: 65bff987a54bced40ba118f89cf85e86, type: 3}
+  fxTypes: []
   currentBiomeId: 0
 --- !u!212 &1192207326
 SpriteRenderer:
@@ -15782,7 +15792,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 16
+  m_SortingOrder: 25
   m_MaskInteraction: 0
   m_Sprite: {fileID: 5029079983716227026, guid: 2c0be766028924e499616ec471fcd0ea, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -17692,7 +17702,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 16
+  m_SortingOrder: 25
   m_MaskInteraction: 0
   m_Sprite: {fileID: 5994705044191703808, guid: 2c0be766028924e499616ec471fcd0ea, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -20393,7 +20403,7 @@ Transform:
   m_GameObject: {fileID: 1620374054}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 17.502, y: -1.495, z: 0}
+  m_LocalPosition: {x: 17.48, y: -1.54, z: 0}
   m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -21205,7 +21215,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 12
+  m_SortingOrder: 21
   m_MaskInteraction: 0
   m_Sprite: {fileID: -4048050823433087561, guid: 2c0be766028924e499616ec471fcd0ea, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -21232,12 +21242,12 @@ MonoBehaviour:
   diode: {fileID: 0}
   DiodeSprites: []
   allRecipes:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 4f137994f6a6fba4cbb7bb834b2bb174, type: 2}
+  - {fileID: 11400000, guid: 61158f649dff9364bb0419e7490fe973, type: 2}
+  - {fileID: 11400000, guid: 4eaaabe5a890e0b4b9b4e3c0dffbd245, type: 2}
+  - {fileID: 11400000, guid: c8ac6e51852661347821cbe2c2c73c4a, type: 2}
+  - {fileID: 11400000, guid: 0a0dead6148a34648a947e5c68f06f4b, type: 2}
+  - {fileID: 11400000, guid: 1ab8fc682850a174e9f7355f5519fec4, type: 2}
   dialL: {fileID: 1382534085}
   dialH: {fileID: 1995984033}
   dialI: {fileID: 1953043239}
@@ -26599,7 +26609,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 26
+  m_SortingOrder: 30
   m_MaskInteraction: 0
   m_Sprite: {fileID: -1428456021563033375, guid: 2c0be766028924e499616ec471fcd0ea, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -27272,6 +27282,10 @@ PrefabInstance:
       propertyPath: m_Color.a
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8131864468644514559, guid: 59ac0a92b38bcbb4dbb2990c0eb1e4fd, type: 3}
+      propertyPath: m_SortingOrder
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 3277282934669965922, guid: 59ac0a92b38bcbb4dbb2990c0eb1e4fd, type: 3}
@@ -27444,6 +27458,7 @@ MonoBehaviour:
   maxValue: 20
   startValue: 10
   dragStepThreshold: 7
+  zm: {fileID: 1620374056}
 --- !u!212 &2138976974
 SpriteRenderer:
   serializedVersion: 2

@@ -13,10 +13,11 @@ public class WaterModule : Module
     private int waterState=0;
     private GameManagerLocal gm;
     private List<int> availableStates = new();
-
+    private ZoomableModule zm;
     private void Awake()
     {
         gm=FindFirstObjectByType<GameManagerLocal>();
+        zm = gameObject.GetComponent<ZoomableModule>();
     }
 
 
@@ -72,6 +73,7 @@ public class WaterModule : Module
                             {
                                 hasSucceeded = true;
                                 gm.EndModuleCheck(moduleId, true, index);
+                                zm.CloseModule();
                             }
                             else
                             {

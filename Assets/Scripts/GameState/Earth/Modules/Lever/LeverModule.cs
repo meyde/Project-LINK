@@ -24,12 +24,17 @@ public class LeverModule : Module, MouseInteractionManager.IInteractable
     private int codeDone = -1;
     private WaitForFixedUpdate WaitForFixedUpdate = new();
     private GameManagerLocal gm;
-
+    [SerializeField] private ZoomableModule zm;
 
     private void Awake()
     {
         value = startValue;
         gm = FindFirstObjectByType<GameManagerLocal>();
+        if (zm == null)
+        {
+
+            zm = gameObject.GetComponent<ZoomableModule>();
+        }
     }
 
     public void OnClick()
@@ -86,6 +91,7 @@ public class LeverModule : Module, MouseInteractionManager.IInteractable
                     {
                         hasSucceeded = true;
                         gm.EndModuleCheck(moduleId, true, index);
+                        zm.CloseModule();
                     }
                     else
                     {
