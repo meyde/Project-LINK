@@ -17,10 +17,10 @@ MonoBehaviour:
   type: tornade
   region: 0
   modulesCount: 1
-  modules1: 00000000
+  modules1: 0000000001000000
   modules2: 
   modules3: 
-  modulesState1: 
+  modulesState1: 0700000000000000
   modulesState2: 
   modulesState3: 
   eventCategoryLevel: 0

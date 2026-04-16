@@ -12,7 +12,7 @@ public class WaterModule : Module
     [SerializeField] private Sprite[] sprites;
     private int waterState=0;
     private GameManagerLocal gm;
-    private List<int> availableStates;
+    private List<int> availableStates = new();
 
     private void Awake()
     {
@@ -34,8 +34,16 @@ public class WaterModule : Module
             }
 
         }
-        waterState = availableStates[Random.Range(0, availableStates.Count)];
-        waterSprite.sprite = sprites[waterState];
+        if (availableStates.Count > 0)
+        {
+            waterState = availableStates[Random.Range(0, availableStates.Count)];
+            waterSprite.sprite = sprites[waterState];
+        }
+        else
+        {
+            waterState = 0;
+            waterSprite.sprite = sprites[0];
+        }
     }
 
     public void Validate()
