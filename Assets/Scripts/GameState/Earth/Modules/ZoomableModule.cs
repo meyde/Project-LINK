@@ -27,7 +27,7 @@ using TMPro;
 // La fermeture peut se faire :
 // - via la touche Escape / l'Input Action assignée
 // - via un clic extérieur géré par MouseInteractionManager <= (ducoup je les modifié aussi)
-public class ZoomableModule : Module, MouseInteractionManager.IInteractable
+public class ZoomableModule : MonoBehaviour, MouseInteractionManager.IInteractable
 {
     [Header("Références")]
 
