@@ -33,6 +33,13 @@ public class GameManagerNetwork : NetworkBehaviour
 
     public NetworkVariable<int> health = new(3);
     public NetworkVariable<int> successes = new(0);
+
+
+    public NetworkList<int> pictoSpritesCurrent = new();
+    [SerializeField] private Sprite[] pictoIcons;
+    [SerializeField] private Color[] pictoColors;
+    [SerializeField] private Sprite[] pictoNmbers;
+
     public int RequiredSuccesses => requiredSuccesses;
 
     [SerializeField] private float gameDuration = 300f; // durée totale de la partie en secondes
@@ -76,6 +83,21 @@ public class GameManagerNetwork : NetworkBehaviour
 
         OnStartGame();
     }
+    public override void OnNetworkSpawn()
+    {
+        pictoSpritesCurrent.OnListChanged += PictoUpdate ;
+    }
+
+    public override void OnNetworkDespawn()
+    {
+        
+    }
+
+    public void PictoUpdate(NetworkListEvent<int> change)
+    {
+
+    }
+
     private void OnGameLoss()
     {
         if (gameEnded) return;
