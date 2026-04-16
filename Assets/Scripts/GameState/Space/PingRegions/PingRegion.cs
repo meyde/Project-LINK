@@ -22,28 +22,22 @@ public class PingRegion : MonoBehaviour
     private bool isRegionActive = false;
     private Color baseColor;
     private Vector3 baseScale;
+    private bool isInitialized = false;
 
     private void Awake()
     {
+        Initialize();
+    }
+
+    private void OnValidate()
+    {
         if (targetRenderer == null)
             targetRenderer = GetComponent<SpriteRenderer>();
-
-        if (targetRenderer == null)
-        {
-            Debug.LogWarning($"[PingRegion] Aucun SpriteRenderer trouvé sur {name}");
-            enabled = false;
-            return;
-        }
-
-        baseColor = targetRenderer.color;
-        baseScale = transform.localScale;
-
-        ApplyInactiveVisual();
     }
 
     private void Update()
     {
-        if (!isRegionActive)
+        if (!isInitialized || !isRegionActive)
             return;
 
         float timeValue = useUnscaledTime ? Time.unscaledTime : Time.time;
@@ -61,6 +55,12 @@ public class PingRegion : MonoBehaviour
 
     public void SetRegionActive(bool active)
     {
+        if (!isInitialized)
+            Initialize();
+
+        if (!isInitialized)
+            return;
+
         isRegionActive = active;
 
         if (isRegionActive)
@@ -73,14 +73,39 @@ public class PingRegion : MonoBehaviour
         }
     }
 
+    private void Initialize()
+    {
+        if (targetRenderer == null)
+            targetRenderer = GetComponent<SpriteRenderer>();
+
+        if (targetRenderer == null)
+        {
+            Debug.LogWarning($"[PingRegion] Aucun SpriteRenderer trouvé sur {name}. Ajoute-en un ou assigne targetRenderer.");
+            isInitialized = false;
+            return;
+        }
+
+        baseColor = targetRenderer.color;
+        baseScale = transform.localScale;
+        isInitialized = true;
+
+        ApplyInactiveVisual();
+    }
+
     private void ApplyInactiveVisual()
     {
+        if (!isInitialized)
+            return;
+
         ApplyAlpha(inactiveAlpha);
         transform.localScale = baseScale;
     }
 
     private void ApplyAlpha(float alpha)
     {
+        if (!isInitialized || targetRenderer == null)
+            return;
+
         Color c = baseColor;
         c.a = alpha;
         targetRenderer.color = c;

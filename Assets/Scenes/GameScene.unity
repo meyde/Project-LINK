@@ -418,7 +418,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PingRegion
   regionId: 5
-  targetRenderer: {fileID: 0}
+  targetRenderer: {fileID: 17987715}
   useUnscaledTime: 1
   pulseSpeed: 2
   inactiveAlpha: 0
@@ -1922,7 +1922,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PingRegion
   regionId: 19
-  targetRenderer: {fileID: 0}
+  targetRenderer: {fileID: 92628077}
   useUnscaledTime: 1
   pulseSpeed: 2
   inactiveAlpha: 0
@@ -2315,7 +2315,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PingRegion
   regionId: 1
-  targetRenderer: {fileID: 0}
+  targetRenderer: {fileID: 117026972}
   useUnscaledTime: 1
   pulseSpeed: 2
   inactiveAlpha: 0
@@ -2428,7 +2428,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PingRegion
   regionId: 17
-  targetRenderer: {fileID: 0}
+  targetRenderer: {fileID: 128870403}
   useUnscaledTime: 1
   pulseSpeed: 2
   inactiveAlpha: 0
@@ -2737,14 +2737,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 166278754}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.02, y: -2.45, z: 0}
-  m_LocalScale: {x: 0.39012, y: 0.39012, z: 0.39012}
+  m_LocalRotation: {x: -0.16601355, y: -0.2486683, z: 0.05565044, w: 0.9526315}
+  m_LocalPosition: {x: -6.4931, y: 3.131, z: 0}
+  m_LocalScale: {x: 0.4351798, y: 0.37656274, z: 0.37656274}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1237781001}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -16.776, y: -30.94, z: 11.36}
 --- !u!61 &166278757
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2812,7 +2812,7 @@ MonoBehaviour:
   zoomScaleMultiplier: 3
   openedZOffsetFromCamera: 1
   autoFindChildInteractables: 1
-  hideVisualsWhenClosed: 1
+  hideVisualsWhenClosed: 0
 --- !u!114 &166278759
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5115,7 +5115,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PingRegion
   regionId: 2
-  targetRenderer: {fileID: 0}
+  targetRenderer: {fileID: 347938041}
   useUnscaledTime: 1
   pulseSpeed: 2
   inactiveAlpha: 0
@@ -5937,7 +5937,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PingRegion
   regionId: 6
-  targetRenderer: {fileID: 0}
+  targetRenderer: {fileID: 418821527}
   useUnscaledTime: 1
   pulseSpeed: 2
   inactiveAlpha: 0
@@ -6393,7 +6393,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PingRegion
   regionId: 10
-  targetRenderer: {fileID: 0}
+  targetRenderer: {fileID: 435406255}
   useUnscaledTime: 1
   pulseSpeed: 2
   inactiveAlpha: 0
@@ -7117,7 +7117,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PingRegion
   regionId: 9
-  targetRenderer: {fileID: 0}
+  targetRenderer: {fileID: 505473964}
   useUnscaledTime: 1
   pulseSpeed: 2
   inactiveAlpha: 0
@@ -7435,7 +7435,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PingRegion
   regionId: 7
-  targetRenderer: {fileID: 0}
+  targetRenderer: {fileID: 523230587}
   useUnscaledTime: 1
   pulseSpeed: 2
   inactiveAlpha: 0
@@ -7548,7 +7548,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PingRegion
   regionId: 14
-  targetRenderer: {fileID: 0}
+  targetRenderer: {fileID: 536935357}
   useUnscaledTime: 1
   pulseSpeed: 2
   inactiveAlpha: 0
@@ -8155,7 +8155,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PingRegion
   regionId: 0
-  targetRenderer: {fileID: 0}
+  targetRenderer: {fileID: 570677337}
   useUnscaledTime: 1
   pulseSpeed: 2
   inactiveAlpha: 0
@@ -11986,7 +11986,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PingRegion
   regionId: 3
-  targetRenderer: {fileID: 0}
+  targetRenderer: {fileID: 969561169}
   useUnscaledTime: 1
   pulseSpeed: 2
   inactiveAlpha: 0
@@ -12344,7 +12344,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PingRegion
   regionId: 11
-  targetRenderer: {fileID: 0}
+  targetRenderer: {fileID: 1040786687}
   useUnscaledTime: 1
   pulseSpeed: 2
   inactiveAlpha: 0
@@ -13344,7 +13344,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PingRegion
   regionId: 18
-  targetRenderer: {fileID: 0}
+  targetRenderer: {fileID: 1092981701}
   useUnscaledTime: 1
   pulseSpeed: 2
   inactiveAlpha: 0
@@ -14470,7 +14470,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PingRegion
   regionId: 12
-  targetRenderer: {fileID: 0}
+  targetRenderer: {fileID: 1165388500}
   useUnscaledTime: 1
   pulseSpeed: 2
   inactiveAlpha: 0
@@ -17028,7 +17028,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PingRegion
   regionId: 15
-  targetRenderer: {fileID: 0}
+  targetRenderer: {fileID: 1305922116}
   useUnscaledTime: 1
   pulseSpeed: 2
   inactiveAlpha: 0
@@ -17394,13 +17394,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1314296793}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.77130705, y: 1.114105, z: 0.89393}
+  m_LocalRotation: {x: -0.0010545251, y: 0.0007966904, z: -0.0019020396, w: 0.9999973}
+  m_LocalPosition: {x: 0.0001, y: -0.0066, z: -0.0086}
+  m_LocalScale: {x: 0.7803572, y: 1.1436777, z: 0.89393}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1237781001}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -0.121, y: 0.092, z: -0.218}
 --- !u!212 &1314296795
 SpriteRenderer:
   serializedVersion: 2
@@ -18560,7 +18560,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PingRegion
   regionId: 13
-  targetRenderer: {fileID: 0}
+  targetRenderer: {fileID: 1411021269}
   useUnscaledTime: 1
   pulseSpeed: 2
   inactiveAlpha: 0
@@ -19194,7 +19194,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PingRegion
   regionId: 4
-  targetRenderer: {fileID: 0}
+  targetRenderer: {fileID: 1492096569}
   useUnscaledTime: 1
   pulseSpeed: 2
   inactiveAlpha: 0
@@ -21415,7 +21415,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PingRegion
   regionId: 16
-  targetRenderer: {fileID: 0}
+  targetRenderer: {fileID: 1667126391}
   useUnscaledTime: 1
   pulseSpeed: 2
   inactiveAlpha: 0
@@ -21865,7 +21865,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PingRegion
   regionId: 8
-  targetRenderer: {fileID: 0}
+  targetRenderer: {fileID: 1760967265}
   useUnscaledTime: 1
   pulseSpeed: 2
   inactiveAlpha: 0

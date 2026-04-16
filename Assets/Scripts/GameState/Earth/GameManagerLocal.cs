@@ -68,15 +68,25 @@ public class GameManagerLocal : MonoBehaviour
 
     private void RefreshMapRegions()
     {
-        if (gmn == null || mapRegionManagers == null || mapRegionManagers.Length == 0)
+        if (gmn == null || allEvents == null || mapRegionManagers == null || mapRegionManagers.Length == 0)
             return;
 
-        Debug.Log("Nombre de MAP trouv�es : " + mapRegionManagers.Length);
+        Debug.Log("Nombre de MAP trouvées : " + mapRegionManagers.Length);
 
         List<int> activeRegions = new List<int>();
 
-        for (int i = 0; i < gmn.eventRegions.Count; i++)
-            activeRegions.Add(gmn.eventRegions[i]);
+        for (int i = 0; i < gmn.eventDataIds.Count; i++)
+        {
+            int eventDataId = gmn.eventDataIds[i];
+
+            CatastrophicEvent currentEvent = allEvents[eventDataId];
+
+            int regionId = currentEvent.region;
+
+            // Évite les doublons si jamais plusieurs events pointent la même région
+            if (!activeRegions.Contains(regionId))
+                activeRegions.Add(regionId);
+        }
 
         for (int i = 0; i < mapRegionManagers.Length; i++)
         {
