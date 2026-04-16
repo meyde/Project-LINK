@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eecf7534233f00546a14b86367e1e280, type: 3}
+  m_Name: Event_986_2
+  m_EditorClassIdentifier: Assembly-CSharp::CatastrophicEvent
+  eventId: 9862
+  eventName: Cloud Bleu Double
+  type: Cloud
+  region: 0
+  modulesCount: 1
+  modules1: 01000000
+  modules2: 
+  modules3: 
+  modulesState1: 08000000
+  modulesState2: 
+  modulesState3: 
+  eventCategoryLevel: 1
+  eventDuration: 60
+  baseLife: 2
+  windSpeed: 20
+  windSpeedMax: 60
+  temperature: 0
+  temperatureMax: 30
+  intensity: 0
+  intensityMax: 0
+  oxygenLevel: 21
+  oxygenLevelMax: 25

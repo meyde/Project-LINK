@@ -10,27 +10,27 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eecf7534233f00546a14b86367e1e280, type: 3}
-  m_Name: CatastrophicEvent
+  m_Name: Event_456_1
   m_EditorClassIdentifier: Assembly-CSharp::CatastrophicEvent
-  eventId: 925
-  eventName: "Tornade sans d\xE9bris lente"
-  type: tornade
+  eventId: 61
+  eventName: 'Fire Basse temp Oxyg haut '
+  type: Fire
   region: 0
   modulesCount: 1
-  modules1: 0000000001000000
+  modules1: 03000000
   modules2: 
   modules3: 
-  modulesState1: 0700000000000000
+  modulesState1: 11000000
   modulesState2: 
   modulesState3: 
-  eventCategoryLevel: 0
-  eventDuration: 0
+  eventCategoryLevel: 1
+  eventDuration: 60
   baseLife: 2
-  windSpeed: 0
-  windSpeedMax: 0
-  temperature: 0
-  temperatureMax: 0
+  windSpeed: 10
+  windSpeedMax: 20
+  temperature: 30
+  temperatureMax: 44
   intensity: 0
   intensityMax: 0
-  oxygenLevel: 0
-  oxygenLevelMax: 0
+  oxygenLevel: 16
+  oxygenLevelMax: 20
