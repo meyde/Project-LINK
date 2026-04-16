@@ -8,6 +8,7 @@ public class GameManagerLocal : MonoBehaviour
     public CatastrophicEvent[] allEvents;
     [Header("Region / Biome")]
     [SerializeField] private RegionBiomeDatabase regionBiomeDatabase;
+    [SerializeField] private BiomeSpriteChanger bsc;
     public int currentRegion;
     public int currentBiome;
     private void Awake()
@@ -33,6 +34,7 @@ public class GameManagerLocal : MonoBehaviour
         if (regionBiomeDatabase != null)
         {
             currentBiome = regionBiomeDatabase.GetBiome(currentRegion);
+            bsc.SetBiome(currentBiome);
         }
 
         Debug.Log($"Région: {currentRegion} | Biome: {currentBiome}");

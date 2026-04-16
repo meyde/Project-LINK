@@ -15,3 +15,41 @@ MonoBehaviour:
   entries:
   - regionId: 0
     biomeId: 0
+  - regionId: 1
+    biomeId: 0
+  - regionId: 2
+    biomeId: 1
+  - regionId: 3
+    biomeId: 2
+  - regionId: 4
+    biomeId: 1
+  - regionId: 5
+    biomeId: 1
+  - regionId: 6
+    biomeId: 2
+  - regionId: 7
+    biomeId: 1
+  - regionId: 8
+    biomeId: 0
+  - regionId: 9
+    biomeId: 1
+  - regionId: 10
+    biomeId: 1
+  - regionId: 11
+    biomeId: 1
+  - regionId: 12
+    biomeId: 2
+  - regionId: 13
+    biomeId: 2
+  - regionId: 14
+    biomeId: 1
+  - regionId: 15
+    biomeId: 1
+  - regionId: 16
+    biomeId: 2
+  - regionId: 17
+    biomeId: 1
+  - regionId: 18
+    biomeId: 1
+  - regionId: 19
+    biomeId: 0

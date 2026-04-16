@@ -1,16 +1,22 @@
 using UnityEngine;
+using Unity.Netcode;
 
-public class SendingPicto : MonoBehaviour
+public class SendingPicto : NetworkBehaviour, MouseInteractionManager.IInteractable
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+
+
+    public void OnClick()
     {
-        
     }
 
-    // Update is called once per frame
-    void Update()
+    public void OnHoverEnter()
     {
-        
+
     }
+
+    public void OnHoverExit()
+    {
+    }
+
+
 }

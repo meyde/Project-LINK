@@ -95,7 +95,7 @@ public class GameManagerNetwork : NetworkBehaviour
 
     public void PictoUpdate(NetworkListEvent<int> change)
     {
-
+        if (change.Type== NetworkListEvent<int>.EventType.Value) 
     }
 
     private void OnGameLoss()
