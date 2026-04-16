@@ -17,26 +17,12 @@ public class VoiceTimeLimiter : NetworkBehaviour
     [Header("Scene Restriction")]
     [SerializeField] private string targetSceneName = "GameScene";
 
-    [Header("Bar Prefab")]
-    [SerializeField] private GameObject barPrefab;
-
     [Header("Audio Warning")]
     [SerializeField] private AudioSource audioSource;
     [SerializeField] private AudioClip warningSound;
     [SerializeField] private float triggerTime = 10f;
     [Range(0f, 1f)]
     [SerializeField] private float warningVolume = 1f;
-
-    [Header("Blink")]
-    [SerializeField] private float blinkSpeed = 8f;
-    [SerializeField] private float blinkMinAlpha = 0.3f;
-    [SerializeField] private float blinkMaxAlpha = 1f;
-
-    private bool warningPlayed = false;
-
-    [Header("Bar Position In Camera View")]
-    [SerializeField] private Vector2 viewportPosition = new Vector2(0.5f, 0.9f);
-    [SerializeField] private float cameraDistance = 10f;
 
     [Header("Debug")]
     [SerializeField] private bool verboseLogs = true;
@@ -47,18 +33,18 @@ public class VoiceTimeLimiter : NetworkBehaviour
     private bool timerRunning;
     private bool voiceLocked;
     private bool initialized;
+    private bool isActiveForLocalPlayer;
 
-    // Devient vrai si le joueur s'est mute alors qu'il était déjà dans les dernières secondes
+    private bool warningPlayed;
     private bool requiresRechargeBeforeUnmute;
-
-    private Transform barRoot;
-    private Transform barFill;
-    private Vector3 initialFillScale;
 
     public float RemainingVoiceTime => remainingVoiceTime;
     public float MaxVoiceDuration => maxVoiceDuration;
     public bool IsTimerRunning => timerRunning;
     public bool IsVoiceLocked => voiceLocked;
+    public bool IsActiveForLocalPlayer => isActiveForLocalPlayer;
+    public bool IsInCriticalZone => remainingVoiceTime <= triggerTime && !voiceLocked;
+    public float CriticalTriggerTime => triggerTime;
 
     public bool CanUnmute
     {
@@ -72,17 +58,6 @@ public class VoiceTimeLimiter : NetworkBehaviour
 
             return remainingVoiceTime > 0f;
         }
-    }
-
-    private void SetupAudioSource()
-    {
-        if (audioSource != null)
-            return;
-
-        audioSource = FindFirstObjectByType<GameManagerLocal>()?.GetComponent<AudioSource>();
-
-        if (audioSource == null)
-            Debug.LogWarning("[VoiceLimiter] GameManagerLocal / AudioSource introuvable.");
     }
 
     private float RechargePerSecond
@@ -104,6 +79,7 @@ public class VoiceTimeLimiter : NetworkBehaviour
         LocalInstance = this;
         remainingVoiceTime = maxVoiceDuration;
         requiresRechargeBeforeUnmute = false;
+        isActiveForLocalPlayer = false;
 
         StartCoroutine(WaitForTargetSceneAndInitialize());
     }
@@ -112,6 +88,17 @@ public class VoiceTimeLimiter : NetworkBehaviour
     {
         if (LocalInstance == this)
             LocalInstance = null;
+    }
+
+    private void SetupAudioSource()
+    {
+        if (audioSource != null)
+            return;
+
+        audioSource = FindFirstObjectByType<GameManagerLocal>()?.GetComponent<AudioSource>();
+
+        if (audioSource == null)
+            Debug.LogWarning("[VoiceLimiter] GameManagerLocal / AudioSource introuvable.");
     }
 
     private IEnumerator WaitForTargetSceneAndInitialize()
@@ -145,14 +132,15 @@ public class VoiceTimeLimiter : NetworkBehaviour
         {
             if (verboseLogs)
                 Debug.Log("[VoiceLimiter] Joueur local non Space -> système inactif.");
+
+            isActiveForLocalPlayer = false;
             yield break;
         }
 
         if (verboseLogs)
             Debug.Log("[VoiceLimiter] Joueur Space détecté dans GameScene -> initialisation.");
 
-        SpawnBar();
-        UpdateBar();
+        isActiveForLocalPlayer = true;
 
         ForceMicrophoneState(false);
         timerRunning = true;
@@ -187,7 +175,6 @@ public class VoiceTimeLimiter : NetworkBehaviour
     {
         while (true)
         {
-            // Si le micro est ouvert, on consomme la batterie de voix
             if (timerRunning && !voiceLocked)
             {
                 remainingVoiceTime -= Time.deltaTime;
@@ -197,10 +184,12 @@ public class VoiceTimeLimiter : NetworkBehaviour
                     warningPlayed = true;
 
                     if (audioSource != null && warningSound != null)
+                    {
                         audioSource.clip = warningSound;
                         audioSource.volume = warningVolume;
                         audioSource.loop = false;
                         audioSource.Play();
+                    }
 
                     if (verboseLogs)
                         Debug.Log($"[VoiceLimiter] Warning sonore déclenché à {triggerTime}s restantes.");
@@ -214,7 +203,6 @@ public class VoiceTimeLimiter : NetworkBehaviour
                     requiresRechargeBeforeUnmute = false;
 
                     ForceMicrophoneState(true);
-                    UpdateBar();
 
                     if (verboseLogs)
                         Debug.Log("[VoiceLimiter] Temps écoulé -> parole verrouillée et batterie vide.");
@@ -222,10 +210,7 @@ public class VoiceTimeLimiter : NetworkBehaviour
                     yield return null;
                     continue;
                 }
-
-                UpdateBar();
             }
-            // Si le micro est coupé manuellement, on recharge mais uniquement si la batterie n'est pas vide
             else if (!timerRunning && !voiceLocked && remainingVoiceTime > 0f)
             {
                 float rechargeRate = RechargePerSecond;
@@ -238,7 +223,6 @@ public class VoiceTimeLimiter : NetworkBehaviour
                     if (remainingVoiceTime > triggerTime)
                         warningPlayed = false;
 
-                    // Dès qu'on a rechargé assez, on lève le blocage spécial
                     if (requiresRechargeBeforeUnmute && remainingVoiceTime >= triggerTime)
                     {
                         requiresRechargeBeforeUnmute = false;
@@ -246,8 +230,6 @@ public class VoiceTimeLimiter : NetworkBehaviour
                         if (verboseLogs)
                             Debug.Log("[VoiceLimiter] Recharge suffisante -> unmute à nouveau autorisé.");
                     }
-
-                    UpdateBar();
                 }
             }
 
@@ -262,12 +244,9 @@ public class VoiceTimeLimiter : NetworkBehaviour
 
         if (muted)
         {
-            // Stop le son d'alerte si en cours
             if (audioSource != null && audioSource.isPlaying)
-            {
                 audioSource.Stop();
-            }
-            // Si le joueur se mute alors qu'il est déjà dans la zone critique, il devra attendre d'avoir au moins triggerTime avant de pouvoir parler à nouveau
+
             if (remainingVoiceTime <= triggerTime)
             {
                 requiresRechargeBeforeUnmute = true;
@@ -317,67 +296,5 @@ public class VoiceTimeLimiter : NetworkBehaviour
             return;
 
         VivoxManager.Instance.MuteMicrophone(muted);
-    }
-
-    private void SpawnBar()
-    {
-        if (barPrefab == null)
-            return;
-
-        GameObject barInstance = Instantiate(barPrefab);
-        barRoot = barInstance.transform;
-        barFill = barRoot.Find("BarFill");
-
-        if (barFill != null)
-            initialFillScale = barFill.localScale;
-
-        ScreenAnchor2D anchor = barInstance.GetComponent<ScreenAnchor2D>();
-        if (anchor == null)
-            anchor = barInstance.AddComponent<ScreenAnchor2D>();
-
-        Camera targetCam = FindLocalPlayerCamera();
-        anchor.targetCamera = targetCam;
-        anchor.viewportPosition = viewportPosition;
-        anchor.distanceFromCamera = cameraDistance;
-    }
-
-    private Camera FindLocalPlayerCamera()
-    {
-        Camera cam = GetComponentInChildren<Camera>(true);
-        if (cam != null)
-            return cam;
-
-        return Camera.main;
-    }
-
-    private void UpdateBar()
-    {
-        if (barFill == null || maxVoiceDuration <= 0f)
-            return;
-
-        float normalized = Mathf.Clamp01(remainingVoiceTime / maxVoiceDuration);
-
-        Vector3 scale = initialFillScale;
-        scale.x = initialFillScale.x * normalized;
-        barFill.localScale = scale;
-
-        if (remainingVoiceTime <= triggerTime && !voiceLocked)
-        {
-            float blink = Mathf.Sin(Time.time * blinkSpeed) * 0.5f + 0.5f;
-            float alpha = Mathf.Lerp(blinkMinAlpha, blinkMaxAlpha, blink);
-
-            SetBarAlpha(alpha);
-        }
-        else
-        {
-            SetBarAlpha(1f);
-        }
-    }
-    private void SetBarAlpha(float alpha)
-    {
-        SpriteRenderer sr = barFill.GetComponent<SpriteRenderer>();
-        Color c = sr.color;
-        c.a = alpha;
-        sr.color = c;
     }
 }

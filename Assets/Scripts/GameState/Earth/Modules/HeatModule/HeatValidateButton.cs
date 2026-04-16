@@ -12,6 +12,11 @@ public class HeatValidateButton : MonoBehaviour, MouseInteractionManager.IIntera
 
     private Vector3 initialPosition;
 
+    [Header("Audio")]
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip clickSound;
+    [SerializeField] private AudioClip hoverSound;
+
     private void Start()
     {
         if (buttonVisual != null)
@@ -32,11 +37,15 @@ public class HeatValidateButton : MonoBehaviour, MouseInteractionManager.IIntera
             StopAllCoroutines();
             StartCoroutine(PressAnimation());
         }
+
+        if (audioSource != null && clickSound != null)
+            audioSource.PlayOneShot(clickSound);
     }
 
     public void OnHoverEnter()
     {
-        
+        if (audioSource != null && hoverSound != null)
+            audioSource.PlayOneShot(hoverSound);
     }
 
     public void OnHoverExit()
