@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eecf7534233f00546a14b86367e1e280, type: 3}
   m_Name: Event_534_1
   m_EditorClassIdentifier: Assembly-CSharp::CatastrophicEvent
-  eventId: 61
+  eventId: 8
   eventName: 'Fire Basse temp Oxyg normal '
   type: Fire
-  region: 0
+  region: 9
   modulesCount: 1
   modules1: 03000000
   modules2: 
