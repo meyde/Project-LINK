@@ -26,6 +26,11 @@ public class LeverModule : Module, MouseInteractionManager.IInteractable
     private GameManagerLocal gm;
 
 
+    [Header("Audio")]
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip changeSound;
+    [SerializeField] private AudioClip hoverSound;
+
     private void Awake()
     {
         value = startValue;
@@ -39,6 +44,8 @@ public class LeverModule : Module, MouseInteractionManager.IInteractable
 
     public void OnHoverEnter()
     {
+        if (audioSource != null && hoverSound != null)
+            audioSource.PlayOneShot(hoverSound);
     }
 
     public void OnHoverExit()
@@ -121,26 +128,48 @@ public class LeverModule : Module, MouseInteractionManager.IInteractable
         {
             float deltaY = Mouse.current.delta.ReadValue().y;
             accumulatedY += deltaY;
-            
-            
+
             while (Mathf.Abs(accumulatedY) > dragStepThreshold)
             {
                 int step = (int)Mathf.Sign(accumulatedY);
+
                 if ((step * previousStep) != 0 && step != previousStep)
                 {
                     code.Add(value);
                     accumulatedY = 0f;
                 }
-                
+
+                int oldValue = value;
                 value = Mathf.Clamp(value - step, minValue, maxValue);
-                accumulatedY -= step*dragStepThreshold;
+
+                if (value != oldValue)
+                {
+                    PlayChangeSound();
+                }
+
+                accumulatedY -= step * dragStepThreshold;
                 previousStep = step;
             }
-            gameObject.transform.localPosition = new Vector3(gameObject.transform.localPosition.x, yArray[value] , 0);
+
+            gameObject.transform.localPosition = new Vector3(
+                gameObject.transform.localPosition.x,
+                yArray[value],
+                0
+            );
 
             yield return WaitForFixedUpdate;
         }
+
         code.Add(value);
         ModuleEnd();
+    }
+
+    private void PlayChangeSound()
+    {
+        if (audioSource == null || changeSound == null)
+            return;
+
+        audioSource.pitch = Random.Range(0.97f, 1.03f);
+        audioSource.PlayOneShot(changeSound);
     }
 }

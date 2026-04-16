@@ -1,0 +1,627 @@
+fileFormatVersion: 2
+guid: a3985621c7e9f99458ba4642384fa6da
+importerOverride:
+  nativeImporterType: 2089858483
+  scriptedImporterType:
+    serializedVersion: 2
+    Hash: b10b55a1aa6a1aa32521bc0cab59632e
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 108
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: afe0dedc7eef380448cf5a1189078940
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  multiSpriteImportData: []
+  layeredSpriteImportData:
+  - name: O_LeftBotFace
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 621
+      y: 1658
+      width: 543
+      height: 961
+    spriteID: 227ff27e1fd85434ababe4ca443952d0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 621, y: 1658}
+    spritePosition: {x: 672, y: 76}
+  - name: LeftBotFace
+    originalName: 
+    pivot: {x: 0.48439127, y: 0.51678926}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1658
+      width: 609
+      height: 1038
+    spriteID: 09745505ed7d1074f980fc5fe0cfdcff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1658}
+    spritePosition: {x: 649, y: 29}
+  - name: O_LeftTopFace
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 2420
+      y: 1018
+      width: 1087
+      height: 512
+    spriteID: 929d863a808b81f4fbfd7feff2d7c384
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2420, y: 1018}
+    spritePosition: {x: 419, y: 295}
+  - name: LeftTopFace
+    originalName: 
+    pivot: {x: 0.49372837, y: 0.5409857}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1018
+      width: 1218
+      height: 632
+    spriteID: 67907ce1eb77f3f42bf7f087a00a5ee4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1018}
+    spritePosition: {x: 365, y: 212}
+  - name: O_RightBotFace
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 1230
+      y: 1018
+      width: 1182
+      height: 543
+    spriteID: cb28f09d72c35414fa5c72cd9765362f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1230, y: 1018}
+    spritePosition: {x: 417, y: 231}
+  - name: RightBotFace
+    originalName: 
+    pivot: {x: 0.4819598, y: 0.5150582}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 1642
+      y: 4
+      width: 1323
+      height: 634
+    spriteID: 1ff0e26d009713b4182010ed1cb0b0a3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1642, y: 4}
+    spritePosition: {x: 366, y: 170}
+  - name: O_RightTopFace
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 1172
+      y: 1658
+      width: 627
+      height: 827
+    spriteID: f900ac37e1a08f64ebb5a3234304530b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1172, y: 1658}
+    spritePosition: {x: 622, y: 133}
+  - name: RightTopFace
+    originalName: 
+    pivot: {x: 0.48631674, y: 0.51872253}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 2973
+      y: 4
+      width: 686
+      height: 905
+    spriteID: b50f6c2bb88e1694e881620a602eaca5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2973, y: 4}
+    spritePosition: {x: 600, y: 80}
+  - name: O_JaugeFace
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 1807
+      y: 1658
+      width: 1077
+      height: 238
+    spriteID: 85df59c9e0eea5b448a6907af43d12e6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1807, y: 1658}
+    spritePosition: {x: 399, y: 426}
+  - name: JaugeFace
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 1642
+      y: 646
+      width: 1132
+      height: 311
+    spriteID: 6edbd103870b592479e986245d03f82e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1642, y: 646}
+    spritePosition: {x: 380, y: 374}
+  - name: O_MAINFace
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 1630
+      height: 1006
+    spriteID: 901428cb5c88ca84187b2106c95cf165
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 220, y: 74}
+  spriteImportData: []
+  rigSpriteImportData: []
+  sharedRigSpriteImportData: []
+  mosaicSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: iPhone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 1
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  generateTileAssets: 0
+  tilePaletteCellLayout: 0
+  tilePaletteHexagonLayout: 0
+  tilePaletteCellSize: {x: 1, y: 1, z: 0}
+  tilePaletteCellSizing: 0
+  transparencySortMode: 0
+  transparencySortAxis: {x: 0, y: 0, z: 1}
+  tileTemplate: {instanceID: 0}
+  padding: 4
+  spriteSizeExpand: 0
+  skeletonAssetReferenceID: 
+  pipeline: {instanceID: 0}
+  pipelineVersion: 
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  pSDLayerImportSetting:
+  - spriteId: 227ff27e1fd85434ababe4ca443952d0
+    name: O_LeftBotFace
+    layerId: 0
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 
+    name: LeftBotFace
+    layerId: 0
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 
+    name: O_LeftTopFace
+    layerId: 0
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 
+    name: LeftTopFace
+    layerId: 0
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 
+    name: O_RightBotFace
+    layerId: 0
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 
+    name: RightBotFace
+    layerId: 0
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 
+    name: O_RightTopFace
+    layerId: 0
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 
+    name: RightTopFace
+    layerId: 0
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 
+    name: O_JaugeFace
+    layerId: 0
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 
+    name: JaugeFace
+    layerId: 0
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 
+    name: O_MAINFace
+    layerId: 0
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  psdLayers:
+  - name: O_LeftBotFace
+    spriteName: O_LeftBotFace
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 227ff27e1fd85434ababe4ca443952d0
+    layerID: 0
+    mosaicPosition: {x: 621, y: 1658}
+    flatten: 0
+    isImported: 1
+    isVisible: 0
+  - name: LeftBotFace
+    spriteName: LeftBotFace
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 09745505ed7d1074f980fc5fe0cfdcff
+    layerID: -174906285
+    mosaicPosition: {x: 4, y: 1658}
+    flatten: 0
+    isImported: 1
+    isVisible: 0
+  - name: O_LeftTopFace
+    spriteName: O_LeftTopFace
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 929d863a808b81f4fbfd7feff2d7c384
+    layerID: 326867973
+    mosaicPosition: {x: 2420, y: 1018}
+    flatten: 0
+    isImported: 1
+    isVisible: 0
+  - name: LeftTopFace
+    spriteName: LeftTopFace
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 67907ce1eb77f3f42bf7f087a00a5ee4
+    layerID: -174573179
+    mosaicPosition: {x: 4, y: 1018}
+    flatten: 0
+    isImported: 1
+    isVisible: 0
+  - name: O_RightBotFace
+    spriteName: O_RightBotFace
+    isGroup: 0
+    parentIndex: -1
+    spriteID: cb28f09d72c35414fa5c72cd9765362f
+    layerID: -2032021330
+    mosaicPosition: {x: 1230, y: 1018}
+    flatten: 0
+    isImported: 1
+    isVisible: 0
+  - name: RightBotFace
+    spriteName: RightBotFace
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1ff0e26d009713b4182010ed1cb0b0a3
+    layerID: -1428071748
+    mosaicPosition: {x: 1642, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 0
+  - name: O_RightTopFace
+    spriteName: O_RightTopFace
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f900ac37e1a08f64ebb5a3234304530b
+    layerID: -782901752
+    mosaicPosition: {x: 1172, y: 1658}
+    flatten: 0
+    isImported: 1
+    isVisible: 0
+  - name: RightTopFace
+    spriteName: RightTopFace
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b50f6c2bb88e1694e881620a602eaca5
+    layerID: 268438882
+    mosaicPosition: {x: 2973, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 0
+  - name: O_JaugeFace
+    spriteName: O_JaugeFace
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 85df59c9e0eea5b448a6907af43d12e6
+    layerID: -175123855
+    mosaicPosition: {x: 1807, y: 1658}
+    flatten: 0
+    isImported: 1
+    isVisible: 0
+  - name: JaugeFace
+    spriteName: JaugeFace
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6edbd103870b592479e986245d03f82e
+    layerID: 2055599481
+    mosaicPosition: {x: 1642, y: 646}
+    flatten: 0
+    isImported: 1
+    isVisible: 0
+  - name: O_MAINFace
+    spriteName: O_MAINFace
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 901428cb5c88ca84187b2106c95cf165
+    layerID: 2075416128
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 0
+  mosaicPSDLayers: []
+  rigPSDLayers: []
+  sharedRigPSDLayers: []
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  spriteSizeExpandChanged: 0
+  generateGOHierarchy: 0
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []

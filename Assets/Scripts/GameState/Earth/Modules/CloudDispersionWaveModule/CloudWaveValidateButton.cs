@@ -1,5 +1,6 @@
-using UnityEngine;
 using System.Collections;
+using UnityEngine;
+using UnityEngine.Audio;
 
 public class CloudWaveValidateButton : MonoBehaviour, MouseInteractionManager.IInteractable
 {
@@ -15,6 +16,11 @@ public class CloudWaveValidateButton : MonoBehaviour, MouseInteractionManager.II
 
     private Vector3 initialLocalPosition;
     private Coroutine pressRoutine;
+
+    [Header("Audio")]
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip clickSound;
+    [SerializeField] private AudioClip hoverSound;
 
     private void Start()
     {
@@ -38,10 +44,15 @@ public class CloudWaveValidateButton : MonoBehaviour, MouseInteractionManager.II
 
             pressRoutine = StartCoroutine(PressAnimation());
         }
+
+        if (audioSource != null && clickSound != null)
+            audioSource.PlayOneShot(clickSound);
     }
 
     public void OnHoverEnter()
     {
+        if (audioSource != null && hoverSound != null)
+            audioSource.PlayOneShot(hoverSound);
     }
 
     public void OnHoverExit()
