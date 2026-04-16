@@ -60,6 +60,13 @@ public class ZoomableModule : MonoBehaviour, MouseInteractionManager.IInteractab
     [SerializeField] private bool bringToFrontWhenOpened = true;
     [SerializeField] private int openedSortingOrderOffset = 100;
 
+    [Header("Sprite au zoom")]
+    [SerializeField] private SpriteRenderer mainSpriteRenderer;
+    [SerializeField] private Sprite zoomedMainSprite;
+
+    private Sprite originalMainSprite;
+    private bool mainSpriteCached = false;
+
     private readonly Dictionary<SpriteRenderer, int> originalSpriteSortingOrders = new();
     private readonly Dictionary<Renderer, int> originalTextSortingOrders = new();
     private bool sortingOffsetApplied = false;
@@ -110,6 +117,7 @@ public class ZoomableModule : MonoBehaviour, MouseInteractionManager.IInteractab
         // Recherche automatiquement tous les �l�ments visuels du module et de ses enfants
         CacheVisualComponents();
         CacheOriginalSortingOrders();
+        CacheMainSpriteIfNeeded();
 
         // Au d�marrage, d�sactive les scripts interactables des enfants pour qu'ils ne puissent pas �tre utilis�s tant que le module n'est pas ouvert
         SetChildScriptsState(false);
@@ -282,6 +290,7 @@ public class ZoomableModule : MonoBehaviour, MouseInteractionManager.IInteractab
 
         SetChildScriptsState(false);
         ApplySortingOffset();
+        ApplyZoomedMainSprite();
 
         // On stocke l'�tat actuel de d�part
         Vector3 fromPos = transform.position;
@@ -398,6 +407,7 @@ public class ZoomableModule : MonoBehaviour, MouseInteractionManager.IInteractab
         if (hideVisualsWhenClosed)
             SetVisualAlpha(0f);
 
+        RestoreOriginalMainSprite();
         RestoreOriginalSortingOrders();
 
         isOpen = false;
@@ -406,6 +416,49 @@ public class ZoomableModule : MonoBehaviour, MouseInteractionManager.IInteractab
 
         if (CurrentOpenModule == this)
             CurrentOpenModule = null;
+    }
+
+    private void CacheMainSpriteIfNeeded()
+    {
+        if (mainSpriteCached)
+            return;
+
+        if (mainSpriteRenderer == null)
+            mainSpriteRenderer = GetComponent<SpriteRenderer>();
+
+        if (mainSpriteRenderer != null)
+        {
+            originalMainSprite = mainSpriteRenderer.sprite;
+            mainSpriteCached = true;
+        }
+    }
+
+    private void ApplyZoomedMainSprite()
+    {
+        // On ne fait rien si aucun sprite de zoom n'a été assigné
+        if (zoomedMainSprite == null)
+            return;
+
+        CacheMainSpriteIfNeeded();
+
+        if (mainSpriteRenderer == null)
+            return;
+
+        mainSpriteRenderer.sprite = zoomedMainSprite;
+    }
+
+    private void RestoreOriginalMainSprite()
+    {
+        // Si aucun sprite de zoom n'était assigné, on n'a rien changé donc on sort
+        if (zoomedMainSprite == null)
+            return;
+
+        CacheMainSpriteIfNeeded();
+
+        if (mainSpriteRenderer == null)
+            return;
+
+        mainSpriteRenderer.sprite = originalMainSprite;
     }
 
     private void CacheChildInteractables()
