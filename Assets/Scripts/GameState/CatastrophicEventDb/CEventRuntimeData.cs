@@ -9,6 +9,7 @@ public partial struct CEventRuntimeData : INetworkSerializable, IEquatable<CEven
     public int modulesDone; //counter
     public int currentLevel; // 1 to 3 depending on the level of modules needed to do. 
     public int eventLives;
+    public int module1Option;
 
     public void NetworkSerialize<T>(BufferSerializer<T> serializer) where T : IReaderWriter
     {
@@ -17,6 +18,7 @@ public partial struct CEventRuntimeData : INetworkSerializable, IEquatable<CEven
         serializer.SerializeValue(ref modulesDone);
         serializer.SerializeValue(ref currentLevel);
         serializer.SerializeValue(ref eventLives);
+        serializer.SerializeValue(ref module1Option);
 
     }
 
@@ -26,7 +28,8 @@ public partial struct CEventRuntimeData : INetworkSerializable, IEquatable<CEven
             state == other.state &&
             modulesDone == other.modulesDone &&
             currentLevel == other.currentLevel &&
-            eventLives == other.eventLives;
+            eventLives == other.eventLives && 
+            module1Option == other.module1Option;
 
         return isEqual;
     }

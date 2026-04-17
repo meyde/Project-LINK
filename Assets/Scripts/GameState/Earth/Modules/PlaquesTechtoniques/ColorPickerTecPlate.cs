@@ -6,7 +6,6 @@ public class ColorPickerTecPlate : MonoBehaviour , MouseInteractionManager.IInte
     [SerializeField] int colorToSet;
     public void OnClick()
     {
-        tm.colorState = colorToSet;
         tm.Randomizer();
     }
     

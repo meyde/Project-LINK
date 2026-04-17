@@ -25,15 +25,13 @@ public class GameManagerNetwork : NetworkBehaviour
 
     public NetworkList<CEventRuntimeData> events = new(); 
     public NetworkList<int> occupiedRegions = new();
-
+    public NetworkList<int> level1Leds = new();
     public NetworkVariable<int> health = new(3);
     public NetworkVariable<int> successes = new(0);
-    [SerializeField] private Sprite[] pictoIcons;
-    [SerializeField] private Color[] pictoColors;
-    [SerializeField] private Sprite[] pictoNmbers;
 
     public int RequiredSuccesses => requiredSuccesses;
-
+    [SerializeField] SpriteRenderer[] level1LedsSr;
+    [SerializeField] Sprite[] diodeOptions;
     [SerializeField] private float gameDuration = 300f; // dur�e totale de la partie en secondes
     public NetworkVariable<float> remainingGameTime = new(0f);
 
@@ -65,7 +63,13 @@ public class GameManagerNetwork : NetworkBehaviour
         gameEnded = false;
         successes.Value = 0;
         health.Value = 3;
+        for (int i = 0; i<4; i++)
+        {
+
+            level1Leds.Add(0);
+        }
         remainingGameTime.Value = gameDuration;
+        level1Leds.OnListChanged += LedLighting ;
 
         eventCoroutine = StartCoroutine(EventGenerationRepeating());
         gameTimerCoroutine = StartCoroutine(GameTimerCoroutine());
@@ -97,6 +101,13 @@ public class GameManagerNetwork : NetworkBehaviour
         }
         return -1;
     }
+
+    public void LedLighting ( NetworkListEvent<int> change)
+    {
+        int ledId = change.Index;
+        int value = change.Value;
+        level1LedsSr[ledId].sprite = diodeOptions[value];
+    }
     private CatastrophicEvent[] GetEventsLevel()
     {
         return gameLevel switch
@@ -124,6 +135,7 @@ public class GameManagerNetwork : NetworkBehaviour
 
         if (gameTimerCoroutine != null)
             StopCoroutine(gameTimerCoroutine);
+        level1Leds.OnListChanged -= LedLighting;
     }
     private void OnGameWin()
     {
@@ -137,6 +149,7 @@ public class GameManagerNetwork : NetworkBehaviour
 
         if (gameTimerCoroutine != null)
             StopCoroutine(gameTimerCoroutine);
+        level1Leds.OnListChanged -= LedLighting;
     }
 
     private void EventGeneration()
@@ -154,7 +167,8 @@ public class GameManagerNetwork : NetworkBehaviour
             currentLevel = 1,
             state = 1,
             modulesDone = 0,
-            eventLives = allEvents[id].baseLife
+            eventLives = allEvents[id].baseLife,
+            module1Option = -1
         };
         events.Add(evnt);
         occupiedRegions.Add(eventList[id].region);
@@ -281,6 +295,10 @@ public class GameManagerNetwork : NetworkBehaviour
         switch (cEventData.currentLevel)
         {
             case 1:
+                int option = Random.Range(0, 3);
+                cEventData.module1Option = option;
+                level1Leds[moduleId] = option;
+                events[eventInd] = cEventData;
                 if (cEventData.modulesDone == cEvent.modules1.Count())
                 {
                     if ( cEvent.eventCategoryLevel == 1)

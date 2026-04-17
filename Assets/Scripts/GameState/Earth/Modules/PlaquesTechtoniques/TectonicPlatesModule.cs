@@ -4,10 +4,9 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using Random = UnityEngine.Random;
 
-public class TectonicPlatesModule : MonoBehaviour
+public class TectonicPlatesModule : Module
 {
-    //private int state = -1;
-    public int colorState = 0;// 0 pour vert, 1 pour bleu, 2 pour rose
+    private int moduleId = 4;
     [Header("Keyboard Reading")] 
     [SerializeField] private InputAction writing;
     [SerializeField] private InputAction backspace;
@@ -20,10 +19,13 @@ public class TectonicPlatesModule : MonoBehaviour
     [SerializeField] private int[] keyLocations;
     [SerializeField] private Color[] correctColors;
 
+    [SerializeField] private GameManagerLocal gm;
+    private int ledState;
+    private bool autoLose;
     private void Awake()
     {
         keyLocations = new int[6]{ 1, 4, 7, 10, 12, 14};
-        correctColors = new Color[6] { Color.green, Color.blue, Color.pink, Color.red, Color.pink, Color.red };
+        correctColors = new Color[4] { Color.green, Color.blue, Color.pink, Color.red };
     }
     private void OnEnable()
     {
@@ -42,6 +44,28 @@ public class TectonicPlatesModule : MonoBehaviour
         enter.performed -= OnEnter;
         backspace.performed -= OnBackSpace;
         writing.performed -= OnLetterPress;
+    }
+
+    public override void OnStarted()
+    {
+        int currReg = gm.currentRegion;
+        CEventRuntimeData? activeEvent = null;
+        foreach (CEventRuntimeData cEventData in gm.gmn.events)
+        {
+            if (cEventData.state != 1) { continue; }
+            CatastrophicEvent cEvent = gm.allEvents[cEventData.eventId];
+            if( cEvent.region == currReg && cEventData.module1Option != -1 && cEvent.modules2.Contains(moduleId))
+            {
+                Debug.Log($"event {cEvent.eventId} is occuring in this region, need this module and has done its first module");
+
+                activeEvent = cEventData;
+            }
+        }
+        if ( !activeEvent.HasValue )
+        {
+            Debug.Log($" No event occuring found in this region that has done it's first module. any validation henceforth will FAIL");
+            autoLose = true;
+        }
     }
     private void OnEnter(InputAction.CallbackContext context)
     {
@@ -93,9 +117,6 @@ public class TectonicPlatesModule : MonoBehaviour
                     }
 
                 }
-
-
-
                 break;
             case 1:
                 break;
