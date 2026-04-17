@@ -72,11 +72,6 @@ public class WorldImageScroller : MonoBehaviour
 
         HandleWheelScroll(mouseWorldPos);
         HandleDrag(mouseWorldPos);
-
-        if (showDebug)
-        {
-            Debug.Log($"LocalY={contentToScroll.localPosition.y} | Min={minLocalY} | Max={maxLocalY} | BaseY={baseLocalPosition.y}");
-        }
     }
 
     private void SaveBaseLocalPositionIfNeeded()
