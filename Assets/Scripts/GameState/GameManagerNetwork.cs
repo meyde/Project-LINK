@@ -24,7 +24,7 @@ public class GameManagerNetwork : NetworkBehaviour
     private bool gameStarted;
 
     public NetworkList<CEventRuntimeData> events = new(); 
-    public NetworkList<int> occupiedRegions;
+    public NetworkList<int> occupiedRegions = new();
 
     public NetworkVariable<int> health = new(3);
     public NetworkVariable<int> successes = new(0);
@@ -36,6 +36,13 @@ public class GameManagerNetwork : NetworkBehaviour
 
     [SerializeField] private float gameDuration = 300f; // dur�e totale de la partie en secondes
     public NetworkVariable<float> remainingGameTime = new(0f);
+
+    [Header("Event Feedback Audio")]
+    [SerializeField] private AudioSource feedbackAudioSource;
+    [SerializeField] private AudioClip eventSuccessClip;
+    [SerializeField] private AudioClip eventFailClip;
+    [SerializeField][Range(0f, 1f)] private float eventSuccessVolume = 1f;
+    [SerializeField][Range(0f, 1f)] private float eventFailVolume = 1f;
 
     private Coroutine gameTimerCoroutine;
     private bool gameEnded;
@@ -215,6 +222,7 @@ public class GameManagerNetwork : NetworkBehaviour
         occupiedRegions.Remove(allEvents[modifiedEvent.eventId].region);
         Debug.Log($"Removing the region {allEvents[modifiedEvent.eventId].region} from the list of occupied regions");
         bsc.eventOver();
+        PlayEventFailClientRpc();
         Invoke("EventGeneration", Random.Range(5f, 10f));
         if (health.Value < 1) 
         {
@@ -236,11 +244,30 @@ public class GameManagerNetwork : NetworkBehaviour
         if (gameEnded) return;
         successes.Value++;
         bsc.eventOver();
+        PlayEventSuccessClientRpc();
         Invoke("EventGeneration", Random.Range(5f, 10f));
         if (successes.Value >= requiredSuccesses)
         {
             OnGameWin();
         }
+    }
+
+    [Rpc(SendTo.Everyone)]
+    private void PlayEventSuccessClientRpc()
+    {
+        if (feedbackAudioSource == null || eventSuccessClip == null)
+            return;
+
+        feedbackAudioSource.PlayOneShot(eventSuccessClip, eventSuccessVolume);
+    }
+
+    [Rpc(SendTo.Everyone)]
+    private void PlayEventFailClientRpc()
+    {
+        if (feedbackAudioSource == null || eventFailClip == null)
+            return;
+
+        feedbackAudioSource.PlayOneShot(eventFailClip, eventFailVolume);
     }
     [Rpc(SendTo.Server, InvokePermission = RpcInvokePermission.Everyone)]
     public void OnIncrementRpc(int eventId, int moduleId)
