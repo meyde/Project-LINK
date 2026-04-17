@@ -3,20 +3,51 @@ using TMPro;
 
 public class WorldEventProgressDisplay : MonoBehaviour
 {
-    [SerializeField] private TextMeshPro eventsText;
-    [SerializeField] private string prefix = "Events résolus : ";
+    [Header("Earth UI")]
+    [SerializeField] private TextMeshPro earthSuccessText;
+    [SerializeField] private TextMeshPro earthFailText;
 
-    private int lastDisplayedSuccesses = -1;
+    [Header("Space UI")]
+    [SerializeField] private TextMeshPro spaceSuccessText;
+    [SerializeField] private TextMeshPro spaceFailText;
 
-    void Update()
+    [Header("Settings")]
+    [SerializeField] private int maxHealth = 3;
+
+    private int lastSuccess = -1;
+    private int lastFail = -1;
+
+    private void Update()
     {
         var gm = GameManagerNetwork.Instance;
-        if (gm == null || eventsText == null)
+        if (gm == null)
             return;
 
-        int currentSuccesses = gm.successes.Value;
+        int success = gm.successes.Value;
+        int fail = maxHealth - gm.health.Value;
 
-        lastDisplayedSuccesses = currentSuccesses;
-        eventsText.text = $"{prefix}{currentSuccesses} / {gm.RequiredSuccesses}";
+        // Update seulement si changement
+        if (success != lastSuccess || fail != lastFail)
+        {
+            lastSuccess = success;
+            lastFail = fail;
+
+            string successText = $"Succès : {success}/{gm.RequiredSuccesses}";
+            string failText = $"Échecs : {fail}/{maxHealth}";
+
+            // Earth
+            if (earthSuccessText != null)
+                earthSuccessText.text = successText;
+
+            if (earthFailText != null)
+                earthFailText.text = failText;
+
+            // Space
+            if (spaceSuccessText != null)
+                spaceSuccessText.text = successText;
+
+            if (spaceFailText != null)
+                spaceFailText.text = failText;
+        }
     }
 }
