@@ -25,7 +25,8 @@ public partial struct CEventRuntimeData : INetworkSerializable, IEquatable<CEven
         bool isEqual = eventId == other.eventId &&
             state == other.state &&
             modulesDone == other.modulesDone &&
-            currentLevel == other.currentLevel;
+            currentLevel == other.currentLevel &&
+            eventLives == other.eventLives;
 
         return isEqual;
     }

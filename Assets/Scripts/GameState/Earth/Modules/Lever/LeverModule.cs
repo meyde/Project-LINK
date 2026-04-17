@@ -20,7 +20,6 @@ public class LeverModule : Module, MouseInteractionManager.IInteractable
     private float accumulatedY = 0f;
     private int previousStep = 0;
     private List<int> code=new();
-    private int optionColor;
     private int codeDone = -1;
     private WaitForFixedUpdate WaitForFixedUpdate = new();
     private GameManagerLocal gm;
@@ -70,6 +69,7 @@ public class LeverModule : Module, MouseInteractionManager.IInteractable
             int ind = 0;
             foreach (int i in levercode.values)
             {
+                if (ind >= code.Count) { tempInd = -1; break; }
                 if (i != code[ind])
                 {
                     tempInd = -1;

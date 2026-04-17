@@ -177,6 +177,7 @@ public class GameManagerLocal : MonoBehaviour
             {
                 Debug.Log("Found. It loses a life.");
                 gmn.EventLoseLifeServerRpc(eventId);
+                return;
             }
 
         }

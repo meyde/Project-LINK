@@ -185,15 +185,18 @@ public class GameManagerNetwork : NetworkBehaviour
     {
         Debug.Log($"Module échoué, l'event {eventId} perd une vie");
         int eventInd = FindIndexFromId(eventId);
+        Debug.Log($" found index: {eventInd}");
         if (eventInd < 0) 
         {
             Debug.Log("tried to lose a life on an unactivated event");
             return; 
         }
+        Debug.Log($"before losing: lives: {events[eventInd].eventLives}");
         CEventRuntimeData modifiedEvent = events[eventInd];
         modifiedEvent.eventLives--;
         events[eventInd] = modifiedEvent;
-        if (modifiedEvent.eventLives == 0)
+        Debug.Log($"after losing: lives: {events[eventInd].eventLives}");
+        if (modifiedEvent.eventLives <= 0)
         {
             OnFailureRpc(eventId);
         }
