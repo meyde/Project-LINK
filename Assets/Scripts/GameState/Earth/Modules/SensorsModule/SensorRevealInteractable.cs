@@ -5,7 +5,7 @@ public class SensorRevealInteractable : MonoBehaviour, MouseInteractionManager.I
 {
     [Header("Références")]
     [SerializeField] private SpriteRenderer sr;
-    [SerializeField] private CatastrophicEventStateModule sensorsModule;
+    [SerializeField] private SensorsModuleManager sensorsModule;
 
     [Header("Couleurs")]
     [SerializeField] private Color normalColor = Color.white;

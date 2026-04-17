@@ -41,5 +41,17 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: LetTopFace
+    uniqueID: 439863259
+    locked: 0
+  - name: RigthTopFace
+    uniqueID: 69037885
+    locked: 0
+  - name: LeftBotFace
+    uniqueID: 2298554803
+    locked: 0
+  - name: RightBotface
+    uniqueID: 138486273
+    locked: 0
   m_RenderingLayers:
   - Default

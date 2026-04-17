@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: CloudWaveSignal2
   m_EditorClassIdentifier: Assembly-CSharp::CloudWaveSignalSO
   id: 1
-  signalSprite: {fileID: -5468985988734645757, guid: c75603f9f45eab446ac3b6153b463aa3, type: 3}
+  signalSprite: {fileID: -4897681313588685306, guid: 90f775f8f27ad844bbd9bbe514515e25, type: 3}

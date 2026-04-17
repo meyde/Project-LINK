@@ -20,26 +20,35 @@ public class WorldImageScroller : MonoBehaviour
     [Header("Drag souris")]
     [SerializeField] private float dragSensitivity = 1f;
 
-    [Header("Limites locales Y")]
-    [Tooltip("Position qui affiche le HAUT de l'image en premier.")]
-    [SerializeField] private float topY = -0.75f;
-
-    [Tooltip("Position qui affiche le BAS de l'image.")]
-    [SerializeField] private float bottomY = 5f;
-
     [Header("Sens")]
     [SerializeField] private bool invertWheel = false;
     [SerializeField] private bool invertDrag = false;
 
+    [Header("Bords externes")]
+    [SerializeField] private float topOuterPadding = 0.25f;
+    [SerializeField] private float bottomOuterPadding = 0.25f;
+
     private bool isDragging = false;
     private Vector2 lastMouseWorldPos;
+
+    private float minLocalY;
+    private float maxLocalY;
+
+    private bool basePositionSaved = false;
+    private Vector3 baseLocalPosition;
 
     private void Awake()
     {
         if (targetCamera == null)
             targetCamera = Camera.main;
 
-        ValidateBounds();
+        SaveBaseLocalPositionIfNeeded();
+    }
+
+    private void Start()
+    {
+        SaveBaseLocalPositionIfNeeded();
+        RecalculateBounds();
 
         if (resetToTopOnEnable)
             SnapToTop();
@@ -47,7 +56,8 @@ public class WorldImageScroller : MonoBehaviour
 
     private void OnEnable()
     {
-        ValidateBounds();
+        SaveBaseLocalPositionIfNeeded();
+        RecalculateBounds();
 
         if (resetToTopOnEnable)
             SnapToTop();
@@ -62,9 +72,15 @@ public class WorldImageScroller : MonoBehaviour
 
         HandleWheelScroll(mouseWorldPos);
         HandleDrag(mouseWorldPos);
+    }
 
-        if (showDebug)
-            Debug.Log($"Local Y = {contentToScroll.localPosition.y} | TopY = {topY} | BottomY = {bottomY}");
+    private void SaveBaseLocalPositionIfNeeded()
+    {
+        if (contentToScroll == null || basePositionSaved)
+            return;
+
+        baseLocalPosition = contentToScroll.localPosition;
+        basePositionSaved = true;
     }
 
     private void HandleWheelScroll(Vector2 mouseWorldPos)
@@ -107,7 +123,6 @@ public class WorldImageScroller : MonoBehaviour
             deltaY = -deltaY;
 
         MoveContent(deltaY * dragSensitivity);
-
         lastMouseWorldPos = mouseWorldPos;
     }
 
@@ -115,9 +130,7 @@ public class WorldImageScroller : MonoBehaviour
     {
         Vector3 localPos = contentToScroll.localPosition;
         localPos.y += delta;
-
-        localPos.y = Mathf.Clamp(localPos.y, topY, bottomY);
-
+        localPos.y = Mathf.Clamp(localPos.y, minLocalY, maxLocalY);
         contentToScroll.localPosition = localPos;
     }
 
@@ -127,7 +140,7 @@ public class WorldImageScroller : MonoBehaviour
             return;
 
         Vector3 pos = contentToScroll.localPosition;
-        pos.y = topY;
+        pos.y = minLocalY;
         contentToScroll.localPosition = pos;
     }
 
@@ -137,17 +150,90 @@ public class WorldImageScroller : MonoBehaviour
             return;
 
         Vector3 pos = contentToScroll.localPosition;
-        pos.y = bottomY;
+        pos.y = maxLocalY;
         contentToScroll.localPosition = pos;
     }
 
-    private void ValidateBounds()
+    public void ResetToBasePosition()
     {
-        if (topY > bottomY)
+        if (contentToScroll == null)
+            return;
+
+        contentToScroll.localPosition = baseLocalPosition;
+    }
+
+    [ContextMenu("Recalculate Bounds")]
+    [ContextMenu("Recalculate Bounds")]
+    public void RecalculateBounds()
+    {
+        if (contentToScroll == null || interactionArea == null)
         {
-            float temp = topY;
-            topY = bottomY;
-            bottomY = temp;
+            Debug.LogWarning("[WorldImageScroller] contentToScroll ou interactionArea manquant.");
+            return;
+        }
+
+        SpriteRenderer[] renderers = contentToScroll.GetComponentsInChildren<SpriteRenderer>();
+
+        if (renderers.Length == 0)
+        {
+            Debug.LogWarning("[WorldImageScroller] Aucun SpriteRenderer trouvé dans le contenu.");
+            return;
+        }
+
+        float contentMinY = float.MaxValue;
+        float contentMaxY = float.MinValue;
+
+        for (int i = 0; i < renderers.Length; i++)
+        {
+            Bounds b = renderers[i].bounds;
+            contentMinY = Mathf.Min(contentMinY, b.min.y);
+            contentMaxY = Mathf.Max(contentMaxY, b.max.y);
+        }
+
+        Bounds areaBounds = interactionArea.bounds;
+        float areaMinY = areaBounds.min.y;
+        float areaMaxY = areaBounds.max.y;
+
+        // Position du contenu en world au repos
+        float baseWorldY = contentToScroll.parent != null
+            ? contentToScroll.parent.TransformPoint(baseLocalPosition).y
+            : baseLocalPosition.y;
+
+        // Limite haute : le haut du contenu arrive juste au haut de la zone visible
+        float minWorldY = baseWorldY + (areaMaxY - contentMaxY) - topOuterPadding;
+
+        // Limite basse : le bas du contenu arrive juste au bas de la zone visible
+        float maxWorldY = baseWorldY + (areaMinY - contentMinY) + bottomOuterPadding;
+
+        // Conversion world -> local
+        if (contentToScroll.parent != null)
+        {
+            minLocalY = contentToScroll.parent.InverseTransformPoint(
+                new Vector3(0f, minWorldY, 0f)
+            ).y;
+
+            maxLocalY = contentToScroll.parent.InverseTransformPoint(
+                new Vector3(0f, maxWorldY, 0f)
+            ).y;
+        }
+        else
+        {
+            minLocalY = minWorldY;
+            maxLocalY = maxWorldY;
+        }
+
+        if (minLocalY > maxLocalY)
+        {
+            float temp = minLocalY;
+            minLocalY = maxLocalY;
+            maxLocalY = temp;
+        }
+
+        if (showDebug)
+        {
+            Debug.Log(
+                $"[WorldImageScroller] contentMinY={contentMinY}, contentMaxY={contentMaxY}, areaMinY={areaMinY}, areaMaxY={areaMaxY}, minLocalY={minLocalY}, maxLocalY={maxLocalY}"
+            );
         }
     }
 }

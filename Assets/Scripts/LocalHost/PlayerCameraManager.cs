@@ -7,6 +7,10 @@ public class PlayerCameraManager : NetworkBehaviour
     [SerializeField] private Camera cameraPlayer1;
     [SerializeField] private Camera cameraPlayer2;
 
+    [Header("Objects To Toggle")]
+    [SerializeField] private GameObject objectForSpacePlayer;
+    [SerializeField] private GameObject objectForEarthPlayer;
+
     private void Start()
     {
         SetupCamera();
@@ -45,11 +49,17 @@ public class PlayerCameraManager : NetworkBehaviour
         {
             cameraPlayer1.gameObject.SetActive(true);
             cameraPlayer2.gameObject.SetActive(false);
+
+            objectForSpacePlayer.SetActive(true);
+            objectForEarthPlayer.SetActive(false);
         }
         else
         {
             cameraPlayer1.gameObject.SetActive(false);
             cameraPlayer2.gameObject.SetActive(true);
+
+            objectForSpacePlayer.SetActive(false);
+            objectForEarthPlayer.SetActive(true);
         }
     }
 }

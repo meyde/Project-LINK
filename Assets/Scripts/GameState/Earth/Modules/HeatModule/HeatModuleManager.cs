@@ -32,11 +32,13 @@ public class HeatModuleManager : Module
     private bool hasValidated = false;
 
     private GameManagerLocal gm;
+    private ZoomableModule zm;
 
     private int moduleId = 2;
     private void Awake()
     {
         gm = FindFirstObjectByType<GameManagerLocal>();
+        zm= gameObject.GetComponent<ZoomableModule>();
     }
 
     private void Start()
@@ -206,43 +208,46 @@ public class HeatModuleManager : Module
 
     public void Validate()
     {
+        Debug.Log("Validating.");
         hasValidated = true;
         int r=CheckSolution();
-        int index = 0;
-        List<int> falseInd = new();
+        Debug.Log($"Code found:{r}");
+        List<int> falseId = new();
         bool hasSucceeded = false;
-        foreach (int eventId in gm.gmn.eventDataIds)
+        foreach (CEventRuntimeData cEventData in gm.gmn.events)
         {
-            CatastrophicEvent cEvent = gm.allEvents[eventId];
+            if (cEventData.state != 1) { continue; }
+            CatastrophicEvent cEvent = gm.allEvents[cEventData.eventId];
             for (int i = 0; i < cEvent.modules1.Length; i++)
             {
                 if (cEvent.modules1[i] == moduleId)
                 {
                     if (cEvent.modulesState1[i] == r)
                     {
+                        Debug.Log($"code found in occuring events for event: {cEvent.eventId}");
                         hasSucceeded = true;
-                        gm.EndModuleCheck(moduleId, true, index);
+                        gm.EndModuleCheck(moduleId, true, cEvent.eventId);
+                        zm.CloseModule();
                     }
                     else
                     {
-                        falseInd.Add(i);
+                        falseId.Add(cEvent.eventId);
                     }
                 }
             }
-            index++;
         }
         if (!hasSucceeded)
         {
-            if (falseInd.Count > 0)
+            if (falseId.Count > 0)
             {
-                gm.EndModuleCheck(moduleId, false, falseInd[0]);
+                Debug.Log("an event needing this module is occuring, yet the code was not matched. Failing oldest event ");
+                gm.EndModuleCheck(moduleId, false, falseId[0]);
             }
             else
             {
-                if (gm.gmn.eventDataIds.Count > 0)
-                {
-                    gm.EndModuleCheck(moduleId, false, 0);
-                }
+                Debug.Log("No event needing this module is occuring. Failing oldest active event.");
+                gm.EndModuleCheck(moduleId, false, -1);
+
             }
         }
 
@@ -251,11 +256,6 @@ public class HeatModuleManager : Module
 
     public int CheckSolution()
     {
-        if (currentRecipe == null)
-        {
-            Debug.LogWarning("Aucune recette assignée.");
-            return -1;
-        }
 
         if (!hasValidated)
             return -1;

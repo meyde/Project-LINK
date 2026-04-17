@@ -15,6 +15,7 @@ MonoBehaviour:
   eventId: 0
   eventName: Blizzard neigeux normal
   type: Blizzard
+  fxType: 2
   region: 0
   modulesCount: 1
   modules1: 02000000
@@ -24,7 +25,7 @@ MonoBehaviour:
   modulesState2: 
   modulesState3: 
   eventCategoryLevel: 1
-  eventDuration: 60
+  eventDuration: 150
   baseLife: 2
   windSpeed: 60
   windSpeedMax: 79

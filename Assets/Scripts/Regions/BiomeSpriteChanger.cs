@@ -7,9 +7,12 @@ public class BiomeSpriteChanger : MonoBehaviour
 
     [Header("Sprites par biome (index = biomeId)")]
     [SerializeField] private Sprite[] biomeSprites;
+    [SerializeField] private string[] fxTypes;
+    [SerializeField] private GameObject[] FxTemp;
 
-    [Header("Biome actuel")]
+[Header("Biome actuel")]
     [SerializeField] private int currentBiomeId;
+
 
     private void Awake()
     {
@@ -22,12 +25,28 @@ public class BiomeSpriteChanger : MonoBehaviour
         ApplyBiome(currentBiomeId);
     }
 
-    public void SetBiome(int biomeId)
+    public void SetBiome(int biomeId, int eventFx)
     {
         currentBiomeId = biomeId;
         ApplyBiome(currentBiomeId);
+        foreach (GameObject go in FxTemp)
+        {
+            go.SetActive(false);
+        }
+        if (eventFx > -1)
+        {
+            FxTemp[eventFx].SetActive(true);
+        }
     }
 
+    public void eventOver()
+    {
+        Debug.Log("event Over, removing fx");
+        foreach (GameObject go in FxTemp)
+        {
+            go.SetActive(false);
+        }
+    }
     private void ApplyBiome(int biomeId)
     {
         if (targetRenderer == null)

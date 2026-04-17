@@ -15,16 +15,17 @@ MonoBehaviour:
   eventId: 8
   eventName: 'Fire Basse temp Oxyg normal '
   type: Fire
+  fxType: 8
   region: 9
   modulesCount: 1
   modules1: 03000000
   modules2: 
   modules3: 
-  modulesState1: 10000000
+  modulesState1: 01000000
   modulesState2: 
   modulesState3: 
   eventCategoryLevel: 1
-  eventDuration: 60
+  eventDuration: 150
   baseLife: 2
   windSpeed: 10
   windSpeedMax: 20

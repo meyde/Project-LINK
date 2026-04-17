@@ -30,15 +30,19 @@ public class CloudWaveModuleManager : Module
 
 
     private GameManagerLocal gm;
+    private ZoomableModule zm;
 
     private void Awake()
     {
         gm = FindFirstObjectByType<GameManagerLocal>();
+        zm = gameObject.GetComponent<ZoomableModule>(); 
         AssignManagerToLevers();
+        
     }
     public override void OnStarted()
     {
         PickRandomSignal();
+        signalDisplay.sprite = currentSignal.signalSprite;
         Reset();
     }
 
@@ -73,54 +77,59 @@ public class CloudWaveModuleManager : Module
 
         Debug.Log($"Signal choisi : {currentSignal.id}");
 
+
     }
 
     // � appeler depuis le bouton de validation
     public void ValidateLevers()
     {
         Debug.Log("Validation demand�e");
-        int index = 0;
-        List<int> falseInd = new();
+        List<int> falseId = new();
         bool hasSucceeded = false;
-        foreach (int eventId in gm.gmn.eventDataIds)
+        foreach (CEventRuntimeData cEventData in gm.gmn.events)
         {
-            CatastrophicEvent cEvent = gm.allEvents[eventId];
+            if (cEventData.state != 1) { continue; }
+            CatastrophicEvent cEvent = gm.allEvents[cEventData.eventId];
+            Debug.Log($"event:{cEvent.eventId}");
             for (int i = 0; i < cEvent.modules1.Length; i++)
             {
                 if (cEvent.modules1[i] == moduleId)
                 {
-                    List<CloudWaveCodeSO> codeList = new();
+                    Debug.Log("Event needing module found, checking codes.");
                     foreach (CloudWaveCodeSO code in availableCodes)
                     {
-                        if (code.eventId == eventId && code.signalId == currentSignal.id)
+                        if (code.eventId == cEvent.eventId && code.signalId == currentSignal.id)
                         {
                             if (CheckSolution(code))
                             {
+                                Debug.Log("Good code found. Validating");
                                 hasSucceeded = true;
-                                gm.EndModuleCheck(moduleId, true, index);
+                                gm.EndModuleCheck(moduleId, true, cEvent.eventId);
+                                zm.CloseModule();
+                                break;
                             }
                             else
                             {
-                                falseInd.Add(code.eventId);
+                                Debug.Log("Wrong code.");
+                                falseId.Add(code.eventId);
                             }
                         }
                     }
                 }
             }
-            index++;
         }
         if (!hasSucceeded)
         {
-            if (falseInd.Count > 0)
+            if (falseId.Count > 0)
             {
-                gm.EndModuleCheck(moduleId, false, falseInd[0]);
+                Debug.Log("an event needing this module is occuring, yet the code was not matched. Failing oldest event ");
+                gm.EndModuleCheck(moduleId, false, falseId[0]);
             }
             else
             {
-                if (gm.gmn.eventDataIds.Count > 0)
-                {
-                    gm.EndModuleCheck(moduleId, false, 0);
-                }
+                Debug.Log("No event needing this module is occuring. Failing oldest active event.");
+                gm.EndModuleCheck(moduleId, false, -1);
+
             }
         }
 
@@ -159,7 +168,9 @@ public class CloudWaveModuleManager : Module
         for (int i = 0; i < levers.Length; i++)
         {
             bool expected = codeSo.leverCode[i];
+            Debug.Log("expected "+expected.ToString());
             bool current = levers[i] != null && levers[i].isOn;
+            Debug.Log("got"+current.ToString());
 
             if (current != expected)
             {

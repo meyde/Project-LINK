@@ -13,83 +13,100 @@ public class WaterModule : Module
     private int waterState=0;
     private GameManagerLocal gm;
     private List<int> availableStates = new();
-
+    private ZoomableModule zm;
     private void Awake()
     {
         gm=FindFirstObjectByType<GameManagerLocal>();
+        zm = gameObject.GetComponent<ZoomableModule>();
     }
 
 
     public override void OnStarted()
     {
-        foreach (int eventId in gm.gmn.eventDataIds)
+        Debug.Log("started water module");
+        foreach (CEventRuntimeData cEventData in gm.gmn.events)
         {
-            CatastrophicEvent cEvent = gm.allEvents[eventId];
+            if (cEventData.state != 1) { continue; }
+            CatastrophicEvent cEvent = gm.allEvents[cEventData.eventId];
             for (int i = 0; i < cEvent.modules1.Length; i++)
             {
                 if (cEvent.modules1[i] == moduleId)
                 {
-                    availableStates.Add(codeList[cEvent.modulesState1[i]].waterStateId);
+                    Debug.Log("Looking at each code, trying to find the correct one");
+                    foreach (WaterCodeSO codeSo in codeList)
+                    {
+                        if (cEvent.modulesState1[i] == codeSo.waterCodeId && codeSo.eventId == cEvent.eventId)
+                        {
+                            Debug.Log($"Found a state, adding it: {codeSo.waterStateId}");
+                            availableStates.Add(codeSo.waterStateId);
+                        }
+                    }
                 }
             }
 
         }
         if (availableStates.Count > 0)
         {
+            Debug.Log("at least one state found.");
             waterState = availableStates[Random.Range(0, availableStates.Count)];
+            Debug.Log($"state chosen: {waterState}");
             waterSprite.sprite = sprites[waterState];
         }
         else
         {
-            waterState = 0;
-            waterSprite.sprite = sprites[0];
+            Debug.Log("No state found, using pure random.");
+            waterState = Random.Range(0, sprites.Count());
+            waterSprite.sprite = sprites[waterState];
         }
     }
 
     public void Validate()
     {
-        int index = 0;
         List<int> falseInd = new();
         bool hasSucceeded = false;
-        foreach (int eventId in gm.gmn.eventDataIds)
+        foreach (CEventRuntimeData cEventData in gm.gmn.events)
         {
-            CatastrophicEvent cEvent = gm.allEvents[eventId];
+            if (cEventData.state != 1) { continue; }
+            CatastrophicEvent cEvent = gm.allEvents[cEventData.eventId];
             for (int i = 0; i < cEvent.modules1.Length; i++)
             {
                 if (cEvent.modules1[i] == moduleId)
                 {
-                    List<WaterCodeSO> codeList = new();
+                    Debug.Log($"event {cEvent.eventId} has the module in its required list.");
                     foreach (WaterCodeSO code in codeList)
                     {
-                        if (code.eventId == eventId && code.waterStateId == waterState)
+                        if (code.eventId == cEvent.eventId && code.waterStateId == waterState)
                         {
                             if (CheckCode(code.pipeOrientations, code.borderStates))
                             {
+                                Debug.Log($"Event has succeeded, validating.");
                                 hasSucceeded = true;
-                                gm.EndModuleCheck(moduleId, true, index);
+                                gm.EndModuleCheck(moduleId, true, cEvent.eventId);
+                                zm.CloseModule();
                             }
                             else
                             {
+                                Debug.Log("Event has failed. adding it to list of failed events.");
                                 falseInd.Add(code.eventId);
                             }
                         }
                     }
                 }
             }
-            index++;
         }
         if (!hasSucceeded)
         {
+            Debug.Log("module failed.");
             if (falseInd.Count > 0)
             {
+                Debug.Log("an event needing this module is occuring, yet the code was not matched. Failing oldest event ");
                 gm.EndModuleCheck(moduleId, false, falseInd[0]);
             }
             else
             {
-                if (gm.gmn.eventDataIds.Count > 0)
-                {
-                    gm.EndModuleCheck(moduleId, false, 0);
-                }
+                Debug.Log("No event needing this module is occuring. Failing oldest active event.");
+                gm.EndModuleCheck(moduleId, false, -1);
+                
             }
         }
     }

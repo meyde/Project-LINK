@@ -15,6 +15,7 @@ MonoBehaviour:
   eventId: 7
   eventName: Blizzard neigeux rapide
   type: Blizzard
+  fxType: 2
   region: 8
   modulesCount: 1
   modules1: 02000000
@@ -24,7 +25,7 @@ MonoBehaviour:
   modulesState2: 
   modulesState3: 
   eventCategoryLevel: 1
-  eventDuration: 60
+  eventDuration: 150
   baseLife: 2
   windSpeed: 80
   windSpeedMax: 100

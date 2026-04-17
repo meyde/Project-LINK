@@ -5,31 +5,31 @@ using UnityEngine.InputSystem;
 using TMPro;
 
 /// <summary>
-/// Résumé de ce que fait se script pour que tu comprends comment ca fonctionne.
+/// Rï¿½sumï¿½ de ce que fait se script pour que tu comprends comment ca fonctionne.
 /// </summary>
 // Ce script rend un module cliquable via MouseInteractionManager.IInteractable.
 // Quand on clique dessus :
-// - il se déplace au centre de l'écran
+// - il se dï¿½place au centre de l'ï¿½cran
 // - il grossit
-// - un fond flou apparaît
+// - un fond flou apparaï¿½t
 // - les scripts interactables des enfants s'activent
 // - les SpriteRenderer du module et de ses enfants apparaissent progressivement
 // - les TextMeshPro du module et de ses enfants apparaissent progressivement
 //
 // Quand on le ferme :
-// - il retourne à sa position d'origine
-// - il reprend son échelle d'origine
-// - le fond flou disparaît
-// - les scripts interactables des enfants se désactivent
+// - il retourne ï¿½ sa position d'origine
+// - il reprend son ï¿½chelle d'origine
+// - le fond flou disparaï¿½t
+// - les scripts interactables des enfants se dï¿½sactivent
 // - les SpriteRenderer du module et de ses enfants disparaissent progressivement
 // - les TextMeshPro du module et de ses enfants disparaissent progressivement
 //
 // La fermeture peut se faire :
-// - via la touche Escape / l'Input Action assignée
-// - via un clic extérieur géré par MouseInteractionManager <= (ducoup je les modifié aussi)
+// - via la touche Escape / l'Input Action assignï¿½e
+// - via un clic extï¿½rieur gï¿½rï¿½ par MouseInteractionManager <= (ducoup je les modifiï¿½ aussi)
 public class ZoomableModule : MonoBehaviour, MouseInteractionManager.IInteractable
 {
-    [Header("Références")]
+    [Header("Rï¿½fï¿½rences")]
 
     [SerializeField] private Camera targetCamera;
 
@@ -49,12 +49,27 @@ public class ZoomableModule : MonoBehaviour, MouseInteractionManager.IInteractab
 
     [SerializeField] private float zoomScaleMultiplier = 2f;
 
-    [Tooltip("Décalage Z par rapport à la caméra quand le module est ouvert. Plus petit = plus proche de la caméra.")]
+    [Tooltip("Dï¿½calage Z par rapport ï¿½ la camï¿½ra quand le module est ouvert. Plus petit = plus proche de la camï¿½ra.")]
     [SerializeField] private float openedZOffsetFromCamera = 1f;
 
-    [Header("Détection auto")]
+    [Header("Dï¿½tection auto")]
 
     [SerializeField] private bool autoFindChildInteractables = true;
+
+    [Header("Sorting")]
+    [SerializeField] private bool bringToFrontWhenOpened = true;
+    [SerializeField] private int openedSortingOrderOffset = 100;
+
+    [Header("Sprite au zoom")]
+    [SerializeField] private SpriteRenderer mainSpriteRenderer;
+    [SerializeField] private Sprite zoomedMainSprite;
+
+    private Sprite originalMainSprite;
+    private bool mainSpriteCached = false;
+
+    private readonly Dictionary<SpriteRenderer, int> originalSpriteSortingOrders = new();
+    private readonly Dictionary<Renderer, int> originalTextSortingOrders = new();
+    private bool sortingOffsetApplied = false;
 
     [Header("Visuel")]
 
@@ -87,7 +102,7 @@ public class ZoomableModule : MonoBehaviour, MouseInteractionManager.IInteractab
 
     private void Awake()
     {
-        // Mémorisation des paramètre de départ pour y revenir après.
+        // Mï¿½morisation des paramï¿½tre de dï¿½part pour y revenir aprï¿½s.
         startPosition = transform.position;
         startScale = transform.localScale;
         startRotation = transform.rotation;
@@ -99,13 +114,15 @@ public class ZoomableModule : MonoBehaviour, MouseInteractionManager.IInteractab
         if (autoFindChildInteractables)
             CacheChildInteractables();
 
-        // Recherche automatiquement tous les éléments visuels du module et de ses enfants
+        // Recherche automatiquement tous les ï¿½lï¿½ments visuels du module et de ses enfants
         CacheVisualComponents();
+        CacheOriginalSortingOrders();
+        CacheMainSpriteIfNeeded();
 
-        // Au démarrage, désactive les scripts interactables des enfants pour qu'ils ne puissent pas être utilisés tant que le module n'est pas ouvert
+        // Au dï¿½marrage, dï¿½sactive les scripts interactables des enfants pour qu'ils ne puissent pas ï¿½tre utilisï¿½s tant que le module n'est pas ouvert
         SetChildScriptsState(false);
 
-        // Au démarrage, rend le module invisible visuellement tout en gardant ses colliders actifs
+        // Au dï¿½marrage, rend le module invisible visuellement tout en gardant ses colliders actifs
         if (hideVisualsWhenClosed)
             SetVisualAlpha(0f);
 
@@ -157,15 +174,15 @@ public class ZoomableModule : MonoBehaviour, MouseInteractionManager.IInteractab
 
     public void OnClick()
     {
-        // Si une animation est déjà en cours, on ignore le clic
+        // Si une animation est dï¿½jï¿½ en cours, on ignore le clic
         if (isAnimating)
             return;
 
-        // IMPORTANT : si le module est déjà ouvert, un clic dessus ne le ferme pas
+        // IMPORTANT : si le module est dï¿½jï¿½ ouvert, un clic dessus ne le ferme pas
         if (isOpen)
             return;
 
-        // Si un autre module est déjà ouvert, on ne fait rien
+        // Si un autre module est dï¿½jï¿½ ouvert, on ne fait rien
         if (AnyModuleOpen)
             return;
         moduleToStart.OnStarted();
@@ -182,9 +199,75 @@ public class ZoomableModule : MonoBehaviour, MouseInteractionManager.IInteractab
 
     }
 
+    private void CacheOriginalSortingOrders()
+    {
+        originalSpriteSortingOrders.Clear();
+        originalTextSortingOrders.Clear();
+
+        for (int i = 0; i < cachedSpriteRenderers.Count; i++)
+        {
+            SpriteRenderer sr = cachedSpriteRenderers[i];
+            if (sr != null && !originalSpriteSortingOrders.ContainsKey(sr))
+                originalSpriteSortingOrders.Add(sr, sr.sortingOrder);
+        }
+
+        for (int i = 0; i < cachedTmpTexts.Count; i++)
+        {
+            TMP_Text tmp = cachedTmpTexts[i];
+            if (tmp == null)
+                continue;
+
+            Renderer textRenderer = tmp.GetComponent<Renderer>() as Renderer;
+            if (textRenderer != null && !originalTextSortingOrders.ContainsKey(textRenderer))
+                originalTextSortingOrders.Add(textRenderer, textRenderer.sortingOrder);
+        }
+    }
+
+    private void ApplySortingOffset()
+    {
+        if (!bringToFrontWhenOpened || sortingOffsetApplied)
+            return;
+
+        CacheOriginalSortingOrders();
+
+        foreach (var pair in originalSpriteSortingOrders)
+        {
+            if (pair.Key != null)
+                pair.Key.sortingOrder = pair.Value + openedSortingOrderOffset;
+        }
+
+        foreach (var pair in originalTextSortingOrders)
+        {
+            if (pair.Key != null)
+                pair.Key.sortingOrder = pair.Value + openedSortingOrderOffset;
+        }
+
+        sortingOffsetApplied = true;
+    }
+
+    private void RestoreOriginalSortingOrders()
+    {
+        if (!sortingOffsetApplied)
+            return;
+
+        foreach (var pair in originalSpriteSortingOrders)
+        {
+            if (pair.Key != null)
+                pair.Key.sortingOrder = pair.Value;
+        }
+
+        foreach (var pair in originalTextSortingOrders)
+        {
+            if (pair.Key != null)
+                pair.Key.sortingOrder = pair.Value;
+        }
+
+        sortingOffsetApplied = false;
+    }
+
     public void CloseModule()
     {
-        // Refuse de fermer si le module n'est pas ouvert ou si une animation est déjà en cours
+        // Refuse de fermer si le module n'est pas ouvert ou si une animation est dï¿½jï¿½ en cours
         if (!isOpen || isAnimating)
             return;
 
@@ -193,7 +276,7 @@ public class ZoomableModule : MonoBehaviour, MouseInteractionManager.IInteractab
 
     public static void CloseCurrentOpenModule()
     {
-        // Méthode statique pratique pour fermer le module actuellement ouvert
+        // Mï¿½thode statique pratique pour fermer le module actuellement ouvert
         if (CurrentOpenModule != null)
             CurrentOpenModule.CloseModule();
     }
@@ -203,12 +286,13 @@ public class ZoomableModule : MonoBehaviour, MouseInteractionManager.IInteractab
         isAnimating = true;
 
         AnyModuleOpen = true;
-
         CurrentOpenModule = this;
 
         SetChildScriptsState(false);
+        ApplySortingOffset();
+        ApplyZoomedMainSprite();
 
-        // On stocke l'état actuel de départ
+        // On stocke l'ï¿½tat actuel de dï¿½part
         Vector3 fromPos = transform.position;
         Vector3 fromScale = transform.localScale;
         Quaternion fromRot = transform.rotation;
@@ -224,7 +308,7 @@ public class ZoomableModule : MonoBehaviour, MouseInteractionManager.IInteractab
 
         float elapsed = 0f;
 
-        // S'assure que le module est bien invisible au tout début de l'ouverture
+        // S'assure que le module est bien invisible au tout dï¿½but de l'ouverture
         if (hideVisualsWhenClosed)
             SetVisualAlpha(0f);
 
@@ -233,7 +317,7 @@ public class ZoomableModule : MonoBehaviour, MouseInteractionManager.IInteractab
         {
             elapsed += Time.deltaTime;
 
-            // t va de 0 à 1
+            // t va de 0 ï¿½ 1
             float t = Mathf.Clamp01(elapsed / zoomDuration);
 
             t = EaseOutCubic(t);
@@ -323,6 +407,9 @@ public class ZoomableModule : MonoBehaviour, MouseInteractionManager.IInteractab
         if (hideVisualsWhenClosed)
             SetVisualAlpha(0f);
 
+        RestoreOriginalMainSprite();
+        RestoreOriginalSortingOrders();
+
         isOpen = false;
         isAnimating = false;
         AnyModuleOpen = false;
@@ -331,12 +418,55 @@ public class ZoomableModule : MonoBehaviour, MouseInteractionManager.IInteractab
             CurrentOpenModule = null;
     }
 
+    private void CacheMainSpriteIfNeeded()
+    {
+        if (mainSpriteCached)
+            return;
+
+        if (mainSpriteRenderer == null)
+            mainSpriteRenderer = GetComponent<SpriteRenderer>();
+
+        if (mainSpriteRenderer != null)
+        {
+            originalMainSprite = mainSpriteRenderer.sprite;
+            mainSpriteCached = true;
+        }
+    }
+
+    private void ApplyZoomedMainSprite()
+    {
+        // On ne fait rien si aucun sprite de zoom n'a Ã©tÃ© assignÃ©
+        if (zoomedMainSprite == null)
+            return;
+
+        CacheMainSpriteIfNeeded();
+
+        if (mainSpriteRenderer == null)
+            return;
+
+        mainSpriteRenderer.sprite = zoomedMainSprite;
+    }
+
+    private void RestoreOriginalMainSprite()
+    {
+        // Si aucun sprite de zoom n'Ã©tait assignÃ©, on n'a rien changÃ© donc on sort
+        if (zoomedMainSprite == null)
+            return;
+
+        CacheMainSpriteIfNeeded();
+
+        if (mainSpriteRenderer == null)
+            return;
+
+        mainSpriteRenderer.sprite = originalMainSprite;
+    }
+
     private void CacheChildInteractables()
     {
-        // On vide d'abord la liste au cas où cette méthode est relancée
+        // On vide d'abord la liste au cas oï¿½ cette mï¿½thode est relancï¿½e
         childScriptsToEnable.Clear();
 
-        // On lance une vraie recherche récursive
+        // On lance une vraie recherche rï¿½cursive
         CacheChildInteractablesRecursive(transform);
     }
 
