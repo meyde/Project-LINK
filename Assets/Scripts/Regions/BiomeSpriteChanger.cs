@@ -41,6 +41,7 @@ public class BiomeSpriteChanger : MonoBehaviour
 
     public void eventOver()
     {
+        Debug.Log("event Over, removing fx");
         foreach (GameObject go in FxTemp)
         {
             go.SetActive(false);

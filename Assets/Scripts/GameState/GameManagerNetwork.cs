@@ -206,10 +206,11 @@ public class GameManagerNetwork : NetworkBehaviour
         health.Value--;
         int eventInd = FindIndexFromId(eventId);
         if (eventInd < 0) Debug.Log(" tried to fail an event not activated yet.");
-        CEventRuntimeData modifiedEvent = events[eventId];
+        CEventRuntimeData modifiedEvent = events[eventInd];
         modifiedEvent.state = 3;
-        events[eventId] = modifiedEvent;
+        events[eventInd] = modifiedEvent;
         occupiedRegions.Remove(allEvents[modifiedEvent.eventId].region);
+        Debug.Log($"Removing the region {allEvents[modifiedEvent.eventId].region} from the list of occupied regions");
         bsc.eventOver();
         Invoke("EventGeneration", Random.Range(5f, 10f));
         if (health.Value < 1) 
@@ -227,6 +228,7 @@ public class GameManagerNetwork : NetworkBehaviour
         CEventRuntimeData modifiedEvent = events[eventInd];
         modifiedEvent.state = 2;
         events[eventInd] = modifiedEvent;
+        Debug.Log($"Removing the region {allEvents[modifiedEvent.eventId].region} from the list of occupied regions");
         occupiedRegions.Remove(allEvents[modifiedEvent.eventId].region);
         if (gameEnded) return;
         successes.Value++;

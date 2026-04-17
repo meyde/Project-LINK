@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using Unity.Netcode;
-using Unity.Services.Relay.Models;
 using UnityEngine;
 
 public class GameManagerLocal : MonoBehaviour
@@ -61,6 +60,7 @@ public class GameManagerLocal : MonoBehaviour
             currentBiome = regionBiomeDatabase.GetBiome(currentRegion);
             foreach (CEventRuntimeData cEventData in gmn.events)
             {
+                if (cEventData.state != 1) { continue; }
                 CatastrophicEvent cEvent = allEvents[cEventData.eventId];
                 if (cEvent.region == currentRegion)
                 {
