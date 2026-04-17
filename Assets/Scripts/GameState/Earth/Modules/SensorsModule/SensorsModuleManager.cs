@@ -44,7 +44,7 @@ public class SensorsModuleManager : Module
     {
         if (gameManagerLocal != null && gameManagerLocal.gmn != null)
         {
-            gameManagerLocal.gmn.eventDataIds.OnListChanged += OnEventListChanged;
+            gameManagerLocal.gmn.events.OnListChanged += OnEventListChanged;
         }
     }
 
@@ -52,11 +52,11 @@ public class SensorsModuleManager : Module
     {
         if (gameManagerLocal != null && gameManagerLocal.gmn != null)
         {
-            gameManagerLocal.gmn.eventDataIds.OnListChanged -= OnEventListChanged;
+            gameManagerLocal.gmn.events.OnListChanged -= OnEventListChanged;
         }
     }
 
-    private void OnEventListChanged(NetworkListEvent<int> changeEvent)
+    private void OnEventListChanged(NetworkListEvent<CEventRuntimeData> changeEvent)
     {
         ClearTexts();
     }
@@ -93,6 +93,7 @@ public class SensorsModuleManager : Module
 
         if (regionEvent == null)
         {
+            Debug.Log("no event found in region");
             ShowNoSignal();
             return;
         }
@@ -129,20 +130,16 @@ public class SensorsModuleManager : Module
 
     private CatastrophicEvent GetActiveEventForCurrentRegion()
     {
-        if (gameManagerLocal.gmn.eventDataIds == null || gameManagerLocal.gmn.eventDataIds.Count == 0)
+        if (gameManagerLocal.gmn.events == null || gameManagerLocal.gmn.events.Count == 0)
             return null;
 
         int currentRegion = gameManagerLocal.currentRegion;
 
-        for (int i = 0; i < gameManagerLocal.gmn.eventDataIds.Count; i++)
+        foreach (CEventRuntimeData cEventData in gameManagerLocal.gmn.events)
         {
-            int eventIndex = gameManagerLocal.gmn.eventDataIds[i];
-
-            if (eventIndex < 0 || eventIndex >= gameManagerLocal.allEvents.Length)
-                continue;
-
-            CatastrophicEvent ev = gameManagerLocal.allEvents[eventIndex];
-
+            int eventId = cEventData.eventId;
+            CatastrophicEvent ev = gameManagerLocal.gmn.allEvents[eventId];
+            Debug.Log($"Event{ev.eventId} is occuring in region: {ev.region}");
             if (ev == null)
                 continue;
 

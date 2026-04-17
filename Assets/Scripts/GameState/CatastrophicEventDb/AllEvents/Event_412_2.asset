@@ -15,7 +15,7 @@ MonoBehaviour:
   eventId: 3
   eventName: Cloud Jaune Double
   type: Cloud
-  fxType: 7
+  fxType: 11
   region: 4
   modulesCount: 1
   modules1: 01000000

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using Unity.Netcode;
+using Unity.Services.Relay.Models;
 using UnityEngine;
 
 public class GameManagerLocal : MonoBehaviour
@@ -27,9 +28,19 @@ public class GameManagerLocal : MonoBehaviour
             mapRegionManagers = FindObjectsByType<MapRegionManager>(FindObjectsInactive.Include, FindObjectsSortMode.None);
 
         if (gmn != null)
-            gmn.eventDataIds.OnListChanged += OnEventsChanged;
+            gmn.events.OnListChanged += OnEventsChanged;
     }
-
+    private void OnEventsChanged(NetworkListEvent<CEventRuntimeData> change)
+    {
+        Debug.Log("New event Detected");
+        if (change.Type == NetworkListEvent<CEventRuntimeData>.EventType.Add)
+        {
+            CEventRuntimeData cEventData = change.Value; 
+            CatastrophicEvent evnt = allEvents[cEventData.eventId];
+            OnNewEvent(evnt);
+        }
+        RefreshMapRegions();
+    }
     private void Start()
     {
         RefreshMapRegions();
@@ -38,7 +49,7 @@ public class GameManagerLocal : MonoBehaviour
     private void OnDisable()
     {
         if (gmn != null)
-            gmn.eventDataIds.OnListChanged -= OnEventsChanged;
+            gmn.events.OnListChanged -= OnEventsChanged;
     }
 
     public void ChangeRegion(int regionSelected)
@@ -48,9 +59,9 @@ public class GameManagerLocal : MonoBehaviour
         if (regionBiomeDatabase != null)
         {
             currentBiome = regionBiomeDatabase.GetBiome(currentRegion);
-            foreach (int eventInd in gmn.eventDataIds)
+            foreach (CEventRuntimeData cEventData in gmn.events)
             {
-                CatastrophicEvent cEvent = allEvents[eventInd];
+                CatastrophicEvent cEvent = allEvents[cEventData.eventId];
                 if (cEvent.region == currentRegion)
                 {
                     eventFx = cEvent.fxType;
@@ -62,17 +73,7 @@ public class GameManagerLocal : MonoBehaviour
         Debug.Log($"R�gion: {currentRegion} | Biome: {currentBiome}");
     }
 
-    private void OnEventsChanged(NetworkListEvent<int> change)
-    {
-        if (change.Type == NetworkListEvent<int>.EventType.Add)
-        {
-            int id = gmn.eventDataIds[change.Index];
-            CatastrophicEvent evnt = allEvents[id];
-            OnNewEvent(evnt);
-        }
-
-        RefreshMapRegions();
-    }
+    
 
     private void RefreshMapRegions()
     {
@@ -83,15 +84,8 @@ public class GameManagerLocal : MonoBehaviour
 
         List<int> activeRegions = new List<int>();
 
-        for (int i = 0; i < gmn.eventDataIds.Count; i++)
+        foreach (int regionId in gmn.occupiedRegions)
         {
-            int eventDataId = gmn.eventDataIds[i];
-
-            CatastrophicEvent currentEvent = allEvents[eventDataId];
-
-            int regionId = currentEvent.region;
-
-            // Évite les doublons si jamais plusieurs events pointent la même région
             if (!activeRegions.Contains(regionId))
                 activeRegions.Add(regionId);
         }
@@ -140,54 +134,71 @@ public class GameManagerLocal : MonoBehaviour
     {
         yield return new WaitForSeconds(cEvent.eventDuration);
         Debug.Log("Event timer out");
-        int pos = -1;
-
-        for (int i = 0; i < gmn.eventDataIds.Count; i++)
+        int eventInd =gmn.FindIndexFromId(cEvent.eventId);
+        if (eventInd == -1)
         {
-            if (gmn.eventDataIds[i] == cEvent.eventId)
-                pos = i;
-        }
-
-        if (pos == -1)
-        {
-            Debug.Log("Event Not occuring");
+            Debug.Log("Event Never Occured");
             yield break;
         }
+        CEventRuntimeData cEventData = gmn.events[eventInd];
 
 
-        if (gmn.eventStates[pos] != 2)
-            Debug.Log("event failed");
-            gmn.OnFailureRpc(pos);
+        if (cEventData.state == 2)
+        {
+            Debug.Log("event succeeded");
+            yield break;
+        }
+        if (cEventData.state == 3)
+        {
+            Debug.Log("Event Previously failed");
+            yield break;
+        }
+        if (cEventData.state == 1)
+        {
+            Debug.Log("Failing event");
+            gmn.OnFailureRpc(cEvent.eventId);
+        }
     }
 
-    public void EndModuleCheck(int moduleId, bool state, int eventPos)
+    public void EndModuleCheck(int moduleId, bool state, int eventId)
     {
-        if (eventPos > -1)
+        int eventInd = gmn.FindIndexFromId(eventId);
+        if (eventInd == -1)
         {
-            if (state && currentRegion == gmn.eventRegions[eventPos])
-
+            Debug.Log("the module tried to fail or succeed in an event not occuring, checking if there is any event occuring.");
+            eventId = gmn.FindIdOfFirstActivated();
+            eventInd = gmn.FindIndexFromId(eventId);
+            if (eventInd == -1)
             {
-                Debug.Log("GoodModule");
-                gmn.OnIncrementRpc(eventPos, moduleId);
+                Debug.Log("none found, nothing happens");
+                return;
             }
             else
             {
-                if (currentRegion != gmn.eventRegions[eventPos])
-                {
-                    Debug.Log("WrongRegion");
-                }
-                if (!state)
-                {
-                    Debug.Log("WrongModulestate");
-                }
-
-                gmn.EventLoseLifeServerRpc(eventPos);
+                Debug.Log("Found. It loses a life.");
+                gmn.EventLoseLifeServerRpc(eventId);
             }
+
+        }
+        CatastrophicEvent cEvent = allEvents[eventId];
+        CEventRuntimeData cEventData = gmn.events[eventInd];
+        if (!state)
+        {
+            Debug.Log($"wrong solution from module. Losing a life on the event:{eventId}");
+            gmn.EventLoseLifeServerRpc(eventId);
         }
         else
         {
-            Debug.Log("no event found");
-            gmn.EventLoseLifeServerRpc(eventPos);
+            if (currentRegion != cEvent.region)
+            {
+                Debug.Log($"Right solution from module for event {eventId} but wrong region for it.");
+                gmn.EventLoseLifeServerRpc(eventId);
+            }
+            else
+            {
+                Debug.Log($"Module {moduleId} succeeded for event {eventId}. incrementing the event.");
+                gmn.OnIncrementRpc(eventId,moduleId);
+            }
         }
     }
 }

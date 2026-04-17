@@ -1,14 +1,13 @@
-using System;
 using System.Collections;
 using System.Linq;
-using Unity.Collections;
 using Unity.Netcode;
+using Unity.VisualScripting;
 using UnityEngine;
-using Random = UnityEngine.Random;
 
 public class GameManagerNetwork : NetworkBehaviour
 {
     public static GameManagerNetwork Instance { get; private set; }
+    [SerializeField] BiomeSpriteChanger bsc;
 
     [Header("Events")]
 
@@ -23,20 +22,12 @@ public class GameManagerNetwork : NetworkBehaviour
     [SerializeField] private float timeBeforeStart = 30f;
     private int gameLevel;
     private bool gameStarted;
-    public NetworkList<int> eventDataIds = new();
-    public NetworkList<int> eventLives = new();
-    public NetworkList<int> eventModulesDone = new();
-    public NetworkList<int> eventCurrentLevel = new();
-    public NetworkList<int> eventStates = new();
-    public NetworkList<int> eventRegions = new();
-    //public NetworkList<FixedList64Bytes<int>> eventModule1Option = new();
-    //public NetworkList<FixedList64Bytes<int>> eventModule2Option = new();
-    //public NetworkList<FixedList64Bytes<int>> eventModule3Option = new();
+
+    public NetworkList<CEventRuntimeData> events = new(); 
+    public NetworkList<int> occupiedRegions;
 
     public NetworkVariable<int> health = new(3);
     public NetworkVariable<int> successes = new(0);
-
-    public NetworkList<int> pictoSpritesCurrent = new();
     [SerializeField] private Sprite[] pictoIcons;
     [SerializeField] private Color[] pictoColors;
     [SerializeField] private Sprite[] pictoNmbers;
@@ -51,16 +42,12 @@ public class GameManagerNetwork : NetworkBehaviour
 
     private Coroutine eventCoroutine;
 
-
-    private CatastrophicEvent[] GetEventsLevel()
+    public override void OnNetworkSpawn()
     {
-        return gameLevel switch
-        {
-            1 => level1Events,
-            2 => level2Events,
-            3 => level3Events,
-            _ => level1Events
-        };
+        if (Instance == null)
+            Instance = this;
+
+        OnStartGame();
     }
 
     public void OnStartGame()
@@ -76,27 +63,47 @@ public class GameManagerNetwork : NetworkBehaviour
         eventCoroutine = StartCoroutine(EventGenerationRepeating());
         gameTimerCoroutine = StartCoroutine(GameTimerCoroutine());
     }
-
-    public void Start()
+    public int FindIndexFromId(int eventId)
     {
-        if (Instance == null)
-            Instance = this;
+        Debug.Log($"Trying to access the index of the event {eventId} ");
+        for (int i = 0; i < events.Count; i++)
+        {
+            if (events[i].eventId == eventId)
+            {
+                Debug.Log($"Found it: {i}");
+                return i;
+            }
+                
+        }
 
-        OnStartGame();
-    }
-    public override void OnNetworkSpawn()
-    {
+        return -1;
     }
 
-    public override void OnNetworkDespawn()
+    public int FindIdOfFirstActivated()
     {
-        
+        foreach (CEventRuntimeData cEventData  in events)
+        {
+            if (cEventData.state == 1)
+            {
+                return cEventData.eventId;
+            }
+        }
+        return -1;
+    }
+    private CatastrophicEvent[] GetEventsLevel()
+    {
+        return gameLevel switch
+        {
+            1 => level1Events,
+            2 => level2Events,
+            3 => level3Events,
+            _ => level1Events
+        };
     }
 
-    private void Update()
-    {
-        
-    }
+
+
+
 
     private void OnGameLoss()
     {
@@ -130,25 +137,20 @@ public class GameManagerNetwork : NetworkBehaviour
         if (gameEnded) return;
         var eventList = GetEventsLevel();
         int id = eventList[Random.Range(0, eventList.Length)].eventId;
-        while (eventRegions.Contains(allEvents[id].region))
+        while (occupiedRegions.Contains(allEvents[id].region))
         {
              id = eventList[Random.Range(0, eventList.Length)].eventId;
         }
-        eventDataIds.Add(id);
-        eventLives.Add(eventList[id].baseLife);
-        eventModulesDone.Add(0);
-        eventCurrentLevel.Add(1);
-        eventStates.Add(0);
-        FixedList64Bytes<int> module1Options = new();
-        FixedList64Bytes<int> module2Options = new();
-        FixedList64Bytes<int> module3Options = new();
-        for (int i = 0; i < eventList[id].modules1.Count() ;i++ ) { module1Options.Add(0); }
-        for (int i = 0; i < eventList[id].modules2.Count(); i++) { module2Options.Add(0); }
-        for (int i = 0; i < eventList[id].modules3.Count(); i++) { module3Options.Add(0); }
-        //eventModule1Option.Add(module1Options);
-        //eventModule2Option.Add(module2Options);
-        //eventModule3Option.Add(module3Options);
-        eventRegions.Add(eventList[id].region);
+        CEventRuntimeData evnt = new()
+        {
+            eventId = id,
+            currentLevel = 1,
+            state = 1,
+            modulesDone = 0,
+            eventLives = allEvents[id].baseLife
+        };
+        events.Add(evnt);
+        occupiedRegions.Add(eventList[id].region);
         
     }
     private IEnumerator GameTimerCoroutine()
@@ -179,25 +181,22 @@ public class GameManagerNetwork : NetworkBehaviour
         }
     }
     [Rpc(SendTo.Server, InvokePermission = RpcInvokePermission.Everyone)]
-    public void EventLoseLifeServerRpc(int eventIndex)
+    public void EventLoseLifeServerRpc(int eventId)
     {
-        Debug.Log("Module échoué");
-        if (eventDataIds.Count == 0)
+        Debug.Log($"Module échoué, l'event {eventId} perd une vie");
+        int eventInd = FindIndexFromId(eventId);
+        if (eventInd < 0) 
         {
-            return;
+            Debug.Log("tried to lose a life on an unactivated event");
+            return; 
         }
-        if (eventIndex < 0 ) 
+        CEventRuntimeData modifiedEvent = events[eventInd];
+        modifiedEvent.eventLives--;
+        events[eventInd] = modifiedEvent;
+        if (modifiedEvent.eventLives == 0)
         {
-            eventLives[0]--;
-            if (eventLives[0]<=0) {  OnFailureRpc(0); }
+            OnFailureRpc(eventId);
         }
-        else
-        {
-            eventLives[eventIndex]--;
-            if (eventLives[eventIndex] <= 0) { OnFailureRpc(eventIndex); }
-        }
-
-          
     }
     [Rpc(SendTo.Server, InvokePermission = RpcInvokePermission.Everyone)]
     public void OnFailureRpc(int eventId)
@@ -205,15 +204,13 @@ public class GameManagerNetwork : NetworkBehaviour
         Debug.Log("EventEchou�");
         if (gameEnded) return;
         health.Value--;
-        eventDataIds.RemoveAt(eventId);
-        eventLives.RemoveAt(eventId);
-        eventModulesDone.RemoveAt(eventId);
-        //eventModule1Option.RemoveAt(eventId);
-        //eventModule2Option.RemoveAt(eventId);
-        //eventModule3Option.RemoveAt(eventId);
-        eventStates.RemoveAt(eventId);
-        eventCurrentLevel.RemoveAt(eventId);
-        eventRegions.RemoveAt(eventId);
+        int eventInd = FindIndexFromId(eventId);
+        if (eventInd < 0) Debug.Log(" tried to fail an event not activated yet.");
+        CEventRuntimeData modifiedEvent = events[eventId];
+        modifiedEvent.state = 3;
+        events[eventId] = modifiedEvent;
+        occupiedRegions.Remove(allEvents[modifiedEvent.eventId].region);
+        bsc.eventOver();
         Invoke("EventGeneration", Random.Range(5f, 10f));
         if (health.Value < 1) 
         {
@@ -225,17 +222,15 @@ public class GameManagerNetwork : NetworkBehaviour
     public void OnSuccessRpc(int eventId)
     {
         Debug.Log("Event Reussi");
+        int eventInd = FindIndexFromId(eventId);
+        if (eventInd < 0) { Debug.Log(" tried to succeed an event not activated yet."); return; }
+        CEventRuntimeData modifiedEvent = events[eventInd];
+        modifiedEvent.state = 2;
+        events[eventInd] = modifiedEvent;
+        occupiedRegions.Remove(allEvents[modifiedEvent.eventId].region);
         if (gameEnded) return;
         successes.Value++;
-        eventDataIds.RemoveAt(eventId);
-        eventLives.RemoveAt(eventId);
-        eventModulesDone.RemoveAt(eventId);
-        //eventModule1Option.RemoveAt(eventId);
-        //eventModule2Option.RemoveAt(eventId);
-        //eventModule3Option.RemoveAt(eventId);
-        eventStates.RemoveAt(eventId);
-        eventCurrentLevel.RemoveAt(eventId);
-        eventRegions.RemoveAt(eventId);
+        bsc.eventOver();
         Invoke("EventGeneration", Random.Range(5f, 10f));
         if (successes.Value >= requiredSuccesses)
         {
@@ -243,83 +238,59 @@ public class GameManagerNetwork : NetworkBehaviour
         }
     }
     [Rpc(SendTo.Server, InvokePermission = RpcInvokePermission.Everyone)]
-    public void OnIncrementRpc(int eventInd, int moduleId)
+    public void OnIncrementRpc(int eventId, int moduleId)
     {
-        Debug.Log("Module Reussi");
-        Debug.Log(eventInd.ToString());
-        Debug.Log(moduleId.ToString());
-        eventModulesDone[eventInd]++;
-        Debug.Log("eventModulesDone atteind");
-        CatastrophicEvent cEvent = allEvents[eventDataIds[eventInd]];
-        Debug.Log("allEvents[eventDataIds[eventId] atteind");
-        switch (eventCurrentLevel[eventInd])
+        Debug.Log($"Module {moduleId} Reussi, succes ajouté à l'event d'id:{eventId}");
+        int eventInd = FindIndexFromId(eventId);
+        CatastrophicEvent cEvent = allEvents[eventId];
+        CEventRuntimeData cEventData = events[eventInd];
+        cEventData.modulesDone++;
+        events[eventInd] = cEventData;
+        switch (cEventData.currentLevel)
         {
             case 1:
-                //for (int i = 0; i < cEvent.modules1.Count(); i++)
-                //{
-                //    if (cEvent.modules1[i] == moduleId)
-                //    {
-                //        var curList = eventModule1Option[eventInd];
-                //        curList[i] = Random.Range(0, 3);
-                //        eventModule1Option[eventInd] = curList;
-                //    }
-                //}
-                if (eventModulesDone[eventInd] == cEvent.modules1.Count())
+                if (cEventData.modulesDone == cEvent.modules1.Count())
                 {
                     if ( cEvent.eventCategoryLevel == 1)
                     {
-                        Debug.Log("SuccessRPC essayé");
-                         OnSuccessRpc(eventInd);
+                        Debug.Log($"Event {eventId} a terminé tout ses modules.");
+                         OnSuccessRpc(eventId);
                     }
                     else
                     {
-                        eventCurrentLevel[eventInd]++;
+                        Debug.Log($"Event {eventId} a terminé tout ses modules de niveau 1 et monte en niveau.");
+                        cEventData.currentLevel++;
+                        events[eventInd] = cEventData;
                     }
                 }
                     break;
             case 2:
-                //for (int i = 0; i < cEvent.modules2.Count(); i++)
-                //{
-                //    if (cEvent.modules2[i] == moduleId)
-                //    {
-                //        var curList = eventModule2Option[eventInd];
-                //        curList[i] = Random.Range(0, 3);
-                //        eventModule1Option[eventInd] = curList;
-                //    }
-                //}
-                if (eventModulesDone[eventInd] == cEvent.modules1.Count() + cEvent.modules2.Count()) 
+                if (cEventData.modulesDone == cEvent.modules1.Count() + cEvent.modules2.Count()) 
                 {
                     if (cEvent.eventCategoryLevel == 2)
                     {
-                        Debug.Log("trying successRPC");
-                        OnSuccessRpc(eventInd);
+                        Debug.Log($"Event {eventId} a terminé tout ses modules.");
+                        OnSuccessRpc(eventId);
                     }
                     else
                     {
-                        eventCurrentLevel[eventInd]++;
+                        Debug.Log($"Event {eventId} a terminé tout ses modules de niveau 2 et monte en niveau.");
+                        cEventData.currentLevel++;
+                        events[eventInd] = cEventData;
                     }
                 }
                 break;
             case 3:
-                //for (int i = 0; i < cEvent.modules3.Count(); i++)
-                //{
-                //    if (cEvent.modules2[i] == moduleId)
-                //    {
-                //        var curList = eventModule3Option[eventInd];
-                //        curList[i] = Random.Range(0, 3);
-                //        eventModule1Option[eventInd] = curList;
-                //    }
-                //}
-                if (eventModulesDone[eventInd] == cEvent.modulesCount ) 
+                if (cEventData.modulesDone == cEvent.modulesCount ) 
                 {
                     if (cEvent.eventCategoryLevel == 3)
                     {
-                        OnSuccessRpc(eventInd);
+                        Debug.Log($"Event {eventId} a terminé tout ses modules.");
+                        OnSuccessRpc(eventId);
                     }
                     else
                     {
-                        Debug.Log("Not supposed to happen");
-                        eventCurrentLevel[eventInd]++;
+                        Debug.Log("IMPOSSIBLE, tous les modules ont été effectués, mais l'event n'a jamais été validé.");
                     }
                 }
                 break;

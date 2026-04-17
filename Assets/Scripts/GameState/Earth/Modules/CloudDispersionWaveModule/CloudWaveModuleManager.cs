@@ -84,52 +84,52 @@ public class CloudWaveModuleManager : Module
     public void ValidateLevers()
     {
         Debug.Log("Validation demand�e");
-        int index = 0;
-        List<int> falseInd = new();
+        List<int> falseId = new();
         bool hasSucceeded = false;
-        int[] tempIds = new int[5] { 0, 1, 2, 3, 4 };
-        foreach (int eventId in gm.gmn.eventDataIds)
+        foreach (CEventRuntimeData cEventData in gm.gmn.events)
         {
-            CatastrophicEvent cEvent = gm.allEvents[eventId];
-            Debug.Log("event:");
-            Debug.Log(eventId.ToString());
+            if (cEventData.state != 1) { continue; }
+            CatastrophicEvent cEvent = gm.allEvents[cEventData.eventId];
+            Debug.Log($"event:{cEvent.eventId}");
             for (int i = 0; i < cEvent.modules1.Length; i++)
             {
                 if (cEvent.modules1[i] == moduleId)
                 {
+                    Debug.Log("Event needing module found, checking codes.");
                     foreach (CloudWaveCodeSO code in availableCodes)
                     {
-                        if (code.eventId == eventId && code.signalId == currentSignal.id)
+                        if (code.eventId == cEvent.eventId && code.signalId == currentSignal.id)
                         {
                             if (CheckSolution(code))
                             {
+                                Debug.Log("Good code found. Validating");
                                 hasSucceeded = true;
-                                gm.EndModuleCheck(moduleId, true, index);
+                                gm.EndModuleCheck(moduleId, true, cEvent.eventId);
                                 zm.CloseModule();
                                 break;
                             }
                             else
                             {
-                                falseInd.Add(code.eventId);
+                                Debug.Log("Wrong code.");
+                                falseId.Add(code.eventId);
                             }
                         }
                     }
                 }
             }
-            index++;
         }
         if (!hasSucceeded)
         {
-            if (falseInd.Count > 0)
+            if (falseId.Count > 0)
             {
-                gm.EndModuleCheck(moduleId, false, falseInd[0]);
+                Debug.Log("an event needing this module is occuring, yet the code was not matched. Failing oldest event ");
+                gm.EndModuleCheck(moduleId, false, falseId[0]);
             }
             else
             {
-                if (gm.gmn.eventDataIds.Count > 0)
-                {
-                    gm.EndModuleCheck(moduleId, false, 0);
-                }
+                Debug.Log("No event needing this module is occuring. Failing oldest active event.");
+                gm.EndModuleCheck(moduleId, false, -1);
+
             }
         }
 
