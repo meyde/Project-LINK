@@ -1,0 +1,1157 @@
+fileFormatVersion: 2
+guid: c8dc0df80c8ca6f47b9325a049863da9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4975130681154739950
+    second: "Regardez vos valeurs capteur sur ces \xE9crans__0"
+  - first:
+      213: 7148590867633859183
+    second: "Regardez vos valeurs capteur sur ces \xE9crans__1"
+  - first:
+      213: 1096375488526756076
+    second: "Regardez vos valeurs capteur sur ces \xE9crans__2"
+  - first:
+      213: -3295906344666456694
+    second: "Regardez vos valeurs capteur sur ces \xE9crans__3"
+  - first:
+      213: 3728028290531475537
+    second: "Regardez vos valeurs capteur sur ces \xE9crans__4"
+  - first:
+      213: -7163418524662488127
+    second: "Regardez vos valeurs capteur sur ces \xE9crans__5"
+  - first:
+      213: 2208864320018560936
+    second: "Regardez vos valeurs capteur sur ces \xE9crans__6"
+  - first:
+      213: -6041934329262196222
+    second: "Regardez vos valeurs capteur sur ces \xE9crans__7"
+  - first:
+      213: 6797640552786880429
+    second: "Regardez vos valeurs capteur sur ces \xE9crans__8"
+  - first:
+      213: 8919516688055794224
+    second: "Regardez vos valeurs capteur sur ces \xE9crans__9"
+  - first:
+      213: -3988257668786387770
+    second: "Regardez vos valeurs capteur sur ces \xE9crans__10"
+  - first:
+      213: -405032873037469124
+    second: "Regardez vos valeurs capteur sur ces \xE9crans__11"
+  - first:
+      213: 5308141813810050508
+    second: "Regardez vos valeurs capteur sur ces \xE9crans__12"
+  - first:
+      213: -1429673103195065199
+    second: "Regardez vos valeurs capteur sur ces \xE9crans__13"
+  - first:
+      213: 5637149687510560458
+    second: "Regardez vos valeurs capteur sur ces \xE9crans__14"
+  - first:
+      213: -3667989411372943819
+    second: "Regardez vos valeurs capteur sur ces \xE9crans__15"
+  - first:
+      213: -2498704258537477484
+    second: "Regardez vos valeurs capteur sur ces \xE9crans__16"
+  - first:
+      213: -757672827573750993
+    second: "Regardez vos valeurs capteur sur ces \xE9crans__17"
+  - first:
+      213: -4365943699971140085
+    second: "Regardez vos valeurs capteur sur ces \xE9crans__18"
+  - first:
+      213: -4312698817851973381
+    second: "Regardez vos valeurs capteur sur ces \xE9crans__19"
+  - first:
+      213: 1177340152541989635
+    second: "Regardez vos valeurs capteur sur ces \xE9crans__20"
+  - first:
+      213: -6013433607479826524
+    second: "Regardez vos valeurs capteur sur ces \xE9crans__21"
+  - first:
+      213: -3618972074657237660
+    second: "Regardez vos valeurs capteur sur ces \xE9crans__22"
+  - first:
+      213: -1175041223833532312
+    second: "Regardez vos valeurs capteur sur ces \xE9crans__23"
+  - first:
+      213: -7506806677068395276
+    second: "Regardez vos valeurs capteur sur ces \xE9crans__24"
+  - first:
+      213: -7941667918354604007
+    second: "Regardez vos valeurs capteur sur ces \xE9crans__25"
+  - first:
+      213: 3684664192270874296
+    second: "Regardez vos valeurs capteur sur ces \xE9crans__26"
+  - first:
+      213: 3948327756824678230
+    second: "Regardez vos valeurs capteur sur ces \xE9crans__27"
+  - first:
+      213: 831019810698954199
+    second: "Regardez vos valeurs capteur sur ces \xE9crans__28"
+  - first:
+      213: -4862281390637283375
+    second: "Regardez vos valeurs capteur sur ces \xE9crans__29"
+  - first:
+      213: 2668658167130435833
+    second: "Regardez vos valeurs capteur sur ces \xE9crans__30"
+  - first:
+      213: 2212613063689412927
+    second: "Regardez vos valeurs capteur sur ces \xE9crans__31"
+  - first:
+      213: 956995651349213955
+    second: "Regardez vos valeurs capteur sur ces \xE9crans__32"
+  - first:
+      213: -6940167122930265047
+    second: "Regardez vos valeurs capteur sur ces \xE9crans__33"
+  - first:
+      213: 160517915169463924
+    second: "Regardez vos valeurs capteur sur ces \xE9crans__34"
+  - first:
+      213: 5431281275168998052
+    second: "Regardez vos valeurs capteur sur ces \xE9crans__35"
+  - first:
+      213: -3577042815142781964
+    second: "Regardez vos valeurs capteur sur ces \xE9crans__36"
+  - first:
+      213: -7693695102810598785
+    second: "Regardez vos valeurs capteur sur ces \xE9crans__37"
+  - first:
+      213: -1524666882369093631
+    second: "Regardez vos valeurs capteur sur ces \xE9crans__38"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Regardez vos valeurs capteur sur ces \xE9crans__0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eee1061cef63b0540800000000000000
+      internalID: 4975130681154739950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Regardez vos valeurs capteur sur ces \xE9crans__1"
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 11
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6aeaede485e43360800000000000000
+      internalID: 7148590867633859183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Regardez vos valeurs capteur sur ces \xE9crans__2"
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 12
+        width: 15
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce8251ea2bb173f00800000000000000
+      internalID: 1096375488526756076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Regardez vos valeurs capteur sur ces \xE9crans__3"
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 12
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8d133954a69242d0800000000000000
+      internalID: -3295906344666456694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Regardez vos valeurs capteur sur ces \xE9crans__4"
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 46
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1504cb17afd9cb330800000000000000
+      internalID: 3728028290531475537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Regardez vos valeurs capteur sur ces \xE9crans__5"
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c32a042ecc669c90800000000000000
+      internalID: -7163418524662488127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Regardez vos valeurs capteur sur ces \xE9crans__6"
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 0
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a7bdbf556677ae10800000000000000
+      internalID: 2208864320018560936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Regardez vos valeurs capteur sur ces \xE9crans__7"
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 11
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20ab6143dbcb62ca0800000000000000
+      internalID: -6041934329262196222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Regardez vos valeurs capteur sur ces \xE9crans__8"
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 12
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da7e6ab3112165e50800000000000000
+      internalID: 6797640552786880429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Regardez vos valeurs capteur sur ces \xE9crans__9"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03afbbf8b2d78cb70800000000000000
+      internalID: 8919516688055794224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Regardez vos valeurs capteur sur ces \xE9crans__10"
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 12
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c4824be7ccd6a8c0800000000000000
+      internalID: -3988257668786387770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Regardez vos valeurs capteur sur ces \xE9crans__11"
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 11
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3aee387fb8016af0800000000000000
+      internalID: -405032873037469124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Regardez vos valeurs capteur sur ces \xE9crans__12"
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 11
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc5bb8d1bde4aa940800000000000000
+      internalID: 5308141813810050508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Regardez vos valeurs capteur sur ces \xE9crans__13"
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 11
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 194b02b23e7c82ce0800000000000000
+      internalID: -1429673103195065199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Regardez vos valeurs capteur sur ces \xE9crans__14"
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 11
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ace65cd16cd2b3e40800000000000000
+      internalID: 5637149687510560458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Regardez vos valeurs capteur sur ces \xE9crans__15"
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 11
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 536b83f601fa81dc0800000000000000
+      internalID: -3667989411372943819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Regardez vos valeurs capteur sur ces \xE9crans__16"
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49a2e1f27b1d25dd0800000000000000
+      internalID: -2498704258537477484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Regardez vos valeurs capteur sur ces \xE9crans__17"
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 11
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f233080e3943c75f0800000000000000
+      internalID: -757672827573750993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Regardez vos valeurs capteur sur ces \xE9crans__18"
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 12
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b069ddd265d0963c0800000000000000
+      internalID: -4365943699971140085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Regardez vos valeurs capteur sur ces \xE9crans__19"
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 11
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf0afaa56473624c0800000000000000
+      internalID: -4312698817851973381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Regardez vos valeurs capteur sur ces \xE9crans__20"
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30bc11481a0c65010800000000000000
+      internalID: 1177340152541989635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Regardez vos valeurs capteur sur ces \xE9crans__21"
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 11
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a7e4c99efdfb8ca0800000000000000
+      internalID: -6013433607479826524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Regardez vos valeurs capteur sur ces \xE9crans__22"
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 0
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4653ffd7214d6cdc0800000000000000
+      internalID: -3618972074657237660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Regardez vos valeurs capteur sur ces \xE9crans__23"
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86846f88b3a61bfe0800000000000000
+      internalID: -1175041223833532312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Regardez vos valeurs capteur sur ces \xE9crans__24"
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 11
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fccec7991772d790800000000000000
+      internalID: -7506806677068395276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Regardez vos valeurs capteur sur ces \xE9crans__25"
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 12
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 910ab52ea1789c190800000000000000
+      internalID: -7941667918354604007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Regardez vos valeurs capteur sur ces \xE9crans__26"
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 11
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b638e88f8e822330800000000000000
+      internalID: 3684664192270874296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Regardez vos valeurs capteur sur ces \xE9crans__27"
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 11
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65f895afc274bc630800000000000000
+      internalID: 3948327756824678230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Regardez vos valeurs capteur sur ces \xE9crans__28"
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 12
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d5060a6d10688b00800000000000000
+      internalID: 831019810698954199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Regardez vos valeurs capteur sur ces \xE9crans__29"
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d7821136d4b58cb0800000000000000
+      internalID: -4862281390637283375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Regardez vos valeurs capteur sur ces \xE9crans__30"
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f031ceb67af80520800000000000000
+      internalID: 2668658167130435833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Regardez vos valeurs capteur sur ces \xE9crans__31"
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 11
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f31a896cbd7c4be10800000000000000
+      internalID: 2212613063689412927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Regardez vos valeurs capteur sur ces \xE9crans__32"
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 303734a797ee74d00800000000000000
+      internalID: 956995651349213955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Regardez vos valeurs capteur sur ces \xE9crans__33"
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92495e3b5c29faf90800000000000000
+      internalID: -6940167122930265047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Regardez vos valeurs capteur sur ces \xE9crans__34"
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 12
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47e13c181364a3200800000000000000
+      internalID: 160517915169463924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Regardez vos valeurs capteur sur ces \xE9crans__35"
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 11
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a2cda92b89cf5b40800000000000000
+      internalID: 5431281275168998052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Regardez vos valeurs capteur sur ces \xE9crans__36"
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 12
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fb1d09f28acb5ec0800000000000000
+      internalID: -3577042815142781964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Regardez vos valeurs capteur sur ces \xE9crans__37"
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 11
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f72dfc221118a3590800000000000000
+      internalID: -7693695102810598785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Regardez vos valeurs capteur sur ces \xE9crans__38"
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 11
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 100869b6c8b47dae0800000000000000
+      internalID: -1524666882369093631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Regardez vos valeurs capteur sur ces \xE9crans__0": 4975130681154739950
+      "Regardez vos valeurs capteur sur ces \xE9crans__1": 7148590867633859183
+      "Regardez vos valeurs capteur sur ces \xE9crans__10": -3988257668786387770
+      "Regardez vos valeurs capteur sur ces \xE9crans__11": -405032873037469124
+      "Regardez vos valeurs capteur sur ces \xE9crans__12": 5308141813810050508
+      "Regardez vos valeurs capteur sur ces \xE9crans__13": -1429673103195065199
+      "Regardez vos valeurs capteur sur ces \xE9crans__14": 5637149687510560458
+      "Regardez vos valeurs capteur sur ces \xE9crans__15": -3667989411372943819
+      "Regardez vos valeurs capteur sur ces \xE9crans__16": -2498704258537477484
+      "Regardez vos valeurs capteur sur ces \xE9crans__17": -757672827573750993
+      "Regardez vos valeurs capteur sur ces \xE9crans__18": -4365943699971140085
+      "Regardez vos valeurs capteur sur ces \xE9crans__19": -4312698817851973381
+      "Regardez vos valeurs capteur sur ces \xE9crans__2": 1096375488526756076
+      "Regardez vos valeurs capteur sur ces \xE9crans__20": 1177340152541989635
+      "Regardez vos valeurs capteur sur ces \xE9crans__21": -6013433607479826524
+      "Regardez vos valeurs capteur sur ces \xE9crans__22": -3618972074657237660
+      "Regardez vos valeurs capteur sur ces \xE9crans__23": -1175041223833532312
+      "Regardez vos valeurs capteur sur ces \xE9crans__24": -7506806677068395276
+      "Regardez vos valeurs capteur sur ces \xE9crans__25": -7941667918354604007
+      "Regardez vos valeurs capteur sur ces \xE9crans__26": 3684664192270874296
+      "Regardez vos valeurs capteur sur ces \xE9crans__27": 3948327756824678230
+      "Regardez vos valeurs capteur sur ces \xE9crans__28": 831019810698954199
+      "Regardez vos valeurs capteur sur ces \xE9crans__29": -4862281390637283375
+      "Regardez vos valeurs capteur sur ces \xE9crans__3": -3295906344666456694
+      "Regardez vos valeurs capteur sur ces \xE9crans__30": 2668658167130435833
+      "Regardez vos valeurs capteur sur ces \xE9crans__31": 2212613063689412927
+      "Regardez vos valeurs capteur sur ces \xE9crans__32": 956995651349213955
+      "Regardez vos valeurs capteur sur ces \xE9crans__33": -6940167122930265047
+      "Regardez vos valeurs capteur sur ces \xE9crans__34": 160517915169463924
+      "Regardez vos valeurs capteur sur ces \xE9crans__35": 5431281275168998052
+      "Regardez vos valeurs capteur sur ces \xE9crans__36": -3577042815142781964
+      "Regardez vos valeurs capteur sur ces \xE9crans__37": -7693695102810598785
+      "Regardez vos valeurs capteur sur ces \xE9crans__38": -1524666882369093631
+      "Regardez vos valeurs capteur sur ces \xE9crans__4": 3728028290531475537
+      "Regardez vos valeurs capteur sur ces \xE9crans__5": -7163418524662488127
+      "Regardez vos valeurs capteur sur ces \xE9crans__6": 2208864320018560936
+      "Regardez vos valeurs capteur sur ces \xE9crans__7": -6041934329262196222
+      "Regardez vos valeurs capteur sur ces \xE9crans__8": 6797640552786880429
+      "Regardez vos valeurs capteur sur ces \xE9crans__9": 8919516688055794224
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

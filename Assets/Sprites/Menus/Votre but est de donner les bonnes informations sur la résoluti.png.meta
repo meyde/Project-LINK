@@ -1,0 +1,2847 @@
+fileFormatVersion: 2
+guid: da21ae22bca06a445b486bf163cabe56
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9000055880331685767
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_0"
+  - first:
+      213: 6925693676323089734
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_1"
+  - first:
+      213: 1380254503561404045
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_2"
+  - first:
+      213: 3953085698678977600
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_3"
+  - first:
+      213: -8977595746025537781
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_4"
+  - first:
+      213: -620531153272601739
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_5"
+  - first:
+      213: 7534346024878710946
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_6"
+  - first:
+      213: -582328448944023920
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_7"
+  - first:
+      213: 4142465614855017930
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_8"
+  - first:
+      213: -8191084130606016537
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_9"
+  - first:
+      213: -4840937402644380064
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_10"
+  - first:
+      213: 1979273384093463913
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_11"
+  - first:
+      213: 6586027415817090784
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_12"
+  - first:
+      213: -3003021333367975659
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_13"
+  - first:
+      213: -2130953089608275598
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_14"
+  - first:
+      213: 1861616988764036473
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_15"
+  - first:
+      213: 2393193455664397811
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_16"
+  - first:
+      213: -5332272320485654365
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_17"
+  - first:
+      213: 5054468061291218510
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_18"
+  - first:
+      213: 5511596532394888517
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_19"
+  - first:
+      213: -647938901240593898
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_20"
+  - first:
+      213: -354267747109188563
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_21"
+  - first:
+      213: -3051113872362628907
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_22"
+  - first:
+      213: -1498430473177051566
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_23"
+  - first:
+      213: -2864617912124621273
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_24"
+  - first:
+      213: 7896920212724833492
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_25"
+  - first:
+      213: 2645398514127987204
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_26"
+  - first:
+      213: 5135824188427458685
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_27"
+  - first:
+      213: 6049305970911144989
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_28"
+  - first:
+      213: -681189771381403938
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_29"
+  - first:
+      213: 8824081714945194476
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_30"
+  - first:
+      213: -6079915835289698901
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_31"
+  - first:
+      213: 5548976853242262177
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_32"
+  - first:
+      213: 1554680941610181095
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_33"
+  - first:
+      213: -3403997942763164627
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_34"
+  - first:
+      213: -7060944455616451303
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_35"
+  - first:
+      213: 1871921395243830764
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_36"
+  - first:
+      213: -448385959451904691
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_37"
+  - first:
+      213: 1991418339265843792
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_38"
+  - first:
+      213: 351850639361299412
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_39"
+  - first:
+      213: -2399309070429248544
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_40"
+  - first:
+      213: 3249978582471520802
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_41"
+  - first:
+      213: -467096849725604462
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_42"
+  - first:
+      213: 7852081020273462690
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_43"
+  - first:
+      213: 358652404432113531
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_44"
+  - first:
+      213: 7580774194170121572
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_45"
+  - first:
+      213: 9037568769620187491
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_46"
+  - first:
+      213: -1475873410549682578
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_47"
+  - first:
+      213: 6531047359841645711
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_48"
+  - first:
+      213: -1193708575168356905
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_49"
+  - first:
+      213: -2869289233034765032
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_50"
+  - first:
+      213: -2961467309958648254
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_51"
+  - first:
+      213: 6399601876101625532
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_52"
+  - first:
+      213: -3637665883906507207
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_53"
+  - first:
+      213: -6709001217404719876
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_54"
+  - first:
+      213: 3243349918874730749
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_55"
+  - first:
+      213: -5073393698622599110
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_56"
+  - first:
+      213: 8657567419209353607
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_57"
+  - first:
+      213: -1790307899267713110
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_58"
+  - first:
+      213: 5727124212562912656
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_59"
+  - first:
+      213: -1180951783535874862
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_60"
+  - first:
+      213: 4341322697911879339
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_61"
+  - first:
+      213: 8106924039820081351
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_62"
+  - first:
+      213: -4749343759747524189
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_63"
+  - first:
+      213: -4554249004285271102
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_64"
+  - first:
+      213: -8985694157059879168
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_65"
+  - first:
+      213: 1106126187334796255
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_66"
+  - first:
+      213: -3862709526664694590
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_67"
+  - first:
+      213: -8114116225402218376
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_68"
+  - first:
+      213: 7690751666110833112
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_69"
+  - first:
+      213: 2220532659101317826
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_70"
+  - first:
+      213: 8516600945030235502
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_71"
+  - first:
+      213: -6084119361276904039
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_72"
+  - first:
+      213: 2912946580694139295
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_73"
+  - first:
+      213: 7634253454369578271
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_74"
+  - first:
+      213: -8970750623323641397
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_75"
+  - first:
+      213: 7887076510570896742
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_76"
+  - first:
+      213: 7532701031158863146
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_77"
+  - first:
+      213: -5400418148222052460
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_78"
+  - first:
+      213: -3126689745291595726
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_79"
+  - first:
+      213: -3084821287040296298
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_80"
+  - first:
+      213: -2368716778013167417
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_81"
+  - first:
+      213: -3012321371664296857
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_82"
+  - first:
+      213: -8343302327151833674
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_83"
+  - first:
+      213: -7297927402443802159
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_84"
+  - first:
+      213: -3437553940105043974
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_85"
+  - first:
+      213: -5711102333546001198
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_86"
+  - first:
+      213: 2815656677804924834
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_87"
+  - first:
+      213: -9014114922836812977
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_88"
+  - first:
+      213: -6083309271980327387
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_89"
+  - first:
+      213: -4461164963576210027
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_90"
+  - first:
+      213: 5095812697758435847
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_91"
+  - first:
+      213: -8887944973891633083
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_92"
+  - first:
+      213: 2384569083014880725
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_93"
+  - first:
+      213: -6521600374567382048
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_94"
+  - first:
+      213: -2295647267953754572
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_95"
+  - first:
+      213: -7407306369169046074
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_96"
+  - first:
+      213: -6671352467875414698
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_97"
+  - first:
+      213: -688481580198882008
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_98"
+  - first:
+      213: -2444330765115589269
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_99"
+  - first:
+      213: 3977335082811915862
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_100"
+  - first:
+      213: -2155906592289778981
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_101"
+  - first:
+      213: 492535215706025438
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_102"
+  - first:
+      213: 5452812234393073654
+    second: "Votre but est de donner les bonnes informations sur la r\xE9soluti_103"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 301
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9701a267cd0691380800000000000000
+      internalID: -9000055880331685767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_1"
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 301
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64d286864b10d1060800000000000000
+      internalID: 6925693676323089734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_2"
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 302
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8e19687826a72310800000000000000
+      internalID: 1380254503561404045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_3"
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 302
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 044ff64af7e2cd630800000000000000
+      internalID: 3953085698678977600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_4"
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 301
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0ff61dfb3c296380800000000000000
+      internalID: -8977595746025537781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_5"
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 301
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5738f1d243e6367f0800000000000000
+      internalID: -620531153272601739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_6"
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 301
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a0a5cb7acf5f8860800000000000000
+      internalID: 7534346024878710946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_7"
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 302
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 096561a6c572be7f0800000000000000
+      internalID: -582328448944023920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_8"
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 301
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac514bb678efc7930800000000000000
+      internalID: 4142465614855017930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_9"
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 301
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e793e5a16c635e80800000000000000
+      internalID: -8191084130606016537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_10"
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 302
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 066ca77a41981dcb0800000000000000
+      internalID: -4840937402644380064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_11"
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 301
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 965b64cf7aac77b10800000000000000
+      internalID: 1979273384093463913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_12"
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 301
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e6f2c85a05466b50800000000000000
+      internalID: 6586027415817090784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_13"
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 302
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5119eab02002356d0800000000000000
+      internalID: -3003021333367975659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_14"
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 302
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 279a0ec84755d62e0800000000000000
+      internalID: -2130953089608275598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_15"
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 301
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97ddc1bb9cac5d910800000000000000
+      internalID: 1861616988764036473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_16"
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 301
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fd7aaba4c4563120800000000000000
+      internalID: 2393193455664397811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_17"
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 301
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a00ecb7396fff5b0800000000000000
+      internalID: -5332272320485654365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_18"
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 301
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4602d90ce3152640800000000000000
+      internalID: 5054468061291218510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_19"
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 302
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54d0ca238df1d7c40800000000000000
+      internalID: 5511596532394888517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_20"
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 230
+        width: 15
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 612c563900f0207f0800000000000000
+      internalID: -647938901240593898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_21"
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 229
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ccd2a6c53651bf0800000000000000
+      internalID: -354267747109188563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_22"
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 264
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d81f8c391448a5d0800000000000000
+      internalID: -3051113872362628907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_23"
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 230
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25e49a57c61843be0800000000000000
+      internalID: -1498430473177051566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_24"
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 230
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72e3792bf25de38d0800000000000000
+      internalID: -2864617912124621273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_25"
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 264
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dcd013081f779d60800000000000000
+      internalID: 7896920212724833492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_26"
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 229
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 402e1f3cee756b420800000000000000
+      internalID: 2645398514127987204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_27"
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 229
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d78d31c73ec164740800000000000000
+      internalID: 5135824188427458685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_28"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 229
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1ceecddab373f350800000000000000
+      internalID: 6049305970911144989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_29"
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 230
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ede8e24138deb86f0800000000000000
+      internalID: -681189771381403938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_30"
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 230
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce9f358519f657a70800000000000000
+      internalID: 8824081714945194476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_31"
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 229
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: badf845b2cccf9ba0800000000000000
+      internalID: -6079915835289698901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_32"
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 229
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a2be5c5c0de10d40800000000000000
+      internalID: 5548976853242262177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_33"
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 230
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e1aebf4416539510800000000000000
+      internalID: 1554680941610181095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_34"
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 230
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ce07df7e192c0d0800000000000000
+      internalID: -3403997942763164627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_35"
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 229
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91da7389d6c720e90800000000000000
+      internalID: -7060944455616451303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_36"
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 230
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced46f257966af910800000000000000
+      internalID: 1871921395243830764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_37"
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 230
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d45b894785307c9f0800000000000000
+      internalID: -448385959451904691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_38"
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 229
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0529327bd60f2ab10800000000000000
+      internalID: 1991418339265843792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_39"
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 230
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d3df15da4602e400800000000000000
+      internalID: 351850639361299412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_40"
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 229
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e321becc11f3bed0800000000000000
+      internalID: -2399309070429248544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_41"
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 230
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 222b7d73d4e3a1d20800000000000000
+      internalID: 3249978582471520802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_42"
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 229
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29db664d3e98489f0800000000000000
+      internalID: -467096849725604462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_43"
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 157
+        width: 15
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ad8cf8f51238fc60800000000000000
+      internalID: 7852081020273462690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_44"
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 191
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7f040c26703af400800000000000000
+      internalID: 358652404432113531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_45"
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 157
+        width: 15
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46d45f507f1543960800000000000000
+      internalID: 7580774194170121572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_46"
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 157
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3691062b9e4eb6d70800000000000000
+      internalID: 9037568769620187491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_47"
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 191
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6eedbed3f4a48be0800000000000000
+      internalID: -1475873410549682578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_48"
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 156
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f843d9688f0f2aa50800000000000000
+      internalID: 6531047359841645711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_49"
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 156
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dd90cb10681f6fe0800000000000000
+      internalID: -1193708575168356905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_50"
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 156
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81d1c1b05ac3e28d0800000000000000
+      internalID: -2869289233034765032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_51"
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 157
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24eabff0c21c6e6d0800000000000000
+      internalID: -2961467309958648254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_52"
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 156
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb6f5f0fff3ffc850800000000000000
+      internalID: 6399601876101625532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_53"
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 157
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93ef13ad62a648dc0800000000000000
+      internalID: -3637665883906507207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_54"
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 156
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfcade640f6d4e2a0800000000000000
+      internalID: -6709001217404719876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_55"
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 156
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df002d43191b20d20800000000000000
+      internalID: 3243349918874730749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_56"
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 156
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3015e3af4fa799b0800000000000000
+      internalID: -5073393698622599110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_57"
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 156
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78908f0b2bbd52870800000000000000
+      internalID: 8657567419209353607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_58"
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 157
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa77299737c8727e0800000000000000
+      internalID: -1790307899267713110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_59"
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 156
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 095e952b025da7f40800000000000000
+      internalID: 5727124212562912656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_60"
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 157
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dcea7d1c9a6c9fe0800000000000000
+      internalID: -1180951783535874862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_61"
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 156
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba6c0601ef97f3c30800000000000000
+      internalID: 4341322697911879339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_62"
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 156
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c8fc8e3674918070800000000000000
+      internalID: 8106924039820081351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_63"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 85
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a9d70c7301f61eb0800000000000000
+      internalID: -4749343759747524189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_64"
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 84
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c366e8f8ae0cc0c0800000000000000
+      internalID: -4554249004285271102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_65"
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 84
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00f842cb5c66c4380800000000000000
+      internalID: -8985694157059879168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_66"
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 84
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd309d828efb95f00800000000000000
+      internalID: 1106126187334796255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_67"
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 85
+        width: 15
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c432a8a626e46ac0800000000000000
+      internalID: -3862709526664694590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_68"
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 84
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 878daae884ed46f80800000000000000
+      internalID: -8114116225402218376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_69"
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 84
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d1a74a94e90bba60800000000000000
+      internalID: 7690751666110833112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_70"
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 72
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ca33e540bae0de10800000000000000
+      internalID: 2220532659101317826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_71"
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 84
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e658846cf6b013670800000000000000
+      internalID: 8516600945030235502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_72"
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 84
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99d730c0dadd09ba0800000000000000
+      internalID: -6084119361276904039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_73"
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 85
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9186ff4b7ddc6820800000000000000
+      internalID: 2912946580694139295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_74"
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 72
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1d5ff8911152f960800000000000000
+      internalID: 7634253454369578271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_75"
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 84
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc92e2056dd718380800000000000000
+      internalID: -8970750623323641397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_76"
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 84
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66dd7e08c46847d60800000000000000
+      internalID: 7887076510570896742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_77"
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 84
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2551798da7898860800000000000000
+      internalID: 7532701031158863146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_78"
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 84
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 497d6ac8e4cdd05b0800000000000000
+      internalID: -5400418148222052460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_79"
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 85
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 230b9091e34cb94d0800000000000000
+      internalID: -3126689745291595726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_80"
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 85
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69a566e22638035d0800000000000000
+      internalID: -3084821287040296298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_81"
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 12
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c07401f3a0a02fd0800000000000000
+      internalID: -2368716778013167417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_82"
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 46
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 764d1a42ca51236d0800000000000000
+      internalID: -3012321371664296857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_83"
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 12
+        width: 15
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bdcc68fcb2a63c80800000000000000
+      internalID: -8343302327151833674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_84"
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 46
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d97fbc81bd88ba90800000000000000
+      internalID: -7297927402443802159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_85"
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 11
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aff5bc787ea5b40d0800000000000000
+      internalID: -3437553940105043974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_86"
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 11
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dc0615bfa61eb0b0800000000000000
+      internalID: -5711102333546001198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_87"
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2afd40a94d8331720800000000000000
+      internalID: 2815656677804924834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_88"
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 0
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4b93cb8c3e67e280800000000000000
+      internalID: -9014114922836812977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_89"
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 11
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52eb5c8a27eb39ba0800000000000000
+      internalID: -6083309271980327387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_90"
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 12
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d1f951a12c612c0800000000000000
+      internalID: -4461164963576210027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_91"
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 11
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70a01db56a6f7b640800000000000000
+      internalID: 5095812697758435847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_92"
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 11
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54088f7f22da7a480800000000000000
+      internalID: -8887944973891633083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_93"
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dd1b7f62f0b71120800000000000000
+      internalID: 2384569083014880725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_94"
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e35bd2230f9e75a0800000000000000
+      internalID: -6521600374567382048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_95"
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 11
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43e350009f83420e0800000000000000
+      internalID: -2295647267953754572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_96"
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 12
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c5c0335a16f33990800000000000000
+      internalID: -7407306369169046074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_97"
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65d3cdcd6489a63a0800000000000000
+      internalID: -6671352467875414698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_98"
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 11
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82598d986a50276f0800000000000000
+      internalID: -688481580198882008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_99"
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 11
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6df9b7ae1ef31ed0800000000000000
+      internalID: -2444330765115589269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_100"
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 11
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65ef3bb5f25523730800000000000000
+      internalID: 3977335082811915862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_101"
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 12
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd215a5706ea412e0800000000000000
+      internalID: -2155906592289778981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_102"
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edd278b4b26d5d600800000000000000
+      internalID: 492535215706025438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre but est de donner les bonnes informations sur la r\xE9soluti_103"
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 11
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f737e146d74cab40800000000000000
+      internalID: 5452812234393073654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_0": -9000055880331685767
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_1": 6925693676323089734
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_10": -4840937402644380064
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_100": 3977335082811915862
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_101": -2155906592289778981
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_102": 492535215706025438
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_103": 5452812234393073654
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_11": 1979273384093463913
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_12": 6586027415817090784
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_13": -3003021333367975659
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_14": -2130953089608275598
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_15": 1861616988764036473
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_16": 2393193455664397811
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_17": -5332272320485654365
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_18": 5054468061291218510
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_19": 5511596532394888517
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_2": 1380254503561404045
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_20": -647938901240593898
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_21": -354267747109188563
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_22": -3051113872362628907
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_23": -1498430473177051566
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_24": -2864617912124621273
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_25": 7896920212724833492
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_26": 2645398514127987204
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_27": 5135824188427458685
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_28": 6049305970911144989
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_29": -681189771381403938
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_3": 3953085698678977600
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_30": 8824081714945194476
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_31": -6079915835289698901
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_32": 5548976853242262177
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_33": 1554680941610181095
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_34": -3403997942763164627
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_35": -7060944455616451303
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_36": 1871921395243830764
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_37": -448385959451904691
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_38": 1991418339265843792
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_39": 351850639361299412
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_4": -8977595746025537781
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_40": -2399309070429248544
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_41": 3249978582471520802
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_42": -467096849725604462
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_43": 7852081020273462690
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_44": 358652404432113531
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_45": 7580774194170121572
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_46": 9037568769620187491
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_47": -1475873410549682578
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_48": 6531047359841645711
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_49": -1193708575168356905
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_5": -620531153272601739
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_50": -2869289233034765032
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_51": -2961467309958648254
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_52": 6399601876101625532
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_53": -3637665883906507207
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_54": -6709001217404719876
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_55": 3243349918874730749
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_56": -5073393698622599110
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_57": 8657567419209353607
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_58": -1790307899267713110
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_59": 5727124212562912656
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_6": 7534346024878710946
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_60": -1180951783535874862
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_61": 4341322697911879339
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_62": 8106924039820081351
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_63": -4749343759747524189
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_64": -4554249004285271102
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_65": -8985694157059879168
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_66": 1106126187334796255
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_67": -3862709526664694590
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_68": -8114116225402218376
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_69": 7690751666110833112
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_7": -582328448944023920
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_70": 2220532659101317826
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_71": 8516600945030235502
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_72": -6084119361276904039
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_73": 2912946580694139295
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_74": 7634253454369578271
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_75": -8970750623323641397
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_76": 7887076510570896742
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_77": 7532701031158863146
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_78": -5400418148222052460
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_79": -3126689745291595726
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_8": 4142465614855017930
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_80": -3084821287040296298
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_81": -2368716778013167417
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_82": -3012321371664296857
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_83": -8343302327151833674
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_84": -7297927402443802159
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_85": -3437553940105043974
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_86": -5711102333546001198
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_87": 2815656677804924834
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_88": -9014114922836812977
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_89": -6083309271980327387
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_9": -8191084130606016537
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_90": -4461164963576210027
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_91": 5095812697758435847
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_92": -8887944973891633083
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_93": 2384569083014880725
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_94": -6521600374567382048
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_95": -2295647267953754572
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_96": -7407306369169046074
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_97": -6671352467875414698
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_98": -688481580198882008
+      "Votre but est de donner les bonnes informations sur la r\xE9soluti_99": -2444330765115589269
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

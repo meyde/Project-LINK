@@ -1,0 +1,1235 @@
+fileFormatVersion: 2
+guid: 9eafa0e736ab2db41ba0c3a235299a9e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8374699763977811405
+    second: Appuyez sur ces capteurs pour afficher leur valeur__0
+  - first:
+      213: -3569143432707632214
+    second: Appuyez sur ces capteurs pour afficher leur valeur__1
+  - first:
+      213: -7906314600963983789
+    second: Appuyez sur ces capteurs pour afficher leur valeur__2
+  - first:
+      213: 6105382190226792520
+    second: Appuyez sur ces capteurs pour afficher leur valeur__3
+  - first:
+      213: -7740119145820174569
+    second: Appuyez sur ces capteurs pour afficher leur valeur__4
+  - first:
+      213: 3524434039918666994
+    second: Appuyez sur ces capteurs pour afficher leur valeur__5
+  - first:
+      213: 9050603670848729309
+    second: Appuyez sur ces capteurs pour afficher leur valeur__6
+  - first:
+      213: -8344468351552054725
+    second: Appuyez sur ces capteurs pour afficher leur valeur__7
+  - first:
+      213: -7178192986851823608
+    second: Appuyez sur ces capteurs pour afficher leur valeur__8
+  - first:
+      213: 1809046547932668532
+    second: Appuyez sur ces capteurs pour afficher leur valeur__9
+  - first:
+      213: 3357382790278540250
+    second: Appuyez sur ces capteurs pour afficher leur valeur__10
+  - first:
+      213: 6821767118268925824
+    second: Appuyez sur ces capteurs pour afficher leur valeur__11
+  - first:
+      213: -25992559694914861
+    second: Appuyez sur ces capteurs pour afficher leur valeur__12
+  - first:
+      213: -3651886982991034338
+    second: Appuyez sur ces capteurs pour afficher leur valeur__13
+  - first:
+      213: -7788094759758004495
+    second: Appuyez sur ces capteurs pour afficher leur valeur__14
+  - first:
+      213: 6297848881152379173
+    second: Appuyez sur ces capteurs pour afficher leur valeur__15
+  - first:
+      213: -5891291156011278121
+    second: Appuyez sur ces capteurs pour afficher leur valeur__16
+  - first:
+      213: 8132844002283818140
+    second: Appuyez sur ces capteurs pour afficher leur valeur__17
+  - first:
+      213: -6990755066634711509
+    second: Appuyez sur ces capteurs pour afficher leur valeur__18
+  - first:
+      213: 6723142405833116836
+    second: Appuyez sur ces capteurs pour afficher leur valeur__19
+  - first:
+      213: -3877118651151165129
+    second: Appuyez sur ces capteurs pour afficher leur valeur__20
+  - first:
+      213: 4365436449308292712
+    second: Appuyez sur ces capteurs pour afficher leur valeur__21
+  - first:
+      213: 5837482761372429498
+    second: Appuyez sur ces capteurs pour afficher leur valeur__22
+  - first:
+      213: -2609537625395762381
+    second: Appuyez sur ces capteurs pour afficher leur valeur__23
+  - first:
+      213: 3713177689084768435
+    second: Appuyez sur ces capteurs pour afficher leur valeur__24
+  - first:
+      213: 495847666743394090
+    second: Appuyez sur ces capteurs pour afficher leur valeur__25
+  - first:
+      213: 2096297999789677833
+    second: Appuyez sur ces capteurs pour afficher leur valeur__26
+  - first:
+      213: -4196446721323381775
+    second: Appuyez sur ces capteurs pour afficher leur valeur__27
+  - first:
+      213: 977279900363091417
+    second: Appuyez sur ces capteurs pour afficher leur valeur__28
+  - first:
+      213: -4854268800661451332
+    second: Appuyez sur ces capteurs pour afficher leur valeur__29
+  - first:
+      213: 4417096528576281586
+    second: Appuyez sur ces capteurs pour afficher leur valeur__30
+  - first:
+      213: -2388346978757050145
+    second: Appuyez sur ces capteurs pour afficher leur valeur__31
+  - first:
+      213: 5779381052082470791
+    second: Appuyez sur ces capteurs pour afficher leur valeur__32
+  - first:
+      213: -132311691028016666
+    second: Appuyez sur ces capteurs pour afficher leur valeur__33
+  - first:
+      213: 2974660834180357162
+    second: Appuyez sur ces capteurs pour afficher leur valeur__34
+  - first:
+      213: -2999807297791885235
+    second: Appuyez sur ces capteurs pour afficher leur valeur__35
+  - first:
+      213: -1266910784128852266
+    second: Appuyez sur ces capteurs pour afficher leur valeur__36
+  - first:
+      213: 5284781194502691179
+    second: Appuyez sur ces capteurs pour afficher leur valeur__37
+  - first:
+      213: 1692652210092477667
+    second: Appuyez sur ces capteurs pour afficher leur valeur__38
+  - first:
+      213: -1674113381946186654
+    second: Appuyez sur ces capteurs pour afficher leur valeur__39
+  - first:
+      213: 5271653014106852890
+    second: Appuyez sur ces capteurs pour afficher leur valeur__40
+  - first:
+      213: -3938332332129403921
+    second: Appuyez sur ces capteurs pour afficher leur valeur__41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Appuyez sur ces capteurs pour afficher leur valeur__0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc5f1747019e83470800000000000000
+      internalID: 8374699763977811405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Appuyez sur ces capteurs pour afficher leur valeur__1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 0
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa31b0545fad77ec0800000000000000
+      internalID: -3569143432707632214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Appuyez sur ces capteurs pour afficher leur valeur__2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 0
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 356be0782c0274290800000000000000
+      internalID: -7906314600963983789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Appuyez sur ces capteurs pour afficher leur valeur__3
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 11
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 840e67a11ccaab450800000000000000
+      internalID: 6105382190226792520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Appuyez sur ces capteurs pour afficher leur valeur__4
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 0
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 717403255a2959490800000000000000
+      internalID: -7740119145820174569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Appuyez sur ces capteurs pour afficher leur valeur__5
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f4a5a7061e49e030800000000000000
+      internalID: 3524434039918666994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Appuyez sur ces capteurs pour afficher leur valeur__6
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 12
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd0f8c326143a9d70800000000000000
+      internalID: 9050603670848729309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Appuyez sur ces capteurs pour afficher leur valeur__7
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 11
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3a1042ce3e723c80800000000000000
+      internalID: -8344468351552054725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Appuyez sur ces capteurs pour afficher leur valeur__8
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 11
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8003f79928fe16c90800000000000000
+      internalID: -7178192986851823608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Appuyez sur ces capteurs pour afficher leur valeur__9
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 12
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4726ca720460b1910800000000000000
+      internalID: 1809046547932668532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Appuyez sur ces capteurs pour afficher leur valeur__10
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adbef8d0cd1d79e20800000000000000
+      internalID: 3357382790278540250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Appuyez sur ces capteurs pour afficher leur valeur__11
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0870cd00d09cbae50800000000000000
+      internalID: 6821767118268925824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Appuyez sur ces capteurs pour afficher leur valeur__12
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 11
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dad49897e7a3aff0800000000000000
+      internalID: -25992559694914861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Appuyez sur ces capteurs pour afficher leur valeur__13
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1842f23324e15dc0800000000000000
+      internalID: -3651886982991034338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Appuyez sur ces capteurs pour afficher leur valeur__14
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 11
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fefa8f34112be390800000000000000
+      internalID: -7788094759758004495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Appuyez sur ces capteurs pour afficher leur valeur__15
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 0
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 529cd22a034766750800000000000000
+      internalID: 6297848881152379173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Appuyez sur ces capteurs pour afficher leur valeur__16
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 12
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d02c8138eded3ea0800000000000000
+      internalID: -5891291156011278121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Appuyez sur ces capteurs pour afficher leur valeur__17
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9c0bc9c78aadd070800000000000000
+      internalID: 8132844002283818140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Appuyez sur ces capteurs pour afficher leur valeur__18
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 11
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2ec9753e49dbfe90800000000000000
+      internalID: -6990755066634711509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Appuyez sur ces capteurs pour afficher leur valeur__19
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 12
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ac4c0ab5666d4d50800000000000000
+      internalID: 6723142405833116836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Appuyez sur ces capteurs pour afficher leur valeur__20
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 11
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 739d71ee025b13ac0800000000000000
+      internalID: -3877118651151165129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Appuyez sur ces capteurs pour afficher leur valeur__21
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 0
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86630925255259c30800000000000000
+      internalID: 4365436449308292712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Appuyez sur ces capteurs pour afficher leur valeur__22
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 11
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abce116a4a7e20150800000000000000
+      internalID: 5837482761372429498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Appuyez sur ces capteurs pour afficher leur valeur__23
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 11
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33be44a0b5f09cbd0800000000000000
+      internalID: -2609537625395762381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Appuyez sur ces capteurs pour afficher leur valeur__24
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 12
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b0bdc95f6bd78330800000000000000
+      internalID: 3713177689084768435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Appuyez sur ces capteurs pour afficher leur valeur__25
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 11
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2f32f663da91e600800000000000000
+      internalID: 495847666743394090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Appuyez sur ces capteurs pour afficher leur valeur__26
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 12
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90d53d49ceb871d10800000000000000
+      internalID: 2096297999789677833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Appuyez sur ces capteurs pour afficher leur valeur__27
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fbcaa0d0f933c5c0800000000000000
+      internalID: -4196446721323381775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Appuyez sur ces capteurs pour afficher leur valeur__28
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 12
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dd654b34eeff8d00800000000000000
+      internalID: 977279900363091417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Appuyez sur ces capteurs pour afficher leur valeur__29
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbd005cae3c22acb0800000000000000
+      internalID: -4854268800661451332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Appuyez sur ces capteurs pour afficher leur valeur__30
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 12
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fb7664d3edac4d30800000000000000
+      internalID: 4417096528576281586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Appuyez sur ces capteurs pour afficher leur valeur__31
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 12
+        width: 15
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd00fcaa313eaded0800000000000000
+      internalID: -2388346978757050145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Appuyez sur ces capteurs pour afficher leur valeur__32
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78fbff6427c743050800000000000000
+      internalID: 5779381052082470791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Appuyez sur ces capteurs pour afficher leur valeur__33
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 11
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e1d4a0d73fe92ef0800000000000000
+      internalID: -132311691028016666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Appuyez sur ces capteurs pour afficher leur valeur__34
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 12
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2c569ca44e184920800000000000000
+      internalID: 2974660834180357162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Appuyez sur ces capteurs pour afficher leur valeur__35
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 11
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d408d74082b8e56d0800000000000000
+      internalID: -2999807297791885235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Appuyez sur ces capteurs pour afficher leur valeur__36
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 11
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de53edaa570b6ee0800000000000000
+      internalID: -1266910784128852266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Appuyez sur ces capteurs pour afficher leur valeur__37
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 12
+        width: 15
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b695ff51f70575940800000000000000
+      internalID: 5284781194502691179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Appuyez sur ces capteurs pour afficher leur valeur__38
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ec87de87328d7710800000000000000
+      internalID: 1692652210092477667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Appuyez sur ces capteurs pour afficher leur valeur__39
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 11
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 264ae5bbfba54c8e0800000000000000
+      internalID: -1674113381946186654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Appuyez sur ces capteurs pour afficher leur valeur__40
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 12
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ec4f46c7ca82940800000000000000
+      internalID: 5271653014106852890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Appuyez sur ces capteurs pour afficher leur valeur__41
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 11
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: febbdff2c9b3859c0800000000000000
+      internalID: -3938332332129403921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Appuyez sur ces capteurs pour afficher leur valeur__0: 8374699763977811405
+      Appuyez sur ces capteurs pour afficher leur valeur__1: -3569143432707632214
+      Appuyez sur ces capteurs pour afficher leur valeur__10: 3357382790278540250
+      Appuyez sur ces capteurs pour afficher leur valeur__11: 6821767118268925824
+      Appuyez sur ces capteurs pour afficher leur valeur__12: -25992559694914861
+      Appuyez sur ces capteurs pour afficher leur valeur__13: -3651886982991034338
+      Appuyez sur ces capteurs pour afficher leur valeur__14: -7788094759758004495
+      Appuyez sur ces capteurs pour afficher leur valeur__15: 6297848881152379173
+      Appuyez sur ces capteurs pour afficher leur valeur__16: -5891291156011278121
+      Appuyez sur ces capteurs pour afficher leur valeur__17: 8132844002283818140
+      Appuyez sur ces capteurs pour afficher leur valeur__18: -6990755066634711509
+      Appuyez sur ces capteurs pour afficher leur valeur__19: 6723142405833116836
+      Appuyez sur ces capteurs pour afficher leur valeur__2: -7906314600963983789
+      Appuyez sur ces capteurs pour afficher leur valeur__20: -3877118651151165129
+      Appuyez sur ces capteurs pour afficher leur valeur__21: 4365436449308292712
+      Appuyez sur ces capteurs pour afficher leur valeur__22: 5837482761372429498
+      Appuyez sur ces capteurs pour afficher leur valeur__23: -2609537625395762381
+      Appuyez sur ces capteurs pour afficher leur valeur__24: 3713177689084768435
+      Appuyez sur ces capteurs pour afficher leur valeur__25: 495847666743394090
+      Appuyez sur ces capteurs pour afficher leur valeur__26: 2096297999789677833
+      Appuyez sur ces capteurs pour afficher leur valeur__27: -4196446721323381775
+      Appuyez sur ces capteurs pour afficher leur valeur__28: 977279900363091417
+      Appuyez sur ces capteurs pour afficher leur valeur__29: -4854268800661451332
+      Appuyez sur ces capteurs pour afficher leur valeur__3: 6105382190226792520
+      Appuyez sur ces capteurs pour afficher leur valeur__30: 4417096528576281586
+      Appuyez sur ces capteurs pour afficher leur valeur__31: -2388346978757050145
+      Appuyez sur ces capteurs pour afficher leur valeur__32: 5779381052082470791
+      Appuyez sur ces capteurs pour afficher leur valeur__33: -132311691028016666
+      Appuyez sur ces capteurs pour afficher leur valeur__34: 2974660834180357162
+      Appuyez sur ces capteurs pour afficher leur valeur__35: -2999807297791885235
+      Appuyez sur ces capteurs pour afficher leur valeur__36: -1266910784128852266
+      Appuyez sur ces capteurs pour afficher leur valeur__37: 5284781194502691179
+      Appuyez sur ces capteurs pour afficher leur valeur__38: 1692652210092477667
+      Appuyez sur ces capteurs pour afficher leur valeur__39: -1674113381946186654
+      Appuyez sur ces capteurs pour afficher leur valeur__4: -7740119145820174569
+      Appuyez sur ces capteurs pour afficher leur valeur__40: 5271653014106852890
+      Appuyez sur ces capteurs pour afficher leur valeur__41: -3938332332129403921
+      Appuyez sur ces capteurs pour afficher leur valeur__5: 3524434039918666994
+      Appuyez sur ces capteurs pour afficher leur valeur__6: 9050603670848729309
+      Appuyez sur ces capteurs pour afficher leur valeur__7: -8344468351552054725
+      Appuyez sur ces capteurs pour afficher leur valeur__8: -7178192986851823608
+      Appuyez sur ces capteurs pour afficher leur valeur__9: 1809046547932668532
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

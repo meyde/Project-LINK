@@ -25,6 +25,20 @@ public class GameManagerLocal : MonoBehaviour
     [SerializeField][Range(0f, 1f)] private float successVolume = 1f;
     [SerializeField][Range(0f, 1f)] private float failVolume = 1f;
 
+    [Header("Event FX Audio")]
+    [SerializeField] private AudioSource fxAudioSource;
+    private int currentLoopingFxType = -1;
+    private int currentLoopingEventId = -1;
+
+    [System.Serializable]
+    public struct FxSound
+    {
+        public int fxType;
+        public AudioClip clip;
+    }
+
+    [SerializeField] private FxSound[] fxSounds;
+
     private void Awake()
     {
         gmn = FindFirstObjectByType<GameManagerNetwork>();
@@ -61,7 +75,7 @@ public class GameManagerLocal : MonoBehaviour
 
     private void OnEventsChanged(NetworkListEvent<CEventRuntimeData> change)
     {
-        Debug.Log("New event Detected");
+        Debug.Log("Event list changed");
 
         if (change.Type == NetworkListEvent<CEventRuntimeData>.EventType.Add)
         {
@@ -70,33 +84,63 @@ public class GameManagerLocal : MonoBehaviour
             OnNewEvent(evnt);
         }
 
+        RefreshCurrentRegionVisualAndAudio();
         RefreshMapRegions();
     }
 
     public void ChangeRegion(int regionSelected)
     {
         currentRegion = regionSelected;
-        int eventFx = -1;
 
         if (regionBiomeDatabase != null)
-        {
             currentBiome = regionBiomeDatabase.GetBiome(currentRegion);
 
-            foreach (CEventRuntimeData cEventData in gmn.events)
-            {
-                if (cEventData.state != 1) { continue; }
-                CatastrophicEvent cEvent = allEvents[cEventData.eventId];
-                if (cEvent.region == currentRegion)
-                {
-                    eventFx = cEvent.fxType;
-                }
-            }
-
-            if (bsc != null)
-                bsc.SetBiome(currentBiome, eventFx);
-        }
+        RefreshCurrentRegionVisualAndAudio();
 
         Debug.Log($"Région: {currentRegion} | Biome: {currentBiome}");
+    }
+
+    private AudioClip GetFxClip(int fxType)
+    {
+        foreach (var fx in fxSounds)
+        {
+            if (fx.fxType == fxType)
+                return fx.clip;
+        }
+        return null;
+    }
+    private void RefreshCurrentRegionVisualAndAudio()
+    {
+        int eventFx = -1;
+        CEventRuntimeData? activeEventData = null;
+
+        foreach (CEventRuntimeData cEventData in gmn.events)
+        {
+            if (cEventData.state != 1)
+                continue;
+
+            CatastrophicEvent cEvent = allEvents[cEventData.eventId];
+
+            if (cEvent.region == currentRegion)
+            {
+                eventFx = cEvent.fxType;
+                activeEventData = cEventData;
+                break;
+            }
+        }
+
+        if (bsc != null)
+            bsc.SetBiome(currentBiome, eventFx);
+
+        if (activeEventData.HasValue)
+        {
+            CatastrophicEvent activeEvent = allEvents[activeEventData.Value.eventId];
+            PlayOrUpdateLoopingEventFx(activeEvent.eventId, activeEvent.fxType);
+        }
+        else
+        {
+            StopEventFxSound();
+        }
     }
 
     private void RefreshMapRegions()
@@ -138,6 +182,50 @@ public class GameManagerLocal : MonoBehaviour
     public void OnNewEvent(CatastrophicEvent cEvent)
     {
         StartCoroutine(CountDown(cEvent));
+        RefreshCurrentRegionVisualAndAudio();
+    }
+
+    private void PlayOrUpdateLoopingEventFx(int eventId, int fxType)
+    {
+        if (fxAudioSource == null)
+            return;
+
+        AudioClip clip = GetFxClip(fxType);
+
+        if (clip == null)
+        {
+            Debug.LogWarning($"Aucun son trouvé pour fxType {fxType}");
+            StopEventFxSound();
+            return;
+        }
+
+        bool sameEvent = currentLoopingEventId == eventId;
+        bool sameFx = currentLoopingFxType == fxType;
+        bool sameClip = fxAudioSource.clip == clip;
+
+        if (fxAudioSource.isPlaying && sameEvent && sameFx && sameClip)
+            return;
+
+        fxAudioSource.Stop();
+        fxAudioSource.clip = clip;
+        fxAudioSource.loop = true;
+        fxAudioSource.Play();
+
+        currentLoopingEventId = eventId;
+        currentLoopingFxType = fxType;
+    }
+    private void StopEventFxSound()
+    {
+        if (fxAudioSource == null)
+            return;
+
+        if (fxAudioSource.isPlaying)
+            fxAudioSource.Stop();
+
+        fxAudioSource.clip = null;
+        fxAudioSource.loop = false;
+        currentLoopingFxType = -1;
+        currentLoopingEventId = -1;
     }
 
     public IEnumerator CountDown(CatastrophicEvent cEvent)

@@ -1,0 +1,1027 @@
+fileFormatVersion: 2
+guid: a0e4b62565e30db44aff61b17c46b4f1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4770386580239341957
+    second: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_0"
+  - first:
+      213: 816435453270365291
+    second: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_1"
+  - first:
+      213: -1674158538936193259
+    second: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_2"
+  - first:
+      213: 5239468942131192438
+    second: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_3"
+  - first:
+      213: -6459625570736849309
+    second: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_4"
+  - first:
+      213: -8774936252467302197
+    second: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_5"
+  - first:
+      213: 6379250315329514103
+    second: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_6"
+  - first:
+      213: -2612009286350996734
+    second: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_7"
+  - first:
+      213: -5540109449380561196
+    second: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_8"
+  - first:
+      213: -2071947760171422353
+    second: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_9"
+  - first:
+      213: -442943480174049408
+    second: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_10"
+  - first:
+      213: 4961728120331796770
+    second: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_11"
+  - first:
+      213: 4059426659970731470
+    second: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_12"
+  - first:
+      213: 1217521227790594442
+    second: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_13"
+  - first:
+      213: 4718412985683624848
+    second: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_14"
+  - first:
+      213: 7584821355480846555
+    second: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_15"
+  - first:
+      213: -1949908460482895926
+    second: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_16"
+  - first:
+      213: 7681877009364903605
+    second: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_17"
+  - first:
+      213: 7858439146059524183
+    second: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_18"
+  - first:
+      213: 7879245883663205481
+    second: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_19"
+  - first:
+      213: 154619735053897987
+    second: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_20"
+  - first:
+      213: 4329376372313400663
+    second: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_21"
+  - first:
+      213: 8617593503222829033
+    second: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_22"
+  - first:
+      213: -3713094571393765125
+    second: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_23"
+  - first:
+      213: 1528226911907446632
+    second: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_24"
+  - first:
+      213: 5907875643003592927
+    second: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_25"
+  - first:
+      213: 3500792531338650226
+    second: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_26"
+  - first:
+      213: 5627065947238852522
+    second: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_27"
+  - first:
+      213: 4878649067592083089
+    second: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_28"
+  - first:
+      213: 8578920397381135704
+    second: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_29"
+  - first:
+      213: -4687901588856761512
+    second: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_30"
+  - first:
+      213: 7353569834341378516
+    second: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_31"
+  - first:
+      213: 5759403581628326161
+    second: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_32"
+  - first:
+      213: -6828887128643829064
+    second: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_33"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 83
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b762b8b0eae2ccdb0800000000000000
+      internalID: -4770386580239341957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_1"
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 84
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b64173618bf845b00800000000000000
+      internalID: 816435453270365291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_2"
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 83
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51f650dcda134c8e0800000000000000
+      internalID: -1674158538936193259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_3"
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 84
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 672eb633e3556b840800000000000000
+      internalID: 5239468942131192438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_4"
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 118
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36e333a94ccca56a0800000000000000
+      internalID: -6459625570736849309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_5"
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 83
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc03df058f9293680800000000000000
+      internalID: -8774936252467302197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_6"
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 84
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77aa382fc56a78850800000000000000
+      internalID: 6379250315329514103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_7"
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 118
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20bf601a46740cbd0800000000000000
+      internalID: -2612009286350996734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_8"
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 84
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4def2ecfec39d13b0800000000000000
+      internalID: -5540109449380561196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_9"
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 84
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6de0d16d76fe33e0800000000000000
+      internalID: -2071947760171422353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_10"
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 83
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08786a860495ad9f0800000000000000
+      internalID: -442943480174049408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_11"
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 71
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2218174ef699bd440800000000000000
+      internalID: 4961728120331796770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_12"
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 83
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd4e4b1a0bf55830800000000000000
+      internalID: 4059426659970731470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_13"
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 83
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a81b4f02b1185e010800000000000000
+      internalID: 1217521227790594442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_14"
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 83
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 093434b7c9b2b7140800000000000000
+      internalID: 4718412985683624848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_15"
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 83
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd09b3236d2b24960800000000000000
+      internalID: 7584821355480846555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_16"
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 83
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acf5364169880f4e0800000000000000
+      internalID: -1949908460482895926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_17"
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 84
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b66f6f80728b9a60800000000000000
+      internalID: 7681877009364903605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_18"
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 71
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 758e6ed74c8ce0d60800000000000000
+      internalID: 7858439146059524183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_19"
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 83
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96444b99264b85d60800000000000000
+      internalID: 7879245883663205481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_20"
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 83
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 301172f64d1552200800000000000000
+      internalID: 154619735053897987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_21"
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 83
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 755a5b26fd8051c30800000000000000
+      internalID: 4329376372313400663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_22"
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 83
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ef8f4a12a7d79770800000000000000
+      internalID: 8617593503222829033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_23"
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 83
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf0b4aef820787cc0800000000000000
+      internalID: -3713094571393765125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_24"
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 83
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86f7f6c874a553510800000000000000
+      internalID: 1528226911907446632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_25"
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 83
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd06966989dfcf150800000000000000
+      internalID: 5907875643003592927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_26"
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 83
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 272e7ce5240559030800000000000000
+      internalID: 3500792531338650226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_27"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 21
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa76ed06aaa571e40800000000000000
+      internalID: 5627065947238852522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_28"
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 11
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 196ed919a7174b340800000000000000
+      internalID: 4878649067592083089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_29"
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 12
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85d614af5a27e0770800000000000000
+      internalID: 8578920397381135704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_30"
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 11
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 853143ea75a31feb0800000000000000
+      internalID: -4687901588856761512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_31"
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 11
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d922feadc02d0660800000000000000
+      internalID: 7353569834341378516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_32"
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 12
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 111a119fa038def40800000000000000
+      internalID: 5759403581628326161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_33"
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 0
+        width: 22
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b282f5665bea31a0800000000000000
+      internalID: -6828887128643829064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_0": -4770386580239341957
+      "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_1": 816435453270365291
+      "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_10": -442943480174049408
+      "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_11": 4961728120331796770
+      "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_12": 4059426659970731470
+      "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_13": 1217521227790594442
+      "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_14": 4718412985683624848
+      "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_15": 7584821355480846555
+      "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_16": -1949908460482895926
+      "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_17": 7681877009364903605
+      "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_18": 7858439146059524183
+      "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_19": 7879245883663205481
+      "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_2": -1674158538936193259
+      "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_20": 154619735053897987
+      "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_21": 4329376372313400663
+      "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_22": 8617593503222829033
+      "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_23": -3713094571393765125
+      "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_24": 1528226911907446632
+      "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_25": 5907875643003592927
+      "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_26": 3500792531338650226
+      "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_27": 5627065947238852522
+      "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_28": 4878649067592083089
+      "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_29": 8578920397381135704
+      "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_3": 5239468942131192438
+      "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_30": -4687901588856761512
+      "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_31": 7353569834341378516
+      "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_32": 5759403581628326161
+      "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_33": -6828887128643829064
+      "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_4": -6459625570736849309
+      "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_5": -8774936252467302197
+      "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_6": 6379250315329514103
+      "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_7": -2612009286350996734
+      "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_8": -5540109449380561196
+      "Chaque bouton poss\xE8de 2 \xE9tats (On _ Off)_9": -2071947760171422353
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

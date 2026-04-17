@@ -1,0 +1,2119 @@
+fileFormatVersion: 2
+guid: bf3354d476882da4296bcd5da8856a5f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2175709284926651775
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_0"
+  - first:
+      213: -3741228743722387743
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_1"
+  - first:
+      213: 573522934659670538
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_2"
+  - first:
+      213: -7008631412675130494
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_3"
+  - first:
+      213: 7652892248715926082
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_4"
+  - first:
+      213: 7527471697118744279
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_5"
+  - first:
+      213: 4481803461026134565
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_6"
+  - first:
+      213: 1415771128882425627
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_7"
+  - first:
+      213: -6292132349550168711
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_8"
+  - first:
+      213: -4515792593012813661
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_9"
+  - first:
+      213: 7773665763094006629
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_10"
+  - first:
+      213: -372155143083310336
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_11"
+  - first:
+      213: 8055497267387458724
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_12"
+  - first:
+      213: 5374330703002249830
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_13"
+  - first:
+      213: -8459805712277992770
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_14"
+  - first:
+      213: 8998856321691177700
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_15"
+  - first:
+      213: -193041781244227052
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_16"
+  - first:
+      213: 675716548187094620
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_17"
+  - first:
+      213: 2024656790442459422
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_18"
+  - first:
+      213: 7630676029317995860
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_19"
+  - first:
+      213: 4426830585730994909
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_20"
+  - first:
+      213: 5756625721208441473
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_21"
+  - first:
+      213: 2000006754307504493
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_22"
+  - first:
+      213: 2880470538566682885
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_23"
+  - first:
+      213: -6874952160530252169
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_24"
+  - first:
+      213: 1126046386759851943
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_25"
+  - first:
+      213: -831708232912188699
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_26"
+  - first:
+      213: 5506933099084375272
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_27"
+  - first:
+      213: 7652431531482765714
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_28"
+  - first:
+      213: 3576683801462630708
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_29"
+  - first:
+      213: 3634019877730797086
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_30"
+  - first:
+      213: 3187032912123264643
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_31"
+  - first:
+      213: 2525991467131858912
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_32"
+  - first:
+      213: -684094269642357245
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_33"
+  - first:
+      213: 1084401635123292550
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_34"
+  - first:
+      213: -1210613821470960432
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_35"
+  - first:
+      213: 4893149328750596526
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_36"
+  - first:
+      213: 8535857109672063075
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_37"
+  - first:
+      213: -5096298263898246627
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_38"
+  - first:
+      213: 2205639141832075815
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_39"
+  - first:
+      213: -2747789200437972449
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_40"
+  - first:
+      213: -2033797494326807360
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_41"
+  - first:
+      213: 4877528566593978327
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_42"
+  - first:
+      213: 6930262541274258172
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_43"
+  - first:
+      213: 8294685197386612465
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_44"
+  - first:
+      213: 8447081848435975624
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_45"
+  - first:
+      213: -3182322873730478111
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_46"
+  - first:
+      213: 4040619477079111283
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_47"
+  - first:
+      213: -1706571243002924708
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_48"
+  - first:
+      213: 7640933242512463164
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_49"
+  - first:
+      213: 8994852155256705446
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_50"
+  - first:
+      213: 576495918363400419
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_51"
+  - first:
+      213: -4047392685918978007
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_52"
+  - first:
+      213: -4560196043210641814
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_53"
+  - first:
+      213: 307461588908512016
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_54"
+  - first:
+      213: -1998863595818026535
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_55"
+  - first:
+      213: -561774800769341652
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_56"
+  - first:
+      213: -5959104125162736568
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_57"
+  - first:
+      213: -4631559055256602393
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_58"
+  - first:
+      213: -7352245844718092073
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_59"
+  - first:
+      213: 2235127020238091612
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_60"
+  - first:
+      213: 5246997308322361047
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_61"
+  - first:
+      213: 5655418704490114085
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_62"
+  - first:
+      213: -7381326487168833394
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_63"
+  - first:
+      213: -2328092361990036976
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_64"
+  - first:
+      213: 689068259247248156
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_65"
+  - first:
+      213: -2100423681503752339
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_66"
+  - first:
+      213: -6696044889320355206
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_67"
+  - first:
+      213: -7804589887473974414
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_68"
+  - first:
+      213: -2841806716501354779
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_69"
+  - first:
+      213: -5153349878558918640
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_70"
+  - first:
+      213: -1387816214698697364
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_71"
+  - first:
+      213: 8074140053755126457
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_72"
+  - first:
+      213: 1552395827764182875
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_73"
+  - first:
+      213: -78970845151263352
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_74"
+  - first:
+      213: -1263339832324634039
+    second: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_75"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_0"
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 84
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7d7296311ca13e10800000000000000
+      internalID: 2175709284926651775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_1"
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 110
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e632fa874c741cc0800000000000000
+      internalID: -3741228743722387743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_2"
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 84
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a02ede6021095f700800000000000000
+      internalID: 573522934659670538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_3"
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 118
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28bcadd0dd65cbe90800000000000000
+      internalID: -7008631412675130494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_4"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 84
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24a9d0514f8843a60800000000000000
+      internalID: 7652892248715926082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_5"
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 83
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dec19350a3f67860800000000000000
+      internalID: 7527471697118744279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_6"
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 83
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52a349f8080923e30800000000000000
+      internalID: 4481803461026134565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_7"
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 118
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1f6a443754d5a310800000000000000
+      internalID: 1415771128882425627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_8"
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 84
+        width: 40
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 975715917fadda8a0800000000000000
+      internalID: -6292132349550168711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_9"
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 118
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a09126ff8ea451c0800000000000000
+      internalID: -4515792593012813661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_10"
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 84
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56b85db23db91eb60800000000000000
+      internalID: 7773665763094006629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_11"
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 118
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0034f2f7ed6d5daf0800000000000000
+      internalID: -372155143083310336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_12"
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 84
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a462c7b510eacf60800000000000000
+      internalID: 8055497267387458724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_13"
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 84
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66aace9cc45759a40800000000000000
+      internalID: 5374330703002249830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_14"
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 71
+        width: 22
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eba89d2d68bb89a80800000000000000
+      internalID: -8459805712277992770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_15"
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 84
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e25e27852c52ec70800000000000000
+      internalID: 8998856321691177700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_16"
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 84
+        width: 15
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4121122d58d225df0800000000000000
+      internalID: -193041781244227052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_17"
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 83
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5e7b87de90a06900800000000000000
+      internalID: 675716548187094620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_18"
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 83
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e11c762bf96091c10800000000000000
+      internalID: 2024656790442459422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_19"
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 83
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45d569b6b6b95e960800000000000000
+      internalID: 7630676029317995860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_20"
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 71
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd2945f96f24f6d30800000000000000
+      internalID: 4426830585730994909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_21"
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 83
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a8181f794a3ef40800000000000000
+      internalID: 5756625721208441473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_22"
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 83
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6971eaeb8371cb10800000000000000
+      internalID: 2000006754307504493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_23"
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 83
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 509ce3581bc79f720800000000000000
+      internalID: 2880470538566682885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_24"
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 84
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e3acf5f634790a0800000000000000
+      internalID: -6874952160530252169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_25"
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 83
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7afde63093580af00800000000000000
+      internalID: 1126046386759851943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_26"
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 83
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ea408cc4cd2574f0800000000000000
+      internalID: -831708232912188699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_27"
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 84
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e4e3c40a7e8c6c40800000000000000
+      internalID: 5506933099084375272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_28"
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 83
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 299570efee5e23a60800000000000000
+      internalID: 7652431531482765714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_29"
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 84
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 439e214a7fee2a130800000000000000
+      internalID: 3576683801462630708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_30"
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 83
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e164ade23d1ae6230800000000000000
+      internalID: 3634019877730797086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_31"
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 84
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38ef5964c8d9a3c20800000000000000
+      internalID: 3187032912123264643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_32"
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 83
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0efef082bdf1e0320800000000000000
+      internalID: 2525991467131858912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_33"
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 83
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3064611e2eb9186f0800000000000000
+      internalID: -684094269642357245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_34"
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 83
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 689606faa819c0f00800000000000000
+      internalID: 1084401635123292550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_35"
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 83
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d49b0bb429033fe0800000000000000
+      internalID: -1210613821470960432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_36"
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 83
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea1de15b365f7e340800000000000000
+      internalID: 4893149328750596526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_37"
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 83
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 360fe7bf0d4757670800000000000000
+      internalID: 8535857109672063075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_38"
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 83
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d12b7e6fabf4649b0800000000000000
+      internalID: -5096298263898246627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_39"
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 75
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72a299f0d110c9e10800000000000000
+      internalID: 2205639141832075815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_40"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11
+        width: 36
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f127d36d744edd9d0800000000000000
+      internalID: -2747789200437972449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_41"
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 12
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c4329554ff76c3e0800000000000000
+      internalID: -2033797494326807360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_42"
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 12
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df77a9936670b340800000000000000
+      internalID: 4877528566593978327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_43"
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 46
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfa19dc201d3d2060800000000000000
+      internalID: 6930262541274258172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_44"
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 46
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fe7be96d34ac1370800000000000000
+      internalID: 8294685197386612465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_45"
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 0
+        width: 22
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c52da4cf201a3570800000000000000
+      internalID: 8447081848435975624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_46"
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 0
+        width: 22
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1efc1bef43e16d3d0800000000000000
+      internalID: -3182322873730478111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_47"
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 12
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37633db910a231830800000000000000
+      internalID: 4040619477079111283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_48"
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 12
+        width: 15
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c51f9ec0f7a0158e0800000000000000
+      internalID: -1706571243002924708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_49"
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 12
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c35dd68fc4c0a0a60800000000000000
+      internalID: 7640933242512463164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_50"
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 11
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a19b31e06224dc70800000000000000
+      internalID: 8994852155256705446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_51"
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 0
+        width: 22
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e8538cbbff100800800000000000000
+      internalID: 576495918363400419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_52"
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9200941dbc5c4d7c0800000000000000
+      internalID: -4047392685918978007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_53"
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 12
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6ea9421cdde6b0c0800000000000000
+      internalID: -4560196043210641814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_54"
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01318f4afa2544400800000000000000
+      internalID: 307461588908512016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_55"
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 3
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d97ec8662c9244e0800000000000000
+      internalID: -1998863595818026535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_56"
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 12
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c27a06c8bcc2438f0800000000000000
+      internalID: -561774800769341652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_57"
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 0
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8443c10fe520d4da0800000000000000
+      internalID: -5959104125162736568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_58"
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 11
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e8bf2b049569bfb0800000000000000
+      internalID: -4631559055256602393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_59"
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 12
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d08c3cab5397f990800000000000000
+      internalID: -7352245844718092073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_60"
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 11
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c553b25ce24c40f10800000000000000
+      internalID: 2235127020238091612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_61"
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 11
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7de2cfb804411d840800000000000000
+      internalID: 5246997308322361047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_62"
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 12
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52cab3919551c7e40800000000000000
+      internalID: 5655418704490114085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_63"
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e88ae19faa2409990800000000000000
+      internalID: -7381326487168833394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_64"
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 012a84fd454f0bfd0800000000000000
+      internalID: -2328092361990036976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_65"
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 3
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c13dd625eef009900800000000000000
+      internalID: 689068259247248156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_66"
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 11
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6f862a4acbc9d2e0800000000000000
+      internalID: -2100423681503752339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_67"
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7a8dfb76aed213a0800000000000000
+      internalID: -6696044889320355206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_68"
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 3
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 273028b09d680b390800000000000000
+      internalID: -7804589887473974414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_69"
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 11
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e61e9e09dfdf88d0800000000000000
+      internalID: -2841806716501354779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_70"
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 12
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 018713dc69f9b78b0800000000000000
+      internalID: -5153349878558918640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_71"
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d5b55718c7dbce0800000000000000
+      internalID: -1387816214698697364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_72"
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 11
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b2e3daa99b1d0070800000000000000
+      internalID: 8074140053755126457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_73"
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 12
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5fbea8c7c73b8510800000000000000
+      internalID: 1552395827764182875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_74"
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 885852b4f6077eef0800000000000000
+      internalID: -78970845151263352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_75"
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 11
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94a40bfad17b77ee0800000000000000
+      internalID: -1263339832324634039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_0": 2175709284926651775
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_1": -3741228743722387743
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_10": 7773665763094006629
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_11": -372155143083310336
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_12": 8055497267387458724
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_13": 5374330703002249830
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_14": -8459805712277992770
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_15": 8998856321691177700
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_16": -193041781244227052
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_17": 675716548187094620
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_18": 2024656790442459422
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_19": 7630676029317995860
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_2": 573522934659670538
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_20": 4426830585730994909
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_21": 5756625721208441473
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_22": 2000006754307504493
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_23": 2880470538566682885
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_24": -6874952160530252169
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_25": 1126046386759851943
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_26": -831708232912188699
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_27": 5506933099084375272
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_28": 7652431531482765714
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_29": 3576683801462630708
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_3": -7008631412675130494
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_30": 3634019877730797086
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_31": 3187032912123264643
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_32": 2525991467131858912
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_33": -684094269642357245
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_34": 1084401635123292550
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_35": -1210613821470960432
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_36": 4893149328750596526
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_37": 8535857109672063075
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_38": -5096298263898246627
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_39": 2205639141832075815
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_4": 7652892248715926082
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_40": -2747789200437972449
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_41": -2033797494326807360
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_42": 4877528566593978327
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_43": 6930262541274258172
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_44": 8294685197386612465
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_45": 8447081848435975624
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_46": -3182322873730478111
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_47": 4040619477079111283
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_48": -1706571243002924708
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_49": 7640933242512463164
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_5": 7527471697118744279
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_50": 8994852155256705446
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_51": 576495918363400419
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_52": -4047392685918978007
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_53": -4560196043210641814
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_54": 307461588908512016
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_55": -1998863595818026535
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_56": -561774800769341652
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_57": -5959104125162736568
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_58": -4631559055256602393
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_59": -7352245844718092073
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_6": 4481803461026134565
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_60": 2235127020238091612
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_61": 5246997308322361047
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_62": 5655418704490114085
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_63": -7381326487168833394
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_64": -2328092361990036976
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_65": 689068259247248156
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_66": -2100423681503752339
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_67": -6696044889320355206
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_68": -7804589887473974414
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_69": -2841806716501354779
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_7": 1415771128882425627
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_70": -5153349878558918640
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_71": -1387816214698697364
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_72": 8074140053755126457
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_73": 1552395827764182875
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_74": -78970845151263352
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_75": -1263339832324634039
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_8": -6292132349550168711
+      "L\u2019eau peut \xEAtre de diff\xE9rents \xE9tats (Bleue, Verte, Empoison\xE9e),_9": -4515792593012813661
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

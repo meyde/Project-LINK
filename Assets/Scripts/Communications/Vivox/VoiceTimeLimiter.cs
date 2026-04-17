@@ -82,6 +82,7 @@ public class VoiceTimeLimiter : NetworkBehaviour
         isActiveForLocalPlayer = false;
 
         StartCoroutine(WaitForTargetSceneAndInitialize());
+        SetupAudioSource();
     }
 
     public override void OnNetworkDespawn()

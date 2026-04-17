@@ -1,7 +1,8 @@
+using System.Collections;
+using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Unity.Netcode;
-using System.Threading.Tasks;
 
 public class ReturnToLobby : MonoBehaviour
 {
@@ -9,36 +10,64 @@ public class ReturnToLobby : MonoBehaviour
 
     private bool isReturning = false;
 
-    public async void ReturnToMenu()
+    public void ReturnToMenu()
     {
         if (isReturning)
             return;
 
+        StartCoroutine(ReturnToMenuRoutine());
+    }
+
+    private IEnumerator ReturnToMenuRoutine()
+    {
         isReturning = true;
 
         Debug.Log("[Return] Retour au MainMenu");
 
-        // Quitter le vocal si présent
+        // Quitter le vocal proprement
         if (VivoxManager.Instance != null)
         {
-            await VivoxManager.Instance.LeaveVoiceAsync();
+            Task leaveTask = null;
+
+            try
+            {
+                leaveTask = VivoxManager.Instance.LeaveVoiceAsync();
+            }
+            catch (System.Exception e)
+            {
+                Debug.LogWarning($"[Return] Erreur au lancement de LeaveVoiceAsync : {e}");
+            }
+
+            if (leaveTask != null)
+            {
+                while (!leaveTask.IsCompleted)
+                    yield return null;
+
+                if (leaveTask.IsFaulted)
+                    Debug.LogWarning($"[Return] LeaveVoiceAsync a échoué : {leaveTask.Exception}");
+            }
         }
 
-        // Stop Netcode proprement
+        // Stop Netcode
         if (NetworkManager.Singleton != null && NetworkManager.Singleton.IsListening)
         {
+            Debug.Log("[Return] Shutdown réseau...");
             NetworkManager.Singleton.Shutdown();
-            Debug.Log("[Return] Network shutdown");
         }
 
-        await Task.Yield();
+        // Attendre une frame pour laisser le shutdown se faire
+        yield return null;
 
         // Reset global
         Time.timeScale = 1f;
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
 
-        // Charger le MainMenu
+        Debug.Log($"[Return] Chargement de la scène {mainMenuSceneName}");
+
+        // Charger le menu
         SceneManager.LoadScene(mainMenuSceneName, LoadSceneMode.Single);
+
+        isReturning = false;
     }
 }

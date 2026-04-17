@@ -1,0 +1,2197 @@
+fileFormatVersion: 2
+guid: 2b292b7cfe67a8c4ba5d4066e768189a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1356410665004606729
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__0"
+  - first:
+      213: -7823154625531510376
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__1"
+  - first:
+      213: -1609469746521798148
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__2"
+  - first:
+      213: -1545576192586636349
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__3"
+  - first:
+      213: -4250980046500693719
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__4"
+  - first:
+      213: 4340269274518860247
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__5"
+  - first:
+      213: -7191093515438548742
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__6"
+  - first:
+      213: 1714709109316705140
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__7"
+  - first:
+      213: -5959236405229573770
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__8"
+  - first:
+      213: -5720620610681786557
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__9"
+  - first:
+      213: -4891955440726192797
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__10"
+  - first:
+      213: 6142196358033506973
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__11"
+  - first:
+      213: -8976687643135971559
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__12"
+  - first:
+      213: 6968229070352471670
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__13"
+  - first:
+      213: -6249407389738972573
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__14"
+  - first:
+      213: -6815413296362490902
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__15"
+  - first:
+      213: -4951863079553380316
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__16"
+  - first:
+      213: -4319265853305503883
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__17"
+  - first:
+      213: -4569048801654153041
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__18"
+  - first:
+      213: 1246286778558053849
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__19"
+  - first:
+      213: -6401058121981225148
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__20"
+  - first:
+      213: -2798417914501849721
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__21"
+  - first:
+      213: 7259776789168707636
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__22"
+  - first:
+      213: 7560084361411869424
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__23"
+  - first:
+      213: -9038078314760924943
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__24"
+  - first:
+      213: 171268563465538700
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__25"
+  - first:
+      213: -1979640802627241534
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__26"
+  - first:
+      213: -7044933449961892321
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__27"
+  - first:
+      213: 2065590388495553083
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__28"
+  - first:
+      213: -4840419927560544526
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__29"
+  - first:
+      213: 4479162342860116691
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__30"
+  - first:
+      213: -357408852064777079
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__31"
+  - first:
+      213: -422536490188404977
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__32"
+  - first:
+      213: 6637921852155400724
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__33"
+  - first:
+      213: 3522721876753512534
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__34"
+  - first:
+      213: 3648404243848632382
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__35"
+  - first:
+      213: 8955165913564583472
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__36"
+  - first:
+      213: 4656556275455963423
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__37"
+  - first:
+      213: -415516157318342256
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__38"
+  - first:
+      213: -2449643653712504960
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__39"
+  - first:
+      213: 3981462865206245500
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__40"
+  - first:
+      213: -7627802917489817463
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__41"
+  - first:
+      213: -345547146649271591
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__42"
+  - first:
+      213: -1679366791777042077
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__43"
+  - first:
+      213: 1641732227703155305
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__44"
+  - first:
+      213: -4486240364506179370
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__45"
+  - first:
+      213: -7007893546206052142
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__46"
+  - first:
+      213: 7126645227070481280
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__47"
+  - first:
+      213: 2710516002868273320
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__48"
+  - first:
+      213: -3592904373207195244
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__49"
+  - first:
+      213: -1479470449994301884
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__50"
+  - first:
+      213: -1546932966711127277
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__51"
+  - first:
+      213: 3489197551239091089
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__52"
+  - first:
+      213: -8935244438776099096
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__53"
+  - first:
+      213: -6112455390467108053
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__54"
+  - first:
+      213: 4883234684578684613
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__55"
+  - first:
+      213: -8129897947942602146
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__56"
+  - first:
+      213: 5757461562594577320
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__57"
+  - first:
+      213: -5526855632113568303
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__58"
+  - first:
+      213: -7852548513073791787
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__59"
+  - first:
+      213: 4160502132943309211
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__60"
+  - first:
+      213: 3369644352122194373
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__61"
+  - first:
+      213: 8230774834612964539
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__62"
+  - first:
+      213: 4947703325210649892
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__63"
+  - first:
+      213: 8080975678051995995
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__64"
+  - first:
+      213: 5137358801087678718
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__65"
+  - first:
+      213: -3232305697867127617
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__66"
+  - first:
+      213: -3160195547080307717
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__67"
+  - first:
+      213: 4101022925306999824
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__68"
+  - first:
+      213: 498163523374978984
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__69"
+  - first:
+      213: -7838772365369043330
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__70"
+  - first:
+      213: -793147500646625531
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__71"
+  - first:
+      213: -4641663166908962422
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__72"
+  - first:
+      213: -6661665845175899958
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__73"
+  - first:
+      213: -7570498269135464265
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__74"
+  - first:
+      213: -959404893310045510
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__75"
+  - first:
+      213: 3814706607159670575
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__76"
+  - first:
+      213: 8893863167327018760
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__77"
+  - first:
+      213: -6963454713633214837
+    second: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__78"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 71
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fa59decfaf0d2de0800000000000000
+      internalID: -1356410665004606729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__1"
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 72
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8918d3221529e6390800000000000000
+      internalID: -7823154625531510376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__2"
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 106
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf984d9fac30aa9e0800000000000000
+      internalID: -1609469746521798148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__3"
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 106
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c3a29344a20d8ae0800000000000000
+      internalID: -1545576192586636349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__4"
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 71
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9297d0d9b2c7105c0800000000000000
+      internalID: -4250980046500693719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__5"
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 72
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d13d31d8ebbb3c30800000000000000
+      internalID: 4340269274518860247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__6"
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 72
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af89ba93c8a143c90800000000000000
+      internalID: -7191093515438548742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__7"
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 106
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47bd2f999dedbc710800000000000000
+      internalID: 1714709109316705140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__8"
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 106
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67927b5101a8c4da0800000000000000
+      internalID: -5959236405229573770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__9"
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 71
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34fa88d1dd54c90b0800000000000000
+      internalID: -5720620610681786557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__10"
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 71
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36dc97202784c1cb0800000000000000
+      internalID: -4891955440726192797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__11"
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 72
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d92094d7b077d3550800000000000000
+      internalID: 6142196358033506973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__12"
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 71
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91fed3b26266c6380800000000000000
+      internalID: -8976687643135971559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__13"
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 71
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 676d8e39b6f14b060800000000000000
+      internalID: 6968229070352471670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__14"
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 59
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36a48edf615a549a0800000000000000
+      internalID: -6249407389738972573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__15"
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 71
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae3f6d077b9ca61a0800000000000000
+      internalID: -6815413296362490902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__16"
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 71
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42059d6e3c2774bb0800000000000000
+      internalID: -4951863079553380316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__17"
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 71
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57f30434792ee04c0800000000000000
+      internalID: -4319265853305503883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__18"
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 71
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa0eaff925a7790c0800000000000000
+      internalID: -4569048801654153041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__19"
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 72
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ddf734d833bb4110800000000000000
+      internalID: 1246286778558053849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__20"
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 71
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4471ea46d8fda27a0800000000000000
+      internalID: -6401058121981225148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__21"
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 72
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78d1701cbb50a29d0800000000000000
+      internalID: -2798417914501849721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__22"
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 63
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 438d60b9688efb460800000000000000
+      internalID: 7259776789168707636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__23"
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 59
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fab0f1fba0dae860800000000000000
+      internalID: 7560084361411869424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__24"
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 71
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f0938498ab429280800000000000000
+      internalID: -9038078314760924943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__25"
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 72
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8c0e8ed9d7706200800000000000000
+      internalID: 171268563465538700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__26"
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 71
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c9b888bd27e684e0800000000000000
+      internalID: -1979640802627241534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__27"
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 72
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1611c85a5e5b3e90800000000000000
+      internalID: -7044933449961892321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__28"
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 71
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b321dbda3837aac10800000000000000
+      internalID: 2065590388495553083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__29"
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 71
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fe1806b8bf53dcb0800000000000000
+      internalID: -4840419927560544526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__30"
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 71
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d2db715b6e292e30800000000000000
+      internalID: 4479162342860116691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__31"
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 71
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98c491dea8a3a0bf0800000000000000
+      internalID: -357408852064777079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__32"
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 71
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f070ea50d49d22af0800000000000000
+      internalID: -422536490188404977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__33"
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 71
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 412968c51c2ae1c50800000000000000
+      internalID: 6637921852155400724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__34"
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 72
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 658f36af1e833e030800000000000000
+      internalID: 3522721876753512534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__35"
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 71
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3810a7645cb1a230800000000000000
+      internalID: 3648404243848632382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__36"
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 72
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03614bea3f3274c70800000000000000
+      internalID: 8955165913564583472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__37"
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 71
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f113b23d2496f9040800000000000000
+      internalID: 4656556275455963423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__38"
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 72
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 099da94a14acb3af0800000000000000
+      internalID: -415516157318342256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__39"
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 71
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0871d22631e110ed0800000000000000
+      internalID: -2449643653712504960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__40"
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 72
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c78f607916ff04730800000000000000
+      internalID: 3981462865206245500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__41"
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 71
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 988c45e09a9942690800000000000000
+      internalID: -7627802917489817463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__42"
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 59
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d202de63be543bf0800000000000000
+      internalID: -345547146649271591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__43"
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 71
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 361ca80fcc0b1b8e0800000000000000
+      internalID: -1679366791777042077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__44"
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 71
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96aae8843ca98c610800000000000000
+      internalID: 1641732227703155305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__45"
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 72
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d81798582cadb1c0800000000000000
+      internalID: -4486240364506179370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__46"
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 71
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d0c2aaf2f5febe90800000000000000
+      internalID: -7007893546206052142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__47"
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 72
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 083e4cf431ee6e260800000000000000
+      internalID: 7126645227070481280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__48"
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 71
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a0a9f491ffad9520800000000000000
+      internalID: 2710516002868273320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__49"
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 72
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 491a9033280732ec0800000000000000
+      internalID: -3592904373207195244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__50"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44ef66cd67dd77be0800000000000000
+      internalID: -1479470449994301884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__51"
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 0
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31397dba9a0388ae0800000000000000
+      internalID: -1546932966711127277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__52"
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 0
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 193d4c0bfae1c6030800000000000000
+      internalID: 3489197551239091089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__53"
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 34
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ee477d1682aff380800000000000000
+      internalID: -8935244438776099096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__54"
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 34
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2359c125323c2ba0800000000000000
+      internalID: -6112455390467108053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__55"
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 0
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cedd29b21cb4c340800000000000000
+      internalID: 4883234684578684613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__56"
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 0
+        width: 15
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5a34b0f3eccc2f80800000000000000
+      internalID: -8129897947942602146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__57"
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 0
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ab4a6e69cc96ef40800000000000000
+      internalID: 5757461562594577320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__58"
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 0
+        width: 15
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d5f00bc51aac43b0800000000000000
+      internalID: -5526855632113568303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__59"
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 0
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dcf6b06bb4260390800000000000000
+      internalID: -7852548513073791787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__60"
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 0
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b99475985a21db930800000000000000
+      internalID: 4160502132943309211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__61"
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 0
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c905a36fa163ce20800000000000000
+      internalID: 3369644352122194373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__62"
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 0
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbc84538a16993270800000000000000
+      internalID: 8230774834612964539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__63"
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 0
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4252331d5f5c9a440800000000000000
+      internalID: 4947703325210649892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__64"
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 0
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b515cd87094652070800000000000000
+      internalID: 8080975678051995995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__65"
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef8ce865c909b4740800000000000000
+      internalID: 5137358801087678718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__66"
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 0
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb4a821e71b8423d0800000000000000
+      internalID: -3232305697867127617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__67"
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 0
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfbc183b4eab424d0800000000000000
+      internalID: -3160195547080307717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__68"
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 0
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01438a65f92c9e830800000000000000
+      internalID: 4101022925306999824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__69"
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 0
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a792dac515d9e600800000000000000
+      internalID: 498163523374978984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__70"
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 0
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e769707b016173390800000000000000
+      internalID: -7838772365369043330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__71"
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 0
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f0879ec8c2ef4f0800000000000000
+      internalID: -793147500646625531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__72"
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 0
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a89606931ff759fb0800000000000000
+      internalID: -4641663166908962422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__73"
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 0
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac820f575320d83a0800000000000000
+      internalID: -6661665845175899958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__74"
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 0
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b898773fef20f690800000000000000
+      internalID: -7570498269135464265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__75"
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 0
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab2bb7a25528fa2f0800000000000000
+      internalID: -959404893310045510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__76"
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 0
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f277612b27f80f430800000000000000
+      internalID: 3814706607159670575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__77"
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 0
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80f1571dd695d6b70800000000000000
+      internalID: 8893863167327018760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__78"
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8e6f58f4d6dc5f90800000000000000
+      internalID: -6963454713633214837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__0": -1356410665004606729
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__1": -7823154625531510376
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__10": -4891955440726192797
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__11": 6142196358033506973
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__12": -8976687643135971559
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__13": 6968229070352471670
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__14": -6249407389738972573
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__15": -6815413296362490902
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__16": -4951863079553380316
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__17": -4319265853305503883
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__18": -4569048801654153041
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__19": 1246286778558053849
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__2": -1609469746521798148
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__20": -6401058121981225148
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__21": -2798417914501849721
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__22": 7259776789168707636
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__23": 7560084361411869424
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__24": -9038078314760924943
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__25": 171268563465538700
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__26": -1979640802627241534
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__27": -7044933449961892321
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__28": 2065590388495553083
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__29": -4840419927560544526
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__3": -1545576192586636349
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__30": 4479162342860116691
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__31": -357408852064777079
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__32": -422536490188404977
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__33": 6637921852155400724
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__34": 3522721876753512534
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__35": 3648404243848632382
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__36": 8955165913564583472
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__37": 4656556275455963423
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__38": -415516157318342256
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__39": -2449643653712504960
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__4": -4250980046500693719
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__40": 3981462865206245500
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__41": -7627802917489817463
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__42": -345547146649271591
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__43": -1679366791777042077
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__44": 1641732227703155305
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__45": -4486240364506179370
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__46": -7007893546206052142
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__47": 7126645227070481280
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__48": 2710516002868273320
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__49": -3592904373207195244
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__5": 4340269274518860247
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__50": -1479470449994301884
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__51": -1546932966711127277
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__52": 3489197551239091089
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__53": -8935244438776099096
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__54": -6112455390467108053
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__55": 4883234684578684613
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__56": -8129897947942602146
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__57": 5757461562594577320
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__58": -5526855632113568303
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__59": -7852548513073791787
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__6": -7191093515438548742
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__60": 4160502132943309211
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__61": 3369644352122194373
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__62": 8230774834612964539
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__63": 4947703325210649892
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__64": 8080975678051995995
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__65": 5137358801087678718
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__66": -3232305697867127617
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__67": -3160195547080307717
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__68": 4101022925306999824
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__69": 498163523374978984
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__7": 1714709109316705140
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__70": -7838772365369043330
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__71": -793147500646625531
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__72": -4641663166908962422
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__73": -6661665845175899958
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__74": -7570498269135464265
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__75": -959404893310045510
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__76": 3814706607159670575
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__77": 8893863167327018760
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__78": -6963454713633214837
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__8": -5959236405229573770
+      "Sur chaque \xE9cran, g\xE9rez vos documentations pour aider John Doe__9": -5720620610681786557
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
