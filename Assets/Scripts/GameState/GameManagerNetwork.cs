@@ -3,6 +3,7 @@ using System.Linq;
 using Unity.Netcode;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManagerNetwork : NetworkBehaviour
 {
@@ -42,6 +43,10 @@ public class GameManagerNetwork : NetworkBehaviour
     [SerializeField][Range(0f, 1f)] private float eventSuccessVolume = 1f;
     [SerializeField][Range(0f, 1f)] private float eventFailVolume = 1f;
 
+    [Header("End Game Scenes")]
+    [SerializeField] private string winSceneName = "GameWin";
+    [SerializeField] private string loseSceneName = "GameLose";
+
     private Coroutine gameTimerCoroutine;
     private bool gameEnded;
 
@@ -74,6 +79,21 @@ public class GameManagerNetwork : NetworkBehaviour
         eventCoroutine = StartCoroutine(EventGenerationRepeating());
         gameTimerCoroutine = StartCoroutine(GameTimerCoroutine());
     }
+
+    private void LoadEndScene(string sceneName)
+    {
+        if (!IsServer)
+            return;
+
+        if (NetworkManager.Singleton == null || NetworkManager.Singleton.SceneManager == null)
+        {
+            Debug.LogWarning($"Impossible de charger la scène réseau : {sceneName}");
+            return;
+        }
+
+        NetworkManager.Singleton.SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
+    }
+
     public int FindIndexFromId(int eventId)
     {
         Debug.Log($"Trying to access the index of the event {eventId} ");
@@ -136,6 +156,8 @@ public class GameManagerNetwork : NetworkBehaviour
         if (gameTimerCoroutine != null)
             StopCoroutine(gameTimerCoroutine);
         level1Leds.OnListChanged -= LedLighting;
+
+        LoadEndScene(loseSceneName);
     }
     private void OnGameWin()
     {
@@ -150,6 +172,8 @@ public class GameManagerNetwork : NetworkBehaviour
         if (gameTimerCoroutine != null)
             StopCoroutine(gameTimerCoroutine);
         level1Leds.OnListChanged -= LedLighting;
+
+        LoadEndScene(winSceneName);
     }
 
     private void EventGeneration()
@@ -206,18 +230,15 @@ public class GameManagerNetwork : NetworkBehaviour
     {
         Debug.Log($"Module échoué, l'event {eventId} perd une vie");
         int eventInd = FindIndexFromId(eventId);
-        Debug.Log($" found index: {eventInd}");
         if (eventInd < 0) 
         {
             Debug.Log("tried to lose a life on an unactivated event");
             return; 
         }
-        Debug.Log($"before losing: lives: {events[eventInd].eventLives}");
         CEventRuntimeData modifiedEvent = events[eventInd];
         modifiedEvent.eventLives--;
         events[eventInd] = modifiedEvent;
-        Debug.Log($"after losing: lives: {events[eventInd].eventLives}");
-        if (modifiedEvent.eventLives <= 0)
+        if (modifiedEvent.eventLives == 0)
         {
             OnFailureRpc(eventId);
         }

@@ -1,0 +1,2535 @@
+fileFormatVersion: 2
+guid: 11f8b8ee252865f4aaac1a2bf15e5830
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7147210193867132799
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_0"
+  - first:
+      213: -6462328551657372462
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_1"
+  - first:
+      213: 2017216567697995700
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_2"
+  - first:
+      213: -297447134549636579
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_3"
+  - first:
+      213: -633393115113886990
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_4"
+  - first:
+      213: 1256526824020460000
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_5"
+  - first:
+      213: -7416865383029293765
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_6"
+  - first:
+      213: -5289001053542216564
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_7"
+  - first:
+      213: -4785121502246906788
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_8"
+  - first:
+      213: -2808980755456753392
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_9"
+  - first:
+      213: 1986408040803701873
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_10"
+  - first:
+      213: -7916394192088955960
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_11"
+  - first:
+      213: -6621934286558272380
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_12"
+  - first:
+      213: 9177769454291043740
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_13"
+  - first:
+      213: 7311559923735008737
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_14"
+  - first:
+      213: -4481573260361400228
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_15"
+  - first:
+      213: 5459536506534060460
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_16"
+  - first:
+      213: -1541408370267441124
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_17"
+  - first:
+      213: 6666131736867130298
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_18"
+  - first:
+      213: -7626411877782309331
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_19"
+  - first:
+      213: -5723740260660295842
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_20"
+  - first:
+      213: -9215685692790571872
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_21"
+  - first:
+      213: -1160772994488258969
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_22"
+  - first:
+      213: -3249236608679893493
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_23"
+  - first:
+      213: -7008029746926621615
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_24"
+  - first:
+      213: 7528612558530445488
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_25"
+  - first:
+      213: 3492838402667330562
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_26"
+  - first:
+      213: 4741000290304814108
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_27"
+  - first:
+      213: 8253147979448139876
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_28"
+  - first:
+      213: 3263064743719387146
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_29"
+  - first:
+      213: 2231394618106273391
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_30"
+  - first:
+      213: 8022889359190537826
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_31"
+  - first:
+      213: -7937943662115384674
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_32"
+  - first:
+      213: 1523263363030977672
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_33"
+  - first:
+      213: 9173841856864013589
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_34"
+  - first:
+      213: 4509739672904272000
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_35"
+  - first:
+      213: -1823654068914794561
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_36"
+  - first:
+      213: -7333748255756220353
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_37"
+  - first:
+      213: -1930041831946091024
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_38"
+  - first:
+      213: 7596038824284438087
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_39"
+  - first:
+      213: -1944754024615759597
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_40"
+  - first:
+      213: 5072746393733819896
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_41"
+  - first:
+      213: -5494588155731623805
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_42"
+  - first:
+      213: -8767593020136826287
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_43"
+  - first:
+      213: 3660669099101237495
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_44"
+  - first:
+      213: -7058394763124825844
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_45"
+  - first:
+      213: -9203862691544193021
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_46"
+  - first:
+      213: -4970414524022270229
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_47"
+  - first:
+      213: 2896997897475428449
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_48"
+  - first:
+      213: -946000108522851378
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_49"
+  - first:
+      213: 7842973001977013733
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_50"
+  - first:
+      213: -3095933003639834932
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_51"
+  - first:
+      213: 1577046271862661703
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_52"
+  - first:
+      213: 787680937446016673
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_53"
+  - first:
+      213: 3946949675653050565
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_54"
+  - first:
+      213: -2554933326988648429
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_55"
+  - first:
+      213: -2378535158794989896
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_56"
+  - first:
+      213: -2219829736225313265
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_57"
+  - first:
+      213: 3072343109121812144
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_58"
+  - first:
+      213: 5469252792640739902
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_59"
+  - first:
+      213: -6976502694413282574
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_60"
+  - first:
+      213: 3132609433341992963
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_61"
+  - first:
+      213: 8160165689694820751
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_62"
+  - first:
+      213: -1676293398742355853
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_63"
+  - first:
+      213: -3333091525809947871
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_64"
+  - first:
+      213: -4989110396541604251
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_65"
+  - first:
+      213: 288887774353090432
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_66"
+  - first:
+      213: -7592975342332652500
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_67"
+  - first:
+      213: -12856390649981765
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_68"
+  - first:
+      213: -5713260858245241301
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_69"
+  - first:
+      213: -7103660400017496855
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_70"
+  - first:
+      213: -5230320895029403944
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_71"
+  - first:
+      213: 2752335276937363073
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_72"
+  - first:
+      213: -1319539146277252429
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_73"
+  - first:
+      213: 2135270208992816529
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_74"
+  - first:
+      213: 793130555823433083
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_75"
+  - first:
+      213: 7221665742472300335
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_76"
+  - first:
+      213: 12417288222509027
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_77"
+  - first:
+      213: -523891027253747398
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_78"
+  - first:
+      213: 4134606018851565682
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_79"
+  - first:
+      213: 1599591880930882487
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_80"
+  - first:
+      213: 6230597466150934308
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_81"
+  - first:
+      213: 110503140373211634
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_82"
+  - first:
+      213: 2289781636134713014
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_83"
+  - first:
+      213: 150122932377985368
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_84"
+  - first:
+      213: -811753107964554705
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_85"
+  - first:
+      213: -535050730103237584
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_86"
+  - first:
+      213: 1757443683678781947
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_87"
+  - first:
+      213: 3589474944828566053
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_88"
+  - first:
+      213: -7667925021947462667
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_89"
+  - first:
+      213: -3547451566938109859
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_90"
+  - first:
+      213: -4758002591970453801
+    second: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_91"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_0"
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 156
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7f4084cdcdff2360800000000000000
+      internalID: 7147210193867132799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_1"
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 191
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d40990db623156a0800000000000000
+      internalID: -6462328551657372462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_2"
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 157
+        width: 15
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b7fba8d7c79efb10800000000000000
+      internalID: 2017216567697995700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_3"
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 156
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1a06b538614fdbf0800000000000000
+      internalID: -297447134549636579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_4"
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 156
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fa6572515cb537f0800000000000000
+      internalID: -633393115113886990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_5"
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 157
+        width: 15
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e14d743d74107110800000000000000
+      internalID: 1256526824020460000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_6"
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 157
+        width: 15
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3db5a9fa30021990800000000000000
+      internalID: -7416865383029293765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_7"
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 157
+        width: 15
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8c03fa6091b996b0800000000000000
+      internalID: -5289001053542216564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_8"
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 156
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c545d7ba855d79db0800000000000000
+      internalID: -4785121502246906788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_9"
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 156
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0118712b2ee7409d0800000000000000
+      internalID: -2808980755456753392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_10"
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 156
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1749513b693219b10800000000000000
+      internalID: 1986408040803701873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_11"
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 156
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c38296dc61532290800000000000000
+      internalID: -7916394192088955960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_12"
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 156
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 484e6b3d9d92a14a0800000000000000
+      internalID: -6621934286558272380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_13"
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 157
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c95c27951bcfd5f70800000000000000
+      internalID: 9177769454291043740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_14"
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 156
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e515382301e77560800000000000000
+      internalID: 7311559923735008737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_15"
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 156
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5005453dd04ec1c0800000000000000
+      internalID: -4481573260361400228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_16"
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 157
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca16d3ed68b24cb40800000000000000
+      internalID: 5459536506534060460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_17"
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 156
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1835640141db9ae0800000000000000
+      internalID: -1541408370267441124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_18"
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 156
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abb4ce9fe7bd28c50800000000000000
+      internalID: 6666131736867130298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_19"
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 156
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2637f9bdca892690800000000000000
+      internalID: -7626411877782309331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_20"
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 156
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e57cdb00f803190b0800000000000000
+      internalID: -5723740260660295842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_21"
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 156
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ac719f60be4b1080800000000000000
+      internalID: -9215685692790571872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_22"
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 156
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76e29ae8c1b14efe0800000000000000
+      internalID: -1160772994488258969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_23"
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 156
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b06a074058468e2d0800000000000000
+      internalID: -3249236608679893493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_24"
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 157
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15c6117431a7ebe90800000000000000
+      internalID: -7008029746926621615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_25"
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 156
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b080c2db310b7860800000000000000
+      internalID: 7528612558530445488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_26"
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 156
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20c34d8750e097030800000000000000
+      internalID: 3492838402667330562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_27"
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 119
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1c64a725aa6bc140800000000000000
+      internalID: 4741000290304814108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_28"
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 85
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4604db93c52198270800000000000000
+      internalID: 8253147979448139876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_29"
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 85
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a00ce70981cb84d20800000000000000
+      internalID: 3263064743719387146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_30"
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 119
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6e51fd259187fe10800000000000000
+      internalID: 2231394618106273391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_31"
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 84
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26630d67d57075f60800000000000000
+      internalID: 8022889359190537826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_32"
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 85
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e929c8cdb42c6d190800000000000000
+      internalID: -7937943662115384674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_33"
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 85
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88c04d445f7b32510800000000000000
+      internalID: 1523263363030977672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_34"
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 84
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51d4dff4098005f70800000000000000
+      internalID: 9173841856864013589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_35"
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 119
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08802f0c650d59e30800000000000000
+      internalID: 4509739672904272000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_36"
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 84
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbf4325594411b6e0800000000000000
+      internalID: -1823654068914794561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_37"
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 85
+        width: 15
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f38828731da493a90800000000000000
+      internalID: -7333748255756220353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_38"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 85
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f5853dfd2d1735e0800000000000000
+      internalID: -1930041831946091024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_39"
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 85
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ebc8da01d8a6960800000000000000
+      internalID: 7596038824284438087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_40"
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 84
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3113443b488d205e0800000000000000
+      internalID: -1944754024615759597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_41"
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 85
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fde522f7f3066640800000000000000
+      internalID: 5072746393733819896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_42"
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 84
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3804c861f2d4fb3b0800000000000000
+      internalID: -5494588155731623805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_43"
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 84
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15adc83d990435680800000000000000
+      internalID: -8767593020136826287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_44"
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 85
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f0bd2c862f4dc230800000000000000
+      internalID: 3660669099101237495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_45"
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 84
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c01a7732c5b8b0e90800000000000000
+      internalID: -7058394763124825844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_46"
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 85
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 308a90d65af454080800000000000000
+      internalID: -9203862691544193021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_47"
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 84
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be6d535235a850bb0800000000000000
+      internalID: -4970414524022270229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_48"
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 84
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16093122d34343820800000000000000
+      internalID: 2896997897475428449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_49"
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 84
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec3b306d9e12fd2f0800000000000000
+      internalID: -946000108522851378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_50"
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 85
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e5a1d53466d7dc60800000000000000
+      internalID: 7842973001977013733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_51"
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 84
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc6b3ad06590905d0800000000000000
+      internalID: -3095933003639834932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_52"
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 84
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7426abc8a3bc2e510800000000000000
+      internalID: 1577046271862661703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_53"
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 85
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a601d8a3a76eea00800000000000000
+      internalID: 787680937446016673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_54"
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 84
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c0b4a371d166c630800000000000000
+      internalID: 3946949675653050565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_55"
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 85
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 310e80cfcad0b8cd0800000000000000
+      internalID: -2554933326988648429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_56"
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 84
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8be4f3600eebdfed0800000000000000
+      internalID: -2378535158794989896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_57"
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 84
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0ee076bd949131e0800000000000000
+      internalID: -2219829736225313265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_58"
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 84
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b6235f97c723aa20800000000000000
+      internalID: 3072343109121812144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_59"
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 84
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3a1a240070b6eb40800000000000000
+      internalID: 5469252792640739902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_60"
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 85
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f2d0f433cb7e2f90800000000000000
+      internalID: -6976502694413282574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_61"
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 84
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 300236eaea3497b20800000000000000
+      internalID: 3132609433341992963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_62"
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 84
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f89179ad57bbe3170800000000000000
+      internalID: 8160165689694820751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_63"
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 84
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37031a4090c9cb8e0800000000000000
+      internalID: -1676293398742355853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_64"
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12bbb30baea7eb1d0800000000000000
+      internalID: -3333091525809947871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_65"
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 11
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56eedec178e13cab0800000000000000
+      internalID: -4989110396541604251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_66"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 12
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 087e44276e5520400800000000000000
+      internalID: 288887774353090432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_67"
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 11
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2456fbc72550a690800000000000000
+      internalID: -7592975342332652500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_68"
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 11
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb4d63a4e2352dff0800000000000000
+      internalID: -12856390649981765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_69"
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 12
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b262623058b66b0b0800000000000000
+      internalID: -5713260858245241301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_70"
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 12
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e4a2f3c08aba6d90800000000000000
+      internalID: -7103660400017496855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_71"
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 11
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8de187e7bda2a67b0800000000000000
+      internalID: -5230320895029403944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_72"
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 0
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18eb0a41a52423620800000000000000
+      internalID: 2752335276937363073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_73"
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 12
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b21cee332e00bde0800000000000000
+      internalID: -1319539146277252429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_74"
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19dad7221f002ad10800000000000000
+      internalID: 2135270208992816529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_75"
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 11
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b752d50d904c10b00800000000000000
+      internalID: 793130555823433083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_76"
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 0
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f274ba21bb2883460800000000000000
+      internalID: 7221665742472300335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_77"
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 11
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e78395357d1c2000800000000000000
+      internalID: 12417288222509027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_78"
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a31a68be2e3cab8f0800000000000000
+      internalID: -523891027253747398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_79"
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 11
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 270f6df9442116930800000000000000
+      internalID: 4134606018851565682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_80"
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 11
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b3fb783754e23610800000000000000
+      internalID: 1599591880930882487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_81"
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 11
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42710646267877650800000000000000
+      internalID: 6230597466150934308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_82"
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 11
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f9a28c4506988100800000000000000
+      internalID: 110503140373211634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_83"
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 11
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b6b50b2440f6cf10800000000000000
+      internalID: 2289781636134713014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_84"
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 11
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 851a709f208551200800000000000000
+      internalID: 150122932377985368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_85"
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 11
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f22147269d21cb4f0800000000000000
+      internalID: -811753107964554705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_86"
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 034126f123e1398f0800000000000000
+      internalID: -535050730103237584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_87"
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 12
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf18d6e08b1b36810800000000000000
+      internalID: 1757443683678781947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_88"
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 11
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52aeba8c17060d130800000000000000
+      internalID: 3589474944828566053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_89"
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fbfd76a1de069590800000000000000
+      internalID: -7667925021947462667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_90"
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 12
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5840c6589be4cec0800000000000000
+      internalID: -3547451566938109859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_91"
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 11
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d696310add28fdb0800000000000000
+      internalID: -4758002591970453801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_0": 7147210193867132799
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_1": -6462328551657372462
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_10": 1986408040803701873
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_11": -7916394192088955960
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_12": -6621934286558272380
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_13": 9177769454291043740
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_14": 7311559923735008737
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_15": -4481573260361400228
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_16": 5459536506534060460
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_17": -1541408370267441124
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_18": 6666131736867130298
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_19": -7626411877782309331
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_2": 2017216567697995700
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_20": -5723740260660295842
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_21": -9215685692790571872
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_22": -1160772994488258969
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_23": -3249236608679893493
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_24": -7008029746926621615
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_25": 7528612558530445488
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_26": 3492838402667330562
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_27": 4741000290304814108
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_28": 8253147979448139876
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_29": 3263064743719387146
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_3": -297447134549636579
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_30": 2231394618106273391
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_31": 8022889359190537826
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_32": -7937943662115384674
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_33": 1523263363030977672
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_34": 9173841856864013589
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_35": 4509739672904272000
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_36": -1823654068914794561
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_37": -7333748255756220353
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_38": -1930041831946091024
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_39": 7596038824284438087
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_4": -633393115113886990
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_40": -1944754024615759597
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_41": 5072746393733819896
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_42": -5494588155731623805
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_43": -8767593020136826287
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_44": 3660669099101237495
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_45": -7058394763124825844
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_46": -9203862691544193021
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_47": -4970414524022270229
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_48": 2896997897475428449
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_49": -946000108522851378
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_5": 1256526824020460000
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_50": 7842973001977013733
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_51": -3095933003639834932
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_52": 1577046271862661703
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_53": 787680937446016673
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_54": 3946949675653050565
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_55": -2554933326988648429
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_56": -2378535158794989896
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_57": -2219829736225313265
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_58": 3072343109121812144
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_59": 5469252792640739902
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_6": -7416865383029293765
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_60": -6976502694413282574
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_61": 3132609433341992963
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_62": 8160165689694820751
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_63": -1676293398742355853
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_64": -3333091525809947871
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_65": -4989110396541604251
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_66": 288887774353090432
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_67": -7592975342332652500
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_68": -12856390649981765
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_69": -5713260858245241301
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_7": -5289001053542216564
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_70": -7103660400017496855
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_71": -5230320895029403944
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_72": 2752335276937363073
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_73": -1319539146277252429
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_74": 2135270208992816529
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_75": 793130555823433083
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_76": 7221665742472300335
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_77": 12417288222509027
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_78": -523891027253747398
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_79": 4134606018851565682
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_8": -4785121502246906788
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_80": 1599591880930882487
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_81": 6230597466150934308
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_82": 110503140373211634
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_83": 2289781636134713014
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_84": 150122932377985368
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_85": -811753107964554705
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_86": -535050730103237584
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_87": 1757443683678781947
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_88": 3589474944828566053
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_89": -7667925021947462667
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_9": -2808980755456753392
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_90": -3547451566938109859
+      "R\xE9solvez des modules selon les instructions de Nana afin de r\xE9s_91": -4758002591970453801
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1391 @@
+fileFormatVersion: 2
+guid: bac135b5245ff084f92e46c128376578
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7703730299741876502
+    second: "D\xE9placez-vous sur la carte en cliquant sur les pings__0"
+  - first:
+      213: 7744070085357034241
+    second: "D\xE9placez-vous sur la carte en cliquant sur les pings__1"
+  - first:
+      213: 1083137701085803377
+    second: "D\xE9placez-vous sur la carte en cliquant sur les pings__2"
+  - first:
+      213: 2935259764604418882
+    second: "D\xE9placez-vous sur la carte en cliquant sur les pings__3"
+  - first:
+      213: -8763162774234993501
+    second: "D\xE9placez-vous sur la carte en cliquant sur les pings__4"
+  - first:
+      213: 5067082768433857612
+    second: "D\xE9placez-vous sur la carte en cliquant sur les pings__5"
+  - first:
+      213: 5204564204327099594
+    second: "D\xE9placez-vous sur la carte en cliquant sur les pings__6"
+  - first:
+      213: -4725352313824659757
+    second: "D\xE9placez-vous sur la carte en cliquant sur les pings__7"
+  - first:
+      213: -6233153322518273614
+    second: "D\xE9placez-vous sur la carte en cliquant sur les pings__8"
+  - first:
+      213: -2821631618669943748
+    second: "D\xE9placez-vous sur la carte en cliquant sur les pings__9"
+  - first:
+      213: -8075528370686713044
+    second: "D\xE9placez-vous sur la carte en cliquant sur les pings__10"
+  - first:
+      213: -740064072518852638
+    second: "D\xE9placez-vous sur la carte en cliquant sur les pings__11"
+  - first:
+      213: -3629740050829337594
+    second: "D\xE9placez-vous sur la carte en cliquant sur les pings__12"
+  - first:
+      213: 1067152873552867506
+    second: "D\xE9placez-vous sur la carte en cliquant sur les pings__13"
+  - first:
+      213: -6921597121083416073
+    second: "D\xE9placez-vous sur la carte en cliquant sur les pings__14"
+  - first:
+      213: 3118378320563471644
+    second: "D\xE9placez-vous sur la carte en cliquant sur les pings__15"
+  - first:
+      213: 4956242494299784030
+    second: "D\xE9placez-vous sur la carte en cliquant sur les pings__16"
+  - first:
+      213: 4090214764118764800
+    second: "D\xE9placez-vous sur la carte en cliquant sur les pings__17"
+  - first:
+      213: -3583338038209552127
+    second: "D\xE9placez-vous sur la carte en cliquant sur les pings__18"
+  - first:
+      213: 210549397055017426
+    second: "D\xE9placez-vous sur la carte en cliquant sur les pings__19"
+  - first:
+      213: 1262332500926631058
+    second: "D\xE9placez-vous sur la carte en cliquant sur les pings__20"
+  - first:
+      213: -354389115907636077
+    second: "D\xE9placez-vous sur la carte en cliquant sur les pings__21"
+  - first:
+      213: 6183405952065527469
+    second: "D\xE9placez-vous sur la carte en cliquant sur les pings__22"
+  - first:
+      213: 9069233629661234138
+    second: "D\xE9placez-vous sur la carte en cliquant sur les pings__23"
+  - first:
+      213: 5190881422459240588
+    second: "D\xE9placez-vous sur la carte en cliquant sur les pings__24"
+  - first:
+      213: 8079533781312384629
+    second: "D\xE9placez-vous sur la carte en cliquant sur les pings__25"
+  - first:
+      213: -6640336759265434060
+    second: "D\xE9placez-vous sur la carte en cliquant sur les pings__26"
+  - first:
+      213: -4726488104966369678
+    second: "D\xE9placez-vous sur la carte en cliquant sur les pings__27"
+  - first:
+      213: -5746701585551244104
+    second: "D\xE9placez-vous sur la carte en cliquant sur les pings__28"
+  - first:
+      213: 7208965270421004930
+    second: "D\xE9placez-vous sur la carte en cliquant sur les pings__29"
+  - first:
+      213: -4500280652902286025
+    second: "D\xE9placez-vous sur la carte en cliquant sur les pings__30"
+  - first:
+      213: 3032277442929192606
+    second: "D\xE9placez-vous sur la carte en cliquant sur les pings__31"
+  - first:
+      213: 3873679301622538559
+    second: "D\xE9placez-vous sur la carte en cliquant sur les pings__32"
+  - first:
+      213: -1580871345125679303
+    second: "D\xE9placez-vous sur la carte en cliquant sur les pings__33"
+  - first:
+      213: -8463923682661005262
+    second: "D\xE9placez-vous sur la carte en cliquant sur les pings__34"
+  - first:
+      213: -768041148666035446
+    second: "D\xE9placez-vous sur la carte en cliquant sur les pings__35"
+  - first:
+      213: -3991082015301300946
+    second: "D\xE9placez-vous sur la carte en cliquant sur les pings__36"
+  - first:
+      213: -5619970972517213280
+    second: "D\xE9placez-vous sur la carte en cliquant sur les pings__37"
+  - first:
+      213: 3132707608246152125
+    second: "D\xE9placez-vous sur la carte en cliquant sur les pings__38"
+  - first:
+      213: -1915121655882110936
+    second: "D\xE9placez-vous sur la carte en cliquant sur les pings__39"
+  - first:
+      213: -233641046284757191
+    second: "D\xE9placez-vous sur la carte en cliquant sur les pings__40"
+  - first:
+      213: 978434177909319795
+    second: "D\xE9placez-vous sur la carte en cliquant sur les pings__41"
+  - first:
+      213: -3066611846758368128
+    second: "D\xE9placez-vous sur la carte en cliquant sur les pings__42"
+  - first:
+      213: 2732871601055199521
+    second: "D\xE9placez-vous sur la carte en cliquant sur les pings__43"
+  - first:
+      213: -7253013932227816087
+    second: "D\xE9placez-vous sur la carte en cliquant sur les pings__44"
+  - first:
+      213: 3733464030986736958
+    second: "D\xE9placez-vous sur la carte en cliquant sur les pings__45"
+  - first:
+      213: 1263747362551689946
+    second: "D\xE9placez-vous sur la carte en cliquant sur les pings__46"
+  - first:
+      213: 4195624922705627593
+    second: "D\xE9placez-vous sur la carte en cliquant sur les pings__47"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "D\xE9placez-vous sur la carte en cliquant sur les pings__0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeec876cb1ad61590800000000000000
+      internalID: -7703730299741876502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "D\xE9placez-vous sur la carte en cliquant sur les pings__1"
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 46
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10b5f6976b6787b60800000000000000
+      internalID: 7744070085357034241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "D\xE9placez-vous sur la carte en cliquant sur les pings__2"
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 12
+        width: 15
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1737d0c1004180f00800000000000000
+      internalID: 1083137701085803377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "D\xE9placez-vous sur la carte en cliquant sur les pings__3"
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 12
+        width: 15
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24b3eb844332cb820800000000000000
+      internalID: 2935259764604418882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "D\xE9placez-vous sur la carte en cliquant sur les pings__4"
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 12
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3acebc4d2edf26680800000000000000
+      internalID: -8763162774234993501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "D\xE9placez-vous sur la carte en cliquant sur les pings__5"
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 12
+        width: 15
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c44c00c6ee4e15640800000000000000
+      internalID: 5067082768433857612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "D\xE9placez-vous sur la carte en cliquant sur les pings__6"
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 46
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acc51a1a1935a3840800000000000000
+      internalID: 5204564204327099594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "D\xE9placez-vous sur la carte en cliquant sur les pings__7"
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 12
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d639e74b1d2c6eb0800000000000000
+      internalID: -4725352313824659757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "D\xE9placez-vous sur la carte en cliquant sur les pings__8"
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 12
+        width: 15
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b1a0cce3146f79a0800000000000000
+      internalID: -6233153322518273614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "D\xE9placez-vous sur la carte en cliquant sur les pings__9"
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 46
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c34ea221efc87d8d0800000000000000
+      internalID: -2821631618669943748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "D\xE9placez-vous sur la carte en cliquant sur les pings__10"
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2321ab9bb5fdef80800000000000000
+      internalID: -8075528370686713044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "D\xE9placez-vous sur la carte en cliquant sur les pings__11"
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 0
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ef1c76a5a3cab5f0800000000000000
+      internalID: -740064072518852638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "D\xE9placez-vous sur la carte en cliquant sur les pings__12"
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 11
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60c1f4ba7a290adc0800000000000000
+      internalID: -3629740050829337594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "D\xE9placez-vous sur la carte en cliquant sur les pings__13"
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b0f72d62e94fce00800000000000000
+      internalID: 1067152873552867506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "D\xE9placez-vous sur la carte en cliquant sur les pings__14"
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f1e47f271c81ff90800000000000000
+      internalID: -6921597121083416073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "D\xE9placez-vous sur la carte en cliquant sur les pings__15"
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 12
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1507788f84b64b20800000000000000
+      internalID: 3118378320563471644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "D\xE9placez-vous sur la carte en cliquant sur les pings__16"
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 27
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e534f6d0a4c18c440800000000000000
+      internalID: 4956242494299784030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "D\xE9placez-vous sur la carte en cliquant sur les pings__17"
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 11
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00d6b5638ac53c830800000000000000
+      internalID: 4090214764118764800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "D\xE9placez-vous sur la carte en cliquant sur les pings__18"
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 11
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 101ef522a0d654ec0800000000000000
+      internalID: -3583338038209552127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "D\xE9placez-vous sur la carte en cliquant sur les pings__19"
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 11
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d11323af850ce200800000000000000
+      internalID: 210549397055017426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "D\xE9placez-vous sur la carte en cliquant sur les pings__20"
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 11
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29c8922b8b4b48110800000000000000
+      internalID: 1262332500926631058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "D\xE9placez-vous sur la carte en cliquant sur les pings__21"
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 11
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3948f0a0af4f41bf0800000000000000
+      internalID: -354389115907636077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "D\xE9placez-vous sur la carte en cliquant sur les pings__22"
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 11
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daed6eac3fedfc550800000000000000
+      internalID: 6183405952065527469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "D\xE9placez-vous sur la carte en cliquant sur les pings__23"
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 12
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad30cf07fe36cdd70800000000000000
+      internalID: 9069233629661234138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "D\xE9placez-vous sur la carte en cliquant sur les pings__24"
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 11
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c808bd8b627b90840800000000000000
+      internalID: 5190881422459240588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "D\xE9placez-vous sur la carte en cliquant sur les pings__25"
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57ea4e9ba25402070800000000000000
+      internalID: 8079533781312384629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "D\xE9placez-vous sur la carte en cliquant sur les pings__26"
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 11
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 436e30346e8c8d3a0800000000000000
+      internalID: -6640336759265434060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "D\xE9placez-vous sur la carte en cliquant sur les pings__27"
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 12
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27ece5c4c14286eb0800000000000000
+      internalID: -4726488104966369678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "D\xE9placez-vous sur la carte en cliquant sur les pings__28"
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b44b03fa5d9f30b0800000000000000
+      internalID: -5746701585551244104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "D\xE9placez-vous sur la carte en cliquant sur les pings__29"
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 282629df7b36b0460800000000000000
+      internalID: 7208965270421004930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "D\xE9placez-vous sur la carte en cliquant sur les pings__30"
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 12
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73d3236f69acb81c0800000000000000
+      internalID: -4500280652902286025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "D\xE9placez-vous sur la carte en cliquant sur les pings__31"
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9e6936c440d41a20800000000000000
+      internalID: 3032277442929192606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "D\xE9placez-vous sur la carte en cliquant sur les pings__32"
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 12
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f31aefa1dc212c530800000000000000
+      internalID: 3873679301622538559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "D\xE9placez-vous sur la carte en cliquant sur les pings__33"
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 0
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93f903e23ed9f0ae0800000000000000
+      internalID: -1580871345125679303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "D\xE9placez-vous sur la carte en cliquant sur les pings__34"
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 11
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23889f0214a1a8a80800000000000000
+      internalID: -8463923682661005262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "D\xE9placez-vous sur la carte en cliquant sur les pings__35"
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 11
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a03c0e005ae5755f0800000000000000
+      internalID: -768041148666035446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "D\xE9placez-vous sur la carte en cliquant sur les pings__36"
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 12
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2d04808d04dc98c0800000000000000
+      internalID: -3991082015301300946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "D\xE9placez-vous sur la carte en cliquant sur les pings__37"
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 11
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0abda172d2ad102b0800000000000000
+      internalID: -5619970972517213280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "D\xE9placez-vous sur la carte en cliquant sur les pings__38"
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 11
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbbecaec8fc997b20800000000000000
+      internalID: 3132707608246152125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "D\xE9placez-vous sur la carte en cliquant sur les pings__39"
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 12
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8282d7f200f1c65e0800000000000000
+      internalID: -1915121655882110936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "D\xE9placez-vous sur la carte en cliquant sur les pings__40"
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9371f3fc4b0f1ccf0800000000000000
+      internalID: -233641046284757191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "D\xE9placez-vous sur la carte en cliquant sur les pings__41"
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 11
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 378e26a63b8149d00800000000000000
+      internalID: 978434177909319795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "D\xE9placez-vous sur la carte en cliquant sur les pings__42"
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 0
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08c76f1e5c43175d0800000000000000
+      internalID: -3066611846758368128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "D\xE9placez-vous sur la carte en cliquant sur les pings__43"
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 12
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 121f5a5ed3c1de520800000000000000
+      internalID: 2732871601055199521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "D\xE9placez-vous sur la carte en cliquant sur les pings__44"
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 12
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9651a9ab14e185b90800000000000000
+      internalID: -7253013932227816087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "D\xE9placez-vous sur la carte en cliquant sur les pings__45"
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 0
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3599a461cdefc330800000000000000
+      internalID: 3733464030986736958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "D\xE9placez-vous sur la carte en cliquant sur les pings__46"
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 11
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad2fab6d78bb98110800000000000000
+      internalID: 1263747362551689946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "D\xE9placez-vous sur la carte en cliquant sur les pings__47"
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 11
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c905a843aad93a30800000000000000
+      internalID: 4195624922705627593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "D\xE9placez-vous sur la carte en cliquant sur les pings__0": -7703730299741876502
+      "D\xE9placez-vous sur la carte en cliquant sur les pings__1": 7744070085357034241
+      "D\xE9placez-vous sur la carte en cliquant sur les pings__10": -8075528370686713044
+      "D\xE9placez-vous sur la carte en cliquant sur les pings__11": -740064072518852638
+      "D\xE9placez-vous sur la carte en cliquant sur les pings__12": -3629740050829337594
+      "D\xE9placez-vous sur la carte en cliquant sur les pings__13": 1067152873552867506
+      "D\xE9placez-vous sur la carte en cliquant sur les pings__14": -6921597121083416073
+      "D\xE9placez-vous sur la carte en cliquant sur les pings__15": 3118378320563471644
+      "D\xE9placez-vous sur la carte en cliquant sur les pings__16": 4956242494299784030
+      "D\xE9placez-vous sur la carte en cliquant sur les pings__17": 4090214764118764800
+      "D\xE9placez-vous sur la carte en cliquant sur les pings__18": -3583338038209552127
+      "D\xE9placez-vous sur la carte en cliquant sur les pings__19": 210549397055017426
+      "D\xE9placez-vous sur la carte en cliquant sur les pings__2": 1083137701085803377
+      "D\xE9placez-vous sur la carte en cliquant sur les pings__20": 1262332500926631058
+      "D\xE9placez-vous sur la carte en cliquant sur les pings__21": -354389115907636077
+      "D\xE9placez-vous sur la carte en cliquant sur les pings__22": 6183405952065527469
+      "D\xE9placez-vous sur la carte en cliquant sur les pings__23": 9069233629661234138
+      "D\xE9placez-vous sur la carte en cliquant sur les pings__24": 5190881422459240588
+      "D\xE9placez-vous sur la carte en cliquant sur les pings__25": 8079533781312384629
+      "D\xE9placez-vous sur la carte en cliquant sur les pings__26": -6640336759265434060
+      "D\xE9placez-vous sur la carte en cliquant sur les pings__27": -4726488104966369678
+      "D\xE9placez-vous sur la carte en cliquant sur les pings__28": -5746701585551244104
+      "D\xE9placez-vous sur la carte en cliquant sur les pings__29": 7208965270421004930
+      "D\xE9placez-vous sur la carte en cliquant sur les pings__3": 2935259764604418882
+      "D\xE9placez-vous sur la carte en cliquant sur les pings__30": -4500280652902286025
+      "D\xE9placez-vous sur la carte en cliquant sur les pings__31": 3032277442929192606
+      "D\xE9placez-vous sur la carte en cliquant sur les pings__32": 3873679301622538559
+      "D\xE9placez-vous sur la carte en cliquant sur les pings__33": -1580871345125679303
+      "D\xE9placez-vous sur la carte en cliquant sur les pings__34": -8463923682661005262
+      "D\xE9placez-vous sur la carte en cliquant sur les pings__35": -768041148666035446
+      "D\xE9placez-vous sur la carte en cliquant sur les pings__36": -3991082015301300946
+      "D\xE9placez-vous sur la carte en cliquant sur les pings__37": -5619970972517213280
+      "D\xE9placez-vous sur la carte en cliquant sur les pings__38": 3132707608246152125
+      "D\xE9placez-vous sur la carte en cliquant sur les pings__39": -1915121655882110936
+      "D\xE9placez-vous sur la carte en cliquant sur les pings__4": -8763162774234993501
+      "D\xE9placez-vous sur la carte en cliquant sur les pings__40": -233641046284757191
+      "D\xE9placez-vous sur la carte en cliquant sur les pings__41": 978434177909319795
+      "D\xE9placez-vous sur la carte en cliquant sur les pings__42": -3066611846758368128
+      "D\xE9placez-vous sur la carte en cliquant sur les pings__43": 2732871601055199521
+      "D\xE9placez-vous sur la carte en cliquant sur les pings__44": -7253013932227816087
+      "D\xE9placez-vous sur la carte en cliquant sur les pings__45": 3733464030986736958
+      "D\xE9placez-vous sur la carte en cliquant sur les pings__46": 1263747362551689946
+      "D\xE9placez-vous sur la carte en cliquant sur les pings__47": 4195624922705627593
+      "D\xE9placez-vous sur la carte en cliquant sur les pings__5": 5067082768433857612
+      "D\xE9placez-vous sur la carte en cliquant sur les pings__6": 5204564204327099594
+      "D\xE9placez-vous sur la carte en cliquant sur les pings__7": -4725352313824659757
+      "D\xE9placez-vous sur la carte en cliquant sur les pings__8": -6233153322518273614
+      "D\xE9placez-vous sur la carte en cliquant sur les pings__9": -2821631618669943748
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

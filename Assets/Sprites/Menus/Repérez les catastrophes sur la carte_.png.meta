@@ -1,0 +1,1027 @@
+fileFormatVersion: 2
+guid: 5652e14f372e72d468ee02d2b534b00c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2197271679163110199
+    second: "Rep\xE9rez les catastrophes sur la carte__0"
+  - first:
+      213: -2358035031792245358
+    second: "Rep\xE9rez les catastrophes sur la carte__1"
+  - first:
+      213: 9045434778984907389
+    second: "Rep\xE9rez les catastrophes sur la carte__2"
+  - first:
+      213: 5241962534119670423
+    second: "Rep\xE9rez les catastrophes sur la carte__3"
+  - first:
+      213: -6897716926717688753
+    second: "Rep\xE9rez les catastrophes sur la carte__4"
+  - first:
+      213: -1240408371195349712
+    second: "Rep\xE9rez les catastrophes sur la carte__5"
+  - first:
+      213: -7045530174771525342
+    second: "Rep\xE9rez les catastrophes sur la carte__6"
+  - first:
+      213: -8555805050923081001
+    second: "Rep\xE9rez les catastrophes sur la carte__7"
+  - first:
+      213: 4873612648775011579
+    second: "Rep\xE9rez les catastrophes sur la carte__8"
+  - first:
+      213: -2474790752960996760
+    second: "Rep\xE9rez les catastrophes sur la carte__9"
+  - first:
+      213: 4736507167372783981
+    second: "Rep\xE9rez les catastrophes sur la carte__10"
+  - first:
+      213: -6993146770010376426
+    second: "Rep\xE9rez les catastrophes sur la carte__11"
+  - first:
+      213: 4541742923999397958
+    second: "Rep\xE9rez les catastrophes sur la carte__12"
+  - first:
+      213: 7195865912516701429
+    second: "Rep\xE9rez les catastrophes sur la carte__13"
+  - first:
+      213: 5403256941035981767
+    second: "Rep\xE9rez les catastrophes sur la carte__14"
+  - first:
+      213: 6781714054172921145
+    second: "Rep\xE9rez les catastrophes sur la carte__15"
+  - first:
+      213: -566232236409738715
+    second: "Rep\xE9rez les catastrophes sur la carte__16"
+  - first:
+      213: -4628347290931216564
+    second: "Rep\xE9rez les catastrophes sur la carte__17"
+  - first:
+      213: 3163729457122115439
+    second: "Rep\xE9rez les catastrophes sur la carte__18"
+  - first:
+      213: -8036421847826573335
+    second: "Rep\xE9rez les catastrophes sur la carte__19"
+  - first:
+      213: 2725409001458066945
+    second: "Rep\xE9rez les catastrophes sur la carte__20"
+  - first:
+      213: 7541974614289937059
+    second: "Rep\xE9rez les catastrophes sur la carte__21"
+  - first:
+      213: 7938561683234933519
+    second: "Rep\xE9rez les catastrophes sur la carte__22"
+  - first:
+      213: 5378613279034065161
+    second: "Rep\xE9rez les catastrophes sur la carte__23"
+  - first:
+      213: -6394240050591888147
+    second: "Rep\xE9rez les catastrophes sur la carte__24"
+  - first:
+      213: -7820106327511176022
+    second: "Rep\xE9rez les catastrophes sur la carte__25"
+  - first:
+      213: -2830050176203677567
+    second: "Rep\xE9rez les catastrophes sur la carte__26"
+  - first:
+      213: 8372990833424227566
+    second: "Rep\xE9rez les catastrophes sur la carte__27"
+  - first:
+      213: -4042969813080852119
+    second: "Rep\xE9rez les catastrophes sur la carte__28"
+  - first:
+      213: -9102373596004803788
+    second: "Rep\xE9rez les catastrophes sur la carte__29"
+  - first:
+      213: -6556569956012225850
+    second: "Rep\xE9rez les catastrophes sur la carte__30"
+  - first:
+      213: 3485149804126469682
+    second: "Rep\xE9rez les catastrophes sur la carte__31"
+  - first:
+      213: 6836129477257258823
+    second: "Rep\xE9rez les catastrophes sur la carte__32"
+  - first:
+      213: -4180334036636544505
+    second: "Rep\xE9rez les catastrophes sur la carte__33"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Rep\xE9rez les catastrophes sur la carte__0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7331b8753f64e7e10800000000000000
+      internalID: 2197271679163110199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rep\xE9rez les catastrophes sur la carte__1"
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 46
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 295a81ac1a3964fd0800000000000000
+      internalID: -2358035031792245358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rep\xE9rez les catastrophes sur la carte__2"
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 12
+        width: 15
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d720c58b107d78d70800000000000000
+      internalID: 9045434778984907389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rep\xE9rez les catastrophes sur la carte__3"
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 12
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7920c14d6213fb840800000000000000
+      internalID: 5241962534119670423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rep\xE9rez les catastrophes sur la carte__4"
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 12
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f440bc530036640a0800000000000000
+      internalID: -6897716926717688753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rep\xE9rez les catastrophes sur la carte__5"
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 12
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 035fa7a882f29cee0800000000000000
+      internalID: -1240408371195349712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rep\xE9rez les catastrophes sur la carte__6"
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 12
+        width: 15
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 229827682af393e90800000000000000
+      internalID: -7045530174771525342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rep\xE9rez les catastrophes sur la carte__7"
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 12
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d2ac3403aca34980800000000000000
+      internalID: -8555805050923081001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rep\xE9rez les catastrophes sur la carte__8"
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfcc51fe1ec82a340800000000000000
+      internalID: 4873612648775011579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rep\xE9rez les catastrophes sur la carte__9"
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86a96541ce6c7add0800000000000000
+      internalID: -2474790752960996760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rep\xE9rez les catastrophes sur la carte__10"
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d61b8537c247bb140800000000000000
+      internalID: 4736507167372783981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rep\xE9rez les catastrophes sur la carte__11"
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 12
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6177c5f501a53fe90800000000000000
+      internalID: -6993146770010376426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rep\xE9rez les catastrophes sur la carte__12"
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 648c02e4023870f30800000000000000
+      internalID: 4541742923999397958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rep\xE9rez les catastrophes sur la carte__13"
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 12
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fc66ee0ce9dcd360800000000000000
+      internalID: 7195865912516701429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rep\xE9rez les catastrophes sur la carte__14"
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cb0d986f893cfa40800000000000000
+      internalID: 5403256941035981767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rep\xE9rez les catastrophes sur la carte__15"
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 11
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93d404f400d7d1e50800000000000000
+      internalID: 6781714054172921145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rep\xE9rez les catastrophes sur la carte__16"
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52a2c60f7c65428f0800000000000000
+      internalID: -566232236409738715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rep\xE9rez les catastrophes sur la carte__17"
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 11
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4f37e239aec4cfb0800000000000000
+      internalID: -4628347290931216564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rep\xE9rez les catastrophes sur la carte__18"
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 11
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6ff339dd23d7eb20800000000000000
+      internalID: 3163729457122115439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rep\xE9rez les catastrophes sur la carte__19"
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 11
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e7db1f78e4e87090800000000000000
+      internalID: -8036421847826573335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rep\xE9rez les catastrophes sur la carte__20"
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 12
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1066f870c0992d520800000000000000
+      internalID: 2725409001458066945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rep\xE9rez les catastrophes sur la carte__21"
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 11
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a2f3cdd3f97aa860800000000000000
+      internalID: 7541974614289937059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rep\xE9rez les catastrophes sur la carte__22"
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 0
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0bceb46acf6b2e60800000000000000
+      internalID: 7938561683234933519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rep\xE9rez les catastrophes sur la carte__23"
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9014609b74ca4aa40800000000000000
+      internalID: 5378613279034065161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rep\xE9rez les catastrophes sur la carte__24"
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 11
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dec05e75d881347a0800000000000000
+      internalID: -6394240050591888147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rep\xE9rez les catastrophes sur la carte__25"
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 11
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aac69e25ab6697390800000000000000
+      internalID: -7820106327511176022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rep\xE9rez les catastrophes sur la carte__26"
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 11
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18029d6eb54a9b8d0800000000000000
+      internalID: -2830050176203677567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rep\xE9rez les catastrophes sur la carte__27"
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 12
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eec5add0dc6d23470800000000000000
+      internalID: 8372990833424227566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rep\xE9rez les catastrophes sur la carte__28"
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 11
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96930b5206c74e7c0800000000000000
+      internalID: -4042969813080852119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rep\xE9rez les catastrophes sur la carte__29"
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43b1d3dd07fdda180800000000000000
+      internalID: -9102373596004803788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rep\xE9rez les catastrophes sur la carte__30"
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 11
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ca84eafc526205a0800000000000000
+      internalID: -6556569956012225850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rep\xE9rez les catastrophes sur la carte__31"
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 12
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23efaff184dbd5030800000000000000
+      internalID: 3485149804126469682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rep\xE9rez les catastrophes sur la carte__32"
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 747ee7a4a8fcede50800000000000000
+      internalID: 6836129477257258823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rep\xE9rez les catastrophes sur la carte__33"
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 11
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 702ddcf87587cf5c0800000000000000
+      internalID: -4180334036636544505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Rep\xE9rez les catastrophes sur la carte__0": 2197271679163110199
+      "Rep\xE9rez les catastrophes sur la carte__1": -2358035031792245358
+      "Rep\xE9rez les catastrophes sur la carte__10": 4736507167372783981
+      "Rep\xE9rez les catastrophes sur la carte__11": -6993146770010376426
+      "Rep\xE9rez les catastrophes sur la carte__12": 4541742923999397958
+      "Rep\xE9rez les catastrophes sur la carte__13": 7195865912516701429
+      "Rep\xE9rez les catastrophes sur la carte__14": 5403256941035981767
+      "Rep\xE9rez les catastrophes sur la carte__15": 6781714054172921145
+      "Rep\xE9rez les catastrophes sur la carte__16": -566232236409738715
+      "Rep\xE9rez les catastrophes sur la carte__17": -4628347290931216564
+      "Rep\xE9rez les catastrophes sur la carte__18": 3163729457122115439
+      "Rep\xE9rez les catastrophes sur la carte__19": -8036421847826573335
+      "Rep\xE9rez les catastrophes sur la carte__2": 9045434778984907389
+      "Rep\xE9rez les catastrophes sur la carte__20": 2725409001458066945
+      "Rep\xE9rez les catastrophes sur la carte__21": 7541974614289937059
+      "Rep\xE9rez les catastrophes sur la carte__22": 7938561683234933519
+      "Rep\xE9rez les catastrophes sur la carte__23": 5378613279034065161
+      "Rep\xE9rez les catastrophes sur la carte__24": -6394240050591888147
+      "Rep\xE9rez les catastrophes sur la carte__25": -7820106327511176022
+      "Rep\xE9rez les catastrophes sur la carte__26": -2830050176203677567
+      "Rep\xE9rez les catastrophes sur la carte__27": 8372990833424227566
+      "Rep\xE9rez les catastrophes sur la carte__28": -4042969813080852119
+      "Rep\xE9rez les catastrophes sur la carte__29": -9102373596004803788
+      "Rep\xE9rez les catastrophes sur la carte__3": 5241962534119670423
+      "Rep\xE9rez les catastrophes sur la carte__30": -6556569956012225850
+      "Rep\xE9rez les catastrophes sur la carte__31": 3485149804126469682
+      "Rep\xE9rez les catastrophes sur la carte__32": 6836129477257258823
+      "Rep\xE9rez les catastrophes sur la carte__33": -4180334036636544505
+      "Rep\xE9rez les catastrophes sur la carte__4": -6897716926717688753
+      "Rep\xE9rez les catastrophes sur la carte__5": -1240408371195349712
+      "Rep\xE9rez les catastrophes sur la carte__6": -7045530174771525342
+      "Rep\xE9rez les catastrophes sur la carte__7": -8555805050923081001
+      "Rep\xE9rez les catastrophes sur la carte__8": 4873612648775011579
+      "Rep\xE9rez les catastrophes sur la carte__9": -2474790752960996760
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

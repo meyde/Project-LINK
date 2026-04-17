@@ -1,0 +1,5343 @@
+fileFormatVersion: 2
+guid: 9614981b8747cf44db8cd745085f2eb8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5173243698563315616
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_0"
+  - first:
+      213: -1696048412210079040
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_1"
+  - first:
+      213: 1270113208223517463
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_2"
+  - first:
+      213: -2174312477754606666
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_3"
+  - first:
+      213: 2338629675555515
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_4"
+  - first:
+      213: 2317465089778649425
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_5"
+  - first:
+      213: 3995701384907229707
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_6"
+  - first:
+      213: 1213893539930526546
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_7"
+  - first:
+      213: -2952989260513422676
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_8"
+  - first:
+      213: -282401174449443169
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_9"
+  - first:
+      213: -8695233360229696748
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_10"
+  - first:
+      213: 3705076028920434874
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_11"
+  - first:
+      213: 4052342836998119215
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_12"
+  - first:
+      213: -2874567485373858342
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_13"
+  - first:
+      213: -2855930536859496838
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_14"
+  - first:
+      213: 6154756563525537298
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_15"
+  - first:
+      213: 2219510915517370232
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_16"
+  - first:
+      213: -2532802811159546505
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_17"
+  - first:
+      213: -2096712334632120984
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_18"
+  - first:
+      213: -9163897408020461935
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_19"
+  - first:
+      213: 6583051333047263955
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_20"
+  - first:
+      213: 2520722429034032937
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_21"
+  - first:
+      213: 1292005835421478784
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_22"
+  - first:
+      213: -8992580021641351974
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_23"
+  - first:
+      213: 3134853849553346160
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_24"
+  - first:
+      213: -3588838367381240853
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_25"
+  - first:
+      213: -4031868060816440446
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_26"
+  - first:
+      213: -3590240548101266295
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_27"
+  - first:
+      213: 4040203380077651651
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_28"
+  - first:
+      213: -5573351353081362507
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_29"
+  - first:
+      213: -5327453376667954394
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_30"
+  - first:
+      213: -7481677589951296703
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_31"
+  - first:
+      213: 275818648937233916
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_32"
+  - first:
+      213: -7514722634827588674
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_33"
+  - first:
+      213: -7922623916801608698
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_34"
+  - first:
+      213: -6675240655460265392
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_35"
+  - first:
+      213: -6053196195635811530
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_36"
+  - first:
+      213: 466452849387004685
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_37"
+  - first:
+      213: 2665206878834623919
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_38"
+  - first:
+      213: -990065500137136629
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_39"
+  - first:
+      213: -3433896384508105139
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_40"
+  - first:
+      213: -4879270108629167330
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_41"
+  - first:
+      213: -746401671925404046
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_42"
+  - first:
+      213: -4228170844695507543
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_43"
+  - first:
+      213: 8663770251978332167
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_44"
+  - first:
+      213: -4073753782157659940
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_45"
+  - first:
+      213: 7655901123703556274
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_46"
+  - first:
+      213: -7799650432536502237
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_47"
+  - first:
+      213: -7263502576852632683
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_48"
+  - first:
+      213: -6020341001255061148
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_49"
+  - first:
+      213: 70117874906985854
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_50"
+  - first:
+      213: -3164234183026218078
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_51"
+  - first:
+      213: -617046102800881153
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_52"
+  - first:
+      213: 6987548269721091888
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_53"
+  - first:
+      213: 995692038861106792
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_54"
+  - first:
+      213: 3778755199531971618
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_55"
+  - first:
+      213: -8708116744294100382
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_56"
+  - first:
+      213: -5905762227985866243
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_57"
+  - first:
+      213: 3331910553382555642
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_58"
+  - first:
+      213: -2704424312625137638
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_59"
+  - first:
+      213: -4301811454345475646
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_60"
+  - first:
+      213: -9087847730555770824
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_61"
+  - first:
+      213: 7318834586852066370
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_62"
+  - first:
+      213: -6148268431874204862
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_63"
+  - first:
+      213: 5278793732564871784
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_64"
+  - first:
+      213: 7894472386831889114
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_65"
+  - first:
+      213: -4282568572517086176
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_66"
+  - first:
+      213: 8364591439310967353
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_67"
+  - first:
+      213: 87362907918953708
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_68"
+  - first:
+      213: 1003891982554496374
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_69"
+  - first:
+      213: 1009755777238154984
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_70"
+  - first:
+      213: 6044880588403194158
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_71"
+  - first:
+      213: 8594229770970572209
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_72"
+  - first:
+      213: 101739017348441317
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_73"
+  - first:
+      213: -4998961089932416319
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_74"
+  - first:
+      213: -4927475208154493965
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_75"
+  - first:
+      213: -2979520228435324191
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_76"
+  - first:
+      213: 4333233439644515246
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_77"
+  - first:
+      213: -1167619248225048090
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_78"
+  - first:
+      213: 2082716321218258166
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_79"
+  - first:
+      213: -521467591390251094
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_80"
+  - first:
+      213: -8364654785436528411
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_81"
+  - first:
+      213: -4667361966047058540
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_82"
+  - first:
+      213: -7803029717868613291
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_83"
+  - first:
+      213: 7143722781335277961
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_84"
+  - first:
+      213: -3245457010206723915
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_85"
+  - first:
+      213: 2246143449327525547
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_86"
+  - first:
+      213: -848597971272871844
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_87"
+  - first:
+      213: 5473746604179277667
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_88"
+  - first:
+      213: -797458598226527414
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_89"
+  - first:
+      213: -4585400103366345991
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_90"
+  - first:
+      213: -2566596308367717993
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_91"
+  - first:
+      213: 3637007845580152855
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_92"
+  - first:
+      213: 4628123014283941661
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_93"
+  - first:
+      213: -1864868674769920938
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_94"
+  - first:
+      213: 3237721229168917221
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_95"
+  - first:
+      213: 4939599224614834604
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_96"
+  - first:
+      213: -7840634253040046777
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_97"
+  - first:
+      213: 8033043594854832613
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_98"
+  - first:
+      213: 1026604874528701070
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_99"
+  - first:
+      213: -6649320233454396075
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_100"
+  - first:
+      213: 2034550645690697446
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_101"
+  - first:
+      213: -2520700848602143389
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_102"
+  - first:
+      213: -6182963355591257887
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_103"
+  - first:
+      213: 134586015192117258
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_104"
+  - first:
+      213: -1719450996995666879
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_105"
+  - first:
+      213: -431669468457830961
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_106"
+  - first:
+      213: 1269772634065708692
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_107"
+  - first:
+      213: 60341387542259633
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_108"
+  - first:
+      213: 6291074125224514967
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_109"
+  - first:
+      213: 495009402514232142
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_110"
+  - first:
+      213: -5348542351469107310
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_111"
+  - first:
+      213: 1812216181057574772
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_112"
+  - first:
+      213: 3674593219898820036
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_113"
+  - first:
+      213: 1203055030272986728
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_114"
+  - first:
+      213: -981941411773234400
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_115"
+  - first:
+      213: 3613530484772867829
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_116"
+  - first:
+      213: -8147171361897259781
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_117"
+  - first:
+      213: -2459741487777689698
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_118"
+  - first:
+      213: 6544183903287271583
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_119"
+  - first:
+      213: -4724862161364421009
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_120"
+  - first:
+      213: 8986994160448485393
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_121"
+  - first:
+      213: -1093539627724086698
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_122"
+  - first:
+      213: 3558454571240416892
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_123"
+  - first:
+      213: -2315378093947411686
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_124"
+  - first:
+      213: 8620813496880195999
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_125"
+  - first:
+      213: 2409934362439703585
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_126"
+  - first:
+      213: 7591933008454535215
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_127"
+  - first:
+      213: 3162497457360095120
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_128"
+  - first:
+      213: -8620988145890882946
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_129"
+  - first:
+      213: -6397408515562542770
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_130"
+  - first:
+      213: -1701362840675631790
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_131"
+  - first:
+      213: -6401061484970736318
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_132"
+  - first:
+      213: -4418776306648482724
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_133"
+  - first:
+      213: -2707596112755579928
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_134"
+  - first:
+      213: -7705623476066856015
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_135"
+  - first:
+      213: 2290863250497514279
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_136"
+  - first:
+      213: 231313265955257671
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_137"
+  - first:
+      213: -1092851803263135228
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_138"
+  - first:
+      213: -1050238792066963521
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_139"
+  - first:
+      213: -7117706500816587643
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_140"
+  - first:
+      213: -4171143016462843939
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_141"
+  - first:
+      213: 1016345383572591723
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_142"
+  - first:
+      213: -5513654589998727233
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_143"
+  - first:
+      213: -550351942857973433
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_144"
+  - first:
+      213: -6920892178611288160
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_145"
+  - first:
+      213: 6220739717946467247
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_146"
+  - first:
+      213: 1840108590834934056
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_147"
+  - first:
+      213: -180554020329067641
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_148"
+  - first:
+      213: 4734577645666534167
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_149"
+  - first:
+      213: -239679090779015726
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_150"
+  - first:
+      213: 5222898156996518105
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_151"
+  - first:
+      213: -2354001837669788002
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_152"
+  - first:
+      213: 8364664292417641457
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_153"
+  - first:
+      213: -8505584369093216921
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_154"
+  - first:
+      213: -2396446912112919436
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_155"
+  - first:
+      213: 2803894818866770912
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_156"
+  - first:
+      213: 8354236955153328233
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_157"
+  - first:
+      213: 8991094836293462277
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_158"
+  - first:
+      213: -5688938793613110737
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_159"
+  - first:
+      213: -1322402681769178567
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_160"
+  - first:
+      213: 3512832482392160155
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_161"
+  - first:
+      213: -1503894580413871633
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_162"
+  - first:
+      213: 4959204417528056077
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_163"
+  - first:
+      213: 8077958037488194845
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_164"
+  - first:
+      213: 5096989408119146957
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_165"
+  - first:
+      213: -1501797875128261957
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_166"
+  - first:
+      213: -7581935646021601899
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_167"
+  - first:
+      213: 5421433986982755366
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_168"
+  - first:
+      213: 6825052420517492859
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_169"
+  - first:
+      213: 4124930304261631629
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_170"
+  - first:
+      213: -4494159402887265845
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_171"
+  - first:
+      213: -7667819300215201529
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_172"
+  - first:
+      213: -4695451438112927275
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_173"
+  - first:
+      213: 7988173724294752285
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_174"
+  - first:
+      213: -8505411398232704241
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_175"
+  - first:
+      213: -4930945117899533187
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_176"
+  - first:
+      213: 2332255390687569228
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_177"
+  - first:
+      213: -6507593591557271739
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_178"
+  - first:
+      213: -5599585107592548125
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_179"
+  - first:
+      213: -8003557168295084292
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_180"
+  - first:
+      213: 7822387874853507418
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_181"
+  - first:
+      213: -2417542832391948209
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_182"
+  - first:
+      213: -77116760824380926
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_183"
+  - first:
+      213: -1871415462339237814
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_184"
+  - first:
+      213: 5943087318686890133
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_185"
+  - first:
+      213: 1613046347957905739
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_186"
+  - first:
+      213: -8021734894753417495
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_187"
+  - first:
+      213: -1488266238833583056
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_188"
+  - first:
+      213: 6091143255116652814
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_189"
+  - first:
+      213: -3320923815243796121
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_190"
+  - first:
+      213: -1905763040721871149
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_191"
+  - first:
+      213: -476566599166733883
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_192"
+  - first:
+      213: 381156527388998730
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_193"
+  - first:
+      213: -6725570686856782229
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_194"
+  - first:
+      213: 1438629346978273466
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_195"
+  - first:
+      213: 5527438761949749393
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_196"
+  - first:
+      213: -8635064865655325772
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_197"
+  - first:
+      213: 8124615509337834683
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_198"
+  - first:
+      213: -5928931638543136242
+    second: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_199"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_0"
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 362
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a7f46d1cbd0bc740800000000000000
+      internalID: 5173243698563315616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_1"
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 362
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ca5a5484fc6678e0800000000000000
+      internalID: -1696048412210079040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_2"
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 363
+        width: 15
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71bc1b8cb3950a110800000000000000
+      internalID: 1270113208223517463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_3"
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 363
+        width: 15
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bbbcbc425a43d1e0800000000000000
+      internalID: -2174312477754606666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_4"
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 397
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bba9217a8fe480000800000000000000
+      internalID: 2338629675555515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_5"
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 397
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15900af783a492020800000000000000
+      internalID: 2317465089778649425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_6"
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 363
+        width: 15
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0a8eeb4d35937730800000000000000
+      internalID: 3995701384907229707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_7"
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 363
+        width: 15
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25353ba3ebd98d010800000000000000
+      internalID: 1213893539930526546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_8"
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 397
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca2dd85c9efd407d0800000000000000
+      internalID: -2952989260513422676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_9"
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 363
+        width: 15
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9ea9c8c0a5b41cf0800000000000000
+      internalID: -282401174449443169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_10"
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 362
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41bf1640453545780800000000000000
+      internalID: -8695233360229696748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_11"
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 363
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab01e9994031b6330800000000000000
+      internalID: 3705076028920434874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_12"
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 362
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2f1f5b0750dc3830800000000000000
+      internalID: 4052342836998119215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_13"
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 363
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: add37672a1c7b18d0800000000000000
+      internalID: -2874567485373858342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_14"
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 362
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7e8c4fde42bd58d0800000000000000
+      internalID: -2855930536859496838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_15"
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 362
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21e81f73c761a6550800000000000000
+      internalID: 6154756563525537298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_16"
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 363
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87fc38e0b694dce10800000000000000
+      internalID: 2219510915517370232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_17"
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 350
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77579ba334da9dcd0800000000000000
+      internalID: -2532802811159546505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_18"
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 362
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86d82129d3bf6e2e0800000000000000
+      internalID: -2096712334632120984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_19"
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 362
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19641dc1cdb43d080800000000000000
+      internalID: -9163897408020461935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_20"
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 362
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d2a1741f42bb5b50800000000000000
+      internalID: 6583051333047263955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_21"
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 362
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92feeef91b76bf220800000000000000
+      internalID: 2520722429034032937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_22"
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 362
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08f670446702ee110800000000000000
+      internalID: 1292005835421478784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_23"
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 363
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adceac37d10f33380800000000000000
+      internalID: -8992580021641351974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_24"
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 363
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07e946d87fc318b20800000000000000
+      internalID: 3134853849553346160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_25"
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 362
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be3c2f3f482e13ec0800000000000000
+      internalID: -3588838367381240853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_26"
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 362
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2830bc54c5deb08c0800000000000000
+      internalID: -4031868060816440446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_27"
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 362
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98468305e37ec2ec0800000000000000
+      internalID: -3590240548101266295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_28"
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 363
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c66cd9719fa11830800000000000000
+      internalID: 4040203380077651651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_29"
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 362
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b78427297a77a2b0800000000000000
+      internalID: -5573351353081362507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_30"
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 362
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 623504641651116b0800000000000000
+      internalID: -5327453376667954394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_31"
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 362
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14bc3fe1fddbb2890800000000000000
+      internalID: -7481677589951296703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_32"
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 363
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfdf4509997e3d300800000000000000
+      internalID: 275818648937233916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_33"
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 362
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebb938d049756b790800000000000000
+      internalID: -7514722634827588674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_34"
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 363
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 604b606068f2d0290800000000000000
+      internalID: -7922623916801608698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_35"
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 350
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0529b05adf7cc53a0800000000000000
+      internalID: -6675240655460265392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_36"
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 362
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ba16b912abefba0800000000000000
+      internalID: -6053196195635811530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_37"
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 362
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d036e28256c297600800000000000000
+      internalID: 466452849387004685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_38"
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 363
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa58dd11987bcf420800000000000000
+      internalID: 2665206878834623919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_39"
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 362
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0ed4f75ca49242f0800000000000000
+      internalID: -990065500137136629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_40"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 291
+        width: 20
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4e65ed8e695850d0800000000000000
+      internalID: -3433896384508105139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_41"
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 325
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e131afb00b9594cb0800000000000000
+      internalID: -4879270108629167330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_42"
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 291
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27ee02d42af34a5f0800000000000000
+      internalID: -746401671925404046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_43"
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 325
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9adc240c4058255c0800000000000000
+      internalID: -4228170844695507543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_44"
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 291
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 708d3cc3425eb3870800000000000000
+      internalID: 8663770251978332167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_45"
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 290
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd0b610d48e1777c0800000000000000
+      internalID: -4073753782157659940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_46"
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 290
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b84dd162893f3a60800000000000000
+      internalID: 7655901123703556274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_47"
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 291
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 320a074814312c390800000000000000
+      internalID: -7799650432536502237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_48"
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 291
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59b7099d3ead23b90800000000000000
+      internalID: -7263502576852632683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_49"
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 290
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 469f879a1c3737ca0800000000000000
+      internalID: -6020341001255061148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_50"
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 291
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e757c32f5db19f000800000000000000
+      internalID: 70117874906985854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_51"
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 291
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2abe29e76c16614d0800000000000000
+      internalID: -3164234183026218078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_52"
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 290
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff9a388b6dfcf67f0800000000000000
+      internalID: -617046102800881153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_53"
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 291
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03ffe933122c8f060800000000000000
+      internalID: 6987548269721091888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_54"
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 290
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86e200a42a861dd00800000000000000
+      internalID: 995692038861106792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_55"
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 291
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 224734155d5d07430800000000000000
+      internalID: 3778755199531971618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_56"
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 290
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26218b965fd862780800000000000000
+      internalID: -8708116744294100382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_57"
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 290
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df1abf03b848a0ea0800000000000000
+      internalID: -5905762227985866243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_58"
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 290
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aff0ebdbef25d3e20800000000000000
+      internalID: 3331910553382555642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_59"
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 290
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a187c049a64f77ad0800000000000000
+      internalID: -2704424312625137638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_60"
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 290
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c908053645ec44c0800000000000000
+      internalID: -4301811454345475646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_61"
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 290
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 838226773aa71e180800000000000000
+      internalID: -9087847730555770824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_62"
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 291
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2440927a749b19560800000000000000
+      internalID: 7318834586852066370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_63"
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 291
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24bd366af66fcaaa0800000000000000
+      internalID: -6148268431874204862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_64"
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 290
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86a66187eea024940800000000000000
+      internalID: 5278793732564871784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_65"
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 290
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad2be322fccce8d60800000000000000
+      internalID: 7894472386831889114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_66"
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 290
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02c0ed4c2924194c0800000000000000
+      internalID: -4282568572517086176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_67"
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 290
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9325767b89ff41470800000000000000
+      internalID: 8364591439310967353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_68"
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 278
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceced051a10663100800000000000000
+      internalID: 87362907918953708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_69"
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 290
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67df505707a8eed00800000000000000
+      internalID: 1003891982554496374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_70"
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 290
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eebd2c878f530e00800000000000000
+      internalID: 1009755777238154984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_71"
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 218
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e293d653edab3e350800000000000000
+      internalID: 6044880588403194158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_72"
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 218
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b5a9c84176d44770800000000000000
+      internalID: 8594229770970572209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_73"
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 217
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e4e9d4e813796100800000000000000
+      internalID: 101739017348441317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_74"
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 217
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ca2494df5f10aab0800000000000000
+      internalID: -4998961089932416319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_75"
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 252
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fb4862b7671e9bb0800000000000000
+      internalID: -4927475208154493965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_76"
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 218
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e2950f632e96a6d0800000000000000
+      internalID: -2979520228435324191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_77"
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 252
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eabfadadadcb22c30800000000000000
+      internalID: 4333233439644515246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_78"
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 217
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e923a4ea78cbcfe0800000000000000
+      internalID: -1167619248225048090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_79"
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 218
+        width: 15
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f46f1e957b47ec10800000000000000
+      internalID: 2082716321218258166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_80"
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 252
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa73e4d0dff53c8f0800000000000000
+      internalID: -521467591390251094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_81"
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 205
+        width: 22
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e0d84d5ac6caeb80800000000000000
+      internalID: -8364654785436528411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_82"
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 218
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 495a89745033a3fb0800000000000000
+      internalID: -4667361966047058540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_83"
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 218
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 551ff9650d116b390800000000000000
+      internalID: -7803029717868613291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_84"
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 224
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 981da53450a932360800000000000000
+      internalID: 7143722781335277961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_85"
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 217
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b0b3dc5b02d5f2d0800000000000000
+      internalID: -3245457010206723915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_86"
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 217
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baedcbb0197eb2f10800000000000000
+      internalID: 2246143449327525547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_87"
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 218
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c50d92524ac2934f0800000000000000
+      internalID: -848597971272871844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_88"
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 205
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3674b9c0987a6fb40800000000000000
+      internalID: 5473746604179277667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_89"
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 217
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4b70a941abdee4f0800000000000000
+      internalID: -797458598226527414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_90"
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 218
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fa3fc586e26d50c0800000000000000
+      internalID: -4585400103366345991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_91"
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 217
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 799c9e5814e916cd0800000000000000
+      internalID: -2566596308367717993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_92"
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 218
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7102d19ad5f397230800000000000000
+      internalID: 3637007845580152855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_93"
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 217
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1754335c556a3040800000000000000
+      internalID: 4628123014283941661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_94"
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 218
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65cd59f12d7ae16e0800000000000000
+      internalID: -1864868674769920938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_95"
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 218
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eaba52cd42beec20800000000000000
+      internalID: 3237721229168917221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_96"
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 217
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca156fbd25bfc8440800000000000000
+      internalID: 4939599224614834604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_97"
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 217
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74da9c530b8703390800000000000000
+      internalID: -7840634253040046777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_98"
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 218
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e99c80b69a1b7f60800000000000000
+      internalID: 8033043594854832613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_99"
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 217
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8ab7f6b1bb3f3e00800000000000000
+      internalID: 1026604874528701070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_100"
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 218
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55d122f2a7ed8b3a0800000000000000
+      internalID: -6649320233454396075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_101"
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 217
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e68fe1680d2c3c10800000000000000
+      internalID: 2034550645690697446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_102"
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 217
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3652b06feeba40dd0800000000000000
+      internalID: -2520700848602143389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_103"
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 217
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e0d9ba3693b13aa0800000000000000
+      internalID: -6182963355591257887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_104"
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 218
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a00f24b84452ed100800000000000000
+      internalID: 134586015192117258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_105"
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 217
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14cc163ad684328e0800000000000000
+      internalID: -1719450996995666879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_106"
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 218
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc57030d7e6620af0800000000000000
+      internalID: -431669468457830961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_107"
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 217
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 496affeab732f9110800000000000000
+      internalID: 1269772634065708692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_108"
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 217
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b7e5b91c2066d000800000000000000
+      internalID: 60341387542259633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_109"
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 145
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79598a9d5926e4750800000000000000
+      internalID: 6291074125224514967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_110"
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 145
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e43d65dcd60aed600800000000000000
+      internalID: 495009402514232142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_111"
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 152
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2972d82b11926c5b0800000000000000
+      internalID: -5348542351469107310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_112"
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 146
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 477d620e309462910800000000000000
+      internalID: 1812216181057574772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_113"
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 146
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c5c02e8017cef230800000000000000
+      internalID: 3674593219898820036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_114"
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 133
+        width: 22
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86e0bac0d2c12b010800000000000000
+      internalID: 1203055030272986728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_115"
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 180
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 023c2011d717f52f0800000000000000
+      internalID: -981941411773234400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_116"
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 146
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fe8ee1a4d6d52230800000000000000
+      internalID: 3613530484772867829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_117"
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 146
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfcd0e9dfce6fee80800000000000000
+      internalID: -8147171361897259781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_118"
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 146
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9f48bd262e3dddd0800000000000000
+      internalID: -2459741487777689698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_119"
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 145
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f906444669c91da50800000000000000
+      internalID: 6544183903287271583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_120"
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 145
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f66703bc5eaed6eb0800000000000000
+      internalID: -4724862161364421009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_121"
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 137
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 118ba04e29738bc70800000000000000
+      internalID: 8986994160448485393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_122"
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 145
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65261bd9087f2d0f0800000000000000
+      internalID: -1093539627724086698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_123"
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 145
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c76662c349b226130800000000000000
+      internalID: 3558454571240416892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_124"
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 145
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a132b8514ef1edfd0800000000000000
+      internalID: -2315378093947411686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_125"
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 145
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f99ef6c433843a770800000000000000
+      internalID: 8620813496880195999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_126"
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 145
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12cd935c88ec17120800000000000000
+      internalID: 2409934362439703585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_127"
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 145
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f28ce7fe8d6fb5960800000000000000
+      internalID: 7591933008454535215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_128"
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 145
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 097460d8ea273eb20800000000000000
+      internalID: 3162497457360095120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_129"
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 145
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7a025f05f81c5880800000000000000
+      internalID: -8620988145890882946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_130"
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 146
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e49e5da99d6d737a0800000000000000
+      internalID: -6397408515562542770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_131"
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 145
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25dba77b28b8368e0800000000000000
+      internalID: -1701362840675631790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_132"
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 146
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24582e26e7cda27a0800000000000000
+      internalID: -6401061484970736318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_133"
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 133
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5cfd4c5c5a5da2c0800000000000000
+      internalID: -4418776306648482724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_134"
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 145
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e3a9ff4eafac6ad0800000000000000
+      internalID: -2707596112755579928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_135"
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 145
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b3df105640201590800000000000000
+      internalID: -7705623476066856015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_136"
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 146
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72ba6e22df7cacf10800000000000000
+      internalID: 2290863250497514279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_137"
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 145
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74d3919903ac53300800000000000000
+      internalID: 231313265955257671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_138"
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 146
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4021b5a331965d0f0800000000000000
+      internalID: -1092851803263135228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_139"
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 145
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb7638d026dcc61f0800000000000000
+      internalID: -1050238792066963521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_140"
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 146
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 584b65316a3d83d90800000000000000
+      internalID: -7117706500816587643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_141"
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 146
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddf7164b68f1d16c0800000000000000
+      internalID: -4171143016462843939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_142"
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 145
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b64d3f4ddb8ca1e00800000000000000
+      internalID: 1016345383572591723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_143"
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 137
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbf7cecec509b73b0800000000000000
+      internalID: -5513654589998727233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_144"
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 145
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7412188e2d1cc58f0800000000000000
+      internalID: -550351942857973433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_145"
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 145
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a748156b3d04ff90800000000000000
+      internalID: -6920892178611288160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_146"
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 145
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa3ec5880d1845650800000000000000
+      internalID: 6220739717946467247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_147"
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 107
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8216cd89301698910800000000000000
+      internalID: 1840108590834934056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_148"
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 73
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b648b331b8e7df0800000000000000
+      internalID: -180554020329067641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_149"
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 107
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 713857ba84994b140800000000000000
+      internalID: 4734577645666534167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_150"
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 73
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d53706032d7cacf0800000000000000
+      internalID: -239679090779015726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_151"
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 73
+        width: 15
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d0e1d1a3367b7840800000000000000
+      internalID: 5222898156996518105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_152"
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 107
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e965319fcc7e45fd0800000000000000
+      internalID: -2354001837669788002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_153"
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 73
+        width: 15
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fb92f62bd1451470800000000000000
+      internalID: 8364664292417641457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_154"
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 73
+        width: 15
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7657511b41816f980800000000000000
+      internalID: -8505584369093216921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_155"
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 73
+        width: 15
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47c7d68fa3c1ebed0800000000000000
+      internalID: -2396446912112919436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_156"
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 73
+        width: 15
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e3bc1a6b7f69e620800000000000000
+      internalID: 2803894818866770912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_157"
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 107
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 968ea518f3630f370800000000000000
+      internalID: 8354236955153328233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_158"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 509ee13ed19c6cc70800000000000000
+      internalID: 8991094836293462277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_159"
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 73
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2250c9fe44dc01b0800000000000000
+      internalID: -5688938793613110737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_160"
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 73
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93acf1f64c1e5ade0800000000000000
+      internalID: -1322402681769178567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_161"
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 72
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b97307ce78610c030800000000000000
+      internalID: 3512832482392160155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_162"
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 72
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe9cbcad8d7112be0800000000000000
+      internalID: -1503894580413871633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_163"
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 73
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d09ce4b8422a2d440800000000000000
+      internalID: 4959204417528056077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_164"
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 73
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d15def6490caa1070800000000000000
+      internalID: 8077958037488194845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_165"
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 72
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc9ced69cd42cb640800000000000000
+      internalID: 5096989408119146957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_166"
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 60
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb22b881aca882be0800000000000000
+      internalID: -1501797875128261957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_167"
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 73
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 595b20563bd87c690800000000000000
+      internalID: -7581935646021601899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_168"
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 72
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62c3657bc7dcc3b40800000000000000
+      internalID: 5421433986982755366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_169"
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 73
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b787d5a040577be50800000000000000
+      internalID: 6825052420517492859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_170"
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 72
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8e22c4c142be3930800000000000000
+      internalID: 4124930304261631629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_171"
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 72
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc14cea85d981a1c0800000000000000
+      internalID: -4494159402887265845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_172"
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 73
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 701e9c8e8fe669590800000000000000
+      internalID: -7667819300215201529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_173"
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 72
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d19e2b6bc766deb0800000000000000
+      internalID: -4695451438112927275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_174"
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 73
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d18a2b8dda1bbde60800000000000000
+      internalID: 7988173724294752285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_175"
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 72
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0bf7cb9565b6f980800000000000000
+      internalID: -8505411398232704241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_176"
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 73
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d74d6a06a83c19bb0800000000000000
+      internalID: -4930945117899533187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_177"
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 72
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c452c67cbe5dd5020800000000000000
+      internalID: 2332255390687569228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_178"
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 72
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54fce907b1260b5a0800000000000000
+      internalID: -6507593591557271739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_179"
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 72
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e0f06433074a42b0800000000000000
+      internalID: -5599585107592548125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_180"
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 73
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfe7d3cf827ade090800000000000000
+      internalID: -8003557168295084292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_181"
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 72
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5157ffc354be8c60800000000000000
+      internalID: 7822387874853507418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_182"
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 60
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f487cf54a99237ed0800000000000000
+      internalID: -2417542832391948209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_183"
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 72
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20285d0f6b60eeef0800000000000000
+      internalID: -77116760824380926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_184"
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 72
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a48a81c5d856706e0800000000000000
+      internalID: -1871415462339237814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_185"
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 72
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 598f573bd661a7250800000000000000
+      internalID: 5943087318686890133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_186"
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 72
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b49a5407b11b26610800000000000000
+      internalID: 1613046347957905739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_187"
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 72
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e6fddb3d921da090800000000000000
+      internalID: -8021734894753417495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_188"
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 73
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03c1e1fadbd985be0800000000000000
+      internalID: -1488266238833583056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_189"
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 72
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e01ae3da486188450800000000000000
+      internalID: 6091143255116652814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_190"
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 73
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76132429265b9e1d0800000000000000
+      internalID: -3320923815243796121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_191"
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 34
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3de54b39c9e5d85e0800000000000000
+      internalID: -1905763040721871149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_192"
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 0
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c1d9d8f335e269f0800000000000000
+      internalID: -476566599166733883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_193"
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4cb7da97d32a4500800000000000000
+      internalID: 381156527388998730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_194"
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6e1f1a0819f9a2a0800000000000000
+      internalID: -6725570686856782229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_195"
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 0
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab89716d4c907f310800000000000000
+      internalID: 1438629346978273466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_196"
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 0
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1906db3b44865bc40800000000000000
+      internalID: 5527438761949749393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_197"
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 0
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bb782651461a2880800000000000000
+      internalID: -8635064865655325772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_198"
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 0
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb406ba72ce60c070800000000000000
+      internalID: 8124615509337834683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_199"
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 0
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0acf0b661438bda0800000000000000
+      internalID: -5928931638543136242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_0": 5173243698563315616
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_1": -1696048412210079040
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_10": -8695233360229696748
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_100": -6649320233454396075
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_101": 2034550645690697446
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_102": -2520700848602143389
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_103": -6182963355591257887
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_104": 134586015192117258
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_105": -1719450996995666879
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_106": -431669468457830961
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_107": 1269772634065708692
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_108": 60341387542259633
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_109": 6291074125224514967
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_11": 3705076028920434874
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_110": 495009402514232142
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_111": -5348542351469107310
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_112": 1812216181057574772
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_113": 3674593219898820036
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_114": 1203055030272986728
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_115": -981941411773234400
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_116": 3613530484772867829
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_117": -8147171361897259781
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_118": -2459741487777689698
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_119": 6544183903287271583
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_12": 4052342836998119215
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_120": -4724862161364421009
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_121": 8986994160448485393
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_122": -1093539627724086698
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_123": 3558454571240416892
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_124": -2315378093947411686
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_125": 8620813496880195999
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_126": 2409934362439703585
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_127": 7591933008454535215
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_128": 3162497457360095120
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_129": -8620988145890882946
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_13": -2874567485373858342
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_130": -6397408515562542770
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_131": -1701362840675631790
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_132": -6401061484970736318
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_133": -4418776306648482724
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_134": -2707596112755579928
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_135": -7705623476066856015
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_136": 2290863250497514279
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_137": 231313265955257671
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_138": -1092851803263135228
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_139": -1050238792066963521
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_14": -2855930536859496838
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_140": -7117706500816587643
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_141": -4171143016462843939
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_142": 1016345383572591723
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_143": -5513654589998727233
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_144": -550351942857973433
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_145": -6920892178611288160
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_146": 6220739717946467247
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_147": 1840108590834934056
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_148": -180554020329067641
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_149": 4734577645666534167
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_15": 6154756563525537298
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_150": -239679090779015726
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_151": 5222898156996518105
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_152": -2354001837669788002
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_153": 8364664292417641457
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_154": -8505584369093216921
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_155": -2396446912112919436
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_156": 2803894818866770912
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_157": 8354236955153328233
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_158": 8991094836293462277
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_159": -5688938793613110737
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_16": 2219510915517370232
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_160": -1322402681769178567
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_161": 3512832482392160155
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_162": -1503894580413871633
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_163": 4959204417528056077
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_164": 8077958037488194845
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_165": 5096989408119146957
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_166": -1501797875128261957
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_167": -7581935646021601899
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_168": 5421433986982755366
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_169": 6825052420517492859
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_17": -2532802811159546505
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_170": 4124930304261631629
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_171": -4494159402887265845
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_172": -7667819300215201529
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_173": -4695451438112927275
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_174": 7988173724294752285
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_175": -8505411398232704241
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_176": -4930945117899533187
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_177": 2332255390687569228
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_178": -6507593591557271739
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_179": -5599585107592548125
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_18": -2096712334632120984
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_180": -8003557168295084292
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_181": 7822387874853507418
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_182": -2417542832391948209
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_183": -77116760824380926
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_184": -1871415462339237814
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_185": 5943087318686890133
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_186": 1613046347957905739
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_187": -8021734894753417495
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_188": -1488266238833583056
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_189": 6091143255116652814
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_19": -9163897408020461935
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_190": -3320923815243796121
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_191": -1905763040721871149
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_192": -476566599166733883
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_193": 381156527388998730
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_194": -6725570686856782229
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_195": 1438629346978273466
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_196": 5527438761949749393
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_197": -8635064865655325772
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_198": 8124615509337834683
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_199": -5928931638543136242
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_2": 1270113208223517463
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_20": 6583051333047263955
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_21": 2520722429034032937
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_22": 1292005835421478784
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_23": -8992580021641351974
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_24": 3134853849553346160
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_25": -3588838367381240853
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_26": -4031868060816440446
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_27": -3590240548101266295
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_28": 4040203380077651651
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_29": -5573351353081362507
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_3": -2174312477754606666
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_30": -5327453376667954394
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_31": -7481677589951296703
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_32": 275818648937233916
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_33": -7514722634827588674
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_34": -7922623916801608698
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_35": -6675240655460265392
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_36": -6053196195635811530
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_37": 466452849387004685
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_38": 2665206878834623919
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_39": -990065500137136629
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_4": 2338629675555515
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_40": -3433896384508105139
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_41": -4879270108629167330
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_42": -746401671925404046
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_43": -4228170844695507543
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_44": 8663770251978332167
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_45": -4073753782157659940
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_46": 7655901123703556274
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_47": -7799650432536502237
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_48": -7263502576852632683
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_49": -6020341001255061148
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_5": 2317465089778649425
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_50": 70117874906985854
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_51": -3164234183026218078
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_52": -617046102800881153
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_53": 6987548269721091888
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_54": 995692038861106792
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_55": 3778755199531971618
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_56": -8708116744294100382
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_57": -5905762227985866243
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_58": 3331910553382555642
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_59": -2704424312625137638
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_6": 3995701384907229707
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_60": -4301811454345475646
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_61": -9087847730555770824
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_62": 7318834586852066370
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_63": -6148268431874204862
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_64": 5278793732564871784
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_65": 7894472386831889114
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_66": -4282568572517086176
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_67": 8364591439310967353
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_68": 87362907918953708
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_69": 1003891982554496374
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_7": 1213893539930526546
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_70": 1009755777238154984
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_71": 6044880588403194158
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_72": 8594229770970572209
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_73": 101739017348441317
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_74": -4998961089932416319
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_75": -4927475208154493965
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_76": -2979520228435324191
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_77": 4333233439644515246
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_78": -1167619248225048090
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_79": 2082716321218258166
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_8": -2952989260513422676
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_80": -521467591390251094
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_81": -8364654785436528411
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_82": -4667361966047058540
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_83": -7803029717868613291
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_84": 7143722781335277961
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_85": -3245457010206723915
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_86": 2246143449327525547
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_87": -848597971272871844
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_88": 5473746604179277667
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_89": -797458598226527414
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_9": -282401174449443169
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_90": -4585400103366345991
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_91": -2566596308367717993
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_92": 3637007845580152855
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_93": 4628123014283941661
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_94": -1864868674769920938
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_95": 3237721229168917221
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_96": 4939599224614834604
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_97": -7840634253040046777
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_98": 8033043594854832613
+      "Gardez le clique souris sur le levier pour le faire mont\xE9 et de_99": 1026604874528701070
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -286,10 +286,10 @@ public class VivoxVoiceEffectsController : MonoBehaviour
 
         ApplyNoiseLayer();
 
-        if (verboseLogs)
-        {
-            Debug.Log($"[VoiceEffects] Applied -> output={outputVolume} channel={channelVolume} noise={currentNoiseIntensity:F2}");
-        }
+        //if (verboseLogs)
+        //{
+        //    Debug.Log($"[VoiceEffects] Applied -> output={outputVolume} channel={channelVolume} noise={currentNoiseIntensity:F2}");
+        //}
     }
 
     private void ApplyNoiseLayer()

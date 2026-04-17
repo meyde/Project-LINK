@@ -1,0 +1,2587 @@
+fileFormatVersion: 2
+guid: 1be47fca9a0ed8c4e89c03d8cd0112b0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6035973788529113957
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_0
+  - first:
+      213: 5605400323616765170
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_1
+  - first:
+      213: 8814596583857764121
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_2
+  - first:
+      213: -5705244833456538393
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_3
+  - first:
+      213: 339411599303999435
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_4
+  - first:
+      213: 7076937501337991637
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_5
+  - first:
+      213: 1608391772234834912
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_6
+  - first:
+      213: -5896209653700271700
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_7
+  - first:
+      213: -8947757512587701335
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_8
+  - first:
+      213: 8098735237425688691
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_9
+  - first:
+      213: 4925248915831847335
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_10
+  - first:
+      213: -6233909543295457193
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_11
+  - first:
+      213: -5374317082501295693
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_12
+  - first:
+      213: 5453833474741793779
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_13
+  - first:
+      213: 8961666855926194479
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_14
+  - first:
+      213: -6992011023626296201
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_15
+  - first:
+      213: 2890171741328934025
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_16
+  - first:
+      213: 2756686884232159
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_17
+  - first:
+      213: -5915480314491917331
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_18
+  - first:
+      213: 1205072952086594561
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_19
+  - first:
+      213: 5396757600684951827
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_20
+  - first:
+      213: 6923447737130093663
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_21
+  - first:
+      213: -6599698354724000056
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_22
+  - first:
+      213: -5081714500179368436
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_23
+  - first:
+      213: 3397815959986063936
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_24
+  - first:
+      213: -4240149997010165589
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_25
+  - first:
+      213: 4015255242271010838
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_26
+  - first:
+      213: 4239300442776390194
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_27
+  - first:
+      213: -4583439451198931591
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_28
+  - first:
+      213: 1224329685877097116
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_29
+  - first:
+      213: 6628127212755235007
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_30
+  - first:
+      213: -8985459525874111281
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_31
+  - first:
+      213: 4091536020075765380
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_32
+  - first:
+      213: 3106658154189559185
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_33
+  - first:
+      213: 6007989135633252887
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_34
+  - first:
+      213: -1297475707810901100
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_35
+  - first:
+      213: -4739582434267550433
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_36
+  - first:
+      213: -6091317439930681997
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_37
+  - first:
+      213: -706775752372388570
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_38
+  - first:
+      213: -181257573274519960
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_39
+  - first:
+      213: -9038293597840963310
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_40
+  - first:
+      213: -5336082762195568890
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_41
+  - first:
+      213: -2861894971759959807
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_42
+  - first:
+      213: 2022657310382572550
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_43
+  - first:
+      213: 2372141077841327757
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_44
+  - first:
+      213: -4107853023830685912
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_45
+  - first:
+      213: -8865778128527008873
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_46
+  - first:
+      213: 1572289113779566255
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_47
+  - first:
+      213: 6509384919826942968
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_48
+  - first:
+      213: -411609741091267974
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_49
+  - first:
+      213: 593991895016917981
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_50
+  - first:
+      213: 6418637712553922340
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_51
+  - first:
+      213: -4360759047558690767
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_52
+  - first:
+      213: 2302586559438376780
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_53
+  - first:
+      213: -2776085507611327157
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_54
+  - first:
+      213: 8642183634808843976
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_55
+  - first:
+      213: 5042482922433838870
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_56
+  - first:
+      213: -1641438564662888376
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_57
+  - first:
+      213: 6040495188096995684
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_58
+  - first:
+      213: -6915225686290773861
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_59
+  - first:
+      213: -5521768970679285262
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_60
+  - first:
+      213: -4024864706510996885
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_61
+  - first:
+      213: -4751007149640397903
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_62
+  - first:
+      213: 5029759798519495176
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_63
+  - first:
+      213: -6995833251806840857
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_64
+  - first:
+      213: -7636884142315377375
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_65
+  - first:
+      213: -2419621048728065203
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_66
+  - first:
+      213: -832497695173912659
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_67
+  - first:
+      213: 348894426086062073
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_68
+  - first:
+      213: 5892213840852945092
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_69
+  - first:
+      213: 6762351037609351012
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_70
+  - first:
+      213: -8510796452639967080
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_71
+  - first:
+      213: -5914108793709917471
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_72
+  - first:
+      213: 2383286273723580858
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_73
+  - first:
+      213: 1712502373947332955
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_74
+  - first:
+      213: 4594918266250245453
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_75
+  - first:
+      213: 3875888194057315486
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_76
+  - first:
+      213: 2655392001875859909
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_77
+  - first:
+      213: 565484057899936853
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_78
+  - first:
+      213: -3087644408428539541
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_79
+  - first:
+      213: -7598660095982237189
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_80
+  - first:
+      213: 1750998505723397897
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_81
+  - first:
+      213: -2003880386149610485
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_82
+  - first:
+      213: 7892635551582887088
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_83
+  - first:
+      213: -8255639111664279318
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_84
+  - first:
+      213: 1588774813156576363
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_85
+  - first:
+      213: 4460712827649738472
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_86
+  - first:
+      213: 8333630412705400107
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_87
+  - first:
+      213: -5860680001051719661
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_88
+  - first:
+      213: -3970552315590716557
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_89
+  - first:
+      213: 4250107522206811871
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_90
+  - first:
+      213: 947254216720789476
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_91
+  - first:
+      213: -751835541304465098
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_92
+  - first:
+      213: -437159644084401556
+    second: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_93
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 144
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56bb8d24e2614c350800000000000000
+      internalID: 6035973788529113957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 145
+        width: 15
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f4790945e16acd40800000000000000
+      internalID: 5605400323616765170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_2
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 179
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 917b63b24ecb35a70800000000000000
+      internalID: 8814596583857764121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_3
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 145
+        width: 15
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ecb0393d06e2d0b0800000000000000
+      internalID: -5705244833456538393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_4
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 145
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcf79212d05d5b400800000000000000
+      internalID: 339411599303999435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_5
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 145
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d934e88925563260800000000000000
+      internalID: 7076937501337991637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_6
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 145
+        width: 15
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e3e7b39bc7225610800000000000000
+      internalID: 1608391772234834912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_7
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 145
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca167f53f847c2ea0800000000000000
+      internalID: -5896209653700271700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_8
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 132
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a390e513fd23d380800000000000000
+      internalID: -8947757512587701335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_9
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37072bc1acc746070800000000000000
+      internalID: 8098735237425688691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_10
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 144
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a9f88a3bcff95440800000000000000
+      internalID: 4925248915831847335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 145
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 758e4fd8c44bc79a0800000000000000
+      internalID: -6233909543295457193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_12
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 144
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b1523b76179a65b0800000000000000
+      internalID: -5374317082501295693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_13
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 144
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f37e1e46a8efab40800000000000000
+      internalID: 5453833474741793779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_14
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 145
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f216fd6468c3e5c70800000000000000
+      internalID: 8961666855926194479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_15
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 144
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 774a32fe40367fe90800000000000000
+      internalID: -6992011023626296201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_16
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 144
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98488cdc2e3fb1820800000000000000
+      internalID: 2890171741328934025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_17
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 144
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdbdd7e213bc90000800000000000000
+      internalID: 2756686884232159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_18
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 132
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deba4eadefdf7eda0800000000000000
+      internalID: -5915480314491917331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_19
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 144
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1048d85177749b010800000000000000
+      internalID: 1205072952086594561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_20
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 144
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31947bfc17225ea40800000000000000
+      internalID: 5396757600684951827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_21
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 145
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5c0f90f807051060800000000000000
+      internalID: 6923447737130093663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_22
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 144
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ce22f520592964a0800000000000000
+      internalID: -6599698354724000056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_23
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 144
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c066bde069f1a79b0800000000000000
+      internalID: -5081714500179368436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_24
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 145
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04a4f1bfc97772f20800000000000000
+      internalID: 3397815959986063936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_25
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 145
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba0e5d10b06f725c0800000000000000
+      internalID: -4240149997010165589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_26
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 144
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 610b61e7e5d09b730800000000000000
+      internalID: 4015255242271010838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_27
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 144
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23ac7dbba4505da30800000000000000
+      internalID: 4239300442776390194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_28
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 145
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97db6cd6a1a5460c0800000000000000
+      internalID: -4583439451198931591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_29
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 132
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c928baecc51bdf010800000000000000
+      internalID: 1224329685877097116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_30
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 144
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb0306a2596dbfb50800000000000000
+      internalID: 6628127212755235007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_31
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 144
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fccaf901b2c3d4380800000000000000
+      internalID: -8985459525874111281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_32
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 145
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48ed456155e08c830800000000000000
+      internalID: 4091536020075765380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_33
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 144
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1951a07a1211d1b20800000000000000
+      internalID: 3106658154189559185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_34
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 144
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71283d3894aa06350800000000000000
+      internalID: 6007989135633252887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 73
+        width: 20
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4939b33d7b07efde0800000000000000
+      internalID: -1297475707810901100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_36
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 107
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1d2dcd23ee993eb0800000000000000
+      internalID: -4739582434267550433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_37
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 73
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3753ac2cf0b477ba0800000000000000
+      internalID: -6091317439930681997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_38
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 73
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62dfbf7a2370136f0800000000000000
+      internalID: -706775752372388570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_39
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 73
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8667f1c823b0c7df0800000000000000
+      internalID: -181257573274519960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_40
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 73
+        width: 15
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21980051cd7819280800000000000000
+      internalID: -9038293597840963310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_41
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 72
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6077f33effc62f5b0800000000000000
+      internalID: -5336082762195568890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_42
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 73
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10165c7afa18848d0800000000000000
+      internalID: -2861894971759959807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_43
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 107
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60443b77b1ce11c10800000000000000
+      internalID: 2022657310382572550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_44
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 72
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8638ddfdb98be020800000000000000
+      internalID: 2372141077841327757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_45
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 72
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 827ce0d6079fdf6c0800000000000000
+      internalID: -4107853023830685912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_46
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 73
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79b58b7d3cd66f480800000000000000
+      internalID: -8865778128527008873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_47
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 73
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa67b0f5e94e1d510800000000000000
+      internalID: 1572289113779566255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_48
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 72
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fbc19ca81bf55a50800000000000000
+      internalID: 6509384919826942968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_49
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 72
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7a1a2c0f1ba94af0800000000000000
+      internalID: -411609741091267974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_50
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 72
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddbc1fd3b784e3800800000000000000
+      internalID: 593991895016917981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_51
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 73
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42fc3befdf4931950800000000000000
+      internalID: 6418637712553922340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_52
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 73
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 138813320c87b73c0800000000000000
+      internalID: -4360759047558690767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_53
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 72
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4fc9e3b64e64ff10800000000000000
+      internalID: 2302586559438376780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_54
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 73
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4587bc60fc5979d0800000000000000
+      internalID: -2776085507611327157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_55
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 72
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cea9744a343fe770800000000000000
+      internalID: 8642183634808843976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_56
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 73
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61f74a1708f7af540800000000000000
+      internalID: 5042482922433838870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_57
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 72
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84834a872507839e0800000000000000
+      internalID: -1641438564662888376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_58
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 72
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4615af1ae5624d350800000000000000
+      internalID: 6040495188096995684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_59
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 72
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b984bf270ee2800a0800000000000000
+      internalID: -6915225686290773861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_60
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 72
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f903e2706cbe53b0800000000000000
+      internalID: -5521768970679285262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_61
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 73
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6ab763cfdec428c0800000000000000
+      internalID: -4024864706510996885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_62
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 72
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bbc7585b28011eb0800000000000000
+      internalID: -4751007149640397903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_63
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 72
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80a7b4053eb4dc540800000000000000
+      internalID: 5029759798519495176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_64
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 73
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e7ff2619bec9ee90800000000000000
+      internalID: -6995833251806840857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_65
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 72
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12d6a72a556540690800000000000000
+      internalID: -7636884142315377375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_66
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 72
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b6183d977cb6ed0800000000000000
+      internalID: -2419621048728065203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_67
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 73
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da7d3dac1cf5274f0800000000000000
+      internalID: -832497695173912659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_68
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 73
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f739fac1a587d400800000000000000
+      internalID: 348894426086062073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_69
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 73
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c80eac154955c150800000000000000
+      internalID: 5892213840852945092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_70
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 72
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4671333b072b8dd50800000000000000
+      internalID: 6762351037609351012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_71
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 15
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8987dbce7b393e980800000000000000
+      internalID: -8510796452639967080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_72
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 26
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ea08ebe26ddceda0800000000000000
+      internalID: -5914108793709917471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_73
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 0
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab1cb5f1d32231120800000000000000
+      internalID: 2383286273723580858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_74
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 34
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b59d42cf5d704c710800000000000000
+      internalID: 1712502373947332955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_75
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 0
+        width: 15
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d45bcc771dd64cf30800000000000000
+      internalID: 4594918266250245453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_76
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 0
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e94aae3f6cbe9c530800000000000000
+      internalID: 3875888194057315486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_77
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 34
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c95933f4f8d9d420800000000000000
+      internalID: 2655392001875859909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_78
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 0
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55ca54d21c009d700800000000000000
+      internalID: 565484057899936853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_79
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 0
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6155e205cb7625d0800000000000000
+      internalID: -3087644408428539541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_80
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 0
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf90b02f6e22c8690800000000000000
+      internalID: -7598660095982237189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_81
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 0
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90702ef1ddbcc4810800000000000000
+      internalID: 1750998505723397897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_82
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 0
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0c0e23e769c034e0800000000000000
+      internalID: -2003880386149610485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_83
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 0
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bc97b99736488d60800000000000000
+      internalID: 7892635551582887088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_84
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 0
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae0ed6bd7f31e6d80800000000000000
+      internalID: -8255639111664279318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_85
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 0
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6c094e56467c0610800000000000000
+      internalID: 1588774813156576363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_86
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e64711dea2a7ed30800000000000000
+      internalID: 4460712827649738472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_87
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 0
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2582b6f4b007a370800000000000000
+      internalID: 8333630412705400107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_88
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 0
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 318831b179eaaaea0800000000000000
+      internalID: -5860680001051719661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_89
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 0
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3735c13b4b3c5e8c0800000000000000
+      internalID: -3970552315590716557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_90
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 0
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd64a5ef54a6bfa30800000000000000
+      internalID: 4250107522206811871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_91
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 0
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef22abf0b2552d00800000000000000
+      internalID: 947254216720789476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_92
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 0
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 639a80ffe81f095f0800000000000000
+      internalID: -751835541304465098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cliquez sur les tuyaux centraux pour les faire tourner et trouv_93
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 0
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6a8630be95eee9f0800000000000000
+      internalID: -437159644084401556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_0: 6035973788529113957
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_1: 5605400323616765170
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_10: 4925248915831847335
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_11: -6233909543295457193
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_12: -5374317082501295693
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_13: 5453833474741793779
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_14: 8961666855926194479
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_15: -6992011023626296201
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_16: 2890171741328934025
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_17: 2756686884232159
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_18: -5915480314491917331
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_19: 1205072952086594561
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_2: 8814596583857764121
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_20: 5396757600684951827
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_21: 6923447737130093663
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_22: -6599698354724000056
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_23: -5081714500179368436
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_24: 3397815959986063936
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_25: -4240149997010165589
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_26: 4015255242271010838
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_27: 4239300442776390194
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_28: -4583439451198931591
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_29: 1224329685877097116
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_3: -5705244833456538393
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_30: 6628127212755235007
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_31: -8985459525874111281
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_32: 4091536020075765380
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_33: 3106658154189559185
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_34: 6007989135633252887
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_35: -1297475707810901100
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_36: -4739582434267550433
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_37: -6091317439930681997
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_38: -706775752372388570
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_39: -181257573274519960
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_4: 339411599303999435
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_40: -9038293597840963310
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_41: -5336082762195568890
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_42: -2861894971759959807
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_43: 2022657310382572550
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_44: 2372141077841327757
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_45: -4107853023830685912
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_46: -8865778128527008873
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_47: 1572289113779566255
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_48: 6509384919826942968
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_49: -411609741091267974
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_5: 7076937501337991637
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_50: 593991895016917981
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_51: 6418637712553922340
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_52: -4360759047558690767
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_53: 2302586559438376780
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_54: -2776085507611327157
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_55: 8642183634808843976
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_56: 5042482922433838870
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_57: -1641438564662888376
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_58: 6040495188096995684
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_59: -6915225686290773861
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_6: 1608391772234834912
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_60: -5521768970679285262
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_61: -4024864706510996885
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_62: -4751007149640397903
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_63: 5029759798519495176
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_64: -6995833251806840857
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_65: -7636884142315377375
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_66: -2419621048728065203
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_67: -832497695173912659
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_68: 348894426086062073
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_69: 5892213840852945092
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_7: -5896209653700271700
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_70: 6762351037609351012
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_71: -8510796452639967080
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_72: -5914108793709917471
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_73: 2383286273723580858
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_74: 1712502373947332955
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_75: 4594918266250245453
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_76: 3875888194057315486
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_77: 2655392001875859909
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_78: 565484057899936853
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_79: -3087644408428539541
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_8: -8947757512587701335
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_80: -7598660095982237189
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_81: 1750998505723397897
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_82: -2003880386149610485
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_83: 7892635551582887088
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_84: -8255639111664279318
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_85: 1588774813156576363
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_86: 4460712827649738472
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_87: 8333630412705400107
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_88: -5860680001051719661
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_89: -3970552315590716557
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_9: 8098735237425688691
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_90: 4250107522206811871
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_91: 947254216720789476
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_92: -751835541304465098
+      Cliquez sur les tuyaux centraux pour les faire tourner et trouv_93: -437159644084401556
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

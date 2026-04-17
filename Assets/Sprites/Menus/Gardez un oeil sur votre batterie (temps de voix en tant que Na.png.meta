@@ -1,0 +1,6019 @@
+fileFormatVersion: 2
+guid: a77a6db6a0cd76445b5ab207684f4a4b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2859868997777880285
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_0
+  - first:
+      213: 7284704002317169228
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_1
+  - first:
+      213: -7800716900748719450
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_2
+  - first:
+      213: 7686062736752661468
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_3
+  - first:
+      213: 4053272624727078413
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_4
+  - first:
+      213: 1920426507328537504
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_5
+  - first:
+      213: -6547395682441316014
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_6
+  - first:
+      213: 2717276487510873546
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_7
+  - first:
+      213: 8971510764271264898
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_8
+  - first:
+      213: -6975520331557752430
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_9
+  - first:
+      213: 8666698080429618629
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_10
+  - first:
+      213: -7184340083651744969
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_11
+  - first:
+      213: 6442164462224127638
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_12
+  - first:
+      213: 2663110610545679624
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_13
+  - first:
+      213: 5410844825047342322
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_14
+  - first:
+      213: -494955610788612991
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_15
+  - first:
+      213: -1713892319786752826
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_16
+  - first:
+      213: -7558748206453576284
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_17
+  - first:
+      213: 8480631885627504054
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_18
+  - first:
+      213: -999327052275647335
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_19
+  - first:
+      213: -8802927687128735024
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_20
+  - first:
+      213: -8269904763300820596
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_21
+  - first:
+      213: 7916069391555695459
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_22
+  - first:
+      213: 6724608564302017531
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_23
+  - first:
+      213: -8180258587052415053
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_24
+  - first:
+      213: -2559485302492498310
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_25
+  - first:
+      213: -6034753603744981227
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_26
+  - first:
+      213: -359011458241732503
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_27
+  - first:
+      213: -353440916075565794
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_28
+  - first:
+      213: -3210800662990999729
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_29
+  - first:
+      213: -1201351872994002016
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_30
+  - first:
+      213: -6992997357249007389
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_31
+  - first:
+      213: 9194282490070757146
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_32
+  - first:
+      213: 2532721120921738356
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_33
+  - first:
+      213: 1403607755489108137
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_34
+  - first:
+      213: 1187430328147263158
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_35
+  - first:
+      213: 6933819121756490322
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_36
+  - first:
+      213: -1864513892965120605
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_37
+  - first:
+      213: 6496897751056160502
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_38
+  - first:
+      213: 997106896210401801
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_39
+  - first:
+      213: 4786910704823547620
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_40
+  - first:
+      213: 6115122306837283074
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_41
+  - first:
+      213: 6091163813989038678
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_42
+  - first:
+      213: 7119176612941887274
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_43
+  - first:
+      213: -7059443022264936026
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_44
+  - first:
+      213: -821794919735227472
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_45
+  - first:
+      213: 11301165640117217
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_46
+  - first:
+      213: -5630001205310286524
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_47
+  - first:
+      213: 5666209689402757328
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_48
+  - first:
+      213: -5163698882038771166
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_49
+  - first:
+      213: -7576556378163682788
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_50
+  - first:
+      213: -5662746365636763444
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_51
+  - first:
+      213: 3101081652234383519
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_52
+  - first:
+      213: 8277293447306641319
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_53
+  - first:
+      213: 7096626493038733062
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_54
+  - first:
+      213: 2711519273732641968
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_55
+  - first:
+      213: -7493629306784912009
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_56
+  - first:
+      213: -5836814593721662218
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_57
+  - first:
+      213: -4054716199465387529
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_58
+  - first:
+      213: 1218492318877894590
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_59
+  - first:
+      213: 4530895817256771069
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_60
+  - first:
+      213: 5569841845043453535
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_61
+  - first:
+      213: -6936964839407831669
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_62
+  - first:
+      213: -4040129430288628886
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_63
+  - first:
+      213: 5804537153489367090
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_64
+  - first:
+      213: 3052187152963971246
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_65
+  - first:
+      213: 3715098547289921667
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_66
+  - first:
+      213: 2806934970456094677
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_67
+  - first:
+      213: -2370759977260202861
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_68
+  - first:
+      213: -5089357051773310496
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_69
+  - first:
+      213: 2177667208508881433
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_70
+  - first:
+      213: 8922506004225113860
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_71
+  - first:
+      213: -7410004362993751876
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_72
+  - first:
+      213: 4741627283745393085
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_73
+  - first:
+      213: -7869158368323756542
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_74
+  - first:
+      213: -3918081649310427754
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_75
+  - first:
+      213: 577868186384985476
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_76
+  - first:
+      213: -3812379982716721511
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_77
+  - first:
+      213: 5424866043470183725
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_78
+  - first:
+      213: 5098256536815066101
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_79
+  - first:
+      213: 8247025213219007558
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_80
+  - first:
+      213: 3502008937559282244
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_81
+  - first:
+      213: -2476664422981570602
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_82
+  - first:
+      213: 7835930467218080981
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_83
+  - first:
+      213: -7732324763566698371
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_84
+  - first:
+      213: -6434170141128588590
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_85
+  - first:
+      213: 360342686831571371
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_86
+  - first:
+      213: 6428961721357427406
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_87
+  - first:
+      213: 9115891718900043833
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_88
+  - first:
+      213: -1453312581465643199
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_89
+  - first:
+      213: 809671241862896310
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_90
+  - first:
+      213: 689902168862314794
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_91
+  - first:
+      213: 1209573292169618538
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_92
+  - first:
+      213: -3038070406765319671
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_93
+  - first:
+      213: 4363192664501928966
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_94
+  - first:
+      213: -155280290739966856
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_95
+  - first:
+      213: 8602756712208385127
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_96
+  - first:
+      213: 8452359574146852505
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_97
+  - first:
+      213: 4007230206935761843
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_98
+  - first:
+      213: -5303956374325653860
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_99
+  - first:
+      213: -7937879553890667369
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_100
+  - first:
+      213: 2537080458618173845
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_101
+  - first:
+      213: 6345441225485319093
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_102
+  - first:
+      213: -1646850610529057116
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_103
+  - first:
+      213: -6067455313578686085
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_104
+  - first:
+      213: 5620078306319571536
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_105
+  - first:
+      213: -3656652827482044624
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_106
+  - first:
+      213: 5480396903301910585
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_107
+  - first:
+      213: -2151708227801004900
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_108
+  - first:
+      213: 1586773653906979091
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_109
+  - first:
+      213: -1567858348158339436
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_110
+  - first:
+      213: 1200874374623480274
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_111
+  - first:
+      213: -1360417608108085372
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_112
+  - first:
+      213: -6758418847986230493
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_113
+  - first:
+      213: -6035555735981104144
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_114
+  - first:
+      213: -3326561194304121383
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_115
+  - first:
+      213: -323601790259288464
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_116
+  - first:
+      213: 2121022002374754345
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_117
+  - first:
+      213: 2342314356217282275
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_118
+  - first:
+      213: 5644214092482560995
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_119
+  - first:
+      213: -2518073861820440353
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_120
+  - first:
+      213: -6357192949505333286
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_121
+  - first:
+      213: -3382383497117287482
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_122
+  - first:
+      213: -997983062348110522
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_123
+  - first:
+      213: 5672852962468072800
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_124
+  - first:
+      213: -7411348853869639531
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_125
+  - first:
+      213: -2641544032838617069
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_126
+  - first:
+      213: 7339680060964610881
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_127
+  - first:
+      213: 7362875976868870029
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_128
+  - first:
+      213: 8307452353763794494
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_129
+  - first:
+      213: 7833758249188724335
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_130
+  - first:
+      213: -939059994782731154
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_131
+  - first:
+      213: -3081966459716041781
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_132
+  - first:
+      213: 489984145347182027
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_133
+  - first:
+      213: 3790695642888539543
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_134
+  - first:
+      213: -2307493987307188304
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_135
+  - first:
+      213: 8116414917601846126
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_136
+  - first:
+      213: -1240471563426844310
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_137
+  - first:
+      213: -4863691526495742169
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_138
+  - first:
+      213: -9185268316365671485
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_139
+  - first:
+      213: -8123296005068436331
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_140
+  - first:
+      213: -5392600299302232427
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_141
+  - first:
+      213: 8470409610996964460
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_142
+  - first:
+      213: -8886687814816536129
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_143
+  - first:
+      213: 8718121592807499189
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_144
+  - first:
+      213: -7349480625115077163
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_145
+  - first:
+      213: 1297209839674661383
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_146
+  - first:
+      213: 2896183164015339125
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_147
+  - first:
+      213: -3297804419378515803
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_148
+  - first:
+      213: -6697576616187504093
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_149
+  - first:
+      213: 6787887316435189263
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_150
+  - first:
+      213: 1807947515881449511
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_151
+  - first:
+      213: -1228032747004001323
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_152
+  - first:
+      213: -7502819186511857200
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_153
+  - first:
+      213: 8589415666327154578
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_154
+  - first:
+      213: -6567863040707961443
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_155
+  - first:
+      213: 3885152525783683511
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_156
+  - first:
+      213: 8105354340037767255
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_157
+  - first:
+      213: -7731641288227513130
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_158
+  - first:
+      213: 3882321566001459045
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_159
+  - first:
+      213: -1529000430663058258
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_160
+  - first:
+      213: 7824292078161280132
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_161
+  - first:
+      213: 9021648304923353705
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_162
+  - first:
+      213: 6084159675009284810
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_163
+  - first:
+      213: 4520334812499653744
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_164
+  - first:
+      213: 260766187811164862
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_165
+  - first:
+      213: 4146956598519581878
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_166
+  - first:
+      213: 8934125359367844603
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_167
+  - first:
+      213: 3282284405461308411
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_168
+  - first:
+      213: -5227369825372942256
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_169
+  - first:
+      213: 1990145581640199385
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_170
+  - first:
+      213: 6119493964576773663
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_171
+  - first:
+      213: -5806807671890735855
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_172
+  - first:
+      213: -2472026223018199283
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_173
+  - first:
+      213: -6194858706584620891
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_174
+  - first:
+      213: -4729176016125889099
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_175
+  - first:
+      213: -1012311071949120359
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_176
+  - first:
+      213: 4693583529399144383
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_177
+  - first:
+      213: 6816835926824470066
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_178
+  - first:
+      213: 8805500747825697603
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_179
+  - first:
+      213: 9109389653336181969
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_180
+  - first:
+      213: 3408876706686691945
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_181
+  - first:
+      213: 4389080262447123127
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_182
+  - first:
+      213: 4538617615750438586
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_183
+  - first:
+      213: -6847038465433758604
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_184
+  - first:
+      213: 8546609857431042150
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_185
+  - first:
+      213: -4506054087328362331
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_186
+  - first:
+      213: -1871797847153426477
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_187
+  - first:
+      213: -7040431746523300794
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_188
+  - first:
+      213: -90965747586958286
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_189
+  - first:
+      213: -1970743670934531988
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_190
+  - first:
+      213: -7967348081003764970
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_191
+  - first:
+      213: -3957456671377754065
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_192
+  - first:
+      213: 9086546039872346416
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_193
+  - first:
+      213: -5095782338613440386
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_194
+  - first:
+      213: -2113112663166243383
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_195
+  - first:
+      213: 2531679861389879621
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_196
+  - first:
+      213: -4597608518753442801
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_197
+  - first:
+      213: 4219449016834928762
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_198
+  - first:
+      213: -23023821013613743
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_199
+  - first:
+      213: 3642487763452417282
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_200
+  - first:
+      213: 3558856400464590593
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_201
+  - first:
+      213: 6294978742207171498
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_202
+  - first:
+      213: -985740850412396446
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_203
+  - first:
+      213: -2531064941916573030
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_204
+  - first:
+      213: -4149506414202129912
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_205
+  - first:
+      213: 3233190726278532618
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_206
+  - first:
+      213: -4593024960133485804
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_207
+  - first:
+      213: 3983550421662465372
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_208
+  - first:
+      213: 6454321304539168742
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_209
+  - first:
+      213: -6450937163746383692
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_210
+  - first:
+      213: -2901508877051595907
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_211
+  - first:
+      213: 9136317112919963795
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_212
+  - first:
+      213: -1603249162164053242
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_213
+  - first:
+      213: -4877580119765242021
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_214
+  - first:
+      213: 2454522724155495224
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_215
+  - first:
+      213: -654307813326543937
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_216
+  - first:
+      213: -6753993718450579858
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_217
+  - first:
+      213: -6675976848326152849
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_218
+  - first:
+      213: 7704131830600557277
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_219
+  - first:
+      213: -829391947541577955
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_220
+  - first:
+      213: -741200279788895486
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_221
+  - first:
+      213: 8730155948736814071
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_222
+  - first:
+      213: -8069871243924868179
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_223
+  - first:
+      213: 5060303198767019278
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_224
+  - first:
+      213: 1581355055191086194
+    second: Gardez un oeil sur votre batterie (temps de voix en tant que Na_225
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 579
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32b0c4b7c44bf48d0800000000000000
+      internalID: -2859868997777880285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_1
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 579
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c423bffa1b7781560800000000000000
+      internalID: 7284704002317169228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_2
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 614
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aa8c790f494eb390800000000000000
+      internalID: -7800716900748719450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_3
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 580
+        width: 15
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd3528926516aaa60800000000000000
+      internalID: 7686062736752661468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_4
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 580
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d063cae1afd104830800000000000000
+      internalID: 4053272624727078413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_5
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 579
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a3cf8acbb9b6aa10800000000000000
+      internalID: 1920426507328537504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_6
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 580
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 259b820015af225a0800000000000000
+      internalID: -6547395682441316014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_7
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 580
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac55b929194b5b520800000000000000
+      internalID: 2717276487510873546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_8
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 614
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2846bfac185318c70800000000000000
+      internalID: 8971510764271264898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_9
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 579
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2913cf16739f13f90800000000000000
+      internalID: -6975520331557752430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_10
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 580
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c5319b6cfb464870800000000000000
+      internalID: 8666698080429618629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_11
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 579
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b665812c81c4c90800000000000000
+      internalID: -7184340083651744969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_12
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 580
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 696b383427a276950800000000000000
+      internalID: 6442164462224127638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_13
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 579
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80d16239df445f420800000000000000
+      internalID: 2663110610545679624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_14
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 580
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fc15b353be271b40800000000000000
+      internalID: 5410844825047342322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_15
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 579
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 184bb5f8e709129f0800000000000000
+      internalID: -494955610788612991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_16
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 579
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c427d704080738e0800000000000000
+      internalID: -1713892319786752826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_17
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 580
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ada6bfdd8ee91790800000000000000
+      internalID: -7558748206453576284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_18
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 579
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b5bda584c141b570800000000000000
+      internalID: 8480631885627504054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_19
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 579
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99cfba2375da122f0800000000000000
+      internalID: -999327052275647335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_20
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 580
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d2ad3198e7b5d580800000000000000
+      internalID: -8802927687128735024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_21
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 579
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c89c4210f656b3d80800000000000000
+      internalID: -8269904763300820596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_22
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 579
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3631505ab278bdd60800000000000000
+      internalID: 7916069391555695459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_23
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 580
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf375c85cdb925d50800000000000000
+      internalID: 6724608564302017531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_24
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 579
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b7e6ebe722e97e80800000000000000
+      internalID: -8180258587052415053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_25
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 579
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a76f9199da1ea7cd0800000000000000
+      internalID: -2559485302492498310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_26
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 579
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51f95c5229f304ca0800000000000000
+      internalID: -6034753603744981227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_27
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 580
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 960e4391bf8840bf0800000000000000
+      internalID: -359011458241732503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_28
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 580
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1d2a340c53581bf0800000000000000
+      internalID: -353440916075565794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_29
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 579
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4f25ddfec1f073d0800000000000000
+      internalID: -3210800662990999729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_30
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 495
+        width: 22
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ab31f726d0f35fe0800000000000000
+      internalID: -1201351872994002016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_31
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 508
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e07ded34f1e3fe90800000000000000
+      internalID: -6992997357249007389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_32
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 507
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1fe2491637a89f70800000000000000
+      internalID: 9194282490070757146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_33
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 542
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47c5ba7c078062320800000000000000
+      internalID: 2532721120921738356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_34
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 508
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a069e521dd9a7310800000000000000
+      internalID: 1403607755489108137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_35
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 508
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6be3eb897999a7010800000000000000
+      internalID: 1187430328147263158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_36
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 508
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25a4b1911cfd93060800000000000000
+      internalID: 6933819121756490322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_37
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 495
+        width: 22
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a588033e7aef16e0800000000000000
+      internalID: -1864513892965120605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_38
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 507
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f69cb1251e992a50800000000000000
+      internalID: 6496897751056160502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_39
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 508
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90a96bf607f66dd00800000000000000
+      internalID: 997106896210401801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_40
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 495
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e6b5848ce58e6240800000000000000
+      internalID: 4786910704823547620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_41
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 507
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2018a19b6574dd450800000000000000
+      internalID: 6115122306837283074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_42
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 507
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65ab7896739288450800000000000000
+      internalID: 6091163813989038678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_43
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 507
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a277ba319656cc260800000000000000
+      internalID: 7119176612941887274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_44
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 507
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a9d9c949f1d70e90800000000000000
+      internalID: -7059443022264936026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_45
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 508
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bb06f2efd56894f0800000000000000
+      internalID: -821794919735227472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_46
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 508
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ebe68ba956282000800000000000000
+      internalID: 11301165640117217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_47
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 507
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44595789bb73ed1b0800000000000000
+      internalID: -5630001205310286524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_48
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 508
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d05abf01bb62ae40800000000000000
+      internalID: 5666209689402757328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_49
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 507
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2225ff8a93bd658b0800000000000000
+      internalID: -5163698882038771166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_50
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 508
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1265dacd1aaad690800000000000000
+      internalID: -7576556378163682788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_51
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 495
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc02617de22e961b0800000000000000
+      internalID: -5662746365636763444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_52
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 507
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9079ec1551490b20800000000000000
+      internalID: 3101081652234383519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_53
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 507
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7af716c098aded270800000000000000
+      internalID: 8277293447306641319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_54
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 507
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 607233522384c7260800000000000000
+      internalID: 7096626493038733062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_55
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 508
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b49578c96041a520800000000000000
+      internalID: 2711519273732641968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_56
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 507
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77de0a239d7410890800000000000000
+      internalID: -7493629306784912009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_57
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 507
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f487614d087ffea0800000000000000
+      internalID: -5836814593721662218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_58
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 434
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f9f7d17911cab7c0800000000000000
+      internalID: -4054716199465387529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_59
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 469
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb74244ee44f8e010800000000000000
+      internalID: 1218492318877894590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_60
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 435
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfd94e57db9f0ee30800000000000000
+      internalID: 4530895817256771069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_61
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 435
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5edbe4d5ad0c4d40800000000000000
+      internalID: 5569841845043453535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_62
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 469
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b85b8bf6b33fabf90800000000000000
+      internalID: -6936964839407831669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_63
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 435
+        width: 15
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a638b0d40b39ee7c0800000000000000
+      internalID: -4040129430288628886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_64
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 435
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2307a4f89cbdd8050800000000000000
+      internalID: 5804537153489367090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_65
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 434
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea8ad606b0c8b5a20800000000000000
+      internalID: 3052187152963971246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_66
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 435
+        width: 15
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38819c0027eae8330800000000000000
+      internalID: 3715098547289921667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_67
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 435
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d738addb7c34f620800000000000000
+      internalID: 2806934970456094677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_68
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 434
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39441bb8c5e591fd0800000000000000
+      internalID: -2370759977260202861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_69
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 434
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e92ce9d9b8fe59b0800000000000000
+      internalID: -5089357051773310496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_70
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 434
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91a3032d9c0a83e10800000000000000
+      internalID: 2177667208508881433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_71
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 434
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40fb028ffeb13db70800000000000000
+      internalID: 8922506004225113860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_72
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 434
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb8a9afaa406a2990800000000000000
+      internalID: -7410004362993751876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_73
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 434
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db9c1f074e4adc140800000000000000
+      internalID: 4741627283745393085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_74
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 435
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20e15c618222bc290800000000000000
+      internalID: -7869158368323756542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_75
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 422
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69510e3bf7d20a9c0800000000000000
+      internalID: -3918081649310427754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_76
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 435
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48de978cd00050800800000000000000
+      internalID: 577868186384985476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_77
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 434
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9962c55ca94b71bc0800000000000000
+      internalID: -3812379982716721511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_78
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 435
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2d7e13aceef84b40800000000000000
+      internalID: 5424866043470183725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_79
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 434
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fbdcaafe45a0c640800000000000000
+      internalID: 5098256536815066101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_80
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 435
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64ceb9f9cb1537270800000000000000
+      internalID: 8247025213219007558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_81
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 434
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 442d6730392a99030800000000000000
+      internalID: 3502008937559282244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_82
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 434
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dfe55844de11add0800000000000000
+      internalID: -2476664422981570602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_83
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 362
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d4c13f4e31debc60800000000000000
+      internalID: 7835930467218080981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_84
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 363
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7096ab589341b490800000000000000
+      internalID: -7732324763566698371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_85
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 363
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d20b99a85c35b6a0800000000000000
+      internalID: -6434170141128588590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_86
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 397
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba17106b3c1300500800000000000000
+      internalID: 360342686831571371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_87
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 363
+        width: 15
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec2e71c9f92483950800000000000000
+      internalID: 6428961721357427406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_88
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 362
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93056f36837228e70800000000000000
+      internalID: 9115891718900043833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_89
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 362
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 147622a38ebc4dbe0800000000000000
+      internalID: -1453312581465643199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_90
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 363
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba561464b78c3b00800000000000000
+      internalID: 809671241862896310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_91
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 363
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a215fc80e56039900800000000000000
+      internalID: 689902168862314794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_92
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 362
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a64e199208449c010800000000000000
+      internalID: 1209573292169618538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_93
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 362
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90a602abf0b96d5d0800000000000000
+      internalID: -3038070406765319671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_94
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 362
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6044a367c9c2d8c30800000000000000
+      internalID: 4363192664501928966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_95
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 362
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87c23d5f56558ddf0800000000000000
+      internalID: -155280290739966856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_96
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 362
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 764c94086a1236770800000000000000
+      internalID: 8602756712208385127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_97
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 363
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99625ea0040dc4570800000000000000
+      internalID: 8452359574146852505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_98
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 362
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b30f9954aa8c9730800000000000000
+      internalID: 4007230206935761843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_99
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 350
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9e862477cf8466b0800000000000000
+      internalID: -5303956374325653860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_100
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 362
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 794b2883a9cf6d190800000000000000
+      internalID: -7937879553890667369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_101
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 362
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 599758e2c35853320800000000000000
+      internalID: 2537080458618173845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_102
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 363
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bbfb2ccc298f0850800000000000000
+      internalID: 6345441225485319093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_103
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 363
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a6c74958163529e0800000000000000
+      internalID: -1646850610529057116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_104
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 362
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b79069ff9811ccba0800000000000000
+      internalID: -6067455313578686085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_105
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 363
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05a9e0271778efd40800000000000000
+      internalID: 5620078306319571536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_106
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 350
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 037410f80a5f04dc0800000000000000
+      internalID: -3656652827482044624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_107
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 362
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 930167972f74e0c40800000000000000
+      internalID: 5480396903301910585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_108
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 362
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c94c2ad54c89322e0800000000000000
+      internalID: -2151708227801004900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_109
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 290
+        width: 15
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319f21c2b3a550610800000000000000
+      internalID: 1586773653906979091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_110
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 289
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49634e3a329dd3ae0800000000000000
+      internalID: -1567858348158339436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_111
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 290
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d94d4791ec5aa010800000000000000
+      internalID: 1200874374623480274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_112
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 324
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48fe78aa463de1de0800000000000000
+      internalID: -1360417608108085372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_113
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 289
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32bd97a8dd54532a0800000000000000
+      internalID: -6758418847986230493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_114
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 290
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f366ce29066d3ca0800000000000000
+      internalID: -6035555735981104144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_115
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 277
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d557e9f73ea5d1d0800000000000000
+      internalID: -3326561194304121383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_116
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 289
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0762ae2e2e5528bf0800000000000000
+      internalID: -323601790259288464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_117
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 290
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 920c55406426f6d10800000000000000
+      internalID: 2121022002374754345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_118
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 289
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eef0a23f72918020800000000000000
+      internalID: 2342314356217282275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_119
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 290
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e34da210d6445e40800000000000000
+      internalID: 5644214092482560995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_120
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 289
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd02ffbf9210e0dd0800000000000000
+      internalID: -2518073861820440353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_121
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 289
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad7ed1cb1b6b6c7a0800000000000000
+      internalID: -6357192949505333286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_122
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 289
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cb3e28412c5f01d0800000000000000
+      internalID: -3382383497117287482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_123
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 289
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64562ec31b37622f0800000000000000
+      internalID: -997983062348110522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_124
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 289
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06d8eea96b50abe40800000000000000
+      internalID: 5672852962468072800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_125
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 289
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5980a920c79952990800000000000000
+      internalID: -7411348853869639531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_126
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 290
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 318f91892b9575bd0800000000000000
+      internalID: -2641544032838617069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_127
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 289
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14320dec028cbd560800000000000000
+      internalID: 7339680060964610881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_128
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 290
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d87b686d0b03e2660800000000000000
+      internalID: 7362875976868870029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_129
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 289
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3ed296a6eff94370800000000000000
+      internalID: 8307452353763794494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_130
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 289
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6e0e236f9917bc60800000000000000
+      internalID: 7833758249188724335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_131
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 289
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e64f13cf8e9c7f2f0800000000000000
+      internalID: -939059994782731154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_132
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 290
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc305f675d7aa35d0800000000000000
+      internalID: -3081966459716041781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_133
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 290
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcdfdf0fbf5ccc600800000000000000
+      internalID: 489984145347182027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_134
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 277
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79d0efd6a914b9430800000000000000
+      internalID: 3790695642888539543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_135
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 289
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bf8435b1722affd0800000000000000
+      internalID: -2307493987307188304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_136
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 290
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e63e65d6d5c43a070800000000000000
+      internalID: 8116414917601846126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_137
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 289
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6138f37fa5f8cee0800000000000000
+      internalID: -1240471563426844310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_138
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 290
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 727d42a5352b08cb0800000000000000
+      internalID: -4863691526495742169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_139
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 217
+        width: 15
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c3bf54c12f578080800000000000000
+      internalID: -9185268316365671485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_140
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 217
+        width: 18
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59ccb8c8251444f80800000000000000
+      internalID: -8123296005068436331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_141
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 216
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59edc685992a925b0800000000000000
+      internalID: -5392600299302232427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_142
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 216
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6c578db9a0fc8570800000000000000
+      internalID: 8470409610996964460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_143
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 251
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb9611024842ca480800000000000000
+      internalID: -8886687814816536129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_144
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 251
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b524f7e56dfcf870800000000000000
+      internalID: 8718121592807499189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_145
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 216
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d566688f46610a90800000000000000
+      internalID: -7349480625115077163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_146
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 216
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70a13fce97d900210800000000000000
+      internalID: 1297209839674661383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_147
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 216
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 576e9973e3f413820800000000000000
+      internalID: 2896183164015339125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_148
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 216
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a0fa346a58db32d0800000000000000
+      internalID: -3297804419378515803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_149
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 217
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32a5e288d8d6d03a0800000000000000
+      internalID: -6697576616187504093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_150
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 217
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0ebf7fec8b633e50800000000000000
+      internalID: 6787887316435189263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_151
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 217
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 728e9a0dfae171910800000000000000
+      internalID: 1807947515881449511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_152
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 216
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d3874619b625fee0800000000000000
+      internalID: -1228032747004001323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_153
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 217
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d9b9f593b1a0e790800000000000000
+      internalID: -7502819186511857200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_154
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 216
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29fea933a0cb33770800000000000000
+      internalID: 8589415666327154578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_155
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 216
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9d5f2dcc534ad4a0800000000000000
+      internalID: -6567863040707961443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_156
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 216
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b15c8543a5dae530800000000000000
+      internalID: 3885152525783683511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_157
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 216
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7503f9804d00c7070800000000000000
+      internalID: 8105354340037767255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_158
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 216
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dc947c5631b3b490800000000000000
+      internalID: -7731641288227513130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_159
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 216
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56fea5515e6c0e530800000000000000
+      internalID: 3882321566001459045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_160
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 217
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eacb8e49536e7cae0800000000000000
+      internalID: -1529000430663058258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_161
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 216
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48cb4b1b038759c60800000000000000
+      internalID: 7824292078161280132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_162
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 216
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9622677a555533d70800000000000000
+      internalID: 9021648304923353705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_163
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 216
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aca3fa93df64f6450800000000000000
+      internalID: 6084159675009284810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_164
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 145
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 074bfdcef847bbe30800000000000000
+      internalID: 4520334812499653744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_165
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 179
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb2dae9577d6e9300800000000000000
+      internalID: 260766187811164862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_166
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 144
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bcc8b90e03fc8930800000000000000
+      internalID: 4146956598519581878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_167
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 145
+        width: 15
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf2fde7eda36cfb70800000000000000
+      internalID: 8934125359367844603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_168
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 144
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf35357c6440d8d20800000000000000
+      internalID: 3282284405461308411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_169
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 145
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 050dc01f6d6a477b0800000000000000
+      internalID: -5227369825372942256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_170
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 145
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dc2afcbcda6e9b10800000000000000
+      internalID: 1990145581640199385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_171
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 179
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f16debb965fcce450800000000000000
+      internalID: 6119493964576773663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_172
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 144
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11d80fd20331a6fa0800000000000000
+      internalID: -5806807671890735855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_173
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 144
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d07bc8d5f3991bdd0800000000000000
+      internalID: -2472026223018199283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_174
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 145
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a0b94004d0770aa0800000000000000
+      internalID: -6194858706584620891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_175
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 144
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b5f48638779e5eb0800000000000000
+      internalID: -4729176016125889099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_176
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 145
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99c174a817c83f1f0800000000000000
+      internalID: -1012311071949120359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_177
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 145
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbfc5713a55f22140800000000000000
+      internalID: 4693583529399144383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_178
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 144
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2364e7688244a9e50800000000000000
+      internalID: 6816835926824470066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_179
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 144
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 343569fc64c633a70800000000000000
+      internalID: 8805500747825697603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_180
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 145
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dcc8b740ad0b6e70800000000000000
+      internalID: 9109389653336181969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_181
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 144
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96ae921cd43ce4f20800000000000000
+      internalID: 3408876706686691945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_182
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 144
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bac6dd8e3529ec30800000000000000
+      internalID: 4389080262447123127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_183
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 144
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abe9226cca86cfe30800000000000000
+      internalID: 4538617615750438586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_184
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 144
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4749268face6af0a0800000000000000
+      internalID: -6847038465433758604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_185
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 145
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 668770a2268ab9670800000000000000
+      internalID: 8546609857431042150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_186
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 145
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a098128ea74771c0800000000000000
+      internalID: -4506054087328362331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_187
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 144
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3df341576c90606e0800000000000000
+      internalID: -1871797847153426477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_188
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 144
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64c781bd0ac5b4e90800000000000000
+      internalID: -7040431746523300794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_189
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 145
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23cf9507223dcbef0800000000000000
+      internalID: -90965747586958286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_190
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 72
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c60199e921386a4e0800000000000000
+      internalID: -1970743670934531988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_191
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 72
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61361e5122b4e6190800000000000000
+      internalID: -7967348081003764970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_192
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 106
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f287788ff1a4419c0800000000000000
+      internalID: -3957456671377754065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_193
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 72
+        width: 15
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 039d2dd0b75e91e70800000000000000
+      internalID: 9086546039872346416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_194
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 71
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e709c3e26f42849b0800000000000000
+      internalID: -5095782338613440386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_195
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 71
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cda8958a37bca2e0800000000000000
+      internalID: -2113112663166243383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_196
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 71
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5496727ab65522320800000000000000
+      internalID: 2531679861389879621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_197
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 59
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f04246f49630230c0800000000000000
+      internalID: -4597608518753442801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_198
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 71
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a703154768e7e8a30800000000000000
+      internalID: 4219449016834928762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_199
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 72
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1538c1fe4f33eaff0800000000000000
+      internalID: -23023821013613743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_200
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 71
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 205d9477257bc8230800000000000000
+      internalID: 3642487763452417282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_201
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 71
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10731546a09936130800000000000000
+      internalID: 3558856400464590593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_202
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 72
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aabc4e550d14c5750800000000000000
+      internalID: 6294978742207171498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_203
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 71
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 260e3925be1f152f0800000000000000
+      internalID: -985740850412396446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_204
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 72
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a923e9178d9dfdcd0800000000000000
+      internalID: -2531064941916573030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_205
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 72
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 802f64cb6edf966c0800000000000000
+      internalID: -4149506414202129912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_206
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 71
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0e4bead5d99edc20800000000000000
+      internalID: 3233190726278532618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_207
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 72
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41badb6322c4240c0800000000000000
+      internalID: -4593024960133485804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_208
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 71
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5d7c04b00a684730800000000000000
+      internalID: 3983550421662465372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_209
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 71
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6effa4fa70b529950800000000000000
+      internalID: 6454321304539168742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_210
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 71
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b8e78ef3daa976a0800000000000000
+      internalID: -6450937163746383692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_211
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 71
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7372b69c05cbb7d0800000000000000
+      internalID: -2901508877051595907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_212
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 71
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 398bae60208bace70800000000000000
+      internalID: 9136317112919963795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_213
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 71
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60bd4c2a16d10c9e0800000000000000
+      internalID: -1603249162164053242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_214
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 21
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5fa2ed39ba5f4cb0800000000000000
+      internalID: -4877580119765242021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_215
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 0
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 833996ab967301220800000000000000
+      internalID: 2454522724155495224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_216
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 0
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb3a8eca28e6be6f0800000000000000
+      internalID: -654307813326543937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_217
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 0
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e66988c4f7ef442a0800000000000000
+      internalID: -6753993718450579858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_218
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 0
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6da9c26d6a2a53a0800000000000000
+      internalID: -6675976848326152849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_219
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 0
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd2e9b9e4139aea60800000000000000
+      internalID: 7704131830600557277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_220
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 5
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1ff6330b686d74f0800000000000000
+      internalID: -829391947541577955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_221
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 5
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20343c7c54ab6b5f0800000000000000
+      internalID: -741200279788895486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_222
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 0
+        width: 9
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fb983eb49eb72970800000000000000
+      internalID: 8730155948736814071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_223
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 5
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da3f7b21cde020090800000000000000
+      internalID: -8069871243924868179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_224
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 5
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e05f74ad2fec93640800000000000000
+      internalID: 5060303198767019278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gardez un oeil sur votre batterie (temps de voix en tant que Na_225
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 0
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 274de685b0a12f510800000000000000
+      internalID: 1581355055191086194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_0: -2859868997777880285
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_1: 7284704002317169228
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_10: 8666698080429618629
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_100: -7937879553890667369
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_101: 2537080458618173845
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_102: 6345441225485319093
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_103: -1646850610529057116
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_104: -6067455313578686085
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_105: 5620078306319571536
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_106: -3656652827482044624
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_107: 5480396903301910585
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_108: -2151708227801004900
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_109: 1586773653906979091
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_11: -7184340083651744969
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_110: -1567858348158339436
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_111: 1200874374623480274
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_112: -1360417608108085372
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_113: -6758418847986230493
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_114: -6035555735981104144
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_115: -3326561194304121383
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_116: -323601790259288464
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_117: 2121022002374754345
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_118: 2342314356217282275
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_119: 5644214092482560995
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_12: 6442164462224127638
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_120: -2518073861820440353
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_121: -6357192949505333286
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_122: -3382383497117287482
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_123: -997983062348110522
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_124: 5672852962468072800
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_125: -7411348853869639531
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_126: -2641544032838617069
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_127: 7339680060964610881
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_128: 7362875976868870029
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_129: 8307452353763794494
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_13: 2663110610545679624
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_130: 7833758249188724335
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_131: -939059994782731154
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_132: -3081966459716041781
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_133: 489984145347182027
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_134: 3790695642888539543
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_135: -2307493987307188304
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_136: 8116414917601846126
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_137: -1240471563426844310
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_138: -4863691526495742169
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_139: -9185268316365671485
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_14: 5410844825047342322
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_140: -8123296005068436331
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_141: -5392600299302232427
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_142: 8470409610996964460
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_143: -8886687814816536129
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_144: 8718121592807499189
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_145: -7349480625115077163
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_146: 1297209839674661383
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_147: 2896183164015339125
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_148: -3297804419378515803
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_149: -6697576616187504093
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_15: -494955610788612991
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_150: 6787887316435189263
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_151: 1807947515881449511
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_152: -1228032747004001323
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_153: -7502819186511857200
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_154: 8589415666327154578
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_155: -6567863040707961443
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_156: 3885152525783683511
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_157: 8105354340037767255
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_158: -7731641288227513130
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_159: 3882321566001459045
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_16: -1713892319786752826
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_160: -1529000430663058258
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_161: 7824292078161280132
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_162: 9021648304923353705
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_163: 6084159675009284810
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_164: 4520334812499653744
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_165: 260766187811164862
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_166: 4146956598519581878
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_167: 8934125359367844603
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_168: 3282284405461308411
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_169: -5227369825372942256
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_17: -7558748206453576284
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_170: 1990145581640199385
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_171: 6119493964576773663
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_172: -5806807671890735855
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_173: -2472026223018199283
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_174: -6194858706584620891
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_175: -4729176016125889099
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_176: -1012311071949120359
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_177: 4693583529399144383
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_178: 6816835926824470066
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_179: 8805500747825697603
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_18: 8480631885627504054
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_180: 9109389653336181969
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_181: 3408876706686691945
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_182: 4389080262447123127
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_183: 4538617615750438586
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_184: -6847038465433758604
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_185: 8546609857431042150
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_186: -4506054087328362331
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_187: -1871797847153426477
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_188: -7040431746523300794
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_189: -90965747586958286
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_19: -999327052275647335
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_190: -1970743670934531988
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_191: -7967348081003764970
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_192: -3957456671377754065
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_193: 9086546039872346416
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_194: -5095782338613440386
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_195: -2113112663166243383
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_196: 2531679861389879621
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_197: -4597608518753442801
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_198: 4219449016834928762
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_199: -23023821013613743
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_2: -7800716900748719450
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_20: -8802927687128735024
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_200: 3642487763452417282
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_201: 3558856400464590593
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_202: 6294978742207171498
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_203: -985740850412396446
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_204: -2531064941916573030
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_205: -4149506414202129912
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_206: 3233190726278532618
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_207: -4593024960133485804
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_208: 3983550421662465372
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_209: 6454321304539168742
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_21: -8269904763300820596
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_210: -6450937163746383692
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_211: -2901508877051595907
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_212: 9136317112919963795
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_213: -1603249162164053242
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_214: -4877580119765242021
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_215: 2454522724155495224
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_216: -654307813326543937
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_217: -6753993718450579858
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_218: -6675976848326152849
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_219: 7704131830600557277
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_22: 7916069391555695459
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_220: -829391947541577955
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_221: -741200279788895486
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_222: 8730155948736814071
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_223: -8069871243924868179
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_224: 5060303198767019278
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_225: 1581355055191086194
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_23: 6724608564302017531
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_24: -8180258587052415053
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_25: -2559485302492498310
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_26: -6034753603744981227
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_27: -359011458241732503
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_28: -353440916075565794
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_29: -3210800662990999729
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_3: 7686062736752661468
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_30: -1201351872994002016
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_31: -6992997357249007389
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_32: 9194282490070757146
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_33: 2532721120921738356
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_34: 1403607755489108137
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_35: 1187430328147263158
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_36: 6933819121756490322
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_37: -1864513892965120605
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_38: 6496897751056160502
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_39: 997106896210401801
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_4: 4053272624727078413
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_40: 4786910704823547620
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_41: 6115122306837283074
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_42: 6091163813989038678
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_43: 7119176612941887274
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_44: -7059443022264936026
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_45: -821794919735227472
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_46: 11301165640117217
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_47: -5630001205310286524
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_48: 5666209689402757328
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_49: -5163698882038771166
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_5: 1920426507328537504
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_50: -7576556378163682788
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_51: -5662746365636763444
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_52: 3101081652234383519
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_53: 8277293447306641319
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_54: 7096626493038733062
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_55: 2711519273732641968
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_56: -7493629306784912009
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_57: -5836814593721662218
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_58: -4054716199465387529
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_59: 1218492318877894590
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_6: -6547395682441316014
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_60: 4530895817256771069
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_61: 5569841845043453535
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_62: -6936964839407831669
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_63: -4040129430288628886
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_64: 5804537153489367090
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_65: 3052187152963971246
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_66: 3715098547289921667
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_67: 2806934970456094677
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_68: -2370759977260202861
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_69: -5089357051773310496
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_7: 2717276487510873546
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_70: 2177667208508881433
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_71: 8922506004225113860
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_72: -7410004362993751876
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_73: 4741627283745393085
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_74: -7869158368323756542
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_75: -3918081649310427754
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_76: 577868186384985476
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_77: -3812379982716721511
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_78: 5424866043470183725
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_79: 5098256536815066101
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_8: 8971510764271264898
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_80: 8247025213219007558
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_81: 3502008937559282244
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_82: -2476664422981570602
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_83: 7835930467218080981
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_84: -7732324763566698371
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_85: -6434170141128588590
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_86: 360342686831571371
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_87: 6428961721357427406
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_88: 9115891718900043833
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_89: -1453312581465643199
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_9: -6975520331557752430
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_90: 809671241862896310
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_91: 689902168862314794
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_92: 1209573292169618538
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_93: -3038070406765319671
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_94: 4363192664501928966
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_95: -155280290739966856
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_96: 8602756712208385127
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_97: 8452359574146852505
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_98: 4007230206935761843
+      Gardez un oeil sur votre batterie (temps de voix en tant que Na_99: -5303956374325653860
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
