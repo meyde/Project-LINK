@@ -28,8 +28,8 @@ MonoBehaviour:
   baseLife: 2
   windSpeed: 10
   windSpeedMax: 20
-  temperature: 30
-  temperatureMax: 44
+  temperature: 56
+  temperatureMax: 75
   intensity: 0
   intensityMax: 0
   oxygenLevel: 5
