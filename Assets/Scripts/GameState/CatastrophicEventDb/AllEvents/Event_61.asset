@@ -15,7 +15,7 @@ MonoBehaviour:
   eventId: 0
   eventName: Blizzard neigeux normal
   type: Blizzard
-  fxType: 2
+  fxType: 8
   region: 0
   modulesCount: 1
   modules1: 02000000

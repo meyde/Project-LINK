@@ -15,7 +15,7 @@ MonoBehaviour:
   eventId: 10
   eventName: 'Fire Temp normal Oxyg bas '
   type: Fire
-  fxType: 8
+  fxType: 11
   region: 10
   modulesCount: 1
   modules1: 03000000
