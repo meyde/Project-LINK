@@ -15,7 +15,7 @@ MonoBehaviour:
   eventId: 11
   eventName: Cloud Bleu Simple
   type: Cloud
-  fxType: 5
+  fxType: 1
   region: 11
   modulesCount: 1
   modules1: 01000000

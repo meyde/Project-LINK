@@ -15,6 +15,7 @@ MonoBehaviour:
   eventId: 20
   eventName: "Tornade sans d\xE9bris lente"
   type: tornade
+  fxType: 6
   region: 14
   modulesCount: 1
   modules1: 00000000

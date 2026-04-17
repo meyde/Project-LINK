@@ -8,15 +8,13 @@ public class BiomeSpriteChanger : MonoBehaviour
 
     [Header("Sprites par biome (index = biomeId)")]
     [SerializeField] private Sprite[] biomeSprites;
-    [SerializeField] private string[] fxTypes;
     [SerializeField] private GameObject[] FxObj;
-    [SerializeField] private SpriteRenderer[] ThunderStrikesSr;
 
 [Header("Biome actuel")]
     [SerializeField] private int currentBiomeId;
 
     public SpriteRenderer[] thunderStrikes;
-    [SerializeField] private float timeBetweenStrikes;
+    [SerializeField] private float timeBetweenStrikes=10f;
     [SerializeField] private float strikesDuration = 0.5f ;
     [SerializeField] private float doubleStrikesIntervals = 2f;
     private Coroutine thunder;
@@ -24,6 +22,7 @@ public class BiomeSpriteChanger : MonoBehaviour
     {
         if (targetRenderer == null)
             targetRenderer = GetComponent<SpriteRenderer>();
+
     }
 
     private void Start()
@@ -33,7 +32,7 @@ public class BiomeSpriteChanger : MonoBehaviour
 
     public void SetBiome(int biomeId, int eventFx)
     {
-        StopCoroutine(thunder);
+        if (thunder != null) StopCoroutine(thunder);
         currentBiomeId = biomeId;
         ApplyBiome(currentBiomeId);
         foreach (GameObject go in FxObj)
@@ -73,21 +72,28 @@ public class BiomeSpriteChanger : MonoBehaviour
                 StormManager(2, true);
                 break;
             case 6:
+                FxObj[1].gameObject.SetActive(true);
                 Debug.Log("Tornado, no debris");
                 break;
             case 7:
+                FxObj[2].gameObject.SetActive(true);
                 Debug.Log("Tornado, debris");
                 break;
             case 8:
+                FxObj[3].gameObject.SetActive(true);
                 Debug.Log("blizzard,snow");
                 break;
             case 9:
+                FxObj[4].gameObject.SetActive(true);
                 Debug.Log("Blizzard, ice");
                 break;
             case 10:
+
+                FxObj[5].gameObject.SetActive(true);
                 Debug.Log("Blizzard, solid");
                 break;
             case 11:
+                FxObj[6].gameObject.SetActive(true);
                 Debug.Log("forest fire");
                 break;
         }
@@ -95,39 +101,42 @@ public class BiomeSpriteChanger : MonoBehaviour
 
     public void StormManager(int color, bool isDoubled)
     {
-        SpriteRenderer[] thunderStrikes = new SpriteRenderer[3];
+        foreach (SpriteRenderer sr in thunderStrikes)
+        {
+            sr.gameObject.SetActive(false);
+        }
+        SpriteRenderer[] thunderStrikesSr = new SpriteRenderer[3];
         for (int i = 0; i < 3; i++)
         {
-            thunderStrikes[i] = ThunderStrikesSr[color + i];
+            thunderStrikesSr[i] = thunderStrikes[3*color + i];
         }
-        thunder = StartCoroutine(cyclingThunder(thunderStrikes,isDoubled));
+        thunder = StartCoroutine(CyclingThunder(thunderStrikesSr,isDoubled));
     }
-    public IEnumerator cyclingThunder(SpriteRenderer[] coloredStrikes, bool isDoubled)
+    public IEnumerator CyclingThunder(SpriteRenderer[] coloredStrikes, bool isDoubled)
     {
         while (true)
         {
             if (!isDoubled)
-            {int choice = Random.Range(0, 3);
-            coloredStrikes[choice].gameObject.SetActive(true);
-            yield return new WaitForSeconds(strikesDuration);
-            coloredStrikes[choice].gameObject.SetActive(false);
-            yield return new WaitForSeconds(timeBetweenStrikes);
+            {
+                int choice = Random.Range(0, 3);
+                coloredStrikes[choice].gameObject.SetActive(true);
+                yield return new WaitForSeconds(strikesDuration);
+                coloredStrikes[choice].gameObject.SetActive(false);
+                yield return new WaitForSeconds(timeBetweenStrikes);
             }
             else
             {
-                if (!isDoubled)
-                {
-                    int choice = Random.Range(0, 3);
-                    coloredStrikes[choice].gameObject.SetActive(true);
-                    yield return new WaitForSeconds(strikesDuration);
-                    coloredStrikes[choice].gameObject.SetActive(false);
-                    yield return new WaitForSeconds(doubleStrikesIntervals);
-                    choice = Random.Range(0, 3);
-                    coloredStrikes[choice].gameObject.SetActive(true);
-                    yield return new WaitForSeconds(strikesDuration);
-                    coloredStrikes[choice].gameObject.SetActive(false);
-                    yield return new WaitForSeconds(timeBetweenStrikes);
-                }
+                int choice = Random.Range(0, 3);
+                coloredStrikes[choice].gameObject.SetActive(true);
+                yield return new WaitForSeconds(strikesDuration);
+                coloredStrikes[choice].gameObject.SetActive(false);
+                yield return new WaitForSeconds(doubleStrikesIntervals);
+                choice = Random.Range(0, 3);
+                coloredStrikes[choice].gameObject.SetActive(true);
+                yield return new WaitForSeconds(strikesDuration);
+                coloredStrikes[choice].gameObject.SetActive(false);
+                yield return new WaitForSeconds(timeBetweenStrikes);
+
             }
         }
 
@@ -143,7 +152,7 @@ public class BiomeSpriteChanger : MonoBehaviour
         {
             go.SetActive(false);
         }
-        StopCoroutine(thunder);
+        if (thunder != null )StopCoroutine(thunder);
     }
     private void ApplyBiome(int biomeId)
     {
