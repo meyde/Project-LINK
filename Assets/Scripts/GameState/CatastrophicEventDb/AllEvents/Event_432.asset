@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eecf7534233f00546a14b86367e1e280, type: 3}
   m_Name: Event_432
   m_EditorClassIdentifier: Assembly-CSharp::CatastrophicEvent
-  eventId: 0
+  eventId: 27
   eventName: Canicule temp moyen
   type: Canicule
   fxType: 1

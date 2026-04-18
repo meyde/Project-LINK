@@ -37915,6 +37915,8 @@ MonoBehaviour:
   - {fileID: -8722902840782431698, guid: 504dd70854a745a4f9e669f30d40d664, type: 3}
   - {fileID: -1113224729647559716, guid: f252ce28f1e1e324a88d9292480d6e20, type: 3}
   - {fileID: 1964522029085628639, guid: 65bff987a54bced40ba118f89cf85e86, type: 3}
+  - {fileID: -2132123962562938015, guid: 21c0085487f3cc84493428db3e71d6c6, type: 3}
+  - {fileID: -1113224729647559716, guid: 18eaedf28e1f46f43b751ac23dcce942, type: 3}
   FxObj:
   - {fileID: 1986344269}
   - {fileID: 277162205}
