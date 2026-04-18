@@ -40770,7 +40770,12 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 010f9103332903448bdbb1324c22b7d3, type: 2}
   - {fileID: 11400000, guid: 28d37818090faa046996569a58f187a5, type: 2}
   level2Events:
-  - {fileID: 11400000, guid: 80e7da703615dc8498ac8f29715f559e, type: 2}
+  - {fileID: 11400000, guid: c4ff84870f88d5242b3ee77088ef173d, type: 2}
+  - {fileID: 11400000, guid: d42158d669e7fca468cc4a309d408721, type: 2}
+  - {fileID: 11400000, guid: a1c1f9a11bb091b4b81675a000305faf, type: 2}
+  - {fileID: 11400000, guid: 9dfa543be4f1e2b4f976e47057d051ac, type: 2}
+  - {fileID: 11400000, guid: 031e5f37e3fdc0548b4c9d0ff1cedc64, type: 2}
+  - {fileID: 11400000, guid: 38ac20fdc59be6644b7f2e7c6e7848f8, type: 2}
   level3Events:
   - {fileID: 0}
   - {fileID: 11400000, guid: c4ff84870f88d5242b3ee77088ef173d, type: 2}
@@ -40781,8 +40786,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 38ac20fdc59be6644b7f2e7c6e7848f8, type: 2}
   approximateTimeForEvents: 45
   randomisationTime: 30
-  requiredSuccesses: 5
-  timeBeforeStart: 10
+  requiredSuccesses: 8
+  timeBeforeStart: 20
   events:
     UpdateTraits:
       MinSecondsBetweenUpdates: 0
@@ -40814,7 +40819,7 @@ MonoBehaviour:
   - {fileID: -2466827623588667349, guid: ba95cedae8f71ef45be7debf239b21f8, type: 3}
   - {fileID: 1969497685141041849, guid: ba95cedae8f71ef45be7debf239b21f8, type: 3}
   - {fileID: -4032308760331749782, guid: ba95cedae8f71ef45be7debf239b21f8, type: 3}
-  gameDuration: 300
+  gameDuration: 620
   remainingGameTime:
     UpdateTraits:
       MinSecondsBetweenUpdates: 0
@@ -42216,7 +42221,7 @@ MonoBehaviour:
   - {fileID: 480538021}
   - {fileID: 1543882916}
   - {fileID: 547261234}
-  - {fileID: 220708735}
+  - {fileID: 1365899611}
   currentBiomeId: 0
   thunderStrikes:
   - {fileID: 556865346}
