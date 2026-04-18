@@ -30,6 +30,12 @@ public class GameManagerLocal : MonoBehaviour
     private int currentLoopingFxType = -1;
     private int currentLoopingEventId = -1;
 
+    // Garde l'event visuelle après l'échec
+    private bool keepFailedFxVisible;
+    private int failedFxRegion = -1;
+    private int failedFxType = -1;
+    private int failedFxEventId = -1;
+
     [System.Serializable]
     public struct FxSound
     {
@@ -77,11 +83,21 @@ public class GameManagerLocal : MonoBehaviour
     {
         Debug.Log("Event list changed");
 
+        CEventRuntimeData data = change.Value;
+        CatastrophicEvent evt = allEvents[data.eventId];
+
+        if (data.state == 3 && evt.region == currentRegion)
+        {
+            keepFailedFxVisible = true;
+            failedFxRegion = evt.region;
+            failedFxType = evt.fxType;
+
+            Debug.Log($"FX failed conservés localement dans la région {failedFxRegion}");
+        }
+
         if (change.Type == NetworkListEvent<CEventRuntimeData>.EventType.Add)
         {
-            CEventRuntimeData cEventData = change.Value;
-            CatastrophicEvent evnt = allEvents[cEventData.eventId];
-            OnNewEvent(evnt);
+            OnNewEvent(evt);
         }
 
         RefreshCurrentRegionVisualAndAudio();
@@ -90,45 +106,44 @@ public class GameManagerLocal : MonoBehaviour
 
     public void ChangeRegion(int regionSelected)
     {
+        if (RegionTransitionScreen.Instance != null)
+        {
+            RegionTransitionScreen.Instance.PlayTransition(() =>
+            {
+                ApplyRegionChange(regionSelected);
+            });
+        }
+        else
+        {
+            ApplyRegionChange(regionSelected);
+        }
+    }
+
+    private void ApplyRegionChange(int regionSelected)
+    {
         int previousRegion = currentRegion;
         currentRegion = regionSelected;
 
         if (regionBiomeDatabase != null)
             currentBiome = regionBiomeDatabase.GetBiome(currentRegion);
 
-        if (previousRegion != currentRegion)
-            CleanupFailedEventsFromRegion(previousRegion);
+        if (previousRegion != currentRegion && keepFailedFxVisible && previousRegion == failedFxRegion)
+        {
+            keepFailedFxVisible = false;
+            failedFxRegion = -1;
+            failedFxType = -1;
+            failedFxEventId = -1;
+
+            if (bsc != null)
+            {
+                bsc.AllowEventOver();
+                bsc.eventOver();
+            }
+        }
 
         RefreshCurrentRegionVisualAndAudio();
 
         Debug.Log($"Région: {currentRegion} | Biome: {currentBiome}");
-    }
-
-    private void CleanupFailedEventsFromRegion(int regionToCleanup)
-    {
-        if (gmn == null || !NetworkManager.Singleton.IsServer)
-            return;
-
-        for (int i = gmn.events.Count - 1; i >= 0; i--)
-        {
-            CEventRuntimeData evt = gmn.events[i];
-
-            if (evt.state != 3)
-                continue;
-
-            CatastrophicEvent cEvent = allEvents[evt.eventId];
-
-            if (cEvent.region != regionToCleanup)
-                continue;
-
-            Debug.Log($"Suppression de l'event failed {evt.eventId} après sortie de la région {regionToCleanup}");
-
-            gmn.occupiedRegions.Remove(cEvent.region);
-            gmn.events.RemoveAt(i);
-
-            if (bsc != null)
-                bsc.eventOver();
-        }
     }
 
     private AudioClip GetFxClip(int fxType)
@@ -147,7 +162,7 @@ public class GameManagerLocal : MonoBehaviour
 
         foreach (CEventRuntimeData cEventData in gmn.events)
         {
-            if (cEventData.state != 1 && cEventData.state != 3)
+            if (cEventData.state != 1)
                 continue;
 
             CatastrophicEvent cEvent = allEvents[cEventData.eventId];
@@ -160,6 +175,26 @@ public class GameManagerLocal : MonoBehaviour
             }
         }
 
+        if (activeEventData.HasValue)
+        {
+            if (bsc != null)
+                bsc.AllowEventOver();
+        }
+        else if (keepFailedFxVisible && currentRegion == failedFxRegion)
+        {
+            eventFx = failedFxType;
+
+            if (bsc != null)
+                bsc.BlockEventOver();
+        }
+        else
+        {
+            if (bsc != null)
+                bsc.AllowEventOver();
+
+            StopEventFxSound();
+        }
+
         if (bsc != null)
             bsc.SetBiome(currentBiome, eventFx);
 
@@ -168,7 +203,7 @@ public class GameManagerLocal : MonoBehaviour
             CatastrophicEvent activeEvent = allEvents[activeEventData.Value.eventId];
             PlayOrUpdateLoopingEventFx(activeEvent.eventId, activeEvent.fxType);
         }
-        else
+        else if (!keepFailedFxVisible || currentRegion != failedFxRegion)
         {
             StopEventFxSound();
         }

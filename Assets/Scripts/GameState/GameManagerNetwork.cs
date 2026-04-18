@@ -308,9 +308,9 @@ public class GameManagerNetwork : NetworkBehaviour
         CEventRuntimeData modifiedEvent = events[eventInd];
         modifiedEvent.state = 3;
         events[eventInd] = modifiedEvent;
-        //occupiedRegions.Remove(allEvents[modifiedEvent.eventId].region);
-        //Debug.Log($"Removing the region {allEvents[modifiedEvent.eventId].region} from the list of occupied regions");
-        //bsc.eventOver();
+        occupiedRegions.Remove(allEvents[modifiedEvent.eventId].region);
+        Debug.Log($"Removing the region {allEvents[modifiedEvent.eventId].region} from the list of occupied regions");
+        bsc.eventOver();
         PlayEventFailClientRpc();
         Invoke("EventGeneration", Random.Range(5f, 10f));
         if (health.Value < 1) 

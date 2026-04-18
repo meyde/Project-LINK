@@ -102,6 +102,11 @@ public class ZoomableModule : MonoBehaviour, MouseInteractionManager.IInteractab
 
     private void Awake()
     {
+        AnyModuleOpen = false;
+
+        if (CurrentOpenModule == this)
+            CurrentOpenModule = null;
+
         // M�morisation des param�tre de d�part pour y revenir apr�s.
         startPosition = transform.position;
         startScale = transform.localScale;
@@ -153,6 +158,10 @@ public class ZoomableModule : MonoBehaviour, MouseInteractionManager.IInteractab
 
         if (CurrentOpenModule == this)
             CurrentOpenModule = null;
+
+        AnyModuleOpen = false;
+        isOpen = false;
+        isAnimating = false;
     }
 
     private void OnDestroy()
@@ -162,6 +171,8 @@ public class ZoomableModule : MonoBehaviour, MouseInteractionManager.IInteractab
 
         if (CurrentOpenModule == this)
             CurrentOpenModule = null;
+
+        AnyModuleOpen = false;
     }
 
     private void OnCloseActionPerformed(InputAction.CallbackContext context)
@@ -185,6 +196,7 @@ public class ZoomableModule : MonoBehaviour, MouseInteractionManager.IInteractab
         // Si un autre module est d�j� ouvert, on ne fait rien
         if (AnyModuleOpen)
             return;
+
         moduleToStart.OnStarted();
         StartCoroutine(OpenModuleRoutine());
     }

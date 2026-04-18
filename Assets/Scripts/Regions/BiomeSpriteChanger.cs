@@ -23,6 +23,8 @@ public class BiomeSpriteChanger : MonoBehaviour
     [SerializeField] private AudioClip thunderClip;
     [SerializeField][Range(0f, 1f)] private float thunderVolume = 1f;
 
+    private bool blockEventOver;
+
     private Coroutine thunder;
     private void Awake()
     {
@@ -55,9 +57,10 @@ public class BiomeSpriteChanger : MonoBehaviour
         if (thunder != null) StopCoroutine(thunder);
         currentBiomeId = biomeId;
         ApplyBiome(currentBiomeId);
-        foreach (GameObject go in FxObj)
+        if (!(blockEventOver && eventFx == -1))
         {
-            go.SetActive(false);
+            foreach (GameObject go in FxObj)
+                go.SetActive(false);
         }
         switch (eventFx)
         {
@@ -174,10 +177,24 @@ public class BiomeSpriteChanger : MonoBehaviour
     }
 
 
+    public void BlockEventOver()
+    {
+        blockEventOver = true;
+    }
 
+    public void AllowEventOver()
+    {
+        blockEventOver = false;
+    }
 
     public void eventOver()
     {
+        if (blockEventOver)
+        {
+            Debug.Log("eventOver bloqué, on garde les FX actifs.");
+            return;
+        }
+
         Debug.Log("event Over, removing fx");
 
         foreach (GameObject go in FxObj)
