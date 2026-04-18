@@ -4131,8 +4131,8 @@ MonoBehaviour:
   - {fileID: -3340232254650043178, guid: 386a343fb9f66df468ef06eab8269740, type: 3}
   - {fileID: -4088824236497196122, guid: 386a343fb9f66df468ef06eab8269740, type: 3}
   - {fileID: -3184461969932742809, guid: 386a343fb9f66df468ef06eab8269740, type: 3}
-  - {fileID: -4088824236497196122, guid: 386a343fb9f66df468ef06eab8269740, type: 3}
-  - {fileID: -3184461969932742809, guid: 386a343fb9f66df468ef06eab8269740, type: 3}
+  colorCodes: 
+  allCodes: []
   gm: {fileID: 1583072583}
   testMode: 1
   testColorMode: 1
@@ -40229,7 +40229,10 @@ MonoBehaviour:
   - {fileID: 2142436852}
   - {fileID: 1030314885}
   - {fileID: 240383294}
-  diodeOptions: []
+  diodeOptions:
+  - {fileID: -2466827623588667349, guid: ba95cedae8f71ef45be7debf239b21f8, type: 3}
+  - {fileID: 1969497685141041849, guid: ba95cedae8f71ef45be7debf239b21f8, type: 3}
+  - {fileID: -4032308760331749782, guid: ba95cedae8f71ef45be7debf239b21f8, type: 3}
   gameDuration: 300
   remainingGameTime:
     UpdateTraits:
@@ -72569,6 +72572,18 @@ PrefabInstance:
     - target: {fileID: 8246710884034072525, guid: 59ac0a92b38bcbb4dbb2990c0eb1e4fd, type: 3}
       propertyPath: m_LocalPosition.y
       value: -1.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 8246710884034072525, guid: 59ac0a92b38bcbb4dbb2990c0eb1e4fd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9826181
+      objectReference: {fileID: 0}
+    - target: {fileID: 8246710884034072525, guid: 59ac0a92b38bcbb4dbb2990c0eb1e4fd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.18563879
+      objectReference: {fileID: 0}
+    - target: {fileID: 8246710884034072525, guid: 59ac0a92b38bcbb4dbb2990c0eb1e4fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -21.397
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:

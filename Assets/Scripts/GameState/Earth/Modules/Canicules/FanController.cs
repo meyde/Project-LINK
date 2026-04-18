@@ -5,8 +5,12 @@ public class FanController : MonoBehaviour
     [SerializeField] private int intensity;
     private int turnSpeed;
     private int turnDirection;
-    private int rotation;
+    private float rotation;
 
+    private void Start()
+    {
+        Refreshrotation(0, 0);
+    }
     public void Update()
     {
         gameObject.transform.Rotate(0f, 0f, rotation);
@@ -17,7 +21,7 @@ public class FanController : MonoBehaviour
     {
         turnSpeed = newSpeed;
         turnDirection = newDirection;
-        rotation = intensity * turnSpeed * (turnDirection - 1);
+        rotation = intensity * turnSpeed * Mathf.Sign((turnDirection - 2));
     }
 
 }
