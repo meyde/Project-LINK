@@ -39,7 +39,7 @@ public class TectonicPlatesModule : Module
     [Header("Data")]
     [SerializeField] private Sprite[] lettersSprite;
     [SerializeField] private Sprite[] correctColors;
-    [SerializeField] private int[] colorCodes;
+    private int[] colorCodes;
     [SerializeField] private TEcPlateCodeSO[] allCodes;
     [Header("References")]
     [SerializeField] private GameManagerLocal gm;

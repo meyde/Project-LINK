@@ -4131,8 +4131,10 @@ MonoBehaviour:
   - {fileID: -3340232254650043178, guid: 386a343fb9f66df468ef06eab8269740, type: 3}
   - {fileID: -4088824236497196122, guid: 386a343fb9f66df468ef06eab8269740, type: 3}
   - {fileID: -3184461969932742809, guid: 386a343fb9f66df468ef06eab8269740, type: 3}
-  colorCodes: 
-  allCodes: []
+  allCodes:
+  - {fileID: 11400000, guid: d002b74a82a966149b91cdf466e16a70, type: 2}
+  - {fileID: 11400000, guid: f053064e2c4b42444928ff0300eeec85, type: 2}
+  - {fileID: 11400000, guid: dc599d3e5a33be245afba1574207a452, type: 2}
   gm: {fileID: 1583072583}
   testMode: 1
   testColorMode: 1
@@ -40777,7 +40779,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9dfa543be4f1e2b4f976e47057d051ac, type: 2}
   - {fileID: 11400000, guid: 031e5f37e3fdc0548b4c9d0ff1cedc64, type: 2}
   - {fileID: 11400000, guid: 38ac20fdc59be6644b7f2e7c6e7848f8, type: 2}
-  level3Events: []
   approximateTimeForEvents: 45
   randomisationTime: 30
   requiredSuccesses: 5
@@ -70604,7 +70605,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CoolingModule
   gm: {fileID: 1583072583}
-  allModes: []
+  allModes:
+  - {fileID: 11400000, guid: 53ff0c095f416644bbed88d6bb451dfb, type: 2}
+  - {fileID: 11400000, guid: b463ed30442fd874fb2a18b9c6d4834b, type: 2}
+  - {fileID: 11400000, guid: 844bfee2cc9f5b9439a17b09efdeeb57, type: 2}
+  - {fileID: 11400000, guid: 6f264a1f0b372ee46840c0fcab21563a, type: 2}
+  - {fileID: 11400000, guid: 899a8b93d3feee847863c29b09172b95, type: 2}
+  - {fileID: 11400000, guid: 1e75d191d6e0e114cb1b276995117dbe, type: 2}
+  - {fileID: 11400000, guid: c7148ce7b81d1dd47af511b639707149, type: 2}
+  - {fileID: 11400000, guid: 9a928e4d24d92634981b6f1cf3961025, type: 2}
+  - {fileID: 11400000, guid: 619fb4fb4c89ec040a2d48502bf5b05c, type: 2}
   leftFan: {fileID: 1206132702}
   rightFan: {fileID: 1358247280}
   leftFanSpeedPiston: 0
