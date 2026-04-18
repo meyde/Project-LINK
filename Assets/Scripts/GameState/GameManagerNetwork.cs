@@ -372,7 +372,7 @@ public class GameManagerNetwork : NetworkBehaviour
             case 1:
                 int option = Random.Range(0, 3);
                 cEventData.module1Option = option;
-                //level1Leds[moduleId] = option;
+                level1Leds[moduleId] = option;
                 events[eventInd] = cEventData;
                 if (cEventData.modulesDone == cEvent.modules1.Count())
                 {
