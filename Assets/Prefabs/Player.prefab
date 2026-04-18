@@ -110,6 +110,78 @@ MonoBehaviour:
         byte0027: 0
         byte0028: 0
         byte0029: 0
+  LobbyCode:
+    UpdateTraits:
+      MinSecondsBetweenUpdates: 0
+      MaxSecondsBetweenUpdates: 0
+    m_InternalValue:
+      utf8LengthInBytes: 0
+      bytes:
+        offset0000:
+          byte0000: 0
+          byte0001: 0
+          byte0002: 0
+          byte0003: 0
+          byte0004: 0
+          byte0005: 0
+          byte0006: 0
+          byte0007: 0
+          byte0008: 0
+          byte0009: 0
+          byte0010: 0
+          byte0011: 0
+          byte0012: 0
+          byte0013: 0
+          byte0014: 0
+          byte0015: 0
+        offset0016:
+          byte0000: 0
+          byte0001: 0
+          byte0002: 0
+          byte0003: 0
+          byte0004: 0
+          byte0005: 0
+          byte0006: 0
+          byte0007: 0
+          byte0008: 0
+          byte0009: 0
+          byte0010: 0
+          byte0011: 0
+          byte0012: 0
+          byte0013: 0
+          byte0014: 0
+          byte0015: 0
+        offset0032:
+          byte0000: 0
+          byte0001: 0
+          byte0002: 0
+          byte0003: 0
+          byte0004: 0
+          byte0005: 0
+          byte0006: 0
+          byte0007: 0
+          byte0008: 0
+          byte0009: 0
+          byte0010: 0
+          byte0011: 0
+          byte0012: 0
+          byte0013: 0
+          byte0014: 0
+          byte0015: 0
+        byte0048: 0
+        byte0049: 0
+        byte0050: 0
+        byte0051: 0
+        byte0052: 0
+        byte0053: 0
+        byte0054: 0
+        byte0055: 0
+        byte0056: 0
+        byte0057: 0
+        byte0058: 0
+        byte0059: 0
+        byte0060: 0
+        byte0061: 0
   IsReady:
     UpdateTraits:
       MinSecondsBetweenUpdates: 0
@@ -133,18 +205,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::VoiceTimeLimiter
   ShowTopMostFoldoutHeaderGroup: 1
-  maxVoiceDuration: 20
+  maxVoiceDuration: 60
   rechargeAmount: 1
-  rechargeDuration: 1
+  rechargeDuration: 5
   targetSceneName: GameScene
-  barPrefab: {fileID: 4662251950546569501, guid: cc9ec813a49c1e84191cd8fb1205c136, type: 3}
   audioSource: {fileID: 0}
   warningSound: {fileID: 8300000, guid: a47a4dd7dd98db343b7eb3462bdbf906, type: 3}
   triggerTime: 10
-  warningVolume: 0.5
-  blinkSpeed: 8
-  blinkMinAlpha: 0.3
-  blinkMaxAlpha: 1
-  viewportPosition: {x: 0.5, y: 0.9}
-  cameraDistance: 10
+  warningVolume: 0.35
   verboseLogs: 1
