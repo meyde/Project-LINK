@@ -46,8 +46,6 @@ public class MouseInteractionManager : MonoBehaviour
 
     public void OnLeftClick()
     {
-        if (RegionTransitionScreen.Instance != null && RegionTransitionScreen.Instance.IsTransitioning)
-            return;
         Debug.Log("Clique Souris Effectué");
 
         Vector2 mouseWorldPos = cam.ScreenToWorldPoint(Mouse.current.position.ReadValue());

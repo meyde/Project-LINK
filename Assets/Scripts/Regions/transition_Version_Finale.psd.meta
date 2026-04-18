@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1bac7d020c845ee419ac81d6bed8e699
+guid: c902156ee9150d4489ffdd4fb852d1bf
 importerOverride:
   nativeImporterType: 2089858483
   scriptedImporterType:
@@ -88,7 +88,7 @@ ScriptedImporter:
       y: 0
       width: 0
       height: 0
-    spriteID: ecec821af7f208945b5d419a3bca1475
+    spriteID: be8796da7a0113d488e07b496dda9f34
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -100,7 +100,7 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   multiSpriteImportData: []
   layeredSpriteImportData:
-  - name: Ventilo
+  - name: Calque 7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -108,11 +108,33 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 3679
+      x: 1932
+      y: 1033
+      width: 1509
+      height: 992
+    spriteID: 7e755e488851079488432c22e821b085
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1638, y: 1004}
+    spritePosition: {x: 361, y: 29}
+  - name: Calque 6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 1932
       y: 4
-      width: 297
-      height: 294
-    spriteID: 61f2e34c73b15544d8adf4ca67cd8daa
+      width: 1780
+      height: 1021
+    spriteID: d35e31746d6e16e4e8165211921e1f35
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -120,197 +142,21 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 3679, y: 4}
-    spritePosition: {x: 1845, y: 2050}
-  - name: PlaqueAbevVentico
+    uvTransform: {x: 1895, y: 4}
+    spritePosition: {x: 106, y: 0}
+  - name: Calque 5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 3152
-      y: 4
-      width: 519
-      height: 354
-    spriteID: 7b102f5e0509b034cb43f6b0c31d498e
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 3152, y: 4}
-    spritePosition: {x: 1737, y: 2008}
-  - name: Ventilo
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 3679
-      y: 366
-      width: 297
-      height: 294
-    spriteID: 76ae6b0165f09d84ea336161fb088e28
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 3679, y: 366}
-    spritePosition: {x: 225, y: 2050}
-  - name: PlaqueAbevVentico
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 3152
-      y: 366
-      width: 519
-      height: 354
-    spriteID: 9bdebebbf179be0409eda6576fe43d7d
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 3152, y: 366}
-    spritePosition: {x: 117, y: 2008}
-  - name: Plaque
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 3152
-      y: 728
-      width: 519
-      height: 354
-    spriteID: ca9ce40ab9f8174478de7978c9caffd4
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 3152, y: 728}
-    spritePosition: {x: 972, y: 2008}
-  - name: Piston5
-    originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 3152
-      y: 1610
-      width: 336
-      height: 385
-    spriteID: 86495e8e3f1805a4c963a128728c8787
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 3152, y: 1610}
-    spritePosition: {x: 1920, y: 863}
-  - name: Piston5
-    originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 3679
-      y: 728
-      width: 336
-      height: 385
-    spriteID: 980ceb42545982d449798be142d41088
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 3679, y: 728}
-    spritePosition: {x: 1492, y: 863}
-  - name: Piston5
-    originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 3679
-      y: 1121
-      width: 336
-      height: 385
-    spriteID: 91095b88d972b16449e50dd5d1f519ea
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 3679, y: 1121}
-    spritePosition: {x: 1064, y: 863}
-  - name: Piston5
-    originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 3679
-      y: 1514
-      width: 336
-      height: 385
-    spriteID: 16f2213736645094a966e248aca75491
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 3679, y: 1514}
-    spritePosition: {x: 636, y: 863}
-  - name: Piston5
-    originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
     rect:
       serializedVersion: 2
       x: 4
-      y: 2092
-      width: 336
-      height: 385
-    spriteID: 29f806a8773e3ac4f880ded1d7f72183
+      y: 6314
+      width: 1778
+      height: 1025
+    spriteID: c77f9de2b2c79e14589df702926c61f9
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -318,21 +164,21 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 2092}
-    spritePosition: {x: 208, y: 863}
-  - name: Piston4
+    uvTransform: {x: -41, y: 6314}
+    spritePosition: {x: 108, y: 0}
+  - name: Calque 4
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
     rect:
       serializedVersion: 2
-      x: 3152
-      y: 1090
-      width: 336
-      height: 512
-    spriteID: 63ba09837c85cc34cbd258682377cccc
+      x: 4
+      y: 5279
+      width: 1783
+      height: 1027
+    spriteID: 2522e8569bcd63b4fbb5b5bbea013826
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -340,21 +186,21 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 3152, y: 1090}
-    spritePosition: {x: 209, y: 863}
-  - name: Pistonj3
+    uvTransform: {x: -78, y: 5279}
+    spritePosition: {x: 101, y: 0}
+  - name: Calque 3
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
     rect:
       serializedVersion: 2
-      x: 2810
-      y: 4
-      width: 334
-      height: 645
-    spriteID: 6d7b149dd1e934a45bd21a9ae8f25833
+      x: 4
+      y: 2180
+      width: 1798
+      height: 1025
+    spriteID: 82a5445e2b2c5524ebcbd0f6c76d7db4
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -362,21 +208,21 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 2810, y: 4}
-    spritePosition: {x: 210, y: 863}
-  - name: Piston2
+    uvTransform: {x: -61, y: 2180}
+    spritePosition: {x: 85, y: 0}
+  - name: Calque 2
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
     rect:
       serializedVersion: 2
-      x: 2468
-      y: 867
-      width: 334
-      height: 772
-    spriteID: edd937c9c4e97194e851726e6a835886
+      x: 4
+      y: 4246
+      width: 1789
+      height: 1025
+    spriteID: 8fef790629aeeed49a82edab1007e579
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -384,21 +230,21 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 2468, y: 867}
-    spritePosition: {x: 210, y: 863}
-  - name: Piston1
+    uvTransform: {x: -84, y: 4246}
+    spritePosition: {x: 97, y: 0}
+  - name: Calque 1
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
     rect:
       serializedVersion: 2
-      x: 2468
-      y: 4
-      width: 334
-      height: 855
-    spriteID: 811e4c6d7432f6e4b8fe61283bfa20e1
+      x: 4
+      y: 3213
+      width: 1795
+      height: 1025
+    spriteID: 89c5b9c46c88eea41a3d8f4627c29fd1
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -406,9 +252,9 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 2468, y: 4}
-    spritePosition: {x: 210, y: 863}
-  - name: Base
+    uvTransform: {x: -74, y: 3213}
+    spritePosition: {x: 89, y: 0}
+  - name: "Fond en d\xE9grad\xE9 1"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -418,9 +264,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 2456
-      height: 2080
-    spriteID: 9d0a4d28496e0db42a65536eaca176b2
+      width: 1920
+      height: 1080
+    spriteID: 557649b6252ca2749802a56f8b3a49d9
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -429,7 +275,29 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-    spritePosition: {x: 6, y: 686}
+    spritePosition: {x: 0, y: 0}
+  - name: "Arri\xE8re-plan"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1092
+      width: 1920
+      height: 1080
+    spriteID: 4a5c31be31d4ea644a7d9f48a713e6d5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1092}
+    spritePosition: {x: 0, y: 0}
   spriteImportData: []
   rigSpriteImportData: []
   sharedRigSpriteImportData: []
@@ -473,6 +341,30 @@ ScriptedImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: iPhone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
   mosaicLayers: 1
   characterMode: 1
   documentPivot: {x: 0, y: 0}
@@ -501,153 +393,103 @@ ScriptedImporter:
   resliceFromLayer: 0
   pSDLayerImportSetting: []
   psdLayers:
-  - name: Ventilo
-    spriteName: Ventilo
+  - name: Calque 8
+    spriteName: 
     isGroup: 0
     parentIndex: -1
-    spriteID: 61f2e34c73b15544d8adf4ca67cd8daa
-    layerID: 17
-    mosaicPosition: {x: 3679, y: 4}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: PlaqueAbevVentico
-    spriteName: PlaqueAbevVentico
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 7b102f5e0509b034cb43f6b0c31d498e
-    layerID: 16
-    mosaicPosition: {x: 3152, y: 4}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Ventilo
-    spriteName: Ventilo
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 76ae6b0165f09d84ea336161fb088e28
+    spriteID: 48cfd322ab62b904db5c6ef6465fc5a5
     layerID: 11
-    mosaicPosition: {x: 3679, y: 366}
+    mosaicPosition: {x: 0, y: 0}
     flatten: 0
-    isImported: 1
+    isImported: 0
     isVisible: 1
-  - name: PlaqueAbevVentico
-    spriteName: PlaqueAbevVentico
+  - name: Calque 7
+    spriteName: Calque 7
     isGroup: 0
     parentIndex: -1
-    spriteID: 9bdebebbf179be0409eda6576fe43d7d
+    spriteID: 7e755e488851079488432c22e821b085
     layerID: 10
-    mosaicPosition: {x: 3152, y: 366}
+    mosaicPosition: {x: 1932, y: 1033}
     flatten: 0
     isImported: 1
-    isVisible: 1
-  - name: Plaque
-    spriteName: Plaque
+    isVisible: 0
+  - name: Calque 6
+    spriteName: Calque 6
     isGroup: 0
     parentIndex: -1
-    spriteID: ca9ce40ab9f8174478de7978c9caffd4
+    spriteID: d35e31746d6e16e4e8165211921e1f35
     layerID: 9
-    mosaicPosition: {x: 3152, y: 728}
+    mosaicPosition: {x: 1932, y: 4}
     flatten: 0
     isImported: 1
-    isVisible: 1
-  - name: Piston5
-    spriteName: Piston5
+    isVisible: 0
+  - name: Calque 5
+    spriteName: Calque 5
     isGroup: 0
     parentIndex: -1
-    spriteID: 86495e8e3f1805a4c963a128728c8787
-    layerID: 15
-    mosaicPosition: {x: 3152, y: 1610}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Piston5
-    spriteName: Piston5
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 980ceb42545982d449798be142d41088
-    layerID: 14
-    mosaicPosition: {x: 3679, y: 728}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Piston5
-    spriteName: Piston5
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 91095b88d972b16449e50dd5d1f519ea
-    layerID: 13
-    mosaicPosition: {x: 3679, y: 1121}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Piston5
-    spriteName: Piston5
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 16f2213736645094a966e248aca75491
-    layerID: 12
-    mosaicPosition: {x: 3679, y: 1514}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Piston5
-    spriteName: Piston5
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 29f806a8773e3ac4f880ded1d7f72183
+    spriteID: c77f9de2b2c79e14589df702926c61f9
     layerID: 8
-    mosaicPosition: {x: 4, y: 2092}
+    mosaicPosition: {x: 4, y: 6314}
     flatten: 0
     isImported: 1
-    isVisible: 1
-  - name: Piston4
-    spriteName: Piston4
+    isVisible: 0
+  - name: Calque 4
+    spriteName: Calque 4
     isGroup: 0
     parentIndex: -1
-    spriteID: 63ba09837c85cc34cbd258682377cccc
+    spriteID: 2522e8569bcd63b4fbb5b5bbea013826
     layerID: 7
-    mosaicPosition: {x: 3152, y: 1090}
+    mosaicPosition: {x: 4, y: 5279}
     flatten: 0
     isImported: 1
     isVisible: 0
-  - name: Pistonj3
-    spriteName: Pistonj3
+  - name: Calque 3
+    spriteName: Calque 3
     isGroup: 0
     parentIndex: -1
-    spriteID: 6d7b149dd1e934a45bd21a9ae8f25833
+    spriteID: 82a5445e2b2c5524ebcbd0f6c76d7db4
     layerID: 6
-    mosaicPosition: {x: 2810, y: 4}
+    mosaicPosition: {x: 4, y: 2180}
     flatten: 0
     isImported: 1
     isVisible: 0
-  - name: Piston2
-    spriteName: Piston2
+  - name: Calque 2
+    spriteName: Calque 2
     isGroup: 0
     parentIndex: -1
-    spriteID: edd937c9c4e97194e851726e6a835886
+    spriteID: 8fef790629aeeed49a82edab1007e579
     layerID: 5
-    mosaicPosition: {x: 2468, y: 867}
+    mosaicPosition: {x: 4, y: 4246}
     flatten: 0
     isImported: 1
     isVisible: 0
-  - name: Piston1
-    spriteName: Piston1
+  - name: Calque 1
+    spriteName: Calque 1
     isGroup: 0
     parentIndex: -1
-    spriteID: 811e4c6d7432f6e4b8fe61283bfa20e1
+    spriteID: 89c5b9c46c88eea41a3d8f4627c29fd1
     layerID: 4
-    mosaicPosition: {x: 2468, y: 4}
+    mosaicPosition: {x: 4, y: 3213}
     flatten: 0
     isImported: 1
     isVisible: 0
-  - name: Base
-    spriteName: Base
+  - name: "Fond en d\xE9grad\xE9 1"
+    spriteName: "Fond en d\xE9grad\xE9 1"
     isGroup: 0
     parentIndex: -1
-    spriteID: 9d0a4d28496e0db42a65536eaca176b2
+    spriteID: 557649b6252ca2749802a56f8b3a49d9
     layerID: 3
     mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: "Arri\xE8re-plan"
+    spriteName: "Arri\xE8re-plan"
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 4a5c31be31d4ea644a7d9f48a713e6d5
+    layerID: 1
+    mosaicPosition: {x: 4, y: 1092}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -655,7 +497,7 @@ ScriptedImporter:
   rigPSDLayers: []
   sharedRigPSDLayers: []
   importFileNodeState: 1
-  platformSettingsDirtyTick: 639121267869546729
+  platformSettingsDirtyTick: 639121387868453723
   spriteSizeExpandChanged: 0
   generateGOHierarchy: 0
   textureAssetName: 
