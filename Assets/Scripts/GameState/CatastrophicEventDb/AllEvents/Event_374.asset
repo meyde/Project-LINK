@@ -16,7 +16,7 @@ MonoBehaviour:
   eventName: Seisme intensite basse
   type: Seisme
   fxType: 1
-  region: 4
+  region: 7
   modulesCount: 2
   modules1: 01000000
   modules2: 04000000
