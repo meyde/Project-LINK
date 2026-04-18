@@ -39258,16 +39258,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9914e559e664c04caff8b65cf74a7ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RegionTransitionScreen
-  backgroundRenderer: {fileID: 0}
-  animationRenderer: {fileID: 0}
-  backgroundSprite: {fileID: 0}
-  animationFrames: []
+  backgroundRenderer: {fileID: 1083158442}
+  animationRenderer: {fileID: 2027405972}
+  backgroundSprite: {fileID: 7589318159201415367, guid: c902156ee9150d4489ffdd4fb852d1bf, type: 3}
+  animationFrames:
+  - {fileID: -3583530422319334949, guid: c902156ee9150d4489ffdd4fb852d1bf, type: 3}
+  - {fileID: -5889015995336738682, guid: c902156ee9150d4489ffdd4fb852d1bf, type: 3}
+  - {fileID: 3652416939735088668, guid: c902156ee9150d4489ffdd4fb852d1bf, type: 3}
+  - {fileID: -1438749795704606499, guid: c902156ee9150d4489ffdd4fb852d1bf, type: 3}
+  - {fileID: -4246975730836016986, guid: c902156ee9150d4489ffdd4fb852d1bf, type: 3}
+  - {fileID: 1235827144809607755, guid: c902156ee9150d4489ffdd4fb852d1bf, type: 3}
+  - {fileID: 4332787644467168437, guid: c902156ee9150d4489ffdd4fb852d1bf, type: 3}
   frameRate: 12
-  loop: 1
+  loop: 0
   fadeOutDuration: 0.25
   holdDuration: 0.1
   fadeInDuration: 0.25
-  followCamera: 1
+  followCamera: 0
   targetCamera: {fileID: 2121139982}
   distance: 1
 --- !u!212 &1083158442
@@ -39317,7 +39324,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7589318159201415367, guid: c902156ee9150d4489ffdd4fb852d1bf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
@@ -74319,7 +74326,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: -3583530422319334949, guid: c902156ee9150d4489ffdd4fb852d1bf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
