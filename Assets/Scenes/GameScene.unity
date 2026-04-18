@@ -32599,9 +32599,12 @@ MonoBehaviour:
   - {fileID: 1646592870}
   - {fileID: 1812232776}
   - {fileID: 825676601}
-  timeBetweenStrikes: 0
+  timeBetweenStrikes: 10
   strikesDuration: 0.5
   doubleStrikesIntervals: 2
+  thunderAudioSource: {fileID: 1583072586}
+  thunderClip: {fileID: 8300000, guid: 907d1e891e7bd87408e7d637213ad6f7, type: 3}
+  thunderVolume: 0.5
 --- !u!212 &1192207326
 SpriteRenderer:
   serializedVersion: 2
@@ -42756,29 +42759,27 @@ MonoBehaviour:
   fxAudioSource: {fileID: 1583072587}
   fxSounds:
   - fxType: 0
-    clip: {fileID: 8300000, guid: dcb5691f5fca5c84aa9bea9f8d1a9cf7, type: 3}
+    clip: {fileID: 8300000, guid: 3bb96402cd106eb428c5fc7626f13e4f, type: 3}
   - fxType: 1
-    clip: {fileID: 8300000, guid: dcb5691f5fca5c84aa9bea9f8d1a9cf7, type: 3}
-  - fxType: 2
-    clip: {fileID: 8300000, guid: 35a0e1329a34cdc43aa45c6928d0cc37, type: 3}
+    clip: {fileID: 8300000, guid: 3bb96402cd106eb428c5fc7626f13e4f, type: 3}
   - fxType: 3
-    clip: {fileID: 8300000, guid: 4028725df11074346a2325d1ebcb54f4, type: 3}
+    clip: {fileID: 8300000, guid: 3bb96402cd106eb428c5fc7626f13e4f, type: 3}
   - fxType: 4
-    clip: {fileID: 8300000, guid: 005774db3cdf463428de19618be8b6be, type: 3}
+    clip: {fileID: 8300000, guid: 3bb96402cd106eb428c5fc7626f13e4f, type: 3}
   - fxType: 5
-    clip: {fileID: 8300000, guid: 6b26c4f1f8813794e9be81061c515894, type: 3}
+    clip: {fileID: 8300000, guid: 3bb96402cd106eb428c5fc7626f13e4f, type: 3}
   - fxType: 6
-    clip: {fileID: 8300000, guid: 6b26c4f1f8813794e9be81061c515894, type: 3}
+    clip: {fileID: 8300000, guid: dcb5691f5fca5c84aa9bea9f8d1a9cf7, type: 3}
   - fxType: 7
-    clip: {fileID: 8300000, guid: 6b26c4f1f8813794e9be81061c515894, type: 3}
+    clip: {fileID: 8300000, guid: dcb5691f5fca5c84aa9bea9f8d1a9cf7, type: 3}
   - fxType: 8
-    clip: {fileID: 8300000, guid: 01e050ffe389e184181493f36566cccd, type: 3}
+    clip: {fileID: 8300000, guid: 35a0e1329a34cdc43aa45c6928d0cc37, type: 3}
   - fxType: 9
-    clip: {fileID: 8300000, guid: 6b26c4f1f8813794e9be81061c515894, type: 3}
+    clip: {fileID: 8300000, guid: 4028725df11074346a2325d1ebcb54f4, type: 3}
   - fxType: 10
-    clip: {fileID: 8300000, guid: 6b26c4f1f8813794e9be81061c515894, type: 3}
+    clip: {fileID: 8300000, guid: 005774db3cdf463428de19618be8b6be, type: 3}
   - fxType: 11
-    clip: {fileID: 8300000, guid: 6b26c4f1f8813794e9be81061c515894, type: 3}
+    clip: {fileID: 8300000, guid: 01e050ffe389e184181493f36566cccd, type: 3}
 --- !u!4 &1583072584
 Transform:
   m_ObjectHideFlags: 0

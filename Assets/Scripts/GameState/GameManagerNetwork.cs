@@ -60,21 +60,73 @@ public class GameManagerNetwork : NetworkBehaviour
         OnStartGame();
     }
 
+    public override void OnNetworkDespawn()
+    {
+        if (eventCoroutine != null)
+            StopCoroutine(eventCoroutine);
+
+        if (gameTimerCoroutine != null)
+            StopCoroutine(gameTimerCoroutine);
+
+        level1Leds.OnListChanged -= LedLighting;
+
+        gameStarted = false;
+        gameEnded = false;
+
+        if (events != null)
+            events.Clear();
+
+        if (occupiedRegions != null)
+            occupiedRegions.Clear();
+
+        if (level1Leds != null)
+            level1Leds.Clear();
+
+        if (Instance == this)
+            Instance = null;
+    }
+
+    public override void OnDestroy()
+    {
+        if (Instance == this)
+            Instance = null;
+    }
+
     public void OnStartGame()
     {
-        if (!IsServer || gameStarted) return;
+        if (!IsServer)
+            return;
 
+        // Reset complet avant de lancer une nouvelle partie
         gameStarted = true;
         gameEnded = false;
+
+        if (eventCoroutine != null)
+        {
+            StopCoroutine(eventCoroutine);
+            eventCoroutine = null;
+        }
+
+        if (gameTimerCoroutine != null)
+        {
+            StopCoroutine(gameTimerCoroutine);
+            gameTimerCoroutine = null;
+        }
+
+        level1Leds.OnListChanged -= LedLighting;
+
+        events.Clear();
+        occupiedRegions.Clear();
+        level1Leds.Clear();
+
         successes.Value = 0;
         health.Value = 3;
-        for (int i = 0; i<4; i++)
-        {
-
-            level1Leds.Add(0);
-        }
         remainingGameTime.Value = gameDuration;
-        level1Leds.OnListChanged += LedLighting ;
+
+        for (int i = 0; i < 4; i++)
+            level1Leds.Add(0);
+
+        level1Leds.OnListChanged += LedLighting;
 
         eventCoroutine = StartCoroutine(EventGenerationRepeating());
         gameTimerCoroutine = StartCoroutine(GameTimerCoroutine());
@@ -147,6 +199,7 @@ public class GameManagerNetwork : NetworkBehaviour
     {
         if (gameEnded) return;
         gameEnded = true;
+        gameStarted = false;
 
         Debug.Log("Game Lost");
 
@@ -163,6 +216,7 @@ public class GameManagerNetwork : NetworkBehaviour
     {
         if (gameEnded) return;
         gameEnded = true;
+        gameStarted = false;
 
         Debug.Log("Game Won");
 
@@ -254,9 +308,9 @@ public class GameManagerNetwork : NetworkBehaviour
         CEventRuntimeData modifiedEvent = events[eventInd];
         modifiedEvent.state = 3;
         events[eventInd] = modifiedEvent;
-        occupiedRegions.Remove(allEvents[modifiedEvent.eventId].region);
-        Debug.Log($"Removing the region {allEvents[modifiedEvent.eventId].region} from the list of occupied regions");
-        bsc.eventOver();
+        //occupiedRegions.Remove(allEvents[modifiedEvent.eventId].region);
+        //Debug.Log($"Removing the region {allEvents[modifiedEvent.eventId].region} from the list of occupied regions");
+        //bsc.eventOver();
         PlayEventFailClientRpc();
         Invoke("EventGeneration", Random.Range(5f, 10f));
         if (health.Value < 1) 
@@ -318,7 +372,7 @@ public class GameManagerNetwork : NetworkBehaviour
             case 1:
                 int option = Random.Range(0, 3);
                 cEventData.module1Option = option;
-                level1Leds[moduleId] = option;
+                //level1Leds[moduleId] = option;
                 events[eventInd] = cEventData;
                 if (cEventData.modulesDone == cEvent.modules1.Count())
                 {

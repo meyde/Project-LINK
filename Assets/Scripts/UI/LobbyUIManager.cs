@@ -43,6 +43,19 @@ public class LobbyUIManager : MonoBehaviour
         }
     }
 
+    public void ResetLobbyUI()
+    {
+        localPlayer = null;
+
+        if (lobbyCodeText != null)
+            lobbyCodeText.text = "";
+
+        if (lobbyCodeText != null)
+            lobbyCodeText.text = "";
+
+        RefreshPlayerList();
+    }
+
     private void OnClientListChanged(ulong clientId)
     {
         StartCoroutine(RefreshPlayerListNextFrame());

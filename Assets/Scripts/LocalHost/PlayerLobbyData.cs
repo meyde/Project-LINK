@@ -44,7 +44,7 @@ public class PlayerLobbyData : NetworkBehaviour
         }
 
         Pseudo.OnValueChanged += OnPseudoChanged;
-        LobbyCode.OnValueChanged -= OnLobbyCodeChanged;
+        LobbyCode.OnValueChanged += OnLobbyCodeChanged;
         IsReady.OnValueChanged += OnReadyChanged;
 
         if (LobbyUIManager.Instance != null)

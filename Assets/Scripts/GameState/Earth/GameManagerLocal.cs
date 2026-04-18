@@ -90,14 +90,45 @@ public class GameManagerLocal : MonoBehaviour
 
     public void ChangeRegion(int regionSelected)
     {
+        int previousRegion = currentRegion;
         currentRegion = regionSelected;
 
         if (regionBiomeDatabase != null)
             currentBiome = regionBiomeDatabase.GetBiome(currentRegion);
 
+        if (previousRegion != currentRegion)
+            CleanupFailedEventsFromRegion(previousRegion);
+
         RefreshCurrentRegionVisualAndAudio();
 
         Debug.Log($"Région: {currentRegion} | Biome: {currentBiome}");
+    }
+
+    private void CleanupFailedEventsFromRegion(int regionToCleanup)
+    {
+        if (gmn == null || !NetworkManager.Singleton.IsServer)
+            return;
+
+        for (int i = gmn.events.Count - 1; i >= 0; i--)
+        {
+            CEventRuntimeData evt = gmn.events[i];
+
+            if (evt.state != 3)
+                continue;
+
+            CatastrophicEvent cEvent = allEvents[evt.eventId];
+
+            if (cEvent.region != regionToCleanup)
+                continue;
+
+            Debug.Log($"Suppression de l'event failed {evt.eventId} après sortie de la région {regionToCleanup}");
+
+            gmn.occupiedRegions.Remove(cEvent.region);
+            gmn.events.RemoveAt(i);
+
+            if (bsc != null)
+                bsc.eventOver();
+        }
     }
 
     private AudioClip GetFxClip(int fxType)
@@ -116,7 +147,7 @@ public class GameManagerLocal : MonoBehaviour
 
         foreach (CEventRuntimeData cEventData in gmn.events)
         {
-            if (cEventData.state != 1)
+            if (cEventData.state != 1 && cEventData.state != 3)
                 continue;
 
             CatastrophicEvent cEvent = allEvents[cEventData.eventId];

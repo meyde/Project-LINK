@@ -10,13 +10,19 @@ public class BiomeSpriteChanger : MonoBehaviour
     [SerializeField] private Sprite[] biomeSprites;
     [SerializeField] private GameObject[] FxObj;
 
-[Header("Biome actuel")]
+    [Header("Biome actuel")]
     [SerializeField] private int currentBiomeId;
 
     public SpriteRenderer[] thunderStrikes;
     [SerializeField] private float timeBetweenStrikes=10f;
     [SerializeField] private float strikesDuration = 0.5f ;
     [SerializeField] private float doubleStrikesIntervals = 2f;
+
+    [Header("Thunder Audio")]
+    [SerializeField] private AudioSource thunderAudioSource;
+    [SerializeField] private AudioClip thunderClip;
+    [SerializeField][Range(0f, 1f)] private float thunderVolume = 1f;
+
     private Coroutine thunder;
     private void Awake()
     {
@@ -28,6 +34,20 @@ public class BiomeSpriteChanger : MonoBehaviour
     private void Start()
     {
         ApplyBiome(currentBiomeId);
+    }
+
+    private void PlayThunderSound()
+    {
+        if (thunderAudioSource == null || thunderClip == null)
+            return;
+
+        thunderAudioSource.PlayOneShot(thunderClip, thunderVolume);
+    }
+
+    private IEnumerator PlayThunderSoundDelayed(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        PlayThunderSound();
     }
 
     public void SetBiome(int biomeId, int eventFx)
@@ -119,27 +139,38 @@ public class BiomeSpriteChanger : MonoBehaviour
             if (!isDoubled)
             {
                 int choice = Random.Range(0, 3);
+
                 coloredStrikes[choice].gameObject.SetActive(true);
+                StartCoroutine(PlayThunderSoundDelayed(Random.Range(0.1f, 0.6f)));
+
                 yield return new WaitForSeconds(strikesDuration);
+
                 coloredStrikes[choice].gameObject.SetActive(false);
                 yield return new WaitForSeconds(timeBetweenStrikes);
             }
             else
             {
                 int choice = Random.Range(0, 3);
+
                 coloredStrikes[choice].gameObject.SetActive(true);
+                StartCoroutine(PlayThunderSoundDelayed(Random.Range(0.1f, 0.6f)));
+
                 yield return new WaitForSeconds(strikesDuration);
+
                 coloredStrikes[choice].gameObject.SetActive(false);
                 yield return new WaitForSeconds(doubleStrikesIntervals);
+
                 choice = Random.Range(0, 3);
+
                 coloredStrikes[choice].gameObject.SetActive(true);
+                StartCoroutine(PlayThunderSoundDelayed(Random.Range(0.1f, 0.6f)));
+
                 yield return new WaitForSeconds(strikesDuration);
+
                 coloredStrikes[choice].gameObject.SetActive(false);
                 yield return new WaitForSeconds(timeBetweenStrikes);
-
             }
         }
-
     }
 
 
@@ -148,11 +179,22 @@ public class BiomeSpriteChanger : MonoBehaviour
     public void eventOver()
     {
         Debug.Log("event Over, removing fx");
+
         foreach (GameObject go in FxObj)
         {
             go.SetActive(false);
         }
-        if (thunder != null )StopCoroutine(thunder);
+
+        if (thunder != null)
+        {
+            StopCoroutine(thunder);
+            thunder = null;
+        }
+
+        foreach (SpriteRenderer sr in thunderStrikes)
+        {
+            sr.gameObject.SetActive(false);
+        }
     }
     private void ApplyBiome(int biomeId)
     {
