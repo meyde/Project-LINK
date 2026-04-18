@@ -4,7 +4,6 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using Random = UnityEngine.Random;
-
 static class RandomExtensions
 {
     public static void Shuffle<T>(this System.Random rng, T[] array)
@@ -19,7 +18,6 @@ static class RandomExtensions
         }
     }
 }
-
 public class TectonicPlatesModule : Module
 {
     private int moduleId = 4;
@@ -41,16 +39,17 @@ public class TectonicPlatesModule : Module
     [Header("Data")]
     [SerializeField] private Sprite[] lettersSprite;
     [SerializeField] private Sprite[] correctColors;
-
+    [SerializeField] private int[] colorCodes;
+    [SerializeField] private TEcPlateCodeSO[] allCodes;
     [Header("References")]
     [SerializeField] private GameManagerLocal gm;
 
     [Header("Debug")]
-    [SerializeField] private bool testMode = true;
+    [SerializeField] private bool testMode = false;
     [SerializeField] private int testColorMode = 0;
-
     private int[] keyLocations;
     private int ledState;
+    private int codeType;
     private bool autoLose;
     private int[] code;
     private string[] codeWritten = new string[3] { "_", "_", "_" };
@@ -58,10 +57,6 @@ public class TectonicPlatesModule : Module
 
     private CEventRuntimeData? activeEvent = null;
 
-    private void Awake()
-    {
-        keyLocations = new int[6] { 1, 4, 7, 10, 12, 14 };
-    }
 
     private void OnEnable()
     {
@@ -130,9 +125,31 @@ public class TectonicPlatesModule : Module
         Debug.Log($"Trying to solve event {activeEvent.Value.eventId}");
         ledState = activeEvent.Value.module1Option;
         Debug.Log($"ledState: {ledState}");
-
+        foreach (TEcPlateCodeSO code in allCodes)
+        {
+            if(code.eventId == activeEvent.Value.eventId)
+            {
+                codeType = code.codeOptions[ledState];
+                switch (ledState)
+                {
+                    case 0:
+                        keyLocations = code.keyPositionsBlue;
+                        colorCodes = code.colorPositionsBlue;
+                        break;
+                    case 1:
+                        keyLocations = code.keyPositionsGreen;
+                        colorCodes = code.colorPositionsGreen;
+                        break;
+                    case 2:
+                        keyLocations = code.keyPositionsPink;
+                        colorCodes = code.colorPositionsPink;
+                        break;
+                }
+                
+            }
+        }
         Randomizer();
-        ColoredFixer(ledState);
+        ColoredFixer(codeType);
     }
 
     private void ResetBoard()
@@ -303,27 +320,12 @@ public class TectonicPlatesModule : Module
 
         if (color == 2)
             Array.Sort(code);
-
-        switch (color)
+        if (color == 5) 
         {
-            case 0:
-                keyLocations = new int[6] { 0, 3, 6, 9, 11, 13 };
-                break;
+            Array.Sort(code);
+            Array.Reverse(code);
+        }    
 
-            case 1:
-                keyLocations = new int[6] { 0, 9, 13, 6, 3, 11 };
-                break;
-
-            case 2:
-                keyLocations = new int[6] { 0, 3, 6, 9, 11, 13 };
-                var rng = new System.Random();
-                rng.Shuffle(keyLocations);
-                break;
-
-            default:
-                keyLocations = new int[6] { 0, 3, 6, 9, 11, 13 };
-                break;
-        }
 
         int[] keyLocId = new int[3]
         {
@@ -355,7 +357,7 @@ public class TectonicPlatesModule : Module
 
             if (codeIndex < codePlace.Length && keyLocation == codePlace[codeIndex])
             {
-                cpsr.sprite = correctColors[Mathf.Clamp(color, 0, correctColors.Length - 1)];
+                cpsr.sprite = correctColors[colorCodes[codeIndex]];
                 lsr.sprite = lettersSprite[code[codeIndex]];
                 codeIndex++;
             }

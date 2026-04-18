@@ -4131,8 +4131,8 @@ MonoBehaviour:
   - {fileID: -3340232254650043178, guid: 386a343fb9f66df468ef06eab8269740, type: 3}
   - {fileID: -4088824236497196122, guid: 386a343fb9f66df468ef06eab8269740, type: 3}
   - {fileID: -3184461969932742809, guid: 386a343fb9f66df468ef06eab8269740, type: 3}
-  - {fileID: -4088824236497196122, guid: 386a343fb9f66df468ef06eab8269740, type: 3}
-  - {fileID: -3184461969932742809, guid: 386a343fb9f66df468ef06eab8269740, type: 3}
+  colorCodes: 
+  allCodes: []
   gm: {fileID: 1583072583}
   testMode: 1
   testColorMode: 1
@@ -40736,6 +40736,12 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 3441f2a7cb8e8fd4dbfaa1d55f2a8a50, type: 2}
   - {fileID: 11400000, guid: 010f9103332903448bdbb1324c22b7d3, type: 2}
   - {fileID: 11400000, guid: 28d37818090faa046996569a58f187a5, type: 2}
+  - {fileID: 11400000, guid: c4ff84870f88d5242b3ee77088ef173d, type: 2}
+  - {fileID: 11400000, guid: d42158d669e7fca468cc4a309d408721, type: 2}
+  - {fileID: 11400000, guid: a1c1f9a11bb091b4b81675a000305faf, type: 2}
+  - {fileID: 11400000, guid: 9dfa543be4f1e2b4f976e47057d051ac, type: 2}
+  - {fileID: 11400000, guid: 031e5f37e3fdc0548b4c9d0ff1cedc64, type: 2}
+  - {fileID: 11400000, guid: 38ac20fdc59be6644b7f2e7c6e7848f8, type: 2}
   level1Events:
   - {fileID: 11400000, guid: bb6f8e21beaa6704b89d9ff2fcd8ca21, type: 2}
   - {fileID: 11400000, guid: bdd7dec4217991948951f351366857de, type: 2}
@@ -40765,6 +40771,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 80e7da703615dc8498ac8f29715f559e, type: 2}
   level3Events:
   - {fileID: 0}
+  - {fileID: 11400000, guid: c4ff84870f88d5242b3ee77088ef173d, type: 2}
+  - {fileID: 11400000, guid: d42158d669e7fca468cc4a309d408721, type: 2}
+  - {fileID: 11400000, guid: a1c1f9a11bb091b4b81675a000305faf, type: 2}
+  - {fileID: 11400000, guid: 9dfa543be4f1e2b4f976e47057d051ac, type: 2}
+  - {fileID: 11400000, guid: 031e5f37e3fdc0548b4c9d0ff1cedc64, type: 2}
+  - {fileID: 11400000, guid: 38ac20fdc59be6644b7f2e7c6e7848f8, type: 2}
+  level3Events: []
   approximateTimeForEvents: 45
   randomisationTime: 30
   requiredSuccesses: 5
@@ -40796,7 +40809,10 @@ MonoBehaviour:
   - {fileID: 2142436852}
   - {fileID: 1030314885}
   - {fileID: 240383294}
-  diodeOptions: []
+  diodeOptions:
+  - {fileID: -2466827623588667349, guid: ba95cedae8f71ef45be7debf239b21f8, type: 3}
+  - {fileID: 1969497685141041849, guid: ba95cedae8f71ef45be7debf239b21f8, type: 3}
+  - {fileID: -4032308760331749782, guid: ba95cedae8f71ef45be7debf239b21f8, type: 3}
   gameDuration: 300
   remainingGameTime:
     UpdateTraits:
@@ -74215,6 +74231,18 @@ PrefabInstance:
     - target: {fileID: 8246710884034072525, guid: 59ac0a92b38bcbb4dbb2990c0eb1e4fd, type: 3}
       propertyPath: m_LocalPosition.y
       value: -1.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 8246710884034072525, guid: 59ac0a92b38bcbb4dbb2990c0eb1e4fd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9826181
+      objectReference: {fileID: 0}
+    - target: {fileID: 8246710884034072525, guid: 59ac0a92b38bcbb4dbb2990c0eb1e4fd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.18563879
+      objectReference: {fileID: 0}
+    - target: {fileID: 8246710884034072525, guid: 59ac0a92b38bcbb4dbb2990c0eb1e4fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -21.397
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
