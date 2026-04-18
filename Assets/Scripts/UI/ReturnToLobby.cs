@@ -49,10 +49,23 @@ public class ReturnToLobby : MonoBehaviour
         }
 
         // Stop Netcode
-        if (NetworkManager.Singleton != null && NetworkManager.Singleton.IsListening)
+        if (NetworkManager.Singleton != null)
         {
             Debug.Log("[Return] Shutdown réseau...");
-            NetworkManager.Singleton.Shutdown();
+
+            if (NetworkManager.Singleton.IsListening)
+            {
+                NetworkManager.Singleton.Shutdown();
+
+                while (NetworkManager.Singleton != null && NetworkManager.Singleton.IsListening)
+                    yield return null;
+            }
+
+            GameObject networkManagerObject = NetworkManager.Singleton.gameObject;
+            Destroy(networkManagerObject);
+
+            // Attendre la destruction effective
+            yield return null;
         }
 
         // Attendre une frame pour laisser le shutdown se faire
