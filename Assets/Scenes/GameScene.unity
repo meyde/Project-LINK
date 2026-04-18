@@ -4259,7 +4259,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: efc55013151f94e438ae44a084d8451b, type: 2}
   - {fileID: 11400000, guid: 0c1c017e9b8105841af0bc7b97b75f08, type: 2}
   - {fileID: 11400000, guid: bc5181a9fab8a7443ac8716687558212, type: 2}
-  - {fileID: 11400000, guid: 14cbc7cc8a7ff814eb4115046a27c278, type: 2}
+  - {fileID: 11400000, guid: 731cf7fd989f63142bddb57a4353d6e5, type: 2}
+  - {fileID: 11400000, guid: c6d4c736fa0afff48ad3740163598efe, type: 2}
+  - {fileID: 11400000, guid: 6a92bc3f313cdad428503fd28c7de779, type: 2}
   currentSignal: {fileID: 0}
   signalDisplay: {fileID: 781906455}
   idText: {fileID: 0}

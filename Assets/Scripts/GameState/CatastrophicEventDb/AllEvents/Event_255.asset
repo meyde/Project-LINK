@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eecf7534233f00546a14b86367e1e280, type: 3}
+  m_Name: Event_255
+  m_EditorClassIdentifier: Assembly-CSharp::CatastrophicEvent
+  eventId: 0
+  eventName: Seisme intensite haute
+  type: Seisme
+  fxType: 1
+  region: 2
+  modulesCount: 2
+  modules1: 02000000
+  modules2: 04000000
+  modules3: 
+  modulesState1: 06000000
+  modulesState2: 00000000
+  modulesState3: 
+  eventCategoryLevel: 2
+  eventDuration: 200
+  baseLife: 2
+  windSpeed: 20
+  windSpeedMax: 30
+  temperature: 10
+  temperatureMax: 25
+  intensity: 9
+  intensityMax: 9
+  oxygenLevel: 21
+  oxygenLevelMax: 25
