@@ -15,7 +15,7 @@ MonoBehaviour:
   eventId: 27
   eventName: Canicule temp moyen
   type: Canicule
-  fxType: 1
+  fxType: 13
   region: 7
   modulesCount: 2
   modules1: 00000000

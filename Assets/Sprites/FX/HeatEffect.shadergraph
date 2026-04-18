@@ -1881,8 +1881,8 @@
     "m_ObjectId": "87e104e825ee4769be22695ab203dbf8",
     "m_Title": "Ripple Center",
     "m_Position": {
-        "x": -3574.999755859375,
-        "y": 21.99997329711914
+        "x": -3575.0,
+        "y": 22.0
     }
 }
 
@@ -2688,7 +2688,7 @@
     "m_ObjectId": "cfcb3aa5ef3b4d6181b2dd61e373ccca",
     "m_Title": "RippleSpeed",
     "m_Position": {
-        "x": -3292.000244140625,
+        "x": -3292.0,
         "y": -394.0
     }
 }
