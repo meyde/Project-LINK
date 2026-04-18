@@ -21,8 +21,8 @@ MonoBehaviour:
   modules1: 03000000
   modules2: 05000000
   modules3: 
-  modulesState1: 00000000
-  modulesState2: 
+  modulesState1: 0b000000
+  modulesState2: 00000000
   modulesState3: 
   eventCategoryLevel: 2
   eventDuration: 200

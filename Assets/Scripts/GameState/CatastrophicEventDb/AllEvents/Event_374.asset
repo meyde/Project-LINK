@@ -18,7 +18,7 @@ MonoBehaviour:
   fxType: 1
   region: 4
   modulesCount: 2
-  modules1: 02000000
+  modules1: 01000000
   modules2: 04000000
   modules3: 
   modulesState1: 18000000
