@@ -205,9 +205,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::VoiceTimeLimiter
   ShowTopMostFoldoutHeaderGroup: 1
-  maxVoiceDuration: 60
+  maxVoiceDuration: 240
   rechargeAmount: 1
-  rechargeDuration: 5
+  rechargeDuration: 2
   targetSceneName: GameScene
   audioSource: {fileID: 0}
   warningSound: {fileID: 8300000, guid: a47a4dd7dd98db343b7eb3462bdbf906, type: 3}
