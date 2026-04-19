@@ -21,9 +21,9 @@ public class GameManagerNetwork : NetworkBehaviour
     [SerializeField] private int randomisationTime = 30;
     [SerializeField] private int requiredSuccesses = 4;
     [SerializeField] private float timeBeforeStart = 30f;
+    private int gameLevel;
     private bool gameStarted;
 
-    public NetworkList<int> currentEvents;
     public NetworkList<CEventRuntimeData> events = new(); 
     public NetworkList<int> occupiedRegions = new();
     public NetworkList<int> level1Leds = new();
@@ -180,6 +180,16 @@ public class GameManagerNetwork : NetworkBehaviour
         int value = change.Value;
         level1LedsSr[ledId].sprite = diodeOptions[value];
     }
+    private CatastrophicEvent[] GetEventsLevel()
+    {
+        return gameLevel switch
+        {
+            1 => level1Events,
+            2 => level2Events,
+            3 => level3Events,
+            _ => level1Events
+        };
+    }
 
 
 
@@ -223,10 +233,10 @@ public class GameManagerNetwork : NetworkBehaviour
     private void EventGeneration()
     {
         if (gameEnded) return;
-        int id = level2Events[Random.Range(0, level2Events.Length)].eventId;
+        int id = allEvents[Random.Range(0, allEvents.Length)].eventId;
         while (occupiedRegions.Contains(allEvents[id].region))
         {
-             id = level2Events[Random.Range(0, level2Events.Length)].eventId;
+             id = allEvents[Random.Range(0, allEvents.Length)].eventId;
         }
         CEventRuntimeData evnt = new()
         {
@@ -237,7 +247,6 @@ public class GameManagerNetwork : NetworkBehaviour
             eventLives = allEvents[id].baseLife,
             module1Option = -1
         };
-        currentEvents.Add(id);
         events.Add(evnt);
         occupiedRegions.Add(allEvents[id].region);
         

@@ -16,7 +16,7 @@ MonoBehaviour:
   eventName: "Tornade avec d\xE9bris rapide"
   type: tornade
   fxType: 7
-  region: 6
+  region: 11
   modulesCount: 1
   modules1: 00000000
   modules2: 
