@@ -470,7 +470,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 17
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: 2720535173406242035, guid: efeb46e4eaf5b804e904386fd5cd9319, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -713,7 +713,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 17
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: -5622901713081898559, guid: a863790a2c6914e468493d6aa9636fd3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1534,7 +1534,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 37
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: -5750353039905602045, guid: 18c67ccfc00ecc846a63a227b7c087ef, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1689,7 +1689,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 17
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: -6470460504253458178, guid: 234bdc7890d11f949a3787fefc2caba0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2683,7 +2683,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 37
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: 7028616704906629411, guid: e7ef85210738a27438f29b6025d9f137, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3113,7 +3113,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 17
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: 3465286685962602723, guid: f2a2120a65f157241984f317aa4fd54b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3688,7 +3688,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 17
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: 4113829005332862926, guid: 86690fd54f1ebe94d80c1f285a18a975, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5836,7 +5836,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DesktopWindowCloser
   targetWindow: {fileID: 296034456}
-  targetScroller: {fileID: 0}
   buttonSprite: {fileID: 0}
   normalColor: {r: 0.9960785, g: 0.35686275, b: 0.35686275, a: 1}
   hoverColor: {r: 1, g: 0, b: 0, a: 1}
@@ -6981,7 +6980,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 37
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: 2960402581040015946, guid: e86f5ccc9676fc043917dc402a1b2d91, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7316,7 +7315,6 @@ GameObject:
   - component: {fileID: 166278758}
   - component: {fileID: 166278757}
   - component: {fileID: 166278759}
-  - component: {fileID: 166278761}
   - component: {fileID: 166278760}
   m_Layer: 0
   m_Name: O_LeftTopFace
@@ -7469,7 +7467,7 @@ MonoBehaviour:
   autoFindChildInteractables: 1
   bringToFrontWhenOpened: 1
   openedSortingOrderOffset: 100
-  moduleSortingGroup: {fileID: 0}
+  moduleSortingGroup: {fileID: 166278760}
   alsoRaiseSortingGroup: 1
   mainSpriteRenderer: {fileID: 166278755}
   zoomedMainSprite: {fileID: 1765826751790211484, guid: a3985621c7e9f99458ba4642384fa6da, type: 3}
@@ -7499,21 +7497,6 @@ SortingGroup:
   m_SortingOrder: 40
   m_SortAtRoot: 0
   m_Sort3DAs2D: 0
---- !u!114 &166278761
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 166278754}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c1869c511a88f84dbaba9d69e5832b2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ScreenZoomOrder
-  sortingGroup: {fileID: 166278760}
-  normalOrder: 40
-  zoomedOrder: 100
 --- !u!1 &169280775
 GameObject:
   m_ObjectHideFlags: 0
@@ -7689,7 +7672,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 17
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: 6937817954938267909, guid: 2d5bb0d04c2e15f4daf77acf0606d5af, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8646,7 +8629,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 17
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: 4164744761163438241, guid: 5789054c2a9447d4a809396682881d6a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9194,7 +9177,7 @@ MonoBehaviour:
   interactionArea: {fileID: 244179059}
   showDebug: 1
   resetToTopOnEnable: 0
-  wheelScrollSpeed: 1
+  wheelScrollSpeed: 0.2
   dragSensitivity: 1
   invertWheel: 1
   invertDrag: 0
@@ -9754,7 +9737,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 37
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: 4130640169021434097, guid: 54a0765ac70012b4f875a7296787edec, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -10289,7 +10272,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 37
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: 6660783624410144326, guid: 86827219967fe8f4bb1dcc41ae914911, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -11565,7 +11548,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 20
+  m_SortingOrder: 31
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.7924528, g: 0.7924528, b: 0.7924528, a: 1}
@@ -11818,7 +11801,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DesktopIconOpener
   targetWindow: {fileID: 355111091}
-  targetScroller: {fileID: 0}
   iconSprite: {fileID: 0}
   normalColor: {r: 1, g: 1, b: 1, a: 1}
   hoverColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
@@ -12398,7 +12380,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 37
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: -5622901713081898559, guid: a863790a2c6914e468493d6aa9636fd3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -12645,7 +12627,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 17
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: -5099292496197868168, guid: 89569f39e1f57fa4a800307665d50318, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -12857,7 +12839,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 17
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: 8102358098348255977, guid: 67d90d575b19dec4bb450043397d708a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -13517,7 +13499,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 17
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: 4349915267927364619, guid: 35c6b891dd0ec7f4c8aa41fc78e90722, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -14442,7 +14424,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DesktopWindowCloser
   targetWindow: {fileID: 355111091}
-  targetScroller: {fileID: 0}
   buttonSprite: {fileID: 0}
   normalColor: {r: 0.9960785, g: 0.35686275, b: 0.35686275, a: 1}
   hoverColor: {r: 1, g: 0, b: 0, a: 1}
@@ -14956,7 +14937,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 17
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: 8288426215254106694, guid: 8c3efdfbd0fcf7048b7672e81e5028d9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -16263,7 +16244,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 17
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: -855298285791758126, guid: c013f0d1fe7e8a44d98a6729ebb9e9c8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -17246,7 +17227,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DesktopIconOpener
   targetWindow: {fileID: 166120476}
-  targetScroller: {fileID: 0}
   iconSprite: {fileID: 0}
   normalColor: {r: 1, g: 1, b: 1, a: 1}
   hoverColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
@@ -17544,7 +17524,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 37
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: -5099292496197868168, guid: 89569f39e1f57fa4a800307665d50318, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -20569,7 +20549,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 37
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: -1045133410153605164, guid: 65d4a5c2cb4eac042b13529ba8097b17, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -21114,7 +21094,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 37
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: 2720535173406242035, guid: efeb46e4eaf5b804e904386fd5cd9319, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -21388,7 +21368,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 37
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: -2966200626249415253, guid: a3cde594497c03e40a9dd01cb26301db, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -22884,7 +22864,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 17
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: -1045133410153605164, guid: 65d4a5c2cb4eac042b13529ba8097b17, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -23673,7 +23653,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 17
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: 7157561037332017152, guid: 532f0d1e968260d448147a3a9d87798c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -23799,7 +23779,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 37
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: 8288426215254106694, guid: 8c3efdfbd0fcf7048b7672e81e5028d9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -23892,7 +23872,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 37
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: -6470460504253458178, guid: 234bdc7890d11f949a3787fefc2caba0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -24231,7 +24211,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 37
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: 8389134475083476877, guid: 834b92ce29135d44187fe6ad672b2dbe, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -24340,7 +24320,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DesktopWindowCloser
   targetWindow: {fileID: 359825183}
-  targetScroller: {fileID: 0}
   buttonSprite: {fileID: 0}
   normalColor: {r: 0.9960785, g: 0.35686275, b: 0.35686275, a: 1}
   hoverColor: {r: 1, g: 0, b: 0, a: 1}
@@ -24860,7 +24839,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 37
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: -7371509505491802261, guid: 8d8c866e3a3473d4aaae54b89662263d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -24953,7 +24932,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 17
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: -5750353039905602045, guid: 18c67ccfc00ecc846a63a227b7c087ef, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -25485,7 +25464,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 37
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: 6894999169920593895, guid: 45bc292ceb4b6a04c9a35da21f00b29e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -25578,7 +25557,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 17
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: 2960402581040015946, guid: e86f5ccc9676fc043917dc402a1b2d91, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -26896,7 +26875,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 17
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: 6660783624410144326, guid: 86827219967fe8f4bb1dcc41ae914911, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -27174,7 +27153,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 17
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: -6270953770400647376, guid: bd89725ee7a5cfc4186169a5ed897ef5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -27497,7 +27476,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DesktopIconOpener
   targetWindow: {fileID: 327523579}
-  targetScroller: {fileID: 0}
   iconSprite: {fileID: 0}
   normalColor: {r: 1, g: 1, b: 1, a: 1}
   hoverColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
@@ -27676,7 +27654,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 37
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: 8102358098348255977, guid: 67d90d575b19dec4bb450043397d708a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -29675,7 +29653,6 @@ GameObject:
   - component: {fileID: 917155845}
   - component: {fileID: 917155844}
   - component: {fileID: 917155843}
-  - component: {fileID: 917155849}
   - component: {fileID: 917155848}
   m_Layer: 0
   m_Name: O_RightBottomFace
@@ -29765,7 +29742,7 @@ MonoBehaviour:
   autoFindChildInteractables: 1
   bringToFrontWhenOpened: 1
   openedSortingOrderOffset: 90
-  moduleSortingGroup: {fileID: 0}
+  moduleSortingGroup: {fileID: 917155848}
   alsoRaiseSortingGroup: 1
   mainSpriteRenderer: {fileID: 917155846}
   zoomedMainSprite: {fileID: -2919371190558657206, guid: a3985621c7e9f99458ba4642384fa6da, type: 3}
@@ -29858,21 +29835,38 @@ SortingGroup:
   m_SortingOrder: 42
   m_SortAtRoot: 0
   m_Sort3DAs2D: 0
---- !u!114 &917155849
-MonoBehaviour:
+--- !u!1 &917707610
+GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 917155842}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c1869c511a88f84dbaba9d69e5832b2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ScreenZoomOrder
-  sortingGroup: {fileID: 917155848}
-  normalOrder: 40
-  zoomedOrder: 100
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 917707611}
+  m_Layer: 0
+  m_Name: incendie
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &917707611
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 917707610}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 220708736}
+  m_Father: {fileID: 1577021606}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &920438312
 GameObject:
   m_ObjectHideFlags: 0
@@ -30136,7 +30130,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 37
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: 7680820834086852892, guid: df3c0df2c7f561f4ca4cb0ad2097553d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -30541,7 +30535,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 37
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: 4349915267927364619, guid: 35c6b891dd0ec7f4c8aa41fc78e90722, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -31134,7 +31128,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DesktopWindowCloser
   targetWindow: {fileID: 1347108833}
-  targetScroller: {fileID: 0}
   buttonSprite: {fileID: 0}
   normalColor: {r: 0.9960785, g: 0.35686275, b: 0.35686275, a: 1}
   hoverColor: {r: 1, g: 0, b: 0, a: 1}
@@ -32878,7 +32871,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 37
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: 4113829005332862926, guid: 86690fd54f1ebe94d80c1f285a18a975, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -33870,7 +33863,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 37
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: -6270953770400647376, guid: bd89725ee7a5cfc4186169a5ed897ef5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -34145,7 +34138,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 37
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: 4164744761163438241, guid: 5789054c2a9447d4a809396682881d6a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -34473,7 +34466,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 37
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: -4178046375966092550, guid: 22e1d74680f5706499462b23d922ffa0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -35693,7 +35686,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 17
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: 6894999169920593895, guid: 45bc292ceb4b6a04c9a35da21f00b29e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -35920,7 +35913,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DesktopIconOpener
   targetWindow: {fileID: 1347108833}
-  targetScroller: {fileID: 0}
   iconSprite: {fileID: 0}
   normalColor: {r: 1, g: 1, b: 1, a: 1}
   hoverColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
@@ -36868,7 +36860,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 17
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: 7680820834086852892, guid: df3c0df2c7f561f4ca4cb0ad2097553d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -37277,7 +37269,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DesktopWindowCloser
   targetWindow: {fileID: 1645971053}
-  targetScroller: {fileID: 0}
   buttonSprite: {fileID: 0}
   normalColor: {r: 0.9960785, g: 0.35686275, b: 0.35686275, a: 1}
   hoverColor: {r: 1, g: 0, b: 0, a: 1}
@@ -37876,7 +37867,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 17
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: -2966200626249415253, guid: a3cde594497c03e40a9dd01cb26301db, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -37900,7 +37891,6 @@ GameObject:
   - component: {fileID: 1104036673}
   - component: {fileID: 1104036672}
   - component: {fileID: 1104036671}
-  - component: {fileID: 1104036677}
   - component: {fileID: 1104036676}
   m_Layer: 0
   m_Name: O_RightTopFace
@@ -37990,7 +37980,7 @@ MonoBehaviour:
   autoFindChildInteractables: 1
   bringToFrontWhenOpened: 1
   openedSortingOrderOffset: 100
-  moduleSortingGroup: {fileID: 0}
+  moduleSortingGroup: {fileID: 1104036676}
   alsoRaiseSortingGroup: 1
   mainSpriteRenderer: {fileID: 1104036674}
   zoomedMainSprite: {fileID: -9049860271890898351, guid: a3985621c7e9f99458ba4642384fa6da, type: 3}
@@ -38083,21 +38073,6 @@ SortingGroup:
   m_SortingOrder: 40
   m_SortAtRoot: 0
   m_Sort3DAs2D: 0
---- !u!114 &1104036677
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1104036670}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c1869c511a88f84dbaba9d69e5832b2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ScreenZoomOrder
-  sortingGroup: {fileID: 1104036676}
-  normalOrder: 40
-  zoomedOrder: 100
 --- !u!1 &1104258681
 GameObject:
   m_ObjectHideFlags: 0
@@ -39446,7 +39421,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 37
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: -855298285791758126, guid: c013f0d1fe7e8a44d98a6729ebb9e9c8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -40008,7 +39983,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DesktopIconOpener
   targetWindow: {fileID: 320457246}
-  targetScroller: {fileID: 0}
   iconSprite: {fileID: 0}
   normalColor: {r: 1, g: 1, b: 1, a: 1}
   hoverColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
@@ -43091,7 +43065,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DesktopIconOpener
   targetWindow: {fileID: 359825183}
-  targetScroller: {fileID: 0}
   iconSprite: {fileID: 0}
   normalColor: {r: 1, g: 1, b: 1, a: 1}
   hoverColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
@@ -43797,7 +43770,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DesktopWindowCloser
   targetWindow: {fileID: 320457246}
-  targetScroller: {fileID: 0}
   buttonSprite: {fileID: 0}
   normalColor: {r: 0.9960785, g: 0.35686275, b: 0.35686275, a: 1}
   hoverColor: {r: 1, g: 0, b: 0, a: 1}
@@ -44628,7 +44600,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DesktopIconOpener
   targetWindow: {fileID: 296034456}
-  targetScroller: {fileID: 0}
   iconSprite: {fileID: 0}
   normalColor: {r: 1, g: 1, b: 1, a: 1}
   hoverColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
@@ -45328,7 +45299,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DesktopWindowCloser
   targetWindow: {fileID: 166120476}
-  targetScroller: {fileID: 0}
   buttonSprite: {fileID: 0}
   normalColor: {r: 0.9960785, g: 0.35686275, b: 0.35686275, a: 1}
   hoverColor: {r: 1, g: 0, b: 0, a: 1}
@@ -46141,7 +46111,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 37
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: -1540426309290004842, guid: 55193a78fb476284783df382398b9353, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -46483,7 +46453,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 17
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: -7371509505491802261, guid: 8d8c866e3a3473d4aaae54b89662263d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -48035,7 +48005,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 37
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: 3465286685962602723, guid: f2a2120a65f157241984f317aa4fd54b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -50724,7 +50694,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DesktopWindowCloser
   targetWindow: {fileID: 327523579}
-  targetScroller: {fileID: 0}
   buttonSprite: {fileID: 0}
   normalColor: {r: 0.9960785, g: 0.35686275, b: 0.35686275, a: 1}
   hoverColor: {r: 1, g: 0, b: 0, a: 1}
@@ -50776,8 +50745,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 138486273
-  m_SortingLayer: 4
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 35
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
@@ -52920,7 +52889,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DesktopIconOpener
   targetWindow: {fileID: 1645971053}
-  targetScroller: {fileID: 0}
   iconSprite: {fileID: 0}
   normalColor: {r: 1, g: 1, b: 1, a: 1}
   hoverColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
@@ -56652,7 +56620,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 17
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: -1540426309290004842, guid: 55193a78fb476284783df382398b9353, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -58264,7 +58232,7 @@ MonoBehaviour:
   interactionArea: {fileID: 1729653299}
   showDebug: 1
   resetToTopOnEnable: 0
-  wheelScrollSpeed: 1
+  wheelScrollSpeed: 0.2
   dragSensitivity: 1
   invertWheel: 1
   invertDrag: 0
@@ -58370,8 +58338,8 @@ SpriteMask:
   m_BackSortingLayerID: 0
   m_FrontSortingLayer: 0
   m_BackSortingLayer: 0
-  m_FrontSortingOrder: 30
-  m_BackSortingOrder: 10
+  m_FrontSortingOrder: 120
+  m_BackSortingOrder: 0
   m_IsCustomRangeActive: 1
   m_SpriteSortPoint: 0
   m_MaskSource: 0
@@ -58679,7 +58647,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 17
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: 7028616704906629411, guid: e7ef85210738a27438f29b6025d9f137, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -63963,7 +63931,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 17
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: 8389134475083476877, guid: 834b92ce29135d44187fe6ad672b2dbe, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -64465,7 +64433,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 37
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: 6937817954938267909, guid: 2d5bb0d04c2e15f4daf77acf0606d5af, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -65279,7 +65247,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 37
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: 7157561037332017152, guid: 532f0d1e968260d448147a3a9d87798c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -68717,7 +68685,7 @@ MonoBehaviour:
   interactionArea: {fileID: 2029398563}
   showDebug: 1
   resetToTopOnEnable: 0
-  wheelScrollSpeed: 1
+  wheelScrollSpeed: 0.2
   dragSensitivity: 1
   invertWheel: 1
   invertDrag: 0
@@ -68960,7 +68928,6 @@ GameObject:
   - component: {fileID: 2031951649}
   - component: {fileID: 2031951648}
   - component: {fileID: 2031951647}
-  - component: {fileID: 2031951653}
   - component: {fileID: 2031951652}
   m_Layer: 0
   m_Name: O_LeftBottomFace
@@ -69050,7 +69017,7 @@ MonoBehaviour:
   autoFindChildInteractables: 1
   bringToFrontWhenOpened: 1
   openedSortingOrderOffset: 100
-  moduleSortingGroup: {fileID: 0}
+  moduleSortingGroup: {fileID: 2031951652}
   alsoRaiseSortingGroup: 1
   mainSpriteRenderer: {fileID: 2031951650}
   zoomedMainSprite: {fileID: 4019496732575405810, guid: a3985621c7e9f99458ba4642384fa6da, type: 3}
@@ -69143,21 +69110,6 @@ SortingGroup:
   m_SortingOrder: 40
   m_SortAtRoot: 0
   m_Sort3DAs2D: 0
---- !u!114 &2031951653
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2031951646}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c1869c511a88f84dbaba9d69e5832b2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ScreenZoomOrder
-  sortingGroup: {fileID: 2031951652}
-  normalOrder: 40
-  zoomedOrder: 100
 --- !u!1 &2038190303
 GameObject:
   m_ObjectHideFlags: 0
@@ -70735,7 +70687,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 17
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: 4130640169021434097, guid: 54a0765ac70012b4f875a7296787edec, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -72783,7 +72735,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 17
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: -4178046375966092550, guid: 22e1d74680f5706499462b23d922ffa0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
