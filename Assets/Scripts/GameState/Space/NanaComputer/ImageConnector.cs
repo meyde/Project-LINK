@@ -17,6 +17,7 @@ public class ImageConnector : MonoBehaviour
     [Header("Scroller lié")]
     [SerializeField] private WorldImageScroller linkedScroller;
     [SerializeField] private bool snapToTopAfterConnect = true;
+    private bool alreadyInitialized = false;
 
     [Header("Debug")]
     [SerializeField] private bool showDebugLogs = false;
@@ -32,6 +33,21 @@ public class ImageConnector : MonoBehaviour
     private void Start()
     {
         ConnectImages();
+    }
+
+
+    private void OnEnable()
+    {
+        if (!alreadyInitialized)
+        {
+            ConnectImages();
+            alreadyInitialized = true;
+        }
+        else
+        {
+            if (linkedScroller != null)
+                linkedScroller.RecalculateBounds();
+        }
     }
 
     [ContextMenu("Rebuild From Hierarchy")]
