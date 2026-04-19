@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: 432
   m_EditorClassIdentifier: Assembly-CSharp::LeverCodes
   id: 9
-  codeSize: 0
+  codeSize: 3
   values: 0e000000090000000c000000
