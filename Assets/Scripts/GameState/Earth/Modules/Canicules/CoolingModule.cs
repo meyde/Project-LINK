@@ -13,21 +13,26 @@ public class CoolingModule : Module
     [SerializeField] private FanController leftFan;
     [SerializeField] private FanController rightFan;
     private bool autoLose;
-    [SerializeField] private int leftFanSpeedPiston;
-    [SerializeField] private int rightFanSpeedPiston;
-    [SerializeField] private int leftFanTurnDirectionPiston;
-    [SerializeField] private int rightFanTurnDirectionPiston;
-    [SerializeField] private int randomPiston;
-    private int leftFanSpeed = 0 ;
-    private int rightFanSpeed = 0;
-    private int leftFanTurnDirection = 0;
-    private int rightFanTurnDirection = 0;
-    private int leftFanSpeedObj;
-    private int rightFanSpeedObj;
-    private int leftFanTurnDirectionObj;
-    private int rightFanTurnDirectionObj;
+    [SerializeField] private int leftFanSpeedPiston=0;
+    [SerializeField] private int rightFanSpeedPiston=1;
+    [SerializeField] private int leftFanTurnDirectionPiston=2;
+    [SerializeField] private int rightFanTurnDirectionPiston=3;
+    [SerializeField] private int randomPiston=4;
+    [SerializeField] private int leftFanSpeed = 0 ;
+    [SerializeField] private int rightFanSpeed = 0;
+    [SerializeField] private int leftFanTurnDirection = 0;
+    [SerializeField] private int rightFanTurnDirection = 0;
+    [SerializeField] private int leftFanSpeedObj;
+    [SerializeField] private int rightFanSpeedObj;
+    [SerializeField] private int leftFanTurnDirectionObj;
+    [SerializeField] private int rightFanTurnDirectionObj;
 
-
+    private int TrueSign(float value)
+    {
+        if (value > 0) return 1;
+        if (value < 0) return -1;
+        return 0;
+    }
     public override void OnStarted()
     {
         int currReg = gm.currentRegion;
@@ -54,6 +59,7 @@ public class CoolingModule : Module
         {
             if(pistonMode.eventId ==currentCEventData.eventId && pistonMode.ledOption == currentCEventData.module1Option)
             {
+                Debug.Log("shuffling");
                 int bomb = pistonMode.randomPistonId;
                 int[] pistons = new int[4];
                 int index = 0;
@@ -121,8 +127,8 @@ public class CoolingModule : Module
         }
         bool vaildation = leftFanSpeed == leftFanSpeedObj &&
             rightFanSpeed == rightFanSpeedObj &&
-            Mathf.Sign(leftFanTurnDirection - 2) == leftFanTurnDirectionObj &&
-            Mathf.Sign(rightFanTurnDirection - 2) == rightFanTurnDirectionObj;
+            TrueSign(leftFanTurnDirection - 2) == leftFanTurnDirectionObj &&
+            TrueSign(rightFanTurnDirection - 2) == rightFanTurnDirectionObj;
 
         if (vaildation)
         {

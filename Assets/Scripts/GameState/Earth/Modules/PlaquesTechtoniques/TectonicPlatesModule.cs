@@ -84,6 +84,7 @@ public class TectonicPlatesModule : Module
     {
         ResetInputDisplay();
         ResetBoard();
+        Randomizer();
 
         int currReg = gm.currentRegion;
         activeEvent = null;
@@ -107,16 +108,7 @@ public class TectonicPlatesModule : Module
 
         if (!activeEvent.HasValue)
         {
-            if (testMode)
-            {
-                Debug.Log("[TECTONIC] Test mode actif, génération sans event.");
-                ledState = testColorMode;
-
-                Randomizer();
-                ColoredFixer(ledState);
-                return;
-            }
-
+            
             Debug.Log("No event found in this region for this module. Any validation will fail.");
             autoLose = true;
             return;
@@ -148,7 +140,6 @@ public class TectonicPlatesModule : Module
                 
             }
         }
-        Randomizer();
         ColoredFixer(codeType);
     }
 
@@ -334,6 +325,13 @@ public class TectonicPlatesModule : Module
             Random.Range(0, 6)
         };
 
+        while (keyLocId[0] == keyLocId[1] || keyLocId[1] == keyLocId[2] || keyLocId[0] == keyLocId[2])
+        {
+            keyLocId[0] = Random.Range(0, 6);
+            keyLocId[1] = Random.Range(0, 6);
+            keyLocId[2] = Random.Range(0, 6);
+        }
+
         Array.Sort(keyLocId);
 
         int[] codePlace = new int[3]
@@ -348,7 +346,8 @@ public class TectonicPlatesModule : Module
         for (int i = 0; i < keyLocations.Length; i++)
         {
             int keyLocation = keyLocations[i];
-
+            Debug.Log($"Current KeyLocation: {keyLocations[i]}");
+            Debug.Log($"Current location to find: {codePlace[codeIndex]}");
             SpriteRenderer cpsr = colorPlates[keyLocation].GetComponent<SpriteRenderer>();
             SpriteRenderer lsr = letters[keyLocation].GetComponent<SpriteRenderer>();
 
@@ -357,6 +356,7 @@ public class TectonicPlatesModule : Module
 
             if (codeIndex < codePlace.Length && keyLocation == codePlace[codeIndex])
             {
+                Debug.Log($"Placed right letter: {(char) ('A'+code[codeIndex])} with the right Color: {colorCodes[codeIndex]} ");
                 cpsr.sprite = correctColors[colorCodes[codeIndex]];
                 lsr.sprite = lettersSprite[code[codeIndex]];
                 codeIndex++;

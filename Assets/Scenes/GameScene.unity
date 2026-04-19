@@ -4225,8 +4225,27 @@ MonoBehaviour:
   - {fileID: 61937353}
   - {fileID: 2107111350}
   - {fileID: 1020171362}
-  covers: []
-  codeDisplay: []
+  covers:
+  - {fileID: 608763245}
+  - {fileID: 795858765}
+  - {fileID: 1487073387}
+  - {fileID: 645907787}
+  - {fileID: 1976338726}
+  - {fileID: 1610699406}
+  - {fileID: 11483304}
+  - {fileID: 1900550169}
+  - {fileID: 523447660}
+  - {fileID: 420627324}
+  - {fileID: 823551555}
+  - {fileID: 1669620893}
+  - {fileID: 347178277}
+  - {fileID: 464783927}
+  - {fileID: 1911964780}
+  - {fileID: 1774703395}
+  codeDisplay:
+  - {fileID: 1920217818}
+  - {fileID: 1782264046}
+  - {fileID: 1361213620}
   lettersSprite:
   - {fileID: 3771800620740197839, guid: 386a343fb9f66df468ef06eab8269740, type: 3}
   - {fileID: -6553603700478154352, guid: 386a343fb9f66df468ef06eab8269740, type: 3}
@@ -4259,7 +4278,10 @@ MonoBehaviour:
   - {fileID: -3340232254650043178, guid: 386a343fb9f66df468ef06eab8269740, type: 3}
   - {fileID: -4088824236497196122, guid: 386a343fb9f66df468ef06eab8269740, type: 3}
   - {fileID: -3184461969932742809, guid: 386a343fb9f66df468ef06eab8269740, type: 3}
-  allCodes: []
+  allCodes:
+  - {fileID: 11400000, guid: d002b74a82a966149b91cdf466e16a70, type: 2}
+  - {fileID: 11400000, guid: f053064e2c4b42444928ff0300eeec85, type: 2}
+  - {fileID: 11400000, guid: dc599d3e5a33be245afba1574207a452, type: 2}
   gm: {fileID: 1583072583}
   testMode: 0
   testColorMode: 0
@@ -5836,6 +5858,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DesktopWindowCloser
   targetWindow: {fileID: 296034456}
+  targetScroller: {fileID: 0}
   buttonSprite: {fileID: 0}
   normalColor: {r: 0.9960785, g: 0.35686275, b: 0.35686275, a: 1}
   hoverColor: {r: 1, g: 0, b: 0, a: 1}
@@ -11801,6 +11824,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DesktopIconOpener
   targetWindow: {fileID: 355111091}
+  targetScroller: {fileID: 0}
   iconSprite: {fileID: 0}
   normalColor: {r: 1, g: 1, b: 1, a: 1}
   hoverColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
@@ -14424,6 +14448,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DesktopWindowCloser
   targetWindow: {fileID: 355111091}
+  targetScroller: {fileID: 0}
   buttonSprite: {fileID: 0}
   normalColor: {r: 0.9960785, g: 0.35686275, b: 0.35686275, a: 1}
   hoverColor: {r: 1, g: 0, b: 0, a: 1}
@@ -17227,6 +17252,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DesktopIconOpener
   targetWindow: {fileID: 166120476}
+  targetScroller: {fileID: 0}
   iconSprite: {fileID: 0}
   normalColor: {r: 1, g: 1, b: 1, a: 1}
   hoverColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
@@ -24320,6 +24346,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DesktopWindowCloser
   targetWindow: {fileID: 359825183}
+  targetScroller: {fileID: 0}
   buttonSprite: {fileID: 0}
   normalColor: {r: 0.9960785, g: 0.35686275, b: 0.35686275, a: 1}
   hoverColor: {r: 1, g: 0, b: 0, a: 1}
@@ -27476,6 +27503,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DesktopIconOpener
   targetWindow: {fileID: 327523579}
+  targetScroller: {fileID: 0}
   iconSprite: {fileID: 0}
   normalColor: {r: 1, g: 1, b: 1, a: 1}
   hoverColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
@@ -29863,9 +29891,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 220708736}
-  m_Father: {fileID: 1577021606}
+  m_Children: []
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &920438312
 GameObject:
@@ -31128,6 +31155,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DesktopWindowCloser
   targetWindow: {fileID: 1347108833}
+  targetScroller: {fileID: 0}
   buttonSprite: {fileID: 0}
   normalColor: {r: 0.9960785, g: 0.35686275, b: 0.35686275, a: 1}
   hoverColor: {r: 1, g: 0, b: 0, a: 1}
@@ -35913,6 +35941,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DesktopIconOpener
   targetWindow: {fileID: 1347108833}
+  targetScroller: {fileID: 0}
   iconSprite: {fileID: 0}
   normalColor: {r: 1, g: 1, b: 1, a: 1}
   hoverColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
@@ -37269,6 +37298,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DesktopWindowCloser
   targetWindow: {fileID: 1645971053}
+  targetScroller: {fileID: 0}
   buttonSprite: {fileID: 0}
   normalColor: {r: 0.9960785, g: 0.35686275, b: 0.35686275, a: 1}
   hoverColor: {r: 1, g: 0, b: 0, a: 1}
@@ -39983,6 +40013,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DesktopIconOpener
   targetWindow: {fileID: 320457246}
+  targetScroller: {fileID: 0}
   iconSprite: {fileID: 0}
   normalColor: {r: 1, g: 1, b: 1, a: 1}
   hoverColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
@@ -40294,8 +40325,8 @@ MonoBehaviour:
   level1LedsSr:
   - {fileID: 1165090049}
   - {fileID: 2142436852}
-  - {fileID: 1030314885}
   - {fileID: 240383294}
+  - {fileID: 1030314885}
   diodeOptions:
   - {fileID: -2466827623588667349, guid: ba95cedae8f71ef45be7debf239b21f8, type: 3}
   - {fileID: 1969497685141041849, guid: ba95cedae8f71ef45be7debf239b21f8, type: 3}
@@ -43065,6 +43096,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DesktopIconOpener
   targetWindow: {fileID: 359825183}
+  targetScroller: {fileID: 0}
   iconSprite: {fileID: 0}
   normalColor: {r: 1, g: 1, b: 1, a: 1}
   hoverColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
@@ -43770,6 +43802,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DesktopWindowCloser
   targetWindow: {fileID: 320457246}
+  targetScroller: {fileID: 0}
   buttonSprite: {fileID: 0}
   normalColor: {r: 0.9960785, g: 0.35686275, b: 0.35686275, a: 1}
   hoverColor: {r: 1, g: 0, b: 0, a: 1}
@@ -44600,6 +44633,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DesktopIconOpener
   targetWindow: {fileID: 296034456}
+  targetScroller: {fileID: 0}
   iconSprite: {fileID: 0}
   normalColor: {r: 1, g: 1, b: 1, a: 1}
   hoverColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
@@ -45299,6 +45333,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DesktopWindowCloser
   targetWindow: {fileID: 166120476}
+  targetScroller: {fileID: 0}
   buttonSprite: {fileID: 0}
   normalColor: {r: 0.9960785, g: 0.35686275, b: 0.35686275, a: 1}
   hoverColor: {r: 1, g: 0, b: 0, a: 1}
@@ -48632,7 +48667,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 6
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: 93a7c6d10cfb35b4681a914eec91a728, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -50694,6 +50729,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DesktopWindowCloser
   targetWindow: {fileID: 327523579}
+  targetScroller: {fileID: 0}
   buttonSprite: {fileID: 0}
   normalColor: {r: 0.9960785, g: 0.35686275, b: 0.35686275, a: 1}
   hoverColor: {r: 1, g: 0, b: 0, a: 1}
@@ -52889,6 +52925,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DesktopIconOpener
   targetWindow: {fileID: 1645971053}
+  targetScroller: {fileID: 0}
   iconSprite: {fileID: 0}
   normalColor: {r: 1, g: 1, b: 1, a: 1}
   hoverColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
@@ -62383,6 +62420,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: e13b02189032b6c41b8814d3bc0ca617, type: 2}
   - {fileID: 11400000, guid: 80b8309e00574114fb42ceb7e0c4bb33, type: 2}
   - {fileID: 11400000, guid: 38d512088f60eb14bac9f3f197cddb7f, type: 2}
+  - {fileID: 11400000, guid: c57f43912b3b741429e0e5e9c8b09aba, type: 2}
+  - {fileID: 11400000, guid: 9374331287364f34783c77da1164b88e, type: 2}
+  - {fileID: 11400000, guid: 8e3038f6bf3f11f47b78090f0827c944, type: 2}
   waterSprite: {fileID: 1057556432}
   sprites:
   - {fileID: 4105519851581164577, guid: 7e80781cb1ab2b1499e4fe8786eeef84, type: 3}
@@ -68035,10 +68075,10 @@ MonoBehaviour:
   leftFan: {fileID: 1206132702}
   rightFan: {fileID: 1358247280}
   leftFanSpeedPiston: 0
-  rightFanSpeedPiston: 2
-  leftFanTurnDirectionPiston: 1
+  rightFanSpeedPiston: 1
+  leftFanTurnDirectionPiston: 2
   rightFanTurnDirectionPiston: 3
-  randomPiston: 0
+  randomPiston: 4
 --- !u!212 &2008121711
 SpriteRenderer:
   serializedVersion: 2
@@ -71970,6 +72010,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -21.397
       objectReference: {fileID: 0}
+    - target: {fileID: 8494751132045521000, guid: 59ac0a92b38bcbb4dbb2990c0eb1e4fd, type: 3}
+      propertyPath: m_SortingOrder
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 3277282934669965922, guid: 59ac0a92b38bcbb4dbb2990c0eb1e4fd, type: 3}
@@ -72176,7 +72220,7 @@ MonoBehaviour:
   minValue: 0
   maxValue: 20
   startValue: 10
-  dragStepThreshold: 7
+  dragStepThreshold: 20
   zm: {fileID: 1620374056}
   audioSource: {fileID: 1583072586}
   changeSound: {fileID: 8300000, guid: 9ffb1a68d1c3e514a8713c8086bf9ba6, type: 3}
@@ -73002,3 +73046,4 @@ SceneRoots:
   - {fileID: 1439382968}
   - {fileID: 1862731970}
   - {fileID: 1919065692}
+  - {fileID: 917707611}

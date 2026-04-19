@@ -7,6 +7,12 @@ public class FanController : MonoBehaviour
     private int turnDirection;
     private float rotation;
 
+    private int TrueSign(float value)
+    {
+        if (value > 0) return 1;
+        if (value < 0) return -1;
+        return 0;
+    }
     private void Start()
     {
         Refreshrotation(0, 0);
@@ -21,7 +27,7 @@ public class FanController : MonoBehaviour
     {
         turnSpeed = newSpeed;
         turnDirection = newDirection;
-        rotation = intensity * turnSpeed * Mathf.Sign((turnDirection - 2));
+        rotation = intensity * turnSpeed * TrueSign(turnDirection - 2);
     }
 
 }

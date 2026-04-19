@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 578_1_1
   m_EditorClassIdentifier: Assembly-CSharp::WaterCodeSO
   waterCodeId: 2
-  eventId: 11
+  eventId: 29
   waterStateId: 7
   pipeOrientations: 030000000000000000000000010000000000000003000000020000000000000000000000
   borderStates: 0000000000000000010000000000000000000000000000000200000000000000
