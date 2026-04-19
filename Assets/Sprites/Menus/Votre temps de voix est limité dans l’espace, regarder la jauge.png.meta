@@ -1,0 +1,3549 @@
+fileFormatVersion: 2
+guid: 280dba399b08196409934aa0cccba11a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9188487715553322697
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_0"
+  - first:
+      213: 3850024883170776674
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_1"
+  - first:
+      213: -7406505521131778919
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_2"
+  - first:
+      213: 330166252336744377
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_3"
+  - first:
+      213: 7694177112350498272
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_4"
+  - first:
+      213: 7871231052447981919
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_5"
+  - first:
+      213: -2257262482996153369
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_6"
+  - first:
+      213: 3092301562231166564
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_7"
+  - first:
+      213: -19961131569566812
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_8"
+  - first:
+      213: -9023962797600192596
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_9"
+  - first:
+      213: 2861841463190147660
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_10"
+  - first:
+      213: -9181270287453255792
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_11"
+  - first:
+      213: 3618700789785121637
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_12"
+  - first:
+      213: -7970217361941144168
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_13"
+  - first:
+      213: 5951179843223695497
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_14"
+  - first:
+      213: 4459137346844814667
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_15"
+  - first:
+      213: -6632779126114395861
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_16"
+  - first:
+      213: -3032570440977611133
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_17"
+  - first:
+      213: 1844778878503434071
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_18"
+  - first:
+      213: 4854655123261599435
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_19"
+  - first:
+      213: -8197774263474188759
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_20"
+  - first:
+      213: 978238174576145945
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_21"
+  - first:
+      213: -2823286493577183150
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_22"
+  - first:
+      213: -3584986960930767730
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_23"
+  - first:
+      213: 5902376678161619070
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_24"
+  - first:
+      213: 869357773012646087
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_25"
+  - first:
+      213: -9013147643500428007
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_26"
+  - first:
+      213: 5759066523717554224
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_27"
+  - first:
+      213: 119339568036587191
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_28"
+  - first:
+      213: -1948134797300988618
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_29"
+  - first:
+      213: 3331571214155339285
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_30"
+  - first:
+      213: -831253838910763540
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_31"
+  - first:
+      213: -1915809392676215517
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_32"
+  - first:
+      213: -4961066346341601124
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_33"
+  - first:
+      213: 1465709085044511728
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_34"
+  - first:
+      213: 7246959198863131512
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_35"
+  - first:
+      213: -4570931815777581637
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_36"
+  - first:
+      213: 8011701216408335000
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_37"
+  - first:
+      213: -9080007241607717349
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_38"
+  - first:
+      213: -7973299058466893098
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_39"
+  - first:
+      213: -4900026706742896292
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_40"
+  - first:
+      213: -6682094909791654530
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_41"
+  - first:
+      213: -3159445470360007952
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_42"
+  - first:
+      213: 3662944461979098793
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_43"
+  - first:
+      213: 5847609731922398330
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_44"
+  - first:
+      213: 8848574792740430053
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_45"
+  - first:
+      213: 6725578784084101864
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_46"
+  - first:
+      213: 4315422475097578347
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_47"
+  - first:
+      213: 3954139247421440241
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_48"
+  - first:
+      213: 8219000849037574460
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_49"
+  - first:
+      213: -4965743433342990925
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_50"
+  - first:
+      213: -3372946727266126506
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_51"
+  - first:
+      213: -2165008716365371286
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_52"
+  - first:
+      213: 5590423941960997426
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_53"
+  - first:
+      213: 4605187637631327271
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_54"
+  - first:
+      213: -4918826084083934534
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_55"
+  - first:
+      213: -3951461539279045762
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_56"
+  - first:
+      213: -8515794288437430426
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_57"
+  - first:
+      213: 4010584075546768864
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_58"
+  - first:
+      213: 4939200645050114518
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_59"
+  - first:
+      213: 7646560188138155175
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_60"
+  - first:
+      213: 3457731623934098183
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_61"
+  - first:
+      213: 7346986092088853782
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_62"
+  - first:
+      213: -8145020431422895618
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_63"
+  - first:
+      213: 5506559521175640028
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_64"
+  - first:
+      213: -5102010709422508838
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_65"
+  - first:
+      213: -2182073542581031558
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_66"
+  - first:
+      213: -5417611382641378662
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_67"
+  - first:
+      213: -4768030857769084357
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_68"
+  - first:
+      213: 4520625120725328100
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_69"
+  - first:
+      213: 3321359979961618727
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_70"
+  - first:
+      213: -5840140388403291050
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_71"
+  - first:
+      213: -7382280869505092549
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_72"
+  - first:
+      213: -5387709343274277032
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_73"
+  - first:
+      213: -4873020036348521592
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_74"
+  - first:
+      213: 512295112794581648
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_75"
+  - first:
+      213: -8555278071160575205
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_76"
+  - first:
+      213: -3506945665864525046
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_77"
+  - first:
+      213: -782554512692890124
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_78"
+  - first:
+      213: -4311982750206678454
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_79"
+  - first:
+      213: -134667696906956578
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_80"
+  - first:
+      213: 4736547509273608938
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_81"
+  - first:
+      213: -5963920093950485581
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_82"
+  - first:
+      213: 6585209459158230285
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_83"
+  - first:
+      213: 1902422320730524542
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_84"
+  - first:
+      213: 4741749114929834084
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_85"
+  - first:
+      213: -3789419709621973508
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_86"
+  - first:
+      213: 2028300810728229700
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_87"
+  - first:
+      213: 5989649174521132619
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_88"
+  - first:
+      213: -810138734722247685
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_89"
+  - first:
+      213: -8649610559985725719
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_90"
+  - first:
+      213: 7464267574319435609
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_91"
+  - first:
+      213: -3117709381834216773
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_92"
+  - first:
+      213: 4616982792797007296
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_93"
+  - first:
+      213: 6549989355406326719
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_94"
+  - first:
+      213: -2100231150272351541
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_95"
+  - first:
+      213: 2188055393844404334
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_96"
+  - first:
+      213: -7959047141324307541
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_97"
+  - first:
+      213: -5115926510762861211
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_98"
+  - first:
+      213: -8334607996824893866
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_99"
+  - first:
+      213: -4737220439885898456
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_100"
+  - first:
+      213: -6076176931107771326
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_101"
+  - first:
+      213: 1937882461990894253
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_102"
+  - first:
+      213: -4574812288913351544
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_103"
+  - first:
+      213: -1994650231002550978
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_104"
+  - first:
+      213: 6987047796189205390
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_105"
+  - first:
+      213: -7824908918359515070
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_106"
+  - first:
+      213: -6713034325758058144
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_107"
+  - first:
+      213: 3004284716430664977
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_108"
+  - first:
+      213: 452514701052439286
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_109"
+  - first:
+      213: 920234786526477692
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_110"
+  - first:
+      213: -771055697859326923
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_111"
+  - first:
+      213: 5154205017491934436
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_112"
+  - first:
+      213: -4956600997232858848
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_113"
+  - first:
+      213: 780694281729547395
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_114"
+  - first:
+      213: 6393095077539798208
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_115"
+  - first:
+      213: 4366895771108601614
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_116"
+  - first:
+      213: 7444827280873705993
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_117"
+  - first:
+      213: -277525427415397046
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_118"
+  - first:
+      213: -4895254210454443447
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_119"
+  - first:
+      213: 6655377592710962414
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_120"
+  - first:
+      213: -7727562793763945487
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_121"
+  - first:
+      213: 4731331296400420981
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_122"
+  - first:
+      213: -5333150677395190042
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_123"
+  - first:
+      213: -87640942432363438
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_124"
+  - first:
+      213: 8027169944875618650
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_125"
+  - first:
+      213: 249643745807421853
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_126"
+  - first:
+      213: -1954381814567195454
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_127"
+  - first:
+      213: -7056658950048349798
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_128"
+  - first:
+      213: 6928490500061770503
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_129"
+  - first:
+      213: -7280476202071573211
+    second: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_130"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_0"
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 156
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c6a89405e0148f70800000000000000
+      internalID: 9188487715553322697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_1"
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 157
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2661fc1ab390e6530800000000000000
+      internalID: 3850024883170776674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_2"
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 157
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99c88f9487ec63990800000000000000
+      internalID: -7406505521131778919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_3"
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 156
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b78a5b057cf49400800000000000000
+      internalID: 330166252336744377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_4"
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 191
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ed9794715537ca60800000000000000
+      internalID: 7694177112350498272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_5"
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 157
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f51af2a40fa3c3d60800000000000000
+      internalID: 7871231052447981919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_6"
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 157
+        width: 15
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e3b2303bb79ca0e0800000000000000
+      internalID: -2257262482996153369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_7"
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 191
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4669c2b13ef0aea20800000000000000
+      internalID: 3092301562231166564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_8"
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 191
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ab2b73e47519bff0800000000000000
+      internalID: -19961131569566812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_9"
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 157
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca743b685a174c280800000000000000
+      internalID: -9023962797600192596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_10"
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 191
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c42dee8e5ad47b720800000000000000
+      internalID: 2861841463190147660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_11"
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 156
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09700896153959080800000000000000
+      internalID: -9181270287453255792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_12"
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 157
+        width: 15
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56351931235383230800000000000000
+      internalID: 3618700789785121637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_13"
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 183
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89dd8de8989146190800000000000000
+      internalID: -7970217361941144168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_14"
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 156
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98030d56986d69250800000000000000
+      internalID: 5951179843223695497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_15"
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 157
+        width: 15
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4dec5b9ac902ed30800000000000000
+      internalID: 4459137346844814667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_16"
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 156
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b29535ad682a3f3a0800000000000000
+      internalID: -6632779126114395861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_17"
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 157
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3860e2d40452ae5d0800000000000000
+      internalID: -3032570440977611133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_18"
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 156
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 757375ead98f99910800000000000000
+      internalID: 1844778878503434071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_19"
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 156
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcea9011d133f5340800000000000000
+      internalID: 4854655123261599435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_20"
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 157
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e08c4bdb7ab3e80800000000000000
+      internalID: -8197774263474188759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_21"
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 144
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9167655df66639d00800000000000000
+      internalID: 978238174576145945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_22"
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 156
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2508c2b74eba1d8d0800000000000000
+      internalID: -2823286493577183150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_23"
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 156
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c70556a519f3ec0800000000000000
+      internalID: -3584986960930767730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_24"
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 156
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e789f50115479e150800000000000000
+      internalID: 5902376678161619070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_25"
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 156
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c8b42bd944901c00800000000000000
+      internalID: 869357773012646087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_26"
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 157
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9150201d8fddae280800000000000000
+      internalID: -9013147643500428007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_27"
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 157
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03057009d705cef40800000000000000
+      internalID: 5759066523717554224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_28"
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 156
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b6287074baf7a100800000000000000
+      internalID: 119339568036587191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_29"
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 156
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6350c4839b5d6f4e0800000000000000
+      internalID: -1948134797300988618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_30"
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 157
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51655ab2e5e1c3e20800000000000000
+      internalID: 3331571214155339285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_31"
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 157
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced4b85a90bc674f0800000000000000
+      internalID: -831253838910763540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_32"
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 157
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3256d2cf18da965e0800000000000000
+      internalID: -1915809392676215517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_33"
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 156
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c90f92f5170c62bb0800000000000000
+      internalID: -4961066346341601124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_34"
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 156
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f3142ea5ae375410800000000000000
+      internalID: 1465709085044511728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_35"
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 157
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8738cfdcefe529460800000000000000
+      internalID: 7246959198863131512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_36"
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 156
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb5cb0c3bb9c090c0800000000000000
+      internalID: -4570931815777581637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_37"
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 156
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 892759afec74f2f60800000000000000
+      internalID: 8011701216408335000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_38"
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 156
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1e5ffd85855df180800000000000000
+      internalID: -9080007241607717349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_39"
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 144
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d2df1c20c6295190800000000000000
+      internalID: -7973299058466893098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_40"
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 156
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5999a2fbab9ffbb0800000000000000
+      internalID: -4900026706742896292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_41"
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 156
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7d2c62351e6443a0800000000000000
+      internalID: -6682094909791654530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_42"
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 156
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fa89fb85156724d0800000000000000
+      internalID: -3159445470360007952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_43"
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 148
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ae9f30c49465d230800000000000000
+      internalID: 3662944461979098793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_44"
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 157
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c0a58b112e62150800000000000000
+      internalID: 5847609731922398330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_45"
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 156
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e0e4c964e37cca70800000000000000
+      internalID: 8848574792740430053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_46"
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 144
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ea8c3e354e065d50800000000000000
+      internalID: 6725578784084101864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_47"
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 156
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6b9de380e573eb30800000000000000
+      internalID: 4315422475097578347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_48"
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 157
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f04cf212bcefd630800000000000000
+      internalID: 3954139247421440241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_49"
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 156
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c31c48fd9b1cf0270800000000000000
+      internalID: 8219000849037574460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_50"
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 157
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b5ccd138a2261bb0800000000000000
+      internalID: -4965743433342990925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_51"
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 156
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6557cfa72d2e031d0800000000000000
+      internalID: -3372946727266126506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_52"
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 119
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a68ea6d0b0854f1e0800000000000000
+      internalID: -2165008716365371286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_53"
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 85
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23a9c64b4fc259d40800000000000000
+      internalID: 5590423941960997426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_54"
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 119
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72c1901d1c9e8ef30800000000000000
+      internalID: 4605187637631327271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_55"
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 85
+        width: 15
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aba5042dcb1dcbbb0800000000000000
+      internalID: -4918826084083934534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_56"
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 119
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7b77af6aa69929c0800000000000000
+      internalID: -3951461539279045762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_57"
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 85
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 667f2699632d1d980800000000000000
+      internalID: -8515794288437430426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_58"
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 84
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e5bdccb7f478a730800000000000000
+      internalID: 4010584075546768864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_59"
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 119
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d1a79251d09b8440800000000000000
+      internalID: 4939200645050114518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_60"
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 85
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ac6e975af90e1a60800000000000000
+      internalID: 7646560188138155175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_61"
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 84
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70bf93597945cff20800000000000000
+      internalID: 3457731623934098183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_62"
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 84
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61501bcbcecb5f560800000000000000
+      internalID: 7346986092088853782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_63"
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 85
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef94db0621317fe80800000000000000
+      internalID: -8145020431422895618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_64"
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 85
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd71832a5ba3b6c40800000000000000
+      internalID: 5506559521175640028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_65"
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 119
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad4f1a89a440239b0800000000000000
+      internalID: -5102010709422508838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_66"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 73
+        width: 15
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7deda49ca7b7b1e0800000000000000
+      internalID: -2182073542581031558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_67"
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 84
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9a3c86b627c0d4b0800000000000000
+      internalID: -5417611382641378662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_68"
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 84
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3a929c623d84ddb0800000000000000
+      internalID: -4768030857769084357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_69"
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 72
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e06a83989c7cbe30800000000000000
+      internalID: 4520625120725328100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_70"
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 84
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7219fc0fd47d71e20800000000000000
+      internalID: 3321359979961618727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_71"
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 84
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65c5fc65247a3fea0800000000000000
+      internalID: -5840140388403291050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_72"
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 72
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b34bcf489aedc8990800000000000000
+      internalID: -7382280869505092549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_73"
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 84
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8576519c5e20b35b0800000000000000
+      internalID: -5387709343274277032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_74"
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 85
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 883d516681e8f5cb0800000000000000
+      internalID: -4873020036348521592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_75"
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 84
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09a2a4ad0b90c1700800000000000000
+      internalID: 512295112794581648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_76"
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 85
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1be8cd0ceb854980800000000000000
+      internalID: -8555278071160575205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_77"
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 84
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0b9c8b5f73d45fc0800000000000000
+      internalID: -3506945665864525046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_78"
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 72
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f5bf8d11dec325f0800000000000000
+      internalID: -782554512692890124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_79"
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 84
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4aa158d882c824c0800000000000000
+      internalID: -4311982750206678454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_80"
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 84
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed014237170912ef0800000000000000
+      internalID: -134667696906956578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_81"
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 85
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae2c3084dd89bb140800000000000000
+      internalID: 4736547509273608938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_82"
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 85
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bb5443d546eb3da0800000000000000
+      internalID: -5963920093950485581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_83"
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 84
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d052ba8fc1d536b50800000000000000
+      internalID: 6585209459158230285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_84"
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 72
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7bcaef6503c66a10800000000000000
+      internalID: 1902422320730524542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_85"
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 84
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4686a6972b31ec140800000000000000
+      internalID: 4741749114929834084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_86"
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 84
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfd4e1fe9d6496bc0800000000000000
+      internalID: -3789419709621973508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_87"
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 84
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44bc71947d8f52c10800000000000000
+      internalID: 2028300810728229700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_88"
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 85
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b463b8090328f1350800000000000000
+      internalID: 5989649174521132619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_89"
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 84
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf39812fc1fc1c4f0800000000000000
+      internalID: -810138734722247685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_90"
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 85
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ee4596f50966f780800000000000000
+      internalID: -8649610559985725719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_91"
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 84
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95fc6cbbfc7669760800000000000000
+      internalID: 7464267574319435609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_92"
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 84
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bba6ed6e5dbabb4d0800000000000000
+      internalID: -3117709381834216773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_93"
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 84
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cda1c26361d21040800000000000000
+      internalID: 4616982792797007296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_94"
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 84
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbb759b8d9c36ea50800000000000000
+      internalID: 6549989355406326719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_95"
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 85
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc27ec575ea7ad2e0800000000000000
+      internalID: -2100231150272351541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_96"
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 84
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6029f2b9c88d5e10800000000000000
+      internalID: 2188055393844404334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_97"
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 84
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba3c6c63bc8cb8190800000000000000
+      internalID: -7959047141324307541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_98"
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 84
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56dd9fc91f39009b0800000000000000
+      internalID: -5115926510762861211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_99"
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 85
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6564f1f7f26855c80800000000000000
+      internalID: -8334607996824893866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_100"
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 85
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82d91e9db13024eb0800000000000000
+      internalID: -4737220439885898456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_101"
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 84
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24ce5ec26451daba0800000000000000
+      internalID: -6076176931107771326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_102"
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 22
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daa3d63f4ddb4ea10800000000000000
+      internalID: 1937882461990894253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_103"
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 12
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88c5a3d26700380c0800000000000000
+      internalID: -4574812288913351544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_104"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3d21f9de249154e0800000000000000
+      internalID: -1994650231002550978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_105"
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e839880a3faf6f060800000000000000
+      internalID: 6987047796189205390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_106"
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 11
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24025610cc6586390800000000000000
+      internalID: -7824908918359515070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_107"
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 061ef2019d286d2a0800000000000000
+      internalID: -6713034325758058144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_108"
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1152cfe380d51b920800000000000000
+      internalID: 3004284716430664977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_109"
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 12
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fa6fdb19b7a74600800000000000000
+      internalID: 452514701052439286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_110"
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 11
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7d3ed8a9a455cc00800000000000000
+      internalID: 920234786526477692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_111"
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 11
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53ccd039de8ac45f0800000000000000
+      internalID: -771055697859326923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_112"
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 12
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ec842fb72a678740800000000000000
+      internalID: 5154205017491934436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_113"
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 17
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 029a69a77ad963bb0800000000000000
+      internalID: -4956600997232858848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_114"
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 17
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38c1bac105595da00800000000000000
+      internalID: 780694281729547395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_115"
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 12
+        width: 9
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ccde08d916d8b850800000000000000
+      internalID: 6393095077539798208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_116"
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 17
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0f651821945a9c30800000000000000
+      internalID: 4366895771108601614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_117"
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 17
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9025d92b7f6515760800000000000000
+      internalID: 7444827280873705993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_118"
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 0
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4d44ca1818062cf0800000000000000
+      internalID: -277525427415397046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_119"
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 11
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94aa0a45b30901cb0800000000000000
+      internalID: -4895254210454443447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_120"
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 11
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eec91aba8a6ac5c50800000000000000
+      internalID: 6655377592710962414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_121"
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 12
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f3cc2ad49e22c490800000000000000
+      internalID: -7727562793763945487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_122"
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 11
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 570b2a41fb019a140800000000000000
+      internalID: 4731331296400420981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_123"
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 11
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eec93417b7dcf5b0800000000000000
+      internalID: -5333150677395190042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_124"
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 11
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25cd986f603a8cef0800000000000000
+      internalID: -87640942432363438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_125"
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 11
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a51d00cf88c366f60800000000000000
+      internalID: 8027169944875618650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_126"
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 12
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d91df350aa9e67300800000000000000
+      internalID: 249643745807421853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_127"
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 11
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cc2d3b2814a0e4e0800000000000000
+      internalID: -1954381814567195454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_128"
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 12
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a91894d9216b11e90800000000000000
+      internalID: -7056658950048349798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_129"
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 11
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 703b9dda661f62060800000000000000
+      internalID: 6928490500061770503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_130"
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 0
+        width: 22
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52db6d3c77d86fa90800000000000000
+      internalID: -7280476202071573211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_0": 9188487715553322697
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_1": 3850024883170776674
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_10": 2861841463190147660
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_100": -4737220439885898456
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_101": -6076176931107771326
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_102": 1937882461990894253
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_103": -4574812288913351544
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_104": -1994650231002550978
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_105": 6987047796189205390
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_106": -7824908918359515070
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_107": -6713034325758058144
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_108": 3004284716430664977
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_109": 452514701052439286
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_11": -9181270287453255792
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_110": 920234786526477692
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_111": -771055697859326923
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_112": 5154205017491934436
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_113": -4956600997232858848
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_114": 780694281729547395
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_115": 6393095077539798208
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_116": 4366895771108601614
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_117": 7444827280873705993
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_118": -277525427415397046
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_119": -4895254210454443447
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_12": 3618700789785121637
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_120": 6655377592710962414
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_121": -7727562793763945487
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_122": 4731331296400420981
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_123": -5333150677395190042
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_124": -87640942432363438
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_125": 8027169944875618650
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_126": 249643745807421853
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_127": -1954381814567195454
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_128": -7056658950048349798
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_129": 6928490500061770503
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_13": -7970217361941144168
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_130": -7280476202071573211
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_14": 5951179843223695497
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_15": 4459137346844814667
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_16": -6632779126114395861
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_17": -3032570440977611133
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_18": 1844778878503434071
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_19": 4854655123261599435
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_2": -7406505521131778919
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_20": -8197774263474188759
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_21": 978238174576145945
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_22": -2823286493577183150
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_23": -3584986960930767730
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_24": 5902376678161619070
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_25": 869357773012646087
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_26": -9013147643500428007
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_27": 5759066523717554224
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_28": 119339568036587191
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_29": -1948134797300988618
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_3": 330166252336744377
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_30": 3331571214155339285
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_31": -831253838910763540
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_32": -1915809392676215517
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_33": -4961066346341601124
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_34": 1465709085044511728
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_35": 7246959198863131512
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_36": -4570931815777581637
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_37": 8011701216408335000
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_38": -9080007241607717349
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_39": -7973299058466893098
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_4": 7694177112350498272
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_40": -4900026706742896292
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_41": -6682094909791654530
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_42": -3159445470360007952
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_43": 3662944461979098793
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_44": 5847609731922398330
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_45": 8848574792740430053
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_46": 6725578784084101864
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_47": 4315422475097578347
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_48": 3954139247421440241
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_49": 8219000849037574460
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_5": 7871231052447981919
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_50": -4965743433342990925
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_51": -3372946727266126506
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_52": -2165008716365371286
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_53": 5590423941960997426
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_54": 4605187637631327271
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_55": -4918826084083934534
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_56": -3951461539279045762
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_57": -8515794288437430426
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_58": 4010584075546768864
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_59": 4939200645050114518
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_6": -2257262482996153369
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_60": 7646560188138155175
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_61": 3457731623934098183
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_62": 7346986092088853782
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_63": -8145020431422895618
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_64": 5506559521175640028
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_65": -5102010709422508838
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_66": -2182073542581031558
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_67": -5417611382641378662
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_68": -4768030857769084357
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_69": 4520625120725328100
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_7": 3092301562231166564
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_70": 3321359979961618727
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_71": -5840140388403291050
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_72": -7382280869505092549
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_73": -5387709343274277032
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_74": -4873020036348521592
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_75": 512295112794581648
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_76": -8555278071160575205
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_77": -3506945665864525046
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_78": -782554512692890124
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_79": -4311982750206678454
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_8": -19961131569566812
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_80": -134667696906956578
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_81": 4736547509273608938
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_82": -5963920093950485581
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_83": 6585209459158230285
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_84": 1902422320730524542
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_85": 4741749114929834084
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_86": -3789419709621973508
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_87": 2028300810728229700
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_88": 5989649174521132619
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_89": -810138734722247685
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_9": -9023962797600192596
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_90": -8649610559985725719
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_91": 7464267574319435609
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_92": -3117709381834216773
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_93": 4616982792797007296
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_94": 6549989355406326719
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_95": -2100231150272351541
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_96": 2188055393844404334
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_97": -7959047141324307541
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_98": -5115926510762861211
+      "Votre temps de voix est limit\xE9 dans l\u2019espace, regarder la jauge_99": -8334607996824893866
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

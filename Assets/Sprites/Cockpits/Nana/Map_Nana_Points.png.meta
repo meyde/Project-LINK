@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 6419a0279ac7a594696cdfab2beca436
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2339778999066717391
+    second: Map_Nana_Points_0
+  - first:
+      213: 820087564061997862
+    second: Map_Nana_Points_1
+  - first:
+      213: 2548039991338853714
+    second: Map_Nana_Points_2
+  - first:
+      213: -6639749594510621627
+    second: Map_Nana_Points_3
+  - first:
+      213: -4461975080957422244
+    second: Map_Nana_Points_4
+  - first:
+      213: -2133502891415472613
+    second: Map_Nana_Points_5
+  - first:
+      213: -859179410710257957
+    second: Map_Nana_Points_6
+  - first:
+      213: 3546214401612241256
+    second: Map_Nana_Points_7
+  - first:
+      213: 6898647162181149594
+    second: Map_Nana_Points_8
+  - first:
+      213: -6882806417045213430
+    second: Map_Nana_Points_9
+  - first:
+      213: 3211124645341162562
+    second: Map_Nana_Points_10
+  - first:
+      213: 8449464901801130916
+    second: Map_Nana_Points_11
+  - first:
+      213: 103202991775376217
+    second: Map_Nana_Points_12
+  - first:
+      213: 1174703953930896610
+    second: Map_Nana_Points_13
+  - first:
+      213: 6225310285466682621
+    second: Map_Nana_Points_14
+  - first:
+      213: 2617896678008869452
+    second: Map_Nana_Points_15
+  - first:
+      213: 8082510214428587917
+    second: Map_Nana_Points_16
+  - first:
+      213: 2034090646788384248
+    second: Map_Nana_Points_17
+  - first:
+      213: -8261951649597870101
+    second: Map_Nana_Points_18
+  - first:
+      213: 240145718023564785
+    second: Map_Nana_Points_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Map_Nana_Points_0
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 1159
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcc6a4c5a90987020800000000000000
+      internalID: 2339778999066717391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Nana_Points_1
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 1090
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62b71a46b49816b00800000000000000
+      internalID: 820087564061997862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Nana_Points_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1061
+        width: 69
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 255ed3d3fd47c5320800000000000000
+      internalID: 2548039991338853714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Nana_Points_3
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 1069
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54486a53ceedad3a0800000000000000
+      internalID: -6639749594510621627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Nana_Points_4
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 917
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5553eeed41e312c0800000000000000
+      internalID: -4461975080957422244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Nana_Points_5
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 981
+        width: 71
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1679ed8c664462e0800000000000000
+      internalID: -2133502891415472613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Nana_Points_6
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 807
+        width: 71
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bde194ac0e49314f0800000000000000
+      internalID: -859179410710257957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Nana_Points_7
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 850
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 869d879a53fa63130800000000000000
+      internalID: 3546214401612241256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Nana_Points_8
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 801
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a93609c1b0becbf50800000000000000
+      internalID: 6898647162181149594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Nana_Points_9
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 807
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0fad36c70c5b70a0800000000000000
+      internalID: -6882806417045213430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Nana_Points_10
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 622
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24cef070ad4309c20800000000000000
+      internalID: 3211124645341162562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Nana_Points_11
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 622
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4abbcfd9f87824570800000000000000
+      internalID: 8449464901801130916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Nana_Points_12
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 622
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95367800396ae6100800000000000000
+      internalID: 103202991775376217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Nana_Points_13
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 461
+        width: 71
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e44c42b5036d4010800000000000000
+      internalID: 1174703953930896610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Nana_Points_14
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 326
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df4c3d5b8beb46650800000000000000
+      internalID: 6225310285466682621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Nana_Points_15
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 264
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c42d46f8823a45420800000000000000
+      internalID: 2617896678008869452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Nana_Points_16
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 264
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d877b709738da2070800000000000000
+      internalID: 8082510214428587917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Nana_Points_17
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 70
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f524ca8aaa8a3c10800000000000000
+      internalID: 2034090646788384248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Nana_Points_18
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 0
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bef24469fb6a75d80800000000000000
+      internalID: -8261951649597870101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Nana_Points_19
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 66
+        width: 69
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fd2029124b255300800000000000000
+      internalID: 240145718023564785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Map_Nana_Points_0: 2339778999066717391
+      Map_Nana_Points_1: 820087564061997862
+      Map_Nana_Points_10: 3211124645341162562
+      Map_Nana_Points_11: 8449464901801130916
+      Map_Nana_Points_12: 103202991775376217
+      Map_Nana_Points_13: 1174703953930896610
+      Map_Nana_Points_14: 6225310285466682621
+      Map_Nana_Points_15: 2617896678008869452
+      Map_Nana_Points_16: 8082510214428587917
+      Map_Nana_Points_17: 2034090646788384248
+      Map_Nana_Points_18: -8261951649597870101
+      Map_Nana_Points_19: 240145718023564785
+      Map_Nana_Points_2: 2548039991338853714
+      Map_Nana_Points_3: -6639749594510621627
+      Map_Nana_Points_4: -4461975080957422244
+      Map_Nana_Points_5: -2133502891415472613
+      Map_Nana_Points_6: -859179410710257957
+      Map_Nana_Points_7: 3546214401612241256
+      Map_Nana_Points_8: 6898647162181149594
+      Map_Nana_Points_9: -6882806417045213430
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

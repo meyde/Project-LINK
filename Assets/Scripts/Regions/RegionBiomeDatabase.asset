@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8891a0970018b8945bafb86d1b0e1855, type: 3}
+  m_Name: RegionBiomeDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::RegionBiomeDatabase
+  entries:
+  - regionId: 0
+    biomeId: 0
+  - regionId: 1
+    biomeId: 0
+  - regionId: 2
+    biomeId: 3
+  - regionId: 3
+    biomeId: 2
+  - regionId: 4
+    biomeId: 4
+  - regionId: 5
+    biomeId: 1
+  - regionId: 6
+    biomeId: 2
+  - regionId: 7
+    biomeId: 4
+  - regionId: 8
+    biomeId: 0
+  - regionId: 9
+    biomeId: 1
+  - regionId: 10
+    biomeId: 1
+  - regionId: 11
+    biomeId: 3
+  - regionId: 12
+    biomeId: 2
+  - regionId: 13
+    biomeId: 3
+  - regionId: 14
+    biomeId: 1
+  - regionId: 15
+    biomeId: 2
+  - regionId: 16
+    biomeId: 1
+  - regionId: 17
+    biomeId: 4
+  - regionId: 18
+    biomeId: 3
+  - regionId: 19
+    biomeId: 0
