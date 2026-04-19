@@ -3,8 +3,8 @@ guid: 6ac4157bc2e67c240a810a4859fdbd3f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1369175685550265760
-    second: Project LINK Manuel Game Document VDef_0
+      213: -855298285791758126
+    second: 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Project LINK Manuel Game Document VDef_0
+      name: 1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 06aacabd7f5bffce0800000000000000
-      internalID: -1369175685550265760
+      spriteID: 2d8b16a9dbe5124f0800000000000000
+      internalID: -855298285791758126
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Project LINK Manuel Game Document VDef_0: -1369175685550265760
+      1_0: -855298285791758126
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
