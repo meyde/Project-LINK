@@ -29,11 +29,6 @@ public class BiomeSpriteChanger : MonoBehaviour
     [SerializeField] private Material defaultMaterial;
     [SerializeField] private Material heatMapMaterial;
 
-    [Header("Event IDs Canicule")]
-    [SerializeField] private int[] heatwaveEventIds = { 27, 28, 29 };
-
-    [Header("Earthquake (tremblement)")]
-    [SerializeField] private int[] shakeEventIds = { 24, 25, 26 };
     [SerializeField] private float shakeIntensity = 0.1f;
     [SerializeField] private float shakeSpeed = 25f;
 
@@ -55,31 +50,23 @@ public class BiomeSpriteChanger : MonoBehaviour
     private void Start()
     {
         ApplyBiome(currentBiomeId);
-        ApplyMaterialFromEventId(-1);
     }
 
     public void SetBiome(int biomeId, int eventFx, int eventId = -1)
     {
         if (thunder != null)
-            StopCoroutine(thunder);
+        { StopCoroutine(thunder); thunder = null;  }
+        if (shakeCoroutine != null)
+        {
+            StopCoroutine(shakeCoroutine); shakeCoroutine = null; transform.localPosition = originalPosition;
+        }
+        if (defaultMaterial != null && targetRenderer.sharedMaterial != defaultMaterial)
+        {
+            targetRenderer.material = defaultMaterial;
+        }
 
         currentBiomeId = biomeId;
         ApplyBiome(currentBiomeId);
-        ApplyMaterialFromEventId(eventId);
-
-        // Gestion tremblement
-        if (IsShakeEvent(eventId))
-        {
-            if (shakeCoroutine == null)
-            {
-                Debug.Log($"Event : Tremblement de terre (ID {eventId})");
-                shakeCoroutine = StartCoroutine(Shake());
-            }
-        }
-        else
-        {
-            StopShake();
-        }
 
         if (!(blockEventOver && eventFx == -1))
         {
@@ -154,55 +141,17 @@ public class BiomeSpriteChanger : MonoBehaviour
                 FxObj[6].SetActive(true);
                 Debug.Log("Event : Incendie de forêt");
                 break;
-        }
-    }
-
-    private void ApplyMaterialFromEventId(int eventId)
-    {
-        if (targetRenderer == null)
-            return;
-
-        bool isHeatwave = IsHeatwaveEvent(eventId);
-
-        if (isHeatwave)
-        {
-            if (heatMapMaterial != null)
-            {
+            case 12:
+                Debug.Log("Event: séisme");
+                shakeCoroutine = StartCoroutine("Shake");
+                break;
+            case 13:
+                Debug.Log("Event: heatwave");
                 targetRenderer.material = heatMapMaterial;
-                Debug.Log($"Event : Canicule (ID {eventId}), HeatMap activé");
-            }
-        }
-        else
-        {
-            if (defaultMaterial != null)
-                targetRenderer.material = defaultMaterial;
-            else
-                targetRenderer.material = null;
+                break;
+
         }
     }
-
-    private bool IsHeatwaveEvent(int eventId)
-    {
-        for (int i = 0; i < heatwaveEventIds.Length; i++)
-        {
-            if (heatwaveEventIds[i] == eventId)
-                return true;
-        }
-
-        return false;
-    }
-
-    private bool IsShakeEvent(int eventId)
-    {
-        for (int i = 0; i < shakeEventIds.Length; i++)
-        {
-            if (shakeEventIds[i] == eventId)
-                return true;
-        }
-
-        return false;
-    }
-
     private IEnumerator Shake()
     {
         originalPosition = transform.localPosition;
@@ -218,15 +167,6 @@ public class BiomeSpriteChanger : MonoBehaviour
         }
     }
 
-    private void StopShake()
-    {
-        if (shakeCoroutine != null)
-        {
-            StopCoroutine(shakeCoroutine);
-            shakeCoroutine = null;
-            transform.localPosition = originalPosition;
-        }
-    }
 
     public void StormManager(int color, bool isDoubled)
     {
@@ -314,9 +254,16 @@ public class BiomeSpriteChanger : MonoBehaviour
         foreach (SpriteRenderer sr in thunderStrikes)
             sr.gameObject.SetActive(false);
 
-        StopShake();
-
-        ApplyMaterialFromEventId(-1);
+        if (thunder != null)
+        { StopCoroutine(thunder); thunder = null; }
+        if (shakeCoroutine != null)
+        {
+            StopCoroutine(shakeCoroutine); shakeCoroutine = null; transform.localPosition = originalPosition;
+        }
+        if (defaultMaterial != null && targetRenderer.sharedMaterial != defaultMaterial)
+        {
+            targetRenderer.material = defaultMaterial;
+        }
     }
 
     private void ApplyBiome(int biomeId)
