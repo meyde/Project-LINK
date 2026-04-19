@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42666e050131ce849afc751b2db5b645, type: 3}
   m_Name: 374
   m_EditorClassIdentifier: Assembly-CSharp::TEcPlateCodeSO
-  eventId: 27
+  eventId: 26
   codeOptions: 040000000300000005000000
   keyPositionsBlue: 0d0000000e0000000a000000070000000500000000000000
   keyPositionsGreen: 040000000d0000000a00000002000000060000000b000000
