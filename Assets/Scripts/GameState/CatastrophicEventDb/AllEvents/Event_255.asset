@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eecf7534233f00546a14b86367e1e280, type: 3}
   m_Name: Event_255
   m_EditorClassIdentifier: Assembly-CSharp::CatastrophicEvent
-  eventId: 24
+  eventId: 0
   eventName: Seisme intensite haute
   type: Seisme
-  fxType: 12
-  region: 17
+  fxType: 1
+  region: 2
   modulesCount: 2
   modules1: 02000000
   modules2: 04000000
