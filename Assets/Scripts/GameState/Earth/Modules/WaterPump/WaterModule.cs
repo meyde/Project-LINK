@@ -35,7 +35,7 @@ public class WaterModule : Module
                     Debug.Log("Looking at each code, trying to find the correct one");
                     foreach (WaterCodeSO codeSo in codeList)
                     {
-                        if (cEvent.modulesState1[i] == codeSo.waterCodeId && codeSo.eventId == cEvent.eventId)
+                        if (cEvent.modulesState1[i] == codeSo.waterCodeId && codeSo.eventId == cEvent.eventId && cEvent.region == gm.currentRegion)
                         {
                             Debug.Log($"Found a state, adding it: {codeSo.waterStateId}");
                             availableStates.Add(codeSo.waterStateId);
