@@ -19296,13 +19296,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 507795861}
+  - component: {fileID: 506908379}
   m_Layer: 0
   m_Name: BottomPoint
-  - component: {fileID: 506908379}
-  - component: {fileID: 501096741}
-  m_Layer: 0
-  m_Name: "O_ModulesLevel2Ferm\xE9e"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19314,14 +19310,14 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 507795860}
+  m_GameObject: {fileID: 506908378}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.5344, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1271157346}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &511459869
 GameObject:
@@ -78806,6 +78802,7 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 506908379}
   - {fileID: 1248293652}
   - {fileID: 1181832233}
   - {fileID: 2121139983}
@@ -78817,7 +78814,5 @@ SceneRoots:
   - {fileID: 1892685403}
   - {fileID: 1988535891}
   - {fileID: 37820946}
-  - {fileID: 151014927}
-  - {fileID: 1387617555}
-  - {fileID: 1919065692}
   - {fileID: 1347327449}
+  - {fileID: 1919065692}
