@@ -6,9 +6,6 @@ public class DesktopWindowCloser : MonoBehaviour, MouseInteractionManager.IInter
     [Header("Fenêtre à fermer")]
     [SerializeField] private GameObject targetWindow;
 
-    [Header("Scroller à reset (optionnel)")]
-    [SerializeField] private WorldImageScroller targetScroller;
-
     [Header("Hover visuel (optionnel)")]
     [SerializeField] private SpriteRenderer buttonSprite;
     [SerializeField] private Color normalColor = Color.white;
@@ -26,16 +23,10 @@ public class DesktopWindowCloser : MonoBehaviour, MouseInteractionManager.IInter
 
         if (buttonSprite != null)
             buttonSprite.color = normalColor;
-
-        if (targetScroller == null && targetWindow != null)
-            targetScroller = targetWindow.GetComponentInChildren<WorldImageScroller>(true);
     }
 
     public void OnClick()
     {
-        if (targetScroller != null)
-            targetScroller.ResetToBasePosition();
-
         if (targetWindow != null)
             targetWindow.SetActive(false);
 
