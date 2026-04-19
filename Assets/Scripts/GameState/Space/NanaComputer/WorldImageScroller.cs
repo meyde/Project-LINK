@@ -74,24 +74,6 @@ public class WorldImageScroller : MonoBehaviour
         HandleDrag(mouseWorldPos);
     }
 
-    private void OnDisable()
-    {
-        isDragging = false;
-        lastMouseWorldPos = Vector2.zero;
-    }
-
-    public void RefreshScroll(bool snapToTop = true)
-    {
-        if (contentToScroll == null)
-            return;
-
-        isDragging = false;
-        RecalculateBounds();
-
-        if (snapToTop)
-            SnapToTop();
-    }
-
     private void SaveBaseLocalPositionIfNeeded()
     {
         if (contentToScroll == null || basePositionSaved)
