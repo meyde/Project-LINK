@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using UnityEngine;
 
@@ -6,152 +5,105 @@ public class RegionTransitionScreen : MonoBehaviour
 {
     public static RegionTransitionScreen Instance { get; private set; }
 
-    [Header("Renderers")]
-    [SerializeField] private SpriteRenderer backgroundRenderer;
-    [SerializeField] private SpriteRenderer animationRenderer;
+    [Header("Référence visuelle")]
+    [SerializeField] private SpriteRenderer overlayRenderer;
+    [SerializeField] private Camera targetCamera;
+    [SerializeField] private float distanceFromCamera = 1f;
 
-    [Header("Sprites")]
-    [SerializeField] private Sprite backgroundSprite;
-    [SerializeField] private Sprite[] animationFrames;
-
-    [Header("Animation")]
-    [SerializeField] private float frameRate = 12f;
-    [SerializeField] private bool loop = true;
-
-    [Header("Fade")]
+    [Header("Réglages")]
     [SerializeField] private float fadeOutDuration = 0.25f;
     [SerializeField] private float holdDuration = 0.1f;
     [SerializeField] private float fadeInDuration = 0.25f;
 
-    [Header("Placement")]
-    [SerializeField] private bool followCamera = true;
-    [SerializeField] private Camera targetCamera;
-    [SerializeField] private float distance = 1f;
+    private Coroutine transitionCoroutine;
+    private bool isTransitioning;
 
-    private Coroutine transitionRoutine;
-    private Coroutine animRoutine;
-    private int currentFrame;
+    public bool IsTransitioning => isTransitioning;
 
     private void Awake()
     {
-        Instance = this;
-
         if (targetCamera == null)
             targetCamera = Camera.main;
 
-        if (backgroundRenderer != null)
-            backgroundRenderer.sprite = backgroundSprite;
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
 
-        ResetAlpha(0f);
+        Instance = this;
+
+        if (overlayRenderer != null)
+        {
+            Color c = overlayRenderer.color;
+            c.a = 0f;
+            overlayRenderer.color = c;
+            overlayRenderer.gameObject.SetActive(true);
+        }
     }
 
-    private void LateUpdate()
+    private void Update()
     {
-        if (!followCamera || targetCamera == null)
+        UpdatePosition();
+    }
+
+    private void UpdatePosition()
+    {
+        if (targetCamera == null || overlayRenderer == null)
             return;
 
-        transform.position = targetCamera.transform.position + Vector3.forward * distance;
+        // Position pile devant la caméra
+        Vector3 pos = targetCamera.transform.position + targetCamera.transform.forward * distanceFromCamera;
+
+        overlayRenderer.transform.position = pos;
+
+        // Toujours face caméra
+        overlayRenderer.transform.rotation = targetCamera.transform.rotation;
     }
 
-    public void PlayTransition(Action onMid)
+    public void PlayTransition(System.Action onMiddleReached)
     {
-        if (transitionRoutine != null)
-            StopCoroutine(transitionRoutine);
+        if (transitionCoroutine != null)
+            StopCoroutine(transitionCoroutine);
 
-        transitionRoutine = StartCoroutine(Transition(onMid));
+        transitionCoroutine = StartCoroutine(TransitionRoutine(onMiddleReached));
     }
 
-    private IEnumerator Transition(Action onMid)
+    private IEnumerator TransitionRoutine(System.Action onMiddleReached)
     {
-        StartAnimation();
+        isTransitioning = true;
 
-        yield return Fade(0, 1, fadeOutDuration);
+        yield return Fade(0f, 1f, fadeOutDuration);
 
-        onMid?.Invoke();
+        onMiddleReached?.Invoke();
 
-        yield return new WaitForSeconds(holdDuration);
+        if (holdDuration > 0f)
+            yield return new WaitForSeconds(holdDuration);
 
-        yield return Fade(1, 0, fadeInDuration);
+        yield return Fade(1f, 0f, fadeInDuration);
 
-        StopAnimation();
+        isTransitioning = false;
+        transitionCoroutine = null;
     }
 
     private IEnumerator Fade(float from, float to, float duration)
     {
-        float t = 0f;
+        if (overlayRenderer == null)
+            yield break;
 
-        while (t < duration)
+        float time = 0f;
+        Color c = overlayRenderer.color;
+
+        while (time < duration)
         {
-            t += Time.deltaTime;
-            float a = Mathf.Lerp(from, to, t / duration);
-            SetAlpha(a);
+            time += Time.deltaTime;
+            float t = duration <= 0f ? 1f : time / duration;
+            c.a = Mathf.Lerp(from, to, t);
+            overlayRenderer.color = c;
             yield return null;
         }
 
-        SetAlpha(to);
-    }
-
-    private void SetAlpha(float a)
-    {
-        if (backgroundRenderer != null)
-        {
-            var c = backgroundRenderer.color;
-            c.a = a;
-            backgroundRenderer.color = c;
-        }
-
-        if (animationRenderer != null)
-        {
-            var c = animationRenderer.color;
-            c.a = a;
-            animationRenderer.color = c;
-        }
-    }
-
-    private void ResetAlpha(float a)
-    {
-        SetAlpha(a);
-    }
-
-    private void StartAnimation()
-    {
-        if (animationFrames == null || animationFrames.Length == 0)
-            return;
-
-        currentFrame = 0;
-        animationRenderer.sprite = animationFrames[0];
-
-        if (animRoutine != null)
-            StopCoroutine(animRoutine);
-
-        animRoutine = StartCoroutine(Animate());
-    }
-
-    private void StopAnimation()
-    {
-        if (animRoutine != null)
-            StopCoroutine(animRoutine);
-    }
-
-    private IEnumerator Animate()
-    {
-        float delay = 1f / frameRate;
-
-        while (true)
-        {
-            yield return new WaitForSeconds(delay);
-
-            currentFrame++;
-
-            if (currentFrame >= animationFrames.Length)
-            {
-                if (loop)
-                    currentFrame = 0;
-                else
-                    yield break;
-            }
-
-            animationRenderer.sprite = animationFrames[currentFrame];
-        }
+        c.a = to;
+        overlayRenderer.color = c;
     }
 }

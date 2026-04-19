@@ -16,7 +16,7 @@ MonoBehaviour:
   eventName: "Tornade avec d\xE9bris lente"
   type: tornade
   fxType: 7
-  region: 18
+  region: 3
   modulesCount: 1
   modules1: 00000000
   modules2: 

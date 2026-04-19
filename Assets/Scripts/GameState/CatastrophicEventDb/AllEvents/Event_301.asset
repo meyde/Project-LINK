@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eecf7534233f00546a14b86367e1e280, type: 3}
   m_Name: Event_301
   m_EditorClassIdentifier: Assembly-CSharp::CatastrophicEvent
-  eventId: 25
+  eventId: 0
   eventName: Seisme intensite moyenne
   type: Seisme
-  fxType: 12
+  fxType: 1
   region: 4
   modulesCount: 2
   modules1: 02000000
