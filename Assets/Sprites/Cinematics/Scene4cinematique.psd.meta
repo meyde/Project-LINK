@@ -1,0 +1,577 @@
+fileFormatVersion: 2
+guid: bf271bf1e3469d54c96bfd442570e398
+importerOverride:
+  nativeImporterType: 2089858483
+  scriptedImporterType:
+    serializedVersion: 2
+    Hash: b10b55a1aa6a1aa32521bc0cab59632e
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: b7e41d8294c33bf43a0ef6e2b0313b00
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  multiSpriteImportData: []
+  layeredSpriteImportData:
+  - name: Plan1Danger
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 1932
+      y: 4
+      width: 1831
+      height: 943
+    spriteID: 42434b548e077724a9a8fade77ecbce7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1932, y: 4}
+    spritePosition: {x: 0, y: 0}
+  - name: Plan2Lumiere
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 1920
+      height: 1080
+    spriteID: a384d0654d852904a99f9a3dd910efa0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 0, y: 0}
+  - name: Plan2Goutte
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 2569
+      y: 1835
+      width: 16
+      height: 31
+    spriteID: a92436120ba6798428f2e6f8963adc00
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2569, y: 1835}
+    spritePosition: {x: 1512, y: 60}
+  - name: Plan2Croque
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 2569
+      y: 1512
+      width: 318
+      height: 106
+    spriteID: 8f29374d4c31b384e8b10230e2f43ca8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2569, y: 1512}
+    spritePosition: {x: 1289, y: 0}
+  - name: Plan2Nana
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 1932
+      y: 1512
+      width: 629
+      height: 782
+    spriteID: 73cbccfa2460957469225d78537519bb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1932, y: 1512}
+    spritePosition: {x: 650, y: 0}
+  - name: Plan2Ombre
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 1932
+      y: 2302
+      width: 813
+      height: 553
+    spriteID: 96aa1235b1e8d9246a50314aa18a8c41
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1776, y: 2302}
+    spritePosition: {x: 875, y: 0}
+  - name: Plan1Danger
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3268
+      width: 1103
+      height: 801
+    spriteID: 95f26eb91a9f9ca48b4acf152c1f0dc2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3268}
+    spritePosition: {x: 290, y: 109}
+  - name: Plan1Lumiere
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1092
+      width: 1920
+      height: 1080
+    spriteID: f770f7cb0e3929e48b94744ad1a04ad4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1092}
+    spritePosition: {x: 0, y: 0}
+  - name: Plan1?
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 2569
+      y: 1740
+      width: 48
+      height: 87
+    spriteID: f61a33d1582a96b48b4f6e19519d7a16
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2569, y: 1740}
+    spritePosition: {x: 1564, y: 90}
+  - name: Plan1Croque
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 2569
+      y: 1626
+      width: 254
+      height: 106
+    spriteID: b83f6cf50f1690148b940255fa2bc8d3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2567, y: 1626}
+    spritePosition: {x: 1323, y: 0}
+  - name: Plan1Nana
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 1115
+      y: 3268
+      width: 754
+      height: 816
+    spriteID: ba4c1a00475dd3046aa6f74b56ff211e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1115, y: 3268}
+    spritePosition: {x: 562, y: 0}
+  - name: Plan1OmbreSol
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 1932
+      y: 955
+      width: 976
+      height: 549
+    spriteID: 4a94a44d156aee542916c51f7d576d4e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1932, y: 955}
+    spritePosition: {x: 725, y: 0}
+  - name: "Arri\xE8re-plan"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2180
+      width: 1920
+      height: 1080
+    spriteID: 9fe8f7f7e5eee29459b94f48cc64e1ac
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2180}
+    spritePosition: {x: 0, y: 0}
+  spriteImportData: []
+  rigSpriteImportData: []
+  sharedRigSpriteImportData: []
+  mosaicSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  platformSettings: []
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  generateTileAssets: 0
+  tilePaletteCellLayout: 0
+  tilePaletteHexagonLayout: 0
+  tilePaletteCellSize: {x: 1, y: 1, z: 0}
+  tilePaletteCellSizing: 0
+  transparencySortMode: 0
+  transparencySortAxis: {x: 0, y: 0, z: 1}
+  tileTemplate: {instanceID: 0}
+  padding: 4
+  spriteSizeExpand: 0
+  skeletonAssetReferenceID: 
+  pipeline: {instanceID: 0}
+  pipelineVersion: 
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  pSDLayerImportSetting: []
+  psdLayers:
+  - name: Plan1Danger
+    spriteName: Plan1Danger
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 42434b548e077724a9a8fade77ecbce7
+    layerID: 14
+    mosaicPosition: {x: 1932, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Plan2Lumiere
+    spriteName: Plan2Lumiere
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a384d0654d852904a99f9a3dd910efa0
+    layerID: 13
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Plan2Goutte
+    spriteName: Plan2Goutte
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a92436120ba6798428f2e6f8963adc00
+    layerID: 12
+    mosaicPosition: {x: 2569, y: 1835}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Plan2Croque
+    spriteName: Plan2Croque
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 8f29374d4c31b384e8b10230e2f43ca8
+    layerID: 11
+    mosaicPosition: {x: 2569, y: 1512}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Plan2Nana
+    spriteName: Plan2Nana
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 73cbccfa2460957469225d78537519bb
+    layerID: 10
+    mosaicPosition: {x: 1932, y: 1512}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Plan2Ombre
+    spriteName: Plan2Ombre
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 96aa1235b1e8d9246a50314aa18a8c41
+    layerID: 9
+    mosaicPosition: {x: 1932, y: 2302}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Plan1Danger
+    spriteName: Plan1Danger
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 95f26eb91a9f9ca48b4acf152c1f0dc2
+    layerID: 8
+    mosaicPosition: {x: 4, y: 3268}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Plan1Lumiere
+    spriteName: Plan1Lumiere
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f770f7cb0e3929e48b94744ad1a04ad4
+    layerID: 7
+    mosaicPosition: {x: 4, y: 1092}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Plan1?
+    spriteName: Plan1?
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f61a33d1582a96b48b4f6e19519d7a16
+    layerID: 6
+    mosaicPosition: {x: 2569, y: 1740}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Plan1Croque
+    spriteName: Plan1Croque
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b83f6cf50f1690148b940255fa2bc8d3
+    layerID: 5
+    mosaicPosition: {x: 2569, y: 1626}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Plan1Nana
+    spriteName: Plan1Nana
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ba4c1a00475dd3046aa6f74b56ff211e
+    layerID: 4
+    mosaicPosition: {x: 1115, y: 3268}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Plan1OmbreSol
+    spriteName: Plan1OmbreSol
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 4a94a44d156aee542916c51f7d576d4e
+    layerID: 3
+    mosaicPosition: {x: 1932, y: 955}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: "Arri\xE8re-plan"
+    spriteName: "Arri\xE8re-plan"
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 9fe8f7f7e5eee29459b94f48cc64e1ac
+    layerID: 2
+    mosaicPosition: {x: 4, y: 2180}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  mosaicPSDLayers: []
+  rigPSDLayers: []
+  sharedRigPSDLayers: []
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  spriteSizeExpandChanged: 0
+  generateGOHierarchy: 0
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []
