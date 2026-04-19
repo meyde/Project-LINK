@@ -1,5 +1,3 @@
-using NUnit.Framework;
-using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using static UnityEngine.InputSystem.PlayerInput;
@@ -54,21 +52,11 @@ public class CoolingModule : Module
         {
             if(pistonMode.eventId ==currentCEventData.eventId && pistonMode.ledOption == currentCEventData.module1Option)
             {
-                int bomb = pistonMode.randomPistonId;
-                int[] pistons = new int[4];
-                int index = 0;
-                for (int i=0; i<5; i++)
-                {
-                    if (i == bomb) continue;
-                    pistons[index] = i; index++;
-                }
-                var rng = new System.Random();
-                rng.Shuffle(pistons);
-                leftFanSpeedPiston = pistons[0];
-                leftFanTurnDirectionPiston = pistons[1];
-                rightFanSpeedPiston = pistons[2];
-                rightFanTurnDirectionPiston = pistons[3];
-                randomPiston = bomb;
+                leftFanSpeedPiston = pistonMode.leftFanSpeedPistonId;
+                leftFanTurnDirectionPiston = pistonMode.leftFanTurnDirectionId;
+                rightFanSpeedPiston = pistonMode.rightFanSpeedPistonId;
+                rightFanTurnDirectionPiston = pistonMode.rightFanTurnDirectionId;
+                randomPiston = pistonMode.randomPistonId;
                 leftFanSpeedObj = pistonMode.leftFanSpeedObj;
                 leftFanTurnDirectionObj = pistonMode.leftFanTurnDirectionObj;
                 rightFanSpeedObj = pistonMode.rightFanSpeedObj;
@@ -82,22 +70,22 @@ public class CoolingModule : Module
         if (pistonId == leftFanSpeedPiston)
         {
             leftFanSpeed = (leftFanSpeed + 1) % 5;
-            leftFan.Refreshrotation(leftFanSpeed, leftFanTurnDirection);
+            leftFan.Refreshrotation(leftFanSpeed, leftFanTurnDirection / 2);
         }
         if (pistonId == rightFanSpeedPiston)
         {
             rightFanSpeed = (rightFanSpeed + 1) % 5;
-            rightFan.Refreshrotation(rightFanSpeed, rightFanTurnDirection );
+            rightFan.Refreshrotation(rightFanSpeed, rightFanTurnDirection / 2);
         }
         if (pistonId == leftFanTurnDirectionPiston)
         {
             leftFanTurnDirection = (leftFanTurnDirection + 1) % 5;
-            leftFan.Refreshrotation(leftFanSpeed, leftFanTurnDirection);
+            leftFan.Refreshrotation(leftFanSpeed, leftFanTurnDirection / 2);
         }
         if (pistonId == rightFanTurnDirectionPiston)
         {
             rightFanTurnDirection = (rightFanTurnDirection + 1) % 5;
-            rightFan.Refreshrotation(rightFanSpeed, rightFanTurnDirection);
+            rightFan.Refreshrotation(rightFanSpeed, rightFanTurnDirection / 2);
         }
         if (pistonId == randomPiston)
         {
@@ -121,8 +109,8 @@ public class CoolingModule : Module
         }
         bool vaildation = leftFanSpeed == leftFanSpeedObj &&
             rightFanSpeed == rightFanSpeedObj &&
-            Mathf.Sign(leftFanTurnDirection - 2) == leftFanTurnDirectionObj &&
-            Mathf.Sign(rightFanTurnDirection - 2) == rightFanTurnDirectionObj;
+            (leftFanTurnDirection / 2) == leftFanTurnDirectionObj &&
+            (rightFanTurnDirection / 2) == rightFanTurnDirectionObj;
 
         if (vaildation)
         {

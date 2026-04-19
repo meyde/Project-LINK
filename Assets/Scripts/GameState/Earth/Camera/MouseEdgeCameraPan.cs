@@ -34,6 +34,8 @@ public class MouseEdgeCameraPan : MonoBehaviour
 
     private void Update()
     {
+        if (RegionTransitionScreen.Instance != null && RegionTransitionScreen.Instance.IsTransitioning)
+            return;
         // Bloque la caméra si un module est ouvert
         if (ZoomableModule.AnyModuleOpen)
             return;

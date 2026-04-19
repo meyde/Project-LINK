@@ -109,10 +109,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 3679
-      y: 4
+      y: 3520
       width: 297
       height: 294
-    spriteID: 61f2e34c73b15544d8adf4ca67cd8daa
+    spriteID: e2420da2c23f7934cad6f597e9ab4446
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -120,8 +120,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 3679, y: 4}
-    spritePosition: {x: 1845, y: 2050}
+    uvTransform: {x: 3679, y: 3520}
+    spritePosition: {x: 1116, y: 2869}
   - name: PlaqueAbevVentico
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -131,10 +131,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 3152
-      y: 4
+      y: 3520
       width: 519
       height: 354
-    spriteID: 7b102f5e0509b034cb43f6b0c31d498e
+    spriteID: 538c556d5376b6d4397c17aab63f0c97
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -142,52 +142,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 3152, y: 4}
-    spritePosition: {x: 1737, y: 2008}
-  - name: Ventilo
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 3679
-      y: 366
-      width: 297
-      height: 294
-    spriteID: 76ae6b0165f09d84ea336161fb088e28
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 3679, y: 366}
-    spritePosition: {x: 225, y: 2050}
-  - name: PlaqueAbevVentico
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 3152
-      y: 366
-      width: 519
-      height: 354
-    spriteID: 9bdebebbf179be0409eda6576fe43d7d
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 3152, y: 366}
-    spritePosition: {x: 117, y: 2008}
+    uvTransform: {x: 3152, y: 3520}
+    spritePosition: {x: 1008, y: 2827}
   - name: Plaque
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -197,10 +153,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 3152
-      y: 728
+      y: 3882
       width: 519
       height: 354
-    spriteID: ca9ce40ab9f8174478de7978c9caffd4
+    spriteID: d00e026f0bab2d84190f2f97f6d1722b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -208,8 +164,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 3152, y: 728}
-    spritePosition: {x: 972, y: 2008}
+    uvTransform: {x: 3152, y: 3882}
+    spritePosition: {x: 354, y: 2827}
   - name: Piston5
     originalName: 
     pivot: {x: 0.5, y: 0}
@@ -219,10 +175,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 3152
-      y: 1610
+      y: 4764
       width: 336
       height: 385
-    spriteID: 86495e8e3f1805a4c963a128728c8787
+    spriteID: e2a65fa4039229a469f72bf783b9c15e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -230,95 +186,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 3152, y: 1610}
-    spritePosition: {x: 1920, y: 863}
-  - name: Piston5
-    originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 3679
-      y: 728
-      width: 336
-      height: 385
-    spriteID: 980ceb42545982d449798be142d41088
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 3679, y: 728}
-    spritePosition: {x: 1492, y: 863}
-  - name: Piston5
-    originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 3679
-      y: 1121
-      width: 336
-      height: 385
-    spriteID: 91095b88d972b16449e50dd5d1f519ea
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 3679, y: 1121}
-    spritePosition: {x: 1064, y: 863}
-  - name: Piston5
-    originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 3679
-      y: 1514
-      width: 336
-      height: 385
-    spriteID: 16f2213736645094a966e248aca75491
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 3679, y: 1514}
-    spritePosition: {x: 636, y: 863}
-  - name: Piston5
-    originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 2092
-      width: 336
-      height: 385
-    spriteID: 29f806a8773e3ac4f880ded1d7f72183
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 2092}
+    uvTransform: {x: 3152, y: 4764}
     spritePosition: {x: 208, y: 863}
   - name: Piston4
     originalName: 
@@ -329,10 +197,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 3152
-      y: 1090
+      y: 4244
       width: 336
       height: 512
-    spriteID: 63ba09837c85cc34cbd258682377cccc
+    spriteID: 2e05cfec978534b4893e4b9fed35e9e8
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -340,7 +208,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 3152, y: 1090}
+    uvTransform: {x: 3152, y: 4244}
     spritePosition: {x: 209, y: 863}
   - name: Pistonj3
     originalName: 
@@ -351,10 +219,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 2810
-      y: 4
+      y: 3520
       width: 334
       height: 645
-    spriteID: 6d7b149dd1e934a45bd21a9ae8f25833
+    spriteID: ca5f5de81fa38b7429ac550994ae76d9
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -362,7 +230,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 2810, y: 4}
+    uvTransform: {x: 2810, y: 3520}
     spritePosition: {x: 210, y: 863}
   - name: Piston2
     originalName: 
@@ -373,10 +241,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 2468
-      y: 867
+      y: 4383
       width: 334
       height: 772
-    spriteID: edd937c9c4e97194e851726e6a835886
+    spriteID: c6d3977092aa8e641a9dc7abe48ed049
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -384,7 +252,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 2468, y: 867}
+    uvTransform: {x: 2468, y: 4383}
     spritePosition: {x: 210, y: 863}
   - name: Piston1
     originalName: 
@@ -395,10 +263,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 2468
-      y: 4
+      y: 3520
       width: 334
       height: 855
-    spriteID: 811e4c6d7432f6e4b8fe61283bfa20e1
+    spriteID: b601153e2937e6343accebb9b77f7e45
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -406,7 +274,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 2468, y: 4}
+    uvTransform: {x: 2468, y: 3520}
     spritePosition: {x: 210, y: 863}
   - name: Base
     originalName: 
@@ -417,10 +285,32 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 4
+      y: 3520
       width: 2456
       height: 2080
-    spriteID: 9d0a4d28496e0db42a65536eaca176b2
+    spriteID: d000fb99dc36a784da5d1fefb03fd7b0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3520}
+    spritePosition: {x: 6, y: 686}
+  - name: "Arri\xE8re-plan"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 2480
+      height: 3508
+    spriteID: 0152ac327cfbc6544be1cf34d8a619d4
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -429,7 +319,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-    spritePosition: {x: 6, y: 686}
+    spritePosition: {x: 0, y: 0}
   spriteImportData: []
   rigSpriteImportData: []
   sharedRigSpriteImportData: []
@@ -505,9 +395,9 @@ ScriptedImporter:
     spriteName: Ventilo
     isGroup: 0
     parentIndex: -1
-    spriteID: 61f2e34c73b15544d8adf4ca67cd8daa
-    layerID: 17
-    mosaicPosition: {x: 3679, y: 4}
+    spriteID: e2420da2c23f7934cad6f597e9ab4446
+    layerID: 0
+    mosaicPosition: {x: 3679, y: 3520}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -515,29 +405,9 @@ ScriptedImporter:
     spriteName: PlaqueAbevVentico
     isGroup: 0
     parentIndex: -1
-    spriteID: 7b102f5e0509b034cb43f6b0c31d498e
-    layerID: 16
-    mosaicPosition: {x: 3152, y: 4}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Ventilo
-    spriteName: Ventilo
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 76ae6b0165f09d84ea336161fb088e28
-    layerID: 11
-    mosaicPosition: {x: 3679, y: 366}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: PlaqueAbevVentico
-    spriteName: PlaqueAbevVentico
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 9bdebebbf179be0409eda6576fe43d7d
-    layerID: 10
-    mosaicPosition: {x: 3152, y: 366}
+    spriteID: 538c556d5376b6d4397c17aab63f0c97
+    layerID: -1720941278
+    mosaicPosition: {x: 3152, y: 3520}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -545,9 +415,9 @@ ScriptedImporter:
     spriteName: Plaque
     isGroup: 0
     parentIndex: -1
-    spriteID: ca9ce40ab9f8174478de7978c9caffd4
-    layerID: 9
-    mosaicPosition: {x: 3152, y: 728}
+    spriteID: d00e026f0bab2d84190f2f97f6d1722b
+    layerID: 296999634
+    mosaicPosition: {x: 3152, y: 3882}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -555,49 +425,9 @@ ScriptedImporter:
     spriteName: Piston5
     isGroup: 0
     parentIndex: -1
-    spriteID: 86495e8e3f1805a4c963a128728c8787
-    layerID: 15
-    mosaicPosition: {x: 3152, y: 1610}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Piston5
-    spriteName: Piston5
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 980ceb42545982d449798be142d41088
-    layerID: 14
-    mosaicPosition: {x: 3679, y: 728}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Piston5
-    spriteName: Piston5
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 91095b88d972b16449e50dd5d1f519ea
-    layerID: 13
-    mosaicPosition: {x: 3679, y: 1121}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Piston5
-    spriteName: Piston5
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 16f2213736645094a966e248aca75491
-    layerID: 12
-    mosaicPosition: {x: 3679, y: 1514}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Piston5
-    spriteName: Piston5
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 29f806a8773e3ac4f880ded1d7f72183
-    layerID: 8
-    mosaicPosition: {x: 4, y: 2092}
+    spriteID: e2a65fa4039229a469f72bf783b9c15e
+    layerID: -1775651030
+    mosaicPosition: {x: 3152, y: 4764}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -605,9 +435,9 @@ ScriptedImporter:
     spriteName: Piston4
     isGroup: 0
     parentIndex: -1
-    spriteID: 63ba09837c85cc34cbd258682377cccc
-    layerID: 7
-    mosaicPosition: {x: 3152, y: 1090}
+    spriteID: 2e05cfec978534b4893e4b9fed35e9e8
+    layerID: -1775651029
+    mosaicPosition: {x: 3152, y: 4244}
     flatten: 0
     isImported: 1
     isVisible: 0
@@ -615,9 +445,9 @@ ScriptedImporter:
     spriteName: Pistonj3
     isGroup: 0
     parentIndex: -1
-    spriteID: 6d7b149dd1e934a45bd21a9ae8f25833
-    layerID: 6
-    mosaicPosition: {x: 2810, y: 4}
+    spriteID: ca5f5de81fa38b7429ac550994ae76d9
+    layerID: -191773348
+    mosaicPosition: {x: 2810, y: 3520}
     flatten: 0
     isImported: 1
     isVisible: 0
@@ -625,9 +455,9 @@ ScriptedImporter:
     spriteName: Piston2
     isGroup: 0
     parentIndex: -1
-    spriteID: edd937c9c4e97194e851726e6a835886
-    layerID: 5
-    mosaicPosition: {x: 2468, y: 867}
+    spriteID: c6d3977092aa8e641a9dc7abe48ed049
+    layerID: -1775651031
+    mosaicPosition: {x: 2468, y: 4383}
     flatten: 0
     isImported: 1
     isVisible: 0
@@ -635,9 +465,9 @@ ScriptedImporter:
     spriteName: Piston1
     isGroup: 0
     parentIndex: -1
-    spriteID: 811e4c6d7432f6e4b8fe61283bfa20e1
-    layerID: 4
-    mosaicPosition: {x: 2468, y: 4}
+    spriteID: b601153e2937e6343accebb9b77f7e45
+    layerID: -1775651034
+    mosaicPosition: {x: 2468, y: 3520}
     flatten: 0
     isImported: 1
     isVisible: 0
@@ -645,8 +475,18 @@ ScriptedImporter:
     spriteName: Base
     isGroup: 0
     parentIndex: -1
-    spriteID: 9d0a4d28496e0db42a65536eaca176b2
-    layerID: 3
+    spriteID: d000fb99dc36a784da5d1fefb03fd7b0
+    layerID: -1779161319
+    mosaicPosition: {x: 4, y: 3520}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: "Arri\xE8re-plan"
+    spriteName: "Arri\xE8re-plan"
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 0152ac327cfbc6544be1cf34d8a619d4
+    layerID: 569458137
     mosaicPosition: {x: 4, y: 4}
     flatten: 0
     isImported: 1

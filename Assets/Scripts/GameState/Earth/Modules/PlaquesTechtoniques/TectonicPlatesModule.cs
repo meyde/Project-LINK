@@ -1,6 +1,5 @@
 using System;
 using System.Linq;
-using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using Random = UnityEngine.Random;
@@ -8,6 +7,7 @@ static class RandomExtensions
 {
     public static void Shuffle<T>(this System.Random rng, T[] array)
     {
+        //Credit: StackOverflow
         int n = array.Length;
         while (n > 1)
         {
@@ -21,41 +21,26 @@ static class RandomExtensions
 public class TectonicPlatesModule : Module
 {
     private int moduleId = 4;
-    private const int HiddenCellIndex = 15;
-
-    [Header("Keyboard Reading")]
+    [Header("Keyboard Reading")] 
     [SerializeField] private InputAction writing;
     [SerializeField] private InputAction backspace;
     [SerializeField] private InputAction enter;
-
-    [Header("Board")]
+    [Header("game objects to change")]
     [SerializeField] private GameObject[] colorPlates;
     [SerializeField] private GameObject[] letters;
-    [SerializeField] private GameObject[] covers;
-
-    [Header("Validation Display")]
-    [SerializeField] private TextMeshPro[] codeDisplay;
-
     [Header("Data")]
     [SerializeField] private Sprite[] lettersSprite;
-    [SerializeField] private Sprite[] correctColors;
-    private int[] colorCodes;
-    [SerializeField] private TEcPlateCodeSO[] allCodes;
-    [Header("References")]
-    [SerializeField] private GameManagerLocal gm;
-
-    [Header("Debug")]
-    [SerializeField] private bool testMode = false;
-    [SerializeField] private int testColorMode = 0;
     private int[] keyLocations;
+    [SerializeField] private Sprite[] correctColors; 
+
+    [SerializeField] private GameManagerLocal gm;
     private int ledState;
-    private int codeType;
     private bool autoLose;
     private int[] code;
-    private string[] codeWritten = new string[3] { "_", "_", "_" };
+    private string[] codeWritten= new string[3] {"_","_","_"};
     private int currentLetterInd = 0;
 
-    private CEventRuntimeData? activeEvent = null;
+    CEventRuntimeData? activeEvent = null;
 
 
     private void OnEnable()
@@ -63,325 +48,170 @@ public class TectonicPlatesModule : Module
         enter.Enable();
         writing.Enable();
         backspace.Enable();
-
         enter.performed += OnEnter;
         backspace.performed += OnBackSpace;
         writing.performed += OnLetterPress;
     }
-
     private void OnDisable()
     {
-        enter.performed -= OnEnter;
-        backspace.performed -= OnBackSpace;
-        writing.performed -= OnLetterPress;
-
         writing.Disable();
         backspace.Disable();
         enter.Disable();
+        enter.performed -= OnEnter;
+        backspace.performed -= OnBackSpace;
+        writing.performed -= OnLetterPress;
     }
 
     public override void OnStarted()
     {
-        ResetInputDisplay();
-        ResetBoard();
-
         int currReg = gm.currentRegion;
-        activeEvent = null;
-        autoLose = false;
-
         foreach (CEventRuntimeData cEventData in gm.gmn.events)
         {
-            if (cEventData.state != 1)
-                continue;
-
+            if (cEventData.state != 1) { continue; }
             CatastrophicEvent cEvent = gm.allEvents[cEventData.eventId];
-
-            if (cEvent.region == currReg &&
-                cEventData.module1Option != -1 &&
-                cEvent.modules2.Contains(moduleId))
+            if( cEvent.region == currReg && cEventData.module1Option != -1 && cEvent.modules2.Contains(moduleId))
             {
+                Debug.Log($"event {cEvent.eventId} is occuring in this region, need this module and has done its first module");
+
                 activeEvent = cEventData;
-                break;
             }
         }
-
-        if (!activeEvent.HasValue)
+        if ( !activeEvent.HasValue )
         {
-            if (testMode)
-            {
-                Debug.Log("[TECTONIC] Test mode actif, génération sans event.");
-                ledState = testColorMode;
-
-                Randomizer();
-                ColoredFixer(ledState);
-                return;
-            }
-
-            Debug.Log("No event found in this region for this module. Any validation will fail.");
+            Debug.Log($" No event occuring found in this region that has done it's first module. any validation henceforth will FAIL");
             autoLose = true;
             return;
         }
-
         Debug.Log($"Trying to solve event {activeEvent.Value.eventId}");
         ledState = activeEvent.Value.module1Option;
-        Debug.Log($"ledState: {ledState}");
-        foreach (TEcPlateCodeSO code in allCodes)
-        {
-            if(code.eventId == activeEvent.Value.eventId)
-            {
-                codeType = code.codeOptions[ledState];
-                switch (ledState)
-                {
-                    case 0:
-                        keyLocations = code.keyPositionsBlue;
-                        colorCodes = code.colorPositionsBlue;
-                        break;
-                    case 1:
-                        keyLocations = code.keyPositionsGreen;
-                        colorCodes = code.colorPositionsGreen;
-                        break;
-                    case 2:
-                        keyLocations = code.keyPositionsPink;
-                        colorCodes = code.colorPositionsPink;
-                        break;
-                }
-                
-            }
-        }
+        Debug.Log($" ledState: {ledState}");
         Randomizer();
-        ColoredFixer(codeType);
-    }
-
-    private void ResetBoard()
-    {
-        for (int i = 0; i < colorPlates.Length; i++)
-        {
-            if (colorPlates[i] == null)
-                continue;
-
-            SpriteRenderer plateSr = colorPlates[i].GetComponent<SpriteRenderer>();
-            if (plateSr != null)
-                plateSr.enabled = true;
-        }
-
-        for (int i = 0; i < letters.Length; i++)
-        {
-            if (letters[i] == null)
-                continue;
-
-            SpriteRenderer letterSr = letters[i].GetComponent<SpriteRenderer>();
-            if (letterSr != null)
-                letterSr.enabled = true;
-        }
-
-        ResetCovers();
-    }
-
-    private void ResetCovers()
-    {
-        if (covers == null || covers.Length == 0)
-            return;
-
-        for (int i = 0; i < covers.Length; i++)
-        {
-            if (covers[i] == null)
-                continue;
-
-            covers[i].SetActive(i != HiddenCellIndex);
-        }
-    }
-
-    private void ResetInputDisplay()
-    {
-        currentLetterInd = 0;
-        codeWritten = new string[3] { "_", "_", "_" };
-        UpdateCodeDisplay();
-    }
-
-    private void UpdateCodeDisplay()
-    {
-        if (codeDisplay == null || codeDisplay.Length < 3)
-            return;
-
-        for (int i = 0; i < 3; i++)
-        {
-            if (codeDisplay[i] != null)
-                codeDisplay[i].text = codeWritten[i];
-        }
+        ColoredFixer(ledState);
     }
 
     private void OnEnter(InputAction.CallbackContext context)
     {
-        Debug.Log("Enter");
-
+        Debug.Log("enter");
         if (autoLose)
         {
-            Debug.Log("No event found for this module, losing oldest.");
+            Debug.Log("no event found for this module, trying to lose oldest");
             gm.EndModuleCheck(moduleId, false, -1);
-            return;
         }
-
-        int eventId = activeEvent.Value.eventId;
-
-        if (currentLetterInd != 3)
+        else
         {
-            Debug.Log("Not enough letters. Losing the event.");
-            gm.EndModuleCheck(moduleId, false, eventId);
-            return;
-        }
-
-        Debug.Log("Enough letters. Verifying.");
-        string[] stringCode = new string[code.Length];
-
-        for (int i = 0; i < stringCode.Length; i++)
-        {
-            stringCode[i] = ((char)('A' + code[i])).ToString();
-
-            if (stringCode[i] != codeWritten[i])
+            int eventId = activeEvent.Value.eventId;
+            if (currentLetterInd != 2)
             {
-                Debug.Log($"Mismatch: expected {stringCode[i]}, got {codeWritten[i]}. Losing the event.");
+                Debug.Log("not enough letters. Losing the event.");
                 gm.EndModuleCheck(moduleId, false, eventId);
-                return;
             }
+
+            else
+            {
+                Debug.Log("enough Letters. Verifying.");
+                string[] stringCode = new string[code.Length];
+                for (int i = 0; i < stringCode.Length; i++)
+                {
+                    stringCode[i] = ((char)('A' + code[i])).ToString();
+                    Debug.Log($"number {code[i]} converted to string {stringCode[i]}");
+                    if (stringCode[i] != codeWritten[i] )
+                    {
+                        Debug.Log($"mismatch: expected {stringCode[i]}, got {codeWritten[i]}. Losing the event.");
+                        gm.EndModuleCheck(moduleId, false, eventId);
+                        return;
+                    }
+                }
+                Debug.Log("End verify, all good. Validating event.");
+                gm.EndModuleCheck(moduleId,true, eventId);
+
+            }
+            
         }
+        
 
-        Debug.Log("End verify, all good. Validating event.");
-        gm.EndModuleCheck(moduleId, true, eventId);
     }
-
     public void OnBackSpace(InputAction.CallbackContext context)
     {
+        Debug.Log("backspaced");
         if (currentLetterInd == 0)
         {
-            Debug.Log("Already have no letters");
-            return;
+            Debug.Log("already have no letters"); return;
         }
-            
-
-        currentLetterInd--;
         codeWritten[currentLetterInd] = "_";
-        UpdateCodeDisplay();
-
-        Debug.Log("Backspace");
+        currentLetterInd--;
     }
 
     private void OnLetterPress(InputAction.CallbackContext context)
     {
-        string pressedKey = context.control.displayName.ToUpper();
+        Debug.Log("Letter pressed: " + context.control.displayName);
 
-        if (currentLetterInd >= 3)
-        {
-            Debug.Log("Already have 3 letters");
-            return;
-        }
-            
-
-        if (string.IsNullOrWhiteSpace(pressedKey) || pressedKey.Length != 1)
-            return;
-
-        char c = pressedKey[0];
-        if (c < 'A' || c > 'Z')
-            return;
-
-        codeWritten[currentLetterInd] = pressedKey;
+        if (currentLetterInd == 2) { Debug.Log("already have 3 letters"); return; }
+        codeWritten[currentLetterInd] = context.control.displayName.ToUpper();
         currentLetterInd++;
-        UpdateCodeDisplay();
-
-        Debug.Log($"Typed: {pressedKey}");
     }
 
     public void Randomizer()
     {
-        Debug.Log($"correctColors={correctColors.Length}, lettersSprite={lettersSprite.Length}");
+        foreach (GameObject colorPlate in colorPlates)
+        { 
+            colorPlate.GetComponent<SpriteRenderer>().color = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
+        }
 
-        for (int i = 0; i < colorPlates.Length; i++)
+        foreach (GameObject letter in letters)
         {
-            SpriteRenderer cpsr = colorPlates[i].GetComponent<SpriteRenderer>();
-            SpriteRenderer lsr = letters[i].GetComponent<SpriteRenderer>();
-
-            Debug.Log($"cell {i} | plateSR={(cpsr != null)} | letterSR={(lsr != null)}");
-
-            if (cpsr != null && correctColors.Length > 0)
-                cpsr.sprite = correctColors[Random.Range(0, correctColors.Length)];
-
-            if (lsr != null && lettersSprite.Length > 0)
-                lsr.sprite = lettersSprite[Random.Range(0, lettersSprite.Length)];
+            letter.GetComponent<SpriteRenderer>().sprite = lettersSprite[Random.Range(0, lettersSprite.Count())];
         }
     }
 
     public void ColoredFixer(int color)
     {
-        code = new int[3]
-        {
-            Random.Range(0, 26),
-            Random.Range(0, 26),
-            Random.Range(0, 26)
-        };
-
-        if (color == 2)
-            Array.Sort(code);
-        if (color == 5) 
-        {
-            Array.Sort(code);
-            Array.Reverse(code);
-        }    
-
-
-        int[] keyLocId = new int[3]
-        {
-            Random.Range(0, 6),
-            Random.Range(0, 6),
-            Random.Range(0, 6)
-        };
-
+        code = new int[3] { Random.Range(0, 25), Random.Range(0, 25), Random.Range(0, 25) };
+        if (color == 2) { Array.Sort(code); }
+        int[] keyLocId = new int[3] { Random.Range(0, 6), Random.Range(0, 6), Random.Range(0, 6) };
         Array.Sort(keyLocId);
-
-        int[] codePlace = new int[3]
+        int[] codePlace = new int[3] { keyLocations[keyLocId[0]], keyLocations[keyLocId[1]], keyLocations[keyLocId[2]] };
+        switch (color)
         {
-            keyLocations[keyLocId[0]],
-            keyLocations[keyLocId[1]],
-            keyLocations[keyLocId[2]]
-        };
 
+            case 0:
+                //Code order: numericals, blue code
+
+                keyLocations = new int[6] { 0, 3, 6, 9, 11, 13 };
+                break;
+            case 1:
+                //Code order: alphabetical, green code
+                keyLocations = new int[6] { 0, 9, 13, 6, 3, 11 };
+                break;
+            case 2:
+                //Code order: , pink code
+                keyLocations = new int[6] { 0, 3, 6, 9, 11, 13 };
+                var rng = new System.Random();
+                rng.Shuffle(keyLocations);
+                break;
+
+        }
         int codeIndex = 0;
-
-        for (int i = 0; i < keyLocations.Length; i++)
+        for (int i = 0; i < 6; i++)
         {
             int keyLocation = keyLocations[i];
-
-            SpriteRenderer cpsr = colorPlates[keyLocation].GetComponent<SpriteRenderer>();
-            SpriteRenderer lsr = letters[keyLocation].GetComponent<SpriteRenderer>();
-
-            if (cpsr == null || lsr == null)
-                continue;
-
-            if (codeIndex < codePlace.Length && keyLocation == codePlace[codeIndex])
+            if (keyLocation == codePlace[codeIndex])
             {
-                cpsr.sprite = correctColors[colorCodes[codeIndex]];
-                lsr.sprite = lettersSprite[code[codeIndex]];
+                colorPlates[keyLocation].GetComponent<SpriteRenderer>().sprite = correctColors[i];
+                letters[keyLocation].GetComponent<SpriteRenderer>().sprite = lettersSprite[code[codeIndex]];
                 codeIndex++;
             }
             else
             {
-                Sprite randomColor = correctColors[Random.Range(0, correctColors.Length)];
-                Sprite randomLetter = lettersSprite[Random.Range(0, lettersSprite.Length)];
-
-                int safety = 0;
-                while (
-                    codeIndex < codePlace.Length &&
-                    (randomColor == correctColors[Mathf.Clamp(color, 0, correctColors.Length - 1)] ||
-                     randomLetter == lettersSprite[code[Mathf.Min(codeIndex, code.Length - 1)]]) &&
-                    safety < 20
-                )
+                SpriteRenderer cpsr = colorPlates[keyLocation].GetComponent<SpriteRenderer>();
+                SpriteRenderer lsr = letters[keyLocation].GetComponent<SpriteRenderer>();
+                while (cpsr.sprite == correctColors[i] || lsr == lettersSprite[code[codeIndex]])
                 {
-                    randomColor = correctColors[Random.Range(0, correctColors.Length)];
-                    randomLetter = lettersSprite[Random.Range(0, lettersSprite.Length)];
-                    safety++;
+                    cpsr.sprite = correctColors[Random.Range(0, 4)];
+                    lsr.sprite = lettersSprite[Random.Range(0, 25)];
                 }
-
-                cpsr.sprite = randomColor;
-                lsr.sprite = randomLetter;
             }
         }
     }
+
+
 }
