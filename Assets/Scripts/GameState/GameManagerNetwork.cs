@@ -233,10 +233,11 @@ public class GameManagerNetwork : NetworkBehaviour
     private void EventGeneration()
     {
         if (gameEnded) return;
-        int id = allEvents[Random.Range(0, allEvents.Length)].eventId;
+        var eventList = GetEventsLevel();
+        int id = eventList[Random.Range(0, eventList.Length)].eventId;
         while (occupiedRegions.Contains(allEvents[id].region))
         {
-             id = allEvents[Random.Range(0, allEvents.Length)].eventId;
+             id = eventList[Random.Range(0, eventList.Length)].eventId;
         }
         CEventRuntimeData evnt = new()
         {
@@ -248,7 +249,7 @@ public class GameManagerNetwork : NetworkBehaviour
             module1Option = -1
         };
         events.Add(evnt);
-        occupiedRegions.Add(allEvents[id].region);
+        occupiedRegions.Add(eventList[id].region);
         
     }
     private IEnumerator GameTimerCoroutine()
