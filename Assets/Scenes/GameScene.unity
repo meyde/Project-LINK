@@ -9072,7 +9072,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 11
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -2466827623588667349, guid: ba95cedae8f71ef45be7debf239b21f8, type: 3}
+  m_Sprite: {fileID: -5816734329393307369, guid: 469242ddee2d96c46a0aa5b6dd0182a3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -33983,7 +33983,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 11
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -2466827623588667349, guid: ba95cedae8f71ef45be7debf239b21f8, type: 3}
+  m_Sprite: {fileID: -5816734329393307369, guid: 469242ddee2d96c46a0aa5b6dd0182a3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -39790,7 +39790,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 11
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -2466827623588667349, guid: ba95cedae8f71ef45be7debf239b21f8, type: 3}
+  m_Sprite: {fileID: -5816734329393307369, guid: 469242ddee2d96c46a0aa5b6dd0182a3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -68079,6 +68079,14 @@ MonoBehaviour:
   leftFanTurnDirectionPiston: 2
   rightFanTurnDirectionPiston: 3
   randomPiston: 4
+  leftFanSpeed: 0
+  rightFanSpeed: 0
+  leftFanTurnDirection: 0
+  rightFanTurnDirection: 0
+  leftFanSpeedObj: 0
+  rightFanSpeedObj: 0
+  leftFanTurnDirectionObj: 0
+  rightFanTurnDirectionObj: 0
 --- !u!212 &2008121711
 SpriteRenderer:
   serializedVersion: 2
@@ -72594,7 +72602,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 11
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -2466827623588667349, guid: ba95cedae8f71ef45be7debf239b21f8, type: 3}
+  m_Sprite: {fileID: -5816734329393307369, guid: 469242ddee2d96c46a0aa5b6dd0182a3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

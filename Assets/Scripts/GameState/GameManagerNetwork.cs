@@ -223,10 +223,10 @@ public class GameManagerNetwork : NetworkBehaviour
     private void EventGeneration()
     {
         if (gameEnded) return;
-        int id = level2Events[Random.Range(0, level2Events.Length)].eventId;
+        int id = allEvents[Random.Range(0, allEvents.Length)].eventId;
         while (occupiedRegions.Contains(allEvents[id].region))
         {
-             id = level2Events[Random.Range(0, level2Events.Length)].eventId;
+             id = allEvents[Random.Range(0, allEvents.Length)].eventId;
         }
         CEventRuntimeData evnt = new()
         {
